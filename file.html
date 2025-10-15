@@ -1,0 +1,1222 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>의료기관 채용 공고 · 12개 페이지(내장 JSON)</title>
+<style>
+  :root{--bg:#0b0c0f;--card:#12141a;--text:#e8eaf0;--muted:#a6adbb;--accent:#6ea8fe;--border:#1f2430;--badge:#272b36}
+  @media (prefers-color-scheme: light){:root{--bg:#f8fafc;--card:#fff;--text:#0b1020;--muted:#606a7a;--accent:#1d4ed8;--border:#e5e7eb;--badge:#f1f5f9}}
+  *{box-sizing:border-box}
+  html,body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",Arial,"Helvetica Neue",sans-serif}
+  .wrap{max-width:1140px;margin:28px auto;padding:0 16px 40px}
+  header{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+  h1{font-size:20px;margin:0}
+  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0}
+  .tab{border:1px solid var(--border);background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 12%,transparent),transparent);padding:8px 10px;border-radius:10px;cursor:pointer;font-weight:800}
+  .tab[aria-selected="true"]{outline:2px solid color-mix(in srgb,var(--accent) 50%, transparent)}
+  .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+  .input{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:8px 10px;color:var(--text)}
+  .grid{display:grid;grid-template-columns:repeat(1,minmax(0,1fr));gap:14px;margin-top:12px}
+  @media (min-width:640px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+  @media (min-width:980px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+  .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px}
+  .title{font-weight:800;font-size:16px;margin:0;word-break:keep-all}
+  .badges{display:flex;gap:6px;flex-wrap:wrap}
+  .badge{display:inline-flex;align-items:center;gap:6px;background:var(--badge);border:1px dashed var(--border);padding:3px 8px;border-radius:999px;font-size:12px;font-weight:700}
+  .row{display:flex;gap:8px;font-size:13px;color:var(--muted)}
+  .k{width:64px;flex:0 0 64px;color:var(--text);font-weight:700}
+  .v{flex:1;min-width:0}
+  .btn-link{display:inline-flex;justify-content:center;align-items:center;padding:9px 10px;border-radius:10px;border:1px solid var(--border);text-decoration:none;color:var(--text);font-weight:800}
+  .empty{border:1px dashed var(--border);border-radius:12px;padding:18px;text-align:center;color:var(--muted);margin-top:14px}
+  footer{margin-top:22px;font-size:12px;color:var(--muted);text-align:center}
+  .count{font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>채용 공고 · 12개 페이지</h1>
+    <span class="count" id="count">0건</span>
+  </header>
+
+  <!-- 탭: 기관별 12개 + 전체 -->
+  <nav class="tabs" id="tabs" role="tablist" aria-label="기관 선택"></nav>
+
+  <div class="toolbar">
+    <input id="q" class="input" placeholder="검색(제목 포함)" />
+    <select id="sort" class="input">
+      <option value="end_asc">종료 빠른순</option>
+      <option value="end_desc">종료 느린순</option>
+      <option value="start_asc">시작 빠른순</option>
+      <option value="start_desc">시작 느린순</option>
+      <option value="title_asc">제목 A→Z</option>
+    </select>
+  </div>
+
+  <div id="list" class="grid" role="list"></div>
+  <div id="empty" class="empty">표시할 데이터가 없습니다.</div>
+
+  <footer>로컬 전용 · JSON 내장 · Asia/Seoul</footer>
+</div>
+
+<!-- ▼ 여기에 12개 JSON을 넣는다: 각 스크립트 태그 안을 네 실제 배열로 교체 -->
+<script id="amc" type="application/json">[
+  {
+    "title": "영상의학팀 기능직 모집",
+    "start_dt": "2025-10-13T16:00:00+09:00",
+    "end_dt": "2025-10-16T23:00:00+09:00",
+    "dday": "D-0",
+    "recu_idx": "4962",
+    "announce_sn": "20250351",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4962&announceSn=20250351"
+  },
+  {
+    "title": "후생사업팀 사무직 모집",
+    "start_dt": "2025-10-13T11:30:00+09:00",
+    "end_dt": "2025-10-16T23:00:00+09:00",
+    "dday": "D-0",
+    "recu_idx": "4961",
+    "announce_sn": "20250350",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4961&announceSn=20250350"
+  },
+  {
+    "title": "국제교류팀코디네이터 모집 (몽골)",
+    "start_dt": "2025-09-26T16:30:00+09:00",
+    "end_dt": "2025-10-16T23:00:00+09:00",
+    "dday": "D-0",
+    "recu_idx": "4953",
+    "announce_sn": "20250342",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4953&announceSn=20250342"
+  },
+  {
+    "title": "내과 당직전담(촉탁의사) 초빙",
+    "start_dt": "2025-09-26T18:00:00+09:00",
+    "end_dt": "2025-10-19T18:00:00+09:00",
+    "dday": "D-3",
+    "recu_idx": "4952",
+    "announce_sn": "20250341",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4952&announceSn=20250341"
+  },
+  {
+    "title": "서울아산병원 입원전담전문의(Hospitalist) 초빙",
+    "start_dt": "2025-09-17T18:00:00+09:00",
+    "end_dt": "2025-10-19T18:00:00+09:00",
+    "dday": "D-3",
+    "recu_idx": "4936",
+    "announce_sn": "20250325",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4936&announceSn=20250325"
+  },
+  {
+    "title": "서울아산병원 진료교수 초빙",
+    "start_dt": "2025-09-17T18:00:00+09:00",
+    "end_dt": "2025-10-19T18:00:00+09:00",
+    "dday": "D-3",
+    "recu_idx": "4935",
+    "announce_sn": "20250324",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4935&announceSn=20250324"
+  },
+  {
+    "title": "건강의학과 건진교수(소화기내과/파트타임) 초빙",
+    "start_dt": "2025-09-17T18:00:00+09:00",
+    "end_dt": "2025-10-19T18:00:00+09:00",
+    "dday": "D-3",
+    "recu_idx": "4934",
+    "announce_sn": "20250323",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4934&announceSn=20250323"
+  },
+  {
+    "title": "간호부 간호간병통합서비스병동 (간호조무사) 모집",
+    "start_dt": "2025-10-15T14:30:00+09:00",
+    "end_dt": "2025-10-19T23:00:00+09:00",
+    "dday": "D-3",
+    "recu_idx": "4968",
+    "announce_sn": "20250357",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4968&announceSn=20250357"
+  },
+  {
+    "title": "간호부 기능직 모집",
+    "start_dt": "2025-10-15T14:00:00+09:00",
+    "end_dt": "2025-10-19T23:00:00+09:00",
+    "dday": "D-3",
+    "recu_idx": "4967",
+    "announce_sn": "20250356",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4967&announceSn=20250356"
+  },
+  {
+    "title": "보안관리팀 보안원 모집",
+    "start_dt": "2025-10-15T13:30:00+09:00",
+    "end_dt": "2025-10-19T23:00:00+09:00",
+    "dday": "D-3",
+    "recu_idx": "4966",
+    "announce_sn": "20250355",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4966&announceSn=20250355"
+  },
+  {
+    "title": "병리팀 임상병리사 모집",
+    "start_dt": "2025-10-14T16:00:00+09:00",
+    "end_dt": "2025-10-19T23:00:00+09:00",
+    "dday": "D-3",
+    "recu_idx": "4964",
+    "announce_sn": "20250353",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4964&announceSn=20250353"
+  },
+  {
+    "title": "간호부 기능직 조무(주3일 근무) 모집 공고",
+    "start_dt": "2025-10-14T08:50:00+09:00",
+    "end_dt": "2025-10-19T23:00:00+09:00",
+    "dday": "D-3",
+    "recu_idx": "4963",
+    "announce_sn": "20250352",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4963&announceSn=20250352"
+  },
+  {
+    "title": "특수검사팀 임상병리사 모집",
+    "start_dt": "2025-10-15T10:00:00+09:00",
+    "end_dt": "2025-10-21T23:00:00+09:00",
+    "dday": "D-5",
+    "recu_idx": "4965",
+    "announce_sn": "20250354",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4965&announceSn=20250354"
+  },
+  {
+    "title": "2026년 임상강사(Fellow) 모집",
+    "start_dt": "2025-10-11T09:00:00+09:00",
+    "end_dt": "2025-10-24T23:55:00+09:00",
+    "dday": "D-8",
+    "recu_idx": "4939",
+    "announce_sn": "20250328",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4939&announceSn=20250328"
+  },
+  {
+    "title": "마취통증의학과 임상교수 초빙",
+    "start_dt": "2025-08-25T18:00:00+09:00",
+    "end_dt": "2025-10-26T18:00:00+09:00",
+    "dday": "D-10",
+    "recu_idx": "4906",
+    "announce_sn": "20250295",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4906&announceSn=20250295"
+  },
+  {
+    "title": "산부인과 촉탁임상교수 초빙",
+    "start_dt": "2025-08-25T18:00:00+09:00",
+    "end_dt": "2025-10-26T18:00:00+09:00",
+    "dday": "D-10",
+    "recu_idx": "4905",
+    "announce_sn": "20250296",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4905&announceSn=20250296"
+  }
+]</script>
+<script id="caumc" type="application/json">[
+  {
+    "title": "중앙대학교의료원 광명소하검진센터 풀타임 간호사 모집 (2025.10)",
+    "start_dt": "2025-10-10T13:40+09:00",
+    "end_dt": "2025-10-16T23:59+09:00",
+    "dday": "D-0",
+    "dday_to_start": "D+6",
+    "dday_to_end": "D-0",
+    "phase": "open",
+    "recu_idx": "230907",
+    "announce_sn": "230907",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=230907"
+  },
+  {
+    "title": "중앙대학교의료원(광명병원) 약제팀 정규약사, 야간당직약사 모집 (2025.10)",
+    "start_dt": "2025-10-10T13:00+09:00",
+    "end_dt": "2025-10-16T23:59+09:00",
+    "dday": "D-0",
+    "dday_to_start": "D+6",
+    "dday_to_end": "D-0",
+    "phase": "open",
+    "recu_idx": "230903",
+    "announce_sn": "230903",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=230903"
+  },
+  {
+    "title": "중앙대학교의료원(광명병원) 외래간호팀(내시경실) 간호사 (정규직) 모집 (2025.10)",
+    "start_dt": "2025-10-10T13:00+09:00",
+    "end_dt": "2025-10-16T23:59+09:00",
+    "dday": "D-0",
+    "dday_to_start": "D+6",
+    "dday_to_end": "D-0",
+    "phase": "open",
+    "recu_idx": "230902",
+    "announce_sn": "230902",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=230902"
+  },
+  {
+    "title": "중앙대학교의료원(광명병원) 일반외과 SA (정규직) 모집 (2025.10)",
+    "start_dt": "2025-10-10T13:00+09:00",
+    "end_dt": "2025-10-16T23:59+09:00",
+    "dday": "D-0",
+    "dday_to_start": "D+6",
+    "dday_to_end": "D-0",
+    "phase": "open",
+    "recu_idx": "230901",
+    "announce_sn": "230901",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=230901"
+  },
+  {
+    "title": "중앙대학교의료원(광명병원) 원무팀 행정직 (계약직) 모집 (2025.10)",
+    "start_dt": "2025-10-10T13:00+09:00",
+    "end_dt": "2025-10-16T23:59+09:00",
+    "dday": "D-0",
+    "dday_to_start": "D+6",
+    "dday_to_end": "D-0",
+    "phase": "open",
+    "recu_idx": "230899",
+    "announce_sn": "230899",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=230899"
+  },
+  {
+    "title": "중앙대학교의료원(광명병원) 영상의학과 방사선사 (휴직대체) 모집 (2025.10)",
+    "start_dt": "2025-10-10T13:00+09:00",
+    "end_dt": "2025-10-16T23:59+09:00",
+    "dday": "D-0",
+    "dday_to_start": "D+6",
+    "dday_to_end": "D-0",
+    "phase": "open",
+    "recu_idx": "230898",
+    "announce_sn": "230898",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=230898"
+  },
+  {
+    "title": "중앙대학교의료원(광명병원) 영상의학과 방사선사 모집 (2025.10)",
+    "start_dt": "2025-10-10T13:00+09:00",
+    "end_dt": "2025-10-16T23:59+09:00",
+    "dday": "D-0",
+    "dday_to_start": "D+6",
+    "dday_to_end": "D-0",
+    "phase": "open",
+    "recu_idx": "230897",
+    "announce_sn": "230897",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=230897"
+  },
+  {
+    "title": "중앙대학교의료원(광명병원) 보험심사팀 행정직(간호사) (계약직) 모집 (2025.10)",
+    "start_dt": "2025-10-10T13:00+09:00",
+    "end_dt": "2025-10-16T23:59+09:00",
+    "dday": "D-0",
+    "dday_to_start": "D+6",
+    "dday_to_end": "D-0",
+    "phase": "open",
+    "recu_idx": "230895",
+    "announce_sn": "230895",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=230895"
+  },
+  {
+    "title": "중앙대학교의료원 디지털전략팀 행정직 (계약직) 모집 (2025.10)",
+    "start_dt": "2025-10-10T13:00+09:00",
+    "end_dt": "2025-10-16T23:59+09:00",
+    "dday": "D-0",
+    "dday_to_start": "D+6",
+    "dday_to_end": "D-0",
+    "phase": "open",
+    "recu_idx": "230891",
+    "announce_sn": "230891",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=230891"
+  },
+  {
+    "title": "중앙대학교의료원(서울병원) 연구기획관리팀 행정(연구지원) (계약직) 모집 (2025.10-2)",
+    "start_dt": "2025-10-10T10:00+09:00",
+    "end_dt": "2025-10-22T23:59+09:00",
+    "dday": "D-6",
+    "dday_to_start": "D+6",
+    "dday_to_end": "D-6",
+    "phase": "open",
+    "recu_idx": "230900",
+    "announce_sn": "230900",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=230900"
+  },
+  {
+    "title": "중앙대학교광명병원 치과 직원 모집(2025.10)",
+    "start_dt": "2025-10-01T09:00+09:00",
+    "end_dt": "2025-10-31T23:59+09:00",
+    "dday": "D-15",
+    "dday_to_start": "D+15",
+    "dday_to_end": "D-15",
+    "phase": "open",
+    "recu_idx": "230450",
+    "announce_sn": "230450",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=230450"
+  },
+  {
+    "title": "FAQ 게시판 운영 안내",
+    "start_dt": "2022-06-13T16:00+09:00",
+    "end_dt": "2040-01-01T00:01+09:00",
+    "dday": "D-5190",
+    "dday_to_start": "D+1221",
+    "dday_to_end": "D-5190",
+    "phase": "open",
+    "recu_idx": "74639",
+    "announce_sn": "74639",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=74639"
+  }
+]</script>
+<script id="cmcseoul" type="application/json">[
+  {
+    "title": "진행중\n혈액내과 촉탁의 모집공고",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "532331",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/532331?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n서울성모병원 순환기내과 중환자실 당직의사 모집 공고",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "529497",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/529497?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n가톨릭대학교 서울성모병원 호흡기내과 촉탁의/ 내과 응급실 당직의 / 내과 중환자실 당직의 모집 공고",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "528099",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/528099?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n산부인과 계약직의사(당직의사) 모집 공고",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "527995",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/527995?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n가톨릭대학교 서울성모병원 혈액내과 당직의사 모집 공고",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "525889",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/525889?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n전진상의원 파견 진료전문의 모집 공고",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "525034",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/525034?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n[상시모집] 병원지원직(간호행정교육팀/계약직) 인성검사 합격자 안내",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "539099",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/539099?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n[상시모집] 외래간호직(간호행정교육팀/계약직) 인성검사 합격자 안내",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "539098",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/539098?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n사무직(외래원무팀/계약직) 공개채용 서류전형 합격자 안내",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "539097",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/539097?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n보건의료정보관리직(외래원무팀/계약직) 공개채용 서류전형 합격자 안내",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "539096",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/539096?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n간호직(영상의학팀/휴직대체) 공개채용",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "539005",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/539005?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n치기공직(치과팀/계약직) 공개채용(기간연장)",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "538907",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/538907?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n치위생직(치과팀/계약직) 공개채용(기간연장)",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "538906",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/538906?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n방사선직(평생건강증진팀/계약직) 공개채용(기간연장)",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "538856",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/538856?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n간호직(평생건강증진팀/계약직) 공개채용(기간연장)",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "538807",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/538807?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n간호사(입원원무팀/아르바이트) 공개채용",
+    "start_dt": "2025-10-19T09:00+09:00",
+    "end_dt": null,
+    "dday": "D-3",
+    "status": "진행중",
+    "recu_idx": "539034",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/539034?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n시간제 약사(약제부) 공개채용",
+    "start_dt": "2025-10-20T09:00+09:00",
+    "end_dt": null,
+    "dday": "D-4",
+    "status": "진행중",
+    "recu_idx": "538945",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/538945?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n기관기사직(시설팀/계약직) 공개채용(기간연장)",
+    "start_dt": "2025-10-22T09:00+09:00",
+    "end_dt": null,
+    "dday": "D-6",
+    "status": "진행중",
+    "recu_idx": "538808",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/538808?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n방사선직(영상의학팀/계약직) 인성검사 합격자 안내",
+    "start_dt": "2025-10-23T09:00+09:00",
+    "end_dt": null,
+    "dday": "D-7",
+    "status": "진행중",
+    "recu_idx": "539100",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/539100?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n2026년도 정규약사 공개채용",
+    "start_dt": "2025-11-02T09:00+09:00",
+    "end_dt": null,
+    "dday": "D-17",
+    "status": "진행중",
+    "recu_idx": "539031",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/539031?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n서울성모병원 간담췌외과 진료전문의 모집공고(입원전담전문의)",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "533828",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/533828?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n서울성모병원 응급의학과(응급의료센터) 당직의 구인공고",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "531219",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/531219?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n혈액내과 진료전문의 모집 공고",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "516437",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/516437?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n서울성모병원 흉부외과 진료전문의 모집",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "498653",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/498653?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n채용 서류 반환에 관한 안내",
+    "start_dt": "2025-10-16T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "466296",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/466296?p=3&s=12&q=%7B%7D"
+  }
+]</script>
+
+<script id="gunguk" type="application/json">[
+  {
+    "title": "[계약직] 간호간병통합서비스병동 간호조무사 채용",
+    "start_dt": "2025-10-13T15:00:00+09:00",
+    "end_dt": "2025-10-19T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1272"
+  },
+  {
+    "title": "[연구계약직] <국가 통합 바이오 빅데이터 구축사업>  연구원 채용",
+    "start_dt": "2025-10-01T10:00:00+09:00",
+    "end_dt": "2025-10-19T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1271"
+  },
+  {
+    "title": "[계약직] 보험심사팀 간호사 채용",
+    "start_dt": "2025-10-13T11:00:00+09:00",
+    "end_dt": "2025-10-19T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1269"
+  }
+]</script>
+
+<script id="hyumc" type="application/json">[
+  {
+    "title": "영양팀 기능원 (정규직)",
+    "start_dt": "2025-10-15T00:00:00+09:00",
+    "end_dt": "2025-10-28T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/86748"
+  },
+  {
+    "title": "안과 의료기사 (임시직)",
+    "start_dt": "2025-10-15T00:00:00+09:00",
+    "end_dt": "2025-10-28T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/86682"
+  },
+  {
+    "title": "방사선종양학과 방사선사 (임시직)",
+    "start_dt": "2025-10-15T00:00:00+09:00",
+    "end_dt": "2025-10-28T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/86680"
+  },
+  {
+    "title": "간호국 간호조무사 (간호간병통합서비스병동) (임시직)",
+    "start_dt": "2025-10-15T00:00:00+09:00",
+    "end_dt": "2025-10-28T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/86749"
+  }
+]</script>
+
+<script id="kbsmc" type="application/json">[
+  {
+    "title": "이비인후과검사실 청각사 모집 (휴직대체)",
+    "start_dt": "2025-10-10T00:00:00+09:00",
+    "end_dt": "2025-10-19T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "javascript:viewRecruit(2645);"
+  }
+]</script>
+
+<script id="khmc" type="application/json">[
+  {
+    "title": "계약직 신입직원 [영양팀 조리원] 공개채용 모집공고",
+    "start_dt": "2025-10-13T00:00:00+09:00",
+    "end_dt": "2025-10-26T23:59:00+09:00",
+    "dday": "D-10",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2510140003"
+  },
+  {
+    "title": "정규직 신입직원 [연구지원팀(실험동물실) 연구직] 공개채용 모집",
+    "start_dt": "2025-10-13T09:00:00+09:00",
+    "end_dt": "2025-10-20T16:00:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2510130001"
+  },
+  {
+    "title": "계약직 신입직원 [영상의학과 아르바이트] 공개채용 모집",
+    "start_dt": "2025-10-10T00:00:00+09:00",
+    "end_dt": "2025-10-19T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2510100002"
+  },
+  {
+    "title": "계약직 신입직원 [심장내과 심혈관조영실 간호사] 공개채용 모집공고",
+    "start_dt": "2025-10-13T00:00:00+09:00",
+    "end_dt": "2025-10-19T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2510010008"
+  },
+  {
+    "title": "계약직 신입직원 [간호본부 병동지원인력/조무사] 공개채용 모집공고",
+    "start_dt": "2025-09-30T00:00:00+09:00",
+    "end_dt": "2025-10-20T23:59:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2509300010"
+  },
+  {
+    "title": "계약직 신입직원 [조제팀 주말약사] 공개채용 모집공고",
+    "start_dt": "2025-10-13T00:00:00+09:00",
+    "end_dt": "2025-10-19T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2509300006"
+  }
+]</script>
+
+<script id="kumc" type="application/json">[
+  {
+    "title": "고려대학교 의료원 2026년도 상반기 신규 임상교원 초빙 공고 (안암병원/구로병원/안산병원)",
+    "start_dt": "2025-10-14T00:00:00+09:00",
+    "end_dt": "2025-11-06T00:00:00+09:00",
+    "dday": "D-21",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/86431"
+  },
+  {
+    "title": "[구로병원]간호부 정신건강의학과 계약직일반업무원 모집",
+    "start_dt": "2025-10-15T00:00:00+09:00",
+    "end_dt": "2025-10-19T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/86782"
+  },
+  {
+    "title": "[구로병원]간호부 수술실 계약직일반업무원 모집",
+    "start_dt": "2025-10-15T00:00:00+09:00",
+    "end_dt": "2025-10-19T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/86781"
+  },
+  {
+    "title": "[구로병원]간호부 중증외상수련센터 계약직간호사 모집",
+    "start_dt": "2025-10-15T00:00:00+09:00",
+    "end_dt": "2025-10-21T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/86780"
+  },
+  {
+    "title": "[구로병원]간호부 보호요원실 계약직일반업무원 모집",
+    "start_dt": "2025-10-15T00:00:00+09:00",
+    "end_dt": "2025-10-19T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/86779"
+  },
+  {
+    "title": "[안암병원 25-181]응급의학과(권역응급의료센터) 계약직 응급구조사 모집",
+    "start_dt": "2025-10-15T00:00:00+09:00",
+    "end_dt": "2025-10-21T15:00:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/86776"
+  },
+  {
+    "title": "[안암병원 25-180]진단검사의학과 계약직 임상병리사 모집(대체인력)",
+    "start_dt": "2025-10-15T00:00:00+09:00",
+    "end_dt": "2025-10-21T15:00:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/86775"
+  },
+  {
+    "title": "[안암병원 25-179]건강증진센터 계약직 방사선사 모집",
+    "start_dt": "2025-10-15T00:00:00+09:00",
+    "end_dt": "2025-10-21T15:00:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/86774"
+  },
+  {
+    "title": "[안암병원 25-178]간호부(중환자실-CHG bathing) 계약직 일반업무원 모집",
+    "start_dt": "2025-10-15T00:00:00+09:00",
+    "end_dt": "2025-10-21T15:00:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/86766"
+  },
+  {
+    "title": "[구로병원]임상시험지원팀 계약직직원 모집(대체인력)",
+    "start_dt": "2025-10-14T00:00:00+09:00",
+    "end_dt": "2025-10-19T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/86607"
+  },
+  {
+    "title": "고려대학교의료원(구로병원) 신입교직원(정규직) 모집 영양팀 일반업무원",
+    "start_dt": "2025-10-14T00:00:00+09:00",
+    "end_dt": "2025-10-20T23:50:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/86599"
+  },
+  {
+    "title": "[안암병원 25-177]국제진료센터 계약직 간호사 모집(대체인력)",
+    "start_dt": "2025-10-13T00:00:00+09:00",
+    "end_dt": "2025-10-20T15:00:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/86483"
+  },
+  {
+    "title": "[안암병원 25-176]간호부 계약직 일반업무원 모집",
+    "start_dt": "2025-10-10T00:00:00+09:00",
+    "end_dt": "2025-10-16T15:00:00+09:00",
+    "dday": "D-0",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/86327"
+  },
+  {
+    "title": "[구로병원]간호부 건강증진센터 계약직간호사 모집",
+    "start_dt": "2025-10-10T00:00:00+09:00",
+    "end_dt": "2025-10-16T23:59:00+09:00",
+    "dday": "D-0",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/86300"
+  }
+]</script>
+
+<script id="mokdong" type="application/json">[
+  {
+    "title": "[이화의료원] 진료부 영상의학과 정규직(신입) 방사선사 공개채용 공고",
+    "start_dt": "2025-10-14T00:00:00+09:00",
+    "end_dt": "2025-10-20T23:59:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=28794&pageIndex=1&searchWord=&bid_status=I"
+  },
+  {
+    "title": "[목동병원] 진료부 진단검사의학과 계약직 임상병리사 공개채용 공고",
+    "start_dt": "2025-10-14T00:00:00+09:00",
+    "end_dt": "2025-10-20T23:59:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=28793&pageIndex=1&searchWord=&bid_status=I"
+  },
+  {
+    "title": "[목동병원] 진료부 영상의학과(판독실) 계약직 전사 공개채용 공고",
+    "start_dt": "2025-10-14T00:00:00+09:00",
+    "end_dt": "2025-10-20T23:59:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=28792&pageIndex=1&searchWord=&bid_status=I"
+  },
+  {
+    "title": "[융합의학연구원] '개방형 실험실 운영사업단' 계약직 전담인력 공개채용 공고",
+    "start_dt": "2025-10-10T09:00:00+09:00",
+    "end_dt": "2025-10-16T17:00:00+09:00",
+    "dday": "D-0",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=28768&pageIndex=1&searchWord=&bid_status=I"
+  },
+  {
+    "title": "[이화의료원] 전략기획팀 계약직 사무원 공개채용 공고",
+    "start_dt": "2025-10-02T09:00:00+09:00",
+    "end_dt": "2025-10-16T23:59:00+09:00",
+    "dday": "D-0",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=28762&pageIndex=1&searchWord=&bid_status=I"
+  },
+  {
+    "title": "[이화의료원] 응급실 내과 당직의(야간) 초빙 공고",
+    "start_dt": "2025-07-23T09:00:00+09:00",
+    "end_dt": "2025-10-31T17:00:00+09:00",
+    "dday": "D-15",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=28070&pageIndex=1&searchWord=&bid_status=I"
+  }
+]</script>
+
+<script id="samsung" type="application/json">[
+  {
+    "title": "영상의학검사실 계약직 접수사원 채용",
+    "start_dt": "2025-10-15T00:00:00+09:00",
+    "end_dt": "2025-10-22T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAHF0124&cPage=1"
+  },
+  {
+    "title": "뇌전증지원센터 계약직 간호사 채용",
+    "start_dt": "2025-10-15T00:00:00+09:00",
+    "end_dt": "2025-10-24T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025HAB0141&cPage=1"
+  },
+  {
+    "title": "영상의학검사실 계약직 방사선사 채용",
+    "start_dt": "2025-10-15T00:00:00+09:00",
+    "end_dt": "2025-10-24T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025HAC10022&cPage=1"
+  },
+  {
+    "title": "신경외과 계약직 전담간호사(수술) 채용",
+    "start_dt": "2025-10-14T00:00:00+09:00",
+    "end_dt": "2025-10-24T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025HAB0140&cPage=1"
+  },
+  {
+    "title": "병원학교 계약직 업무담당자 채용",
+    "start_dt": "2025-10-14T00:00:00+09:00",
+    "end_dt": "2025-10-20T23:59:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAH0058&cPage=1"
+  },
+  {
+    "title": "간호본부 계약직 3교대 보조원 채용(10월 2차)",
+    "start_dt": "2025-10-13T00:00:00+09:00",
+    "end_dt": "2025-10-19T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAHF0121&cPage=1"
+  },
+  {
+    "title": "마취간호팀 계약직 교대 보조원 채용",
+    "start_dt": "2025-10-13T00:00:00+09:00",
+    "end_dt": "2025-10-20T23:59:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAHF0123&cPage=1"
+  },
+  {
+    "title": "약제부 계약직 야간전담 사원 채용",
+    "start_dt": "2025-10-13T00:00:00+09:00",
+    "end_dt": "2025-10-20T23:59:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAHF0122&cPage=1"
+  },
+  {
+    "title": "신경외과(감마나이프센터) 계약직 방사선사 채용",
+    "start_dt": "2025-10-13T00:00:00+09:00",
+    "end_dt": "2025-10-20T23:59:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025HAC10021&cPage=1"
+  },
+  {
+    "title": "약제부 계약직 사원 채용",
+    "start_dt": "2025-10-13T00:00:00+09:00",
+    "end_dt": "2025-10-20T23:59:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAHF0120&cPage=1"
+  },
+  {
+    "title": "2026년도 임상강사(Fellow) 초빙 안내",
+    "start_dt": "2025-10-13T00:00:00+09:00",
+    "end_dt": "2025-10-27T23:59:00+09:00",
+    "dday": "D-11",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025D0025&cPage=2"
+  },
+  {
+    "title": "삼성서울병원 미래의학연구원 연구강사 모집",
+    "start_dt": "2025-10-13T00:00:00+09:00",
+    "end_dt": "2025-10-27T23:59:00+09:00",
+    "dday": "D-11",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025D0026&cPage=2"
+  },
+  {
+    "title": "간호본부 외래 계약직 전담간호사(외래기록) 채용",
+    "start_dt": "2025-10-10T00:00:00+09:00",
+    "end_dt": "2025-10-17T23:59:00+09:00",
+    "dday": "D-1",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025HAB0139&cPage=2"
+  },
+  {
+    "title": "Caregiver행복팀 계약직 임상심리사 채용",
+    "start_dt": "2025-10-10T00:00:00+09:00",
+    "end_dt": "2025-10-17T23:59:00+09:00",
+    "dday": "D-1",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025HACZ0007&cPage=2"
+  },
+  {
+    "title": "미생물검사실 계약직 임상병리사 채용",
+    "start_dt": "2025-10-10T00:00:00+09:00",
+    "end_dt": "2025-10-17T23:59:00+09:00",
+    "dday": "D-1",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025HAC20027&cPage=2"
+  },
+  {
+    "title": "응급진료센터 계약직 응급구조사 채용",
+    "start_dt": "2025-10-10T00:00:00+09:00",
+    "end_dt": "2025-10-17T23:59:00+09:00",
+    "dday": "D-1",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025HACD0003&cPage=2"
+  },
+  {
+    "title": "소화기내과분과 계약직 사무직 채용",
+    "start_dt": "2025-10-10T00:00:00+09:00",
+    "end_dt": "2025-10-16T23:59:00+09:00",
+    "dday": "D-0",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAH0057&cPage=2"
+  },
+  {
+    "title": "의학정보팀 계약직 시청각기사 채용(연장)",
+    "start_dt": "2025-09-29T00:00:00+09:00",
+    "end_dt": "2025-10-17T23:59:00+09:00",
+    "dday": "D-1",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025HAD50006&cPage=2"
+  },
+  {
+    "title": "(주말전담) 약제부 계약직 약사 채용",
+    "start_dt": "2025-09-22T00:00:00+09:00",
+    "end_dt": "2025-10-20T23:59:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025HAD10021&cPage=2"
+  }
+]</script>
+
+<script id="sebran" type="application/json">[{
+    "title": "[일반-신촌] 사무원(계약직) 세브)임상연구관리실 사무팀 25.10 모집",
+    "start_dt": "2025-10-13T00:00:00+09:00",
+    "end_dt": "2025-10-22T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=231098"
+  },
+  {
+    "title": "[일반-신촌] 연세의료원 외래간호사(계약직) 25.10 모집",
+    "start_dt": "2025-10-13T00:00:00+09:00",
+    "end_dt": "2025-10-19T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=231040"
+  },
+  {
+    "title": "[일반-강남] 간호사(계약직) 외래간호팀 25.10 모집",
+    "start_dt": "2025-10-10T00:00:00+09:00",
+    "end_dt": "2025-10-16T23:59:00+09:00",
+    "dday": "D-0",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=230926"
+  },
+  {
+    "title": "[일반-강남] 약사(계약직;야간전담) 약제팀 25.10 모집",
+    "start_dt": "2025-10-09T00:00:00+09:00",
+    "end_dt": "2025-10-16T23:59:00+09:00",
+    "dday": "D-0",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=230921"
+  },
+  {
+    "title": "[일반-강남] 방사선사(계약직) 영상의학팀 25.10 모집",
+    "start_dt": "2025-10-02T00:00:00+09:00",
+    "end_dt": "2025-10-16T23:59:00+09:00",
+    "dday": "D-0",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=230816"
+  },
+  {
+    "title": "[일반-신촌] 간호사(단기계약직) 세브)환자안전팀 25.09 모집",
+    "start_dt": "2025-09-30T00:00:00+09:00",
+    "end_dt": "2025-10-17T23:59:00+09:00",
+    "dday": "D-1",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=230365"
+  }]</script>
+
+<script id="seoul" type="application/json">[{
+    "title": "2025년도 9월 대체근로자 채용 면접전형 합격자 발표 및 신체검사 일정공고",
+    "start_dt": "2025-10-14T00:00:00+09:00",
+    "end_dt": "2025-10-21T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25143"
+  },
+  {
+    "title": "2025년도 서울대학교병원 간호직 직원 채용 4차 최종면접 합격자 발표 및 5차 신체검사 일정 공고",
+    "start_dt": "2025-10-14T00:00:00+09:00",
+    "end_dt": "2025-10-20T23:59:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25142"
+  },
+  {
+    "title": "2026년도 임상강사(Fellow) 선발 공고",
+    "start_dt": "2025-10-13T00:00:00+09:00",
+    "end_dt": "2025-10-27T23:59:00+09:00",
+    "dday": "D-11",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25141"
+  },
+  {
+    "title": "2025년도 서울대학교병원 하반기 직원 채용 2차 필기시험 등 합격자 발표 및 3차 실무면접 일정 공고",
+    "start_dt": "2025-10-03T00:00:00+09:00",
+    "end_dt": "2025-10-17T23:59:00+09:00",
+    "dday": "D-1",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25138"
+  },
+  {
+    "title": "진료교수요원 공개채용",
+    "start_dt": "2025-10-02T00:00:00+09:00",
+    "end_dt": "2025-10-16T23:59:00+09:00",
+    "dday": "D-0",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25139"
+  },
+  {
+    "title": "국립소방병원 진료교수요원 공개채용",
+    "start_dt": "2025-10-02T00:00:00+09:00",
+    "end_dt": "2025-10-16T23:59:00+09:00",
+    "dday": "D-0",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25140"
+  }]</script>
+
+<script>
+(() => {
+  const tz = 'Asia/Seoul';
+  const $ = s => document.querySelector(s);
+
+  const SOURCES = [
+    { id:'amc',    label:'서울아산병원' },
+    { id:'caumc',  label:'중앙대병원' },
+    { id:'cmcseoul', label:'가톨릭 서울성모' },
+    { id:'gunguk', label:'건국대병원' },
+    { id:'hyumc',  label:'한양대병원' },
+    { id:'kbsmc',  label:'강북삼성병원' },
+    { id:'khmc',   label:'경희의료원' },
+    { id:'kumc',   label:'고려대의료원' },
+    { id:'mokdong',label:'이대목동' },
+    { id:'samsung',label:'삼성서울' },
+    { id:'sebran', label:'세브란스' },
+    { id:'seoul',  label:'서울대병원' },
+  ];
+  const ALL_ID = '__all__';
+
+  const tabsEl = $('#tabs');
+  const listEl = $('#list'), emptyEl = $('#empty'), countEl = $('#count');
+  const qEl = $('#q'), sortEl = $('#sort');
+
+  // 에러 영역
+  const errBox = document.createElement('div');
+  errBox.style.cssText = 'display:none;border:1px solid #b91c1c;background:#7f1d1d;color:#fff;padding:8px 10px;border-radius:8px;margin-top:8px;white-space:pre-wrap';
+  document.querySelector('.wrap').insertBefore(errBox, document.querySelector('.toolbar'));
+
+  function showError(msg){
+    errBox.textContent = msg;
+    errBox.style.display = msg ? 'block' : 'none';
+  }
+
+  function readJson(id){
+    const el = document.getElementById(id);
+    if (!el) return [];
+    try {
+      const raw = el.textContent.trim();
+      const j = JSON.parse(raw);
+      if (!Array.isArray(j)) throw new Error(`${id}: 최상위가 배열이 아님`);
+      return j;
+    } catch (e) {
+      console.error(e);
+      showError((errBox.textContent ? errBox.textContent + '\n' : '') + `JSON 파싱 실패: ${id} → ${e.message}`);
+      return [];
+    }
+  }
+
+  const dataById = Object.fromEntries(
+    SOURCES.map(s => [s.id, readJson(s.id).map(x => ({...x, __source: s.label}))])
+  );
+  const allData = SOURCES.flatMap(s => dataById[s.id]);
+
+  function buildTabs(){
+    const nodes = [];
+    const mk = (id, label, n) => {
+      const b = document.createElement('button');
+      b.className = 'tab'; b.role = 'tab'; b.dataset.id = id;
+      b.textContent = `${label}${typeof n==='number' ? ` (${n})` : ''}`;
+      b.addEventListener('click', () => selectTab(id));
+      return b;
+    };
+    nodes.push(mk(ALL_ID, '전체', allData.length));
+    for (const s of SOURCES) nodes.push(mk(s.id, s.label, (dataById[s.id]||[]).length));
+    tabsEl.replaceChildren(...nodes);
+  }
+
+  function fmt(dt){
+    if (!dt) return '';
+    const d = new Date(dt);
+    if (isNaN(d)) return '';
+    return new Intl.DateTimeFormat('ko-KR', {
+      year:'numeric', month:'2-digit', day:'2-digit',
+      hour:'2-digit', minute:'2-digit', hour12:false, timeZone: tz
+    }).format(d).trim();
+  }
+
+  function makeCard(it){
+    const card = document.createElement('article'); card.className='card'; card.role='listitem';
+    const h3 = document.createElement('h3'); h3.className='title'; h3.textContent = it.title || '(제목 없음)';
+    const badges = document.createElement('div'); badges.className='badges';
+    if (it.dday) { const b=document.createElement('span'); b.className='badge'; b.textContent=it.dday; badges.appendChild(b); }
+    if (it.__source) { const b=document.createElement('span'); b.className='badge'; b.textContent=it.__source; badges.appendChild(b); }
+    const row = (k,v)=>{ const r=document.createElement('div'); r.className='row';
+      const kEl=document.createElement('div'); kEl.className='k'; kEl.textContent=k;
+      const vEl=document.createElement('div'); vEl.className='v'; vEl.textContent=v||'-';
+      r.append(kEl,vEl); return r; };
+    card.append(h3, badges, row('시작', fmt(it.start_dt)), row('종료', fmt(it.end_dt)));
+    if (it.detail_url){ const a=document.createElement('a'); a.className='btn-link'; a.href=it.detail_url; a.target='_blank'; a.rel='noopener noreferrer'; a.textContent='공고 보기'; card.appendChild(a); }
+    return card;
+  }
+
+  let current = ALL_ID;
+  function selectTab(id){
+    current = id;
+    for (const btn of tabsEl.querySelectorAll('.tab')) btn.setAttribute('aria-selected', btn.dataset.id===id ? 'true':'false');
+    apply();
+  }
+
+  function sourceList(){
+    if (current === ALL_ID) return [...allData];
+    return [...(dataById[current] || [])];
+  }
+
+  function apply(){
+    const q = qEl.value.trim().toLowerCase();
+    const sort = sortEl.value;
+    let arr = sourceList();
+    if (q) arr = arr.filter(x => String(x.title||'').toLowerCase().includes(q));
+
+    const getEnd   = it => new Date(it.end_dt || 8640000000000000).getTime();
+    const getStart = it => new Date(it.start_dt || 8640000000000000).getTime();
+    switch (sort){
+      case 'end_asc':   arr.sort((a,b)=> getEnd(a)-getEnd(b)); break;
+      case 'end_desc':  arr.sort((a,b)=> getEnd(b)-getEnd(a)); break;
+      case 'start_asc': arr.sort((a,b)=> getStart(a)-getStart(b)); break;
+      case 'start_desc':arr.sort((a,b)=> getStart(b)-getStart(a)); break;
+      case 'title_asc': arr.sort((a,b)=> String(a.title||'').localeCompare(String(b.title||''),'ko')); break;
+    }
+
+    listEl.innerHTML='';
+    if (!arr.length){ emptyEl.style.display='block'; countEl.textContent='0건'; return; }
+    emptyEl.style.display='none';
+    arr.forEach(it => listEl.appendChild(makeCard(it)));
+    countEl.textContent = `${arr.length}건`;
+  }
+
+  buildTabs();
+  selectTab(ALL_ID);
+
+  qEl.addEventListener('input', apply);
+  sortEl.addEventListener('change', apply);
+})();
+</script>
