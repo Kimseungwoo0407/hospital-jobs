@@ -5,318 +5,47 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>의료기관 채용 공고 · 12개 페이지(내장 JSON)</title>
 <style>
-  :root{--bg:#0b0c0f;--card:#12141a;--text:#e8eaf0;--muted:#a6adbb;--accent:#6ea8fe;--border:#1f2430;--badge:#272b36}
-  @media (prefers-color-scheme: light){:root{--bg:#f8fafc;--card:#fff;--text:#0b1020;--muted:#606a7a;--accent:#1d4ed8;--border:#e5e7eb;--badge:#f1f5f9}}
+  :root{--bg:#ffffff;--card:#fff;--text:#0b1020;--muted:#606a7a;--accent:#1d4ed8;--border:#e5e7eb;--badge:#f1f5f9}
   *{box-sizing:border-box}
-  html,body{margin:0;background:var(--bg);color:var(--text);font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",Arial,"Helvetica Neue",sans-serif}
+  html,body{margin:0;background:#ffffff;color:var(--text);font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",Arial,"Helvetica Neue",sans-serif}
   .wrap{max-width:1140px;margin:28px auto;padding:0 16px 40px}
   header{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
   h1{font-size:20px;margin:0}
   .tabs{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0}
-  .tab{border:1px solid var(--border);background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 12%,transparent),transparent);padding:8px 10px;border-radius:10px;cursor:pointer;font-weight:800}
-  .tab[aria-selected="true"]{outline:2px solid color-mix(in srgb,var(--accent) 50%, transparent)}
+  .tab{border:1px solid var(--border);background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 12%,transparent),transparent);padding:8px 10px;border-radius:10px;cursor:pointer;font-weight:800;transition:all 0.2s}
+  .tab:hover{transform:translateY(-1px);background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 18%,transparent),transparent)}
+  .tab[aria-selected="true"]{outline:2px solid color-mix(in srgb,var(--accent) 50%, transparent);background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 20%,transparent),transparent)}
   .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
-  .input{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:8px 10px;color:var(--text)}
+  .input{background:#ffffff;border:1px solid var(--border);border-radius:10px;padding:8px 10px;color:var(--text);transition:all 0.3s}
+  .input:focus{outline:none;border-color:#1d4ed8;box-shadow:0 0 0 3px rgba(29,78,216,0.1)}
+  select.input{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23606a7a' d='M6 9L1 4h10z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center;padding-right:32px}
+  .input::placeholder{color:var(--muted);opacity:0.6}
   .grid{display:grid;grid-template-columns:repeat(1,minmax(0,1fr));gap:14px;margin-top:12px}
   @media (min-width:640px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
   @media (min-width:980px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
-  .card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px}
+  .card{background:#ffffff;border:1px solid #e5e7eb;border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px;box-shadow:0 1px 3px rgba(0,0,0,0.1);transition:all 0.3s;position:relative;overflow:hidden}
+  .card::before{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(29,78,216,0.05),transparent);transition:left 0.6s}
+  .card:hover{transform:translateY(-4px);box-shadow:0 4px 12px rgba(0,0,0,0.15);border-color:#1d4ed8}
+  .card:hover::before{left:100%}
   .title{font-weight:800;font-size:16px;margin:0;word-break:keep-all}
   .badges{display:flex;gap:6px;flex-wrap:wrap}
-  .badge{display:inline-flex;align-items:center;gap:6px;background:var(--badge);border:1px dashed var(--border);padding:3px 8px;border-radius:999px;font-size:12px;font-weight:700}
+  .badge{display:inline-flex;align-items:center;gap:6px;background:var(--badge);border:1px dashed var(--border);padding:3px 8px;border-radius:999px;font-size:12px;font-weight:700;transition:all 0.3s}
+  .badge[data-urgent="true"]{background:linear-gradient(135deg,rgba(220,38,38,0.3) 0%,rgba(153,27,27,0.4) 100%);border:1px solid rgba(239,68,68,0.6);color:#1f2937;font-weight:800;animation:pulse 2s ease-in-out infinite;box-shadow:0 4px 8px rgba(220,38,38,0.3),0 2px 4px rgba(0,0,0,0.2),inset 0 -2px 4px rgba(0,0,0,0.1),inset 0 1px 2px rgba(255,255,255,0.3);transform:translateY(-1px)}
+  .badge[data-warning="true"]{background:linear-gradient(135deg,rgba(234,88,12,0.3) 0%,rgba(194,65,12,0.4) 100%);border:1px solid rgba(249,115,22,0.6);color:#1f2937;font-weight:800;box-shadow:0 4px 8px rgba(234,88,12,0.3),0 2px 4px rgba(0,0,0,0.2),inset 0 -2px 4px rgba(0,0,0,0.1),inset 0 1px 2px rgba(255,255,255,0.3);transform:translateY(-1px)}
+  .badge[data-normal="true"]{background:linear-gradient(135deg,rgba(37,99,235,0.3) 0%,rgba(30,64,175,0.4) 100%);border:1px solid rgba(59,130,246,0.6);color:#1f2937;box-shadow:0 4px 8px rgba(37,99,235,0.3),0 2px 4px rgba(0,0,0,0.2),inset 0 -2px 4px rgba(0,0,0,0.1),inset 0 1px 2px rgba(255,255,255,0.3);transform:translateY(-1px)}
+  @keyframes pulse{0%,100%{transform:translateY(-1px) scale(1);box-shadow:0 4px 8px rgba(220,38,38,0.3),0 2px 4px rgba(0,0,0,0.2),0 0 0 0 rgba(220,38,38,0.4)}50%{transform:translateY(-1px) scale(1.05);box-shadow:0 6px 12px rgba(220,38,38,0.4),0 3px 6px rgba(0,0,0,0.3),0 0 0 6px rgba(220,38,38,0)}}
   .row{display:flex;gap:8px;font-size:13px;color:var(--muted)}
   .k{width:64px;flex:0 0 64px;color:var(--text);font-weight:700}
   .v{flex:1;min-width:0}
-  .btn-link{display:inline-flex;justify-content:center;align-items:center;padding:9px 10px;border-radius:10px;border:1px solid var(--border);text-decoration:none;color:var(--text);font-weight:800}
+  .btn-link{display:inline-flex;justify-content:center;align-items:center;padding:9px 10px;border-radius:10px;border:1px solid var(--border);text-decoration:none;color:var(--text);font-weight:800;transition:all 0.3s}
+  .btn-link:hover{background:#1d4ed8;border-color:#1d4ed8;color:#fff;transform:translateY(-1px);box-shadow:0 4px 12px rgba(29,78,216,0.3)}
   .empty{border:1px dashed var(--border);border-radius:12px;padding:18px;text-align:center;color:var(--muted);margin-top:14px}
   footer{margin-top:22px;font-size:12px;color:var(--muted);text-align:center}
   .count{font-size:13px;color:var(--muted)}
-
-  /* ===== 1. D-day 색상 구분 ===== */
-  .badge {
-    transition: all 0.3s;
-  }
-
-  /* D-0, D-1: 빨간색 (긴급) - 실선 테두리 */
-  .badge[data-urgent="true"] {
-    background: linear-gradient(135deg, rgba(220, 38, 38, 0.3) 0%, rgba(153, 27, 27, 0.4) 100%) !important;
-    border: 1px solid rgba(239, 68, 68, 0.6) !important;
-    color: #1f2937 !important;
-    font-weight: 800;
-    animation: pulse 2s ease-in-out infinite;
-    box-shadow: 
-      0 4px 8px rgba(220, 38, 38, 0.3),
-      0 2px 4px rgba(0, 0, 0, 0.2),
-      inset 0 -2px 4px rgba(0, 0, 0, 0.1),
-      inset 0 1px 2px rgba(255, 255, 255, 0.3);
-    transform: translateY(-1px);
-  }
-
-  /* D-2~D-5: 주황색 (주의) - 실선 테두리 */
-  .badge[data-warning="true"] {
-    background: linear-gradient(135deg, rgba(234, 88, 12, 0.3) 0%, rgba(194, 65, 12, 0.4) 100%) !important;
-    border: 1px solid rgba(249, 115, 22, 0.6) !important;
-    color: #1f2937 !important;
-    font-weight: 800;
-    box-shadow: 
-      0 4px 8px rgba(234, 88, 12, 0.3),
-      0 2px 4px rgba(0, 0, 0, 0.2),
-      inset 0 -2px 4px rgba(0, 0, 0, 0.1),
-      inset 0 1px 2px rgba(255, 255, 255, 0.3);
-    transform: translateY(-1px);
-  }
-
-  /* D-6 이상: 파란색 (여유) - 실선 테두리 */
-  .badge[data-normal="true"] {
-    background: linear-gradient(135deg, rgba(37, 99, 235, 0.3) 0%, rgba(30, 64, 175, 0.4) 100%) !important;
-    border: 1px solid rgba(59, 130, 246, 0.6) !important;
-    color: #1f2937 !important;
-    box-shadow: 
-      0 4px 8px rgba(37, 99, 235, 0.3),
-      0 2px 4px rgba(0, 0, 0, 0.2),
-      inset 0 -2px 4px rgba(0, 0, 0, 0.1),
-      inset 0 1px 2px rgba(255, 255, 255, 0.3);
-    transform: translateY(-1px);
-  }
-
-  @keyframes pulse {
-    0%, 100% { 
-      transform: translateY(-1px) scale(1); 
-      box-shadow: 
-        0 4px 8px rgba(220, 38, 38, 0.3),
-        0 2px 4px rgba(0, 0, 0, 0.2),
-        0 0 0 0 rgba(220, 38, 38, 0.4);
-    }
-    50% { 
-      transform: translateY(-1px) scale(1.05); 
-      box-shadow: 
-        0 6px 12px rgba(220, 38, 38, 0.4),
-        0 3px 6px rgba(0, 0, 0, 0.3),
-        0 0 0 6px rgba(220, 38, 38, 0);
-    }
-  }
-
-  /* ===== 2. 카드 호버 효과 + 배경 패턴 ===== */
-  body {
-    background: linear-gradient(135deg, #0a0d1f 0%, #1a1f3a 50%, #0f1423 100%);
-    position: relative;
-    min-height: 100vh;
-  }
-
-  body::before {
-    content: '';
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: 
-      radial-gradient(circle at 20% 50%, rgba(110, 168, 254, 0.08) 0%, transparent 50%),
-      radial-gradient(circle at 80% 80%, rgba(139, 92, 246, 0.08) 0%, transparent 50%),
-      radial-gradient(rgba(255,255,255,0.04) 1.5px, transparent 1.5px);
-    background-size: 600px 600px, 800px 800px, 40px 40px;
-    pointer-events: none;
-    z-index: 0;
-    animation: float 25s ease-in-out infinite;
-  }
-
-  @keyframes float {
-    0%, 100% { transform: translate(0, 0); }
-    50% { transform: translate(20px, -20px); }
-  }
-
-  .wrap {
-    position: relative;
-    z-index: 1;
-  }
-
-  .card {
-    background: rgba(18, 20, 26, 0.75) !important;
-    backdrop-filter: blur(12px) saturate(180%);
-    -webkit-backdrop-filter: blur(12px) saturate(180%);
-    border: 1px solid rgba(110, 168, 254, 0.15) !important;
-    box-shadow: 
-      0 8px 32px rgba(0, 0, 0, 0.35),
-      inset 0 1px 0 rgba(255, 255, 255, 0.08);
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    position: relative;
-    overflow: hidden;
-  }
-
-  .card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(110, 168, 254, 0.15), transparent);
-    transition: left 0.6s;
-  }
-
-  .card:hover {
-    transform: translateY(-4px) scale(1.02);
-    box-shadow: 
-      0 12px 48px rgba(0, 0, 0, 0.5),
-      0 0 0 1px rgba(110, 168, 254, 0.3),
-      inset 0 1px 0 rgba(255, 255, 255, 0.12);
-    border-color: rgba(110, 168, 254, 0.4) !important;
-  }
-
-  .card:hover::before {
-    left: 100%;
-  }
-
-  .tab {
-    border: 1px solid var(--border);
-    background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 12%, transparent), transparent);
-    padding: 8px 10px;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: 800;
-    transition: all 0.2s;
-  }
-
-  .tab:hover {
-    transform: translateY(-1px);
-    background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 18%, transparent), transparent);
-  }
-
-  .tab[aria-selected="true"] {
-    outline: 2px solid color-mix(in srgb, var(--accent) 50%, transparent);
-    background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 20%, transparent), transparent);
-  }
-
-  .btn-link {
-    transition: all 0.3s;
-  }
-
-  .btn-link:hover {
-    background: linear-gradient(135deg, #6ea8fe 0%, #5a8fd6 100%);
-    border-color: #6ea8fe;
-    color: #fff;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(110, 168, 254, 0.3);
-  }
-
-  .input {
-    background: rgba(18, 20, 26, 0.4) !important;
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(110, 168, 254, 0.2) !important;
-    transition: all 0.3s;
-    color: var(--text);
-  }
-
-  .input:focus {
-    outline: none;
-    background: rgba(18, 20, 26, 0.5) !important;
-    border-color: rgba(110, 168, 254, 0.4) !important;
-    box-shadow: 0 0 0 3px rgba(110, 168, 254, 0.1);
-  }
-  select.input {
-    appearance: none;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23a6adbb' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: right 10px center;
-    padding-right: 32px;
-  }
-
-  /* placeholder 색상 */
-  .input::placeholder {
-    color: var(--muted);
-    opacity: 0.6;
-  }
-  /* 라이트모드에서 input */
-  @media (prefers-color-scheme: light) {
-    .input {
-      background: rgba(255, 255, 255, 0.7) !important;
-      border-color: rgba(99, 102, 241, 0.2) !important;
-    }
-    
-    .input:focus {
-      background: rgba(255, 255, 255, 0.9) !important;
-      border-color: rgba(99, 102, 241, 0.4) !important;
-    }
-    
-    select.input {
-      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23606a7a' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
-    }
-  }
-  /* ===== 3. 필터 기능 UI ===== */
-  .filter-bar {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-    margin: 12px 0;
-    padding: 12px;
-    background: rgba(18, 20, 26, 0.6);
-    backdrop-filter: blur(8px);
-    border: 1px solid rgba(110, 168, 254, 0.15);
-    border-radius: 12px;
-  }
-
-  .filter-btn {
-    padding: 6px 12px;
-    border-radius: 8px;
-    border: 1px solid rgba(110, 168, 254, 0.2);
-    background: rgba(18, 20, 26, 0.4);
-    color: var(--text);
-    font-size: 13px;
-    font-weight: 700;
-    cursor: pointer;
-    transition: all 0.3s;
-  }
-
-  .filter-btn:hover {
-    background: rgba(110, 168, 254, 0.2);
-    border-color: rgba(110, 168, 254, 0.4);
-    transform: translateY(-1px);
-  }
-
-  .filter-btn.active {
-    background: linear-gradient(135deg, #6ea8fe 0%, #5a8fd6 100%);
-    border-color: #6ea8fe;
-    color: #fff;
-    box-shadow: 0 4px 12px rgba(110, 168, 254, 0.3);
-  }
-
-  /* 라이트모드 */
-  @media (prefers-color-scheme: light) {
-    body {
-      background: linear-gradient(135deg, #e0e7ff 0%, #fef3c7 50%, #dbeafe 100%);
-    }
-    
-    body::before {
-      background-image: 
-        radial-gradient(circle at 20% 50%, rgba(99, 102, 241, 0.08) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(236, 72, 153, 0.08) 0%, transparent 50%),
-        radial-gradient(rgba(0,0,0,0.04) 1.5px, transparent 1.5px);
-    }
-    
-    .card {
-      background: rgba(255, 255, 255, 0.8) !important;
-      border: 1px solid rgba(99, 102, 241, 0.2) !important;
-      box-shadow: 
-        0 8px 32px rgba(0, 0, 0, 0.08),
-        inset 0 1px 0 rgba(255, 255, 255, 0.5);
-    }
-    
-    .card:hover {
-      box-shadow: 
-        0 12px 48px rgba(0, 0, 0, 0.12),
-        0 0 0 1px rgba(99, 102, 241, 0.3);
-    }
-
-    .filter-bar {
-      background: rgba(255, 255, 255, 0.6);
-      border-color: rgba(99, 102, 241, 0.2);
-    }
-    
-    .filter-btn {
-      background: rgba(255, 255, 255, 0.6);
-      border-color: rgba(99, 102, 241, 0.2);
-    }
-  }
+  .filter-bar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0;padding:12px;background:#f9fafb;border:1px solid #e5e7eb;border-radius:12px}
+  .filter-btn{padding:6px 12px;border-radius:8px;border:1px solid #e5e7eb;background:#ffffff;color:var(--text);font-size:13px;font-weight:700;cursor:pointer;transition:all 0.3s}
+  .filter-btn:hover{background:#f3f4f6;border-color:#1d4ed8;transform:translateY(-1px)}
+  .filter-btn.active{background:#1d4ed8;border-color:#1d4ed8;color:#fff;box-shadow:0 4px 12px rgba(29,78,216,0.3)}
 </style>
 </head>
 <body>
@@ -325,9 +54,7 @@
     <h1>채용 공고 · 12개 페이지</h1>
     <span class="count" id="count">0건</span>
   </header>
-
   <nav class="tabs" id="tabs" role="tablist" aria-label="기관 선택"></nav>
-
   <div class="toolbar">
     <input id="q" class="input" placeholder="검색(제목 포함)" />
     <select id="sort" class="input">
@@ -338,17 +65,14 @@
       <option value="title_asc">제목 A→Z</option>
     </select>
   </div>
-
   <div class="filter-bar">
     <button class="filter-btn active" data-filter="all">전체</button>
     <button class="filter-btn" data-filter="urgent">🔴 긴급 (D-0~1)</button>
     <button class="filter-btn" data-filter="soon">🟠 마감임박 (D-2~5)</button>
     <button class="filter-btn" data-filter="normal">🔵 여유 (D-6+)</button>
   </div>
-
   <div id="list" class="grid" role="list"></div>
   <div id="empty" class="empty">표시할 데이터가 없습니다.</div>
-
   <footer>로컬 전용 · JSON 내장 · Asia/Seoul</footer>
 </div>
 
