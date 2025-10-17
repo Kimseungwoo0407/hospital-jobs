@@ -57,12 +57,47 @@
     cursor:pointer; transition:all .2s;
   }
   .chip-btn:hover{ transform:translateY(-1px); border-color:#1d4ed8 }
+  /* === 공지 모달 === */
+  .notice-backdrop{
+    position:fixed; inset:0; display:none; align-items:center; justify-content:center;
+    background:rgba(0,0,0,.35); z-index:9999;
+  }
+  .notice{
+    width:min(520px,92%); background:#fff; border:1px solid var(--border); border-radius:16px;
+    box-shadow:0 12px 36px rgba(0,0,0,.25); overflow:hidden; transform:translateY(10px); opacity:0;
+    transition:transform .2s ease, opacity .2s ease;
+  }
+  .notice.show{ transform:translateY(0); opacity:1; }
+  .notice__head{
+    display:flex; align-items:center; gap:10px; padding:14px 16px;
+    background:linear-gradient(135deg, color-mix(in srgb, var(--accent) 12%, transparent), transparent);
+    border-bottom:1px solid var(--border);
+  }
+  .notice__icon{
+    display:inline-flex; align-items:center; justify-content:center;
+    width:36px; height:36px; border-radius:10px;
+    background:color-mix(in srgb, var(--accent) 12%, var(--badge));
+    border:1px dashed var(--border); font-size:18px;
+  }
+  .notice__title{ margin:0; font-size:16px; font-weight:900 }
+  .notice__body{ padding:16px; color:var(--text); }
+  .notice__body p{ margin:0 0 10px }
+  .notice__footer{
+    display:flex; gap:8px; justify-content:flex-end; padding:12px 16px; border-top:1px solid var(--border);
+  }
+  .notice-btn{
+    padding:8px 12px; border-radius:10px; border:1px solid var(--border);
+    background:#fff; font-weight:800; cursor:pointer; transition:transform .15s ease, box-shadow .15s ease;
+  }
+  .notice-btn:hover{ transform:translateY(-1px); box-shadow:0 6px 16px rgba(0,0,0,.12) }
+  .notice-btn.primary{ background:var(--accent); border-color:var(--accent); color:#fff }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
     <h1>채용 공고</h1>
+    <span class="count" id="count">0건</span>
   </header>
 
   <nav class="tabs" id="tabs" role="tablist" aria-label="기관 선택"></nav>
@@ -90,6 +125,26 @@
   <div id="list" class="grid" role="list"></div>
   <div id="empty" class="empty">표시할 데이터가 없습니다.</div>
   <footer>외부 JSON 로드 · Asia/Seoul</footer>
+</div>
+
+</div>
+
+<!-- 공지 모달 (HTML을 먼저 둔다) -->
+<div id="noticeBackdrop" class="notice-backdrop" aria-modal="true" role="dialog" aria-labelledby="noticeTitle">
+  <article class="notice" role="document">
+    <header class="notice__head">
+      <span class="notice__icon">📢</span>
+      <h3 id="noticeTitle" class="notice__title">공지사항</h3>
+    </header>
+    <div class="notice__body" id="noticeContent">
+      <p><strong>신규 병원 채용 데이터</strong>는 매일 한 번씩 갱신됩니다.</p>
+      <p>병원 추가 문의는 “<a href="./guestbook.html" class="link">병원 추가 게시판</a>”에 남겨주세요 🙌</p>
+    </div>
+    <footer class="notice__footer">
+      <button id="noticeHideToday" class="notice-btn">오늘 하루 보지 않기</button>
+      <button id="noticeClose" class="notice-btn primary">닫기</button>
+    </footer>
+  </article>
 </div>
 
 <script>
@@ -326,6 +381,40 @@ let unrelatedSet = loadUnrelated();
   });
   qEl.addEventListener('input', apply);
   sortEl.addEventListener('change', apply);
+})();
+</script>
+<!-- 공지 스크립트 (모달 HTML 뒤에서 실행) -->
+<script>
+(function(){
+  const KEY = 'site.notice.dismissedAt';
+  const backdrop = document.getElementById('noticeBackdrop');
+  const hideTodayBtn = document.getElementById('noticeHideToday');
+  const closeBtn     = document.getElementById('noticeClose');
+
+  const todayStr = () => {
+    const d = new Date();
+    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  };
+
+  const dismissed = localStorage.getItem(KEY);
+  if (dismissed !== todayStr()) {
+    backdrop.style.display = 'flex';
+    requestAnimationFrame(()=> {
+      backdrop.querySelector('.notice')?.classList.add('show');
+    });
+  }
+
+  const close = (rememberToday=false) => {
+    if (rememberToday) localStorage.setItem(KEY, todayStr());
+    const box = backdrop.querySelector('.notice');
+    box.classList.remove('show');
+    setTimeout(()=>{ backdrop.style.display='none'; }, 180);
+  };
+
+  hideTodayBtn?.addEventListener('click', ()=> close(true));
+  closeBtn?.addEventListener('click', ()=> close(false));
+  backdrop.addEventListener('click', (e)=>{ if (e.target === backdrop) close(false); });
+  document.addEventListener('keydown', (e)=>{ if (e.key === 'Escape' && backdrop.style.display === 'flex') close(false); });
 })();
 </script>
 </body>
