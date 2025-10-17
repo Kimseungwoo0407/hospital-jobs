@@ -30,35 +30,39 @@
   .title{font-weight:800;font-size:16px;margin:0;word-break:keep-all}
   .badges{display:flex;gap:6px;flex-wrap:wrap}
   .badge{display:inline-flex;align-items:center;gap:6px;background:var(--badge);border:1px dashed var(--border);padding:3px 8px;border-radius:999px;font-size:12px;font-weight:700;transition:all 0.3s}
-  .badge[data-urgent="true"]{background:linear-gradient(135deg,rgba(220,38,38,0.3) 0%,rgba(153,27,27,0.4) 100%);border:1px solid rgba(239,68,68,0.6);color:#1f2937;font-weight:800;animation:pulse 2s ease-in-out infinite;box-shadow:0 4px 8px rgba(220,38,38,0.3),0 2px 4px rgba(0,0,0,0.2),inset 0 -2px 4px rgba(0,0,0,0.1),inset 0 1px 2px rgba(255,255,255,0.3);transform:translateY(-1px)}
-  .badge[data-warning="true"]{background:linear-gradient(135deg,rgba(234,88,12,0.3) 0%,rgba(194,65,12,0.4) 100%);border:1px solid rgba(249,115,22,0.6);color:#1f2937;font-weight:800;box-shadow:0 4px 8px rgba(234,88,12,0.3),0 2px 4px rgba(0,0,0,0.2),inset 0 -2px 4px rgba(0,0,0,0.1),inset 0 1px 2px rgba(255,255,255,0.3);transform:translateY(-1px)}
-  .badge[data-normal="true"]{background:linear-gradient(135deg,rgba(37,99,235,0.3) 0%,rgba(30,64,175,0.4) 100%);border:1px solid rgba(59,130,246,0.6);color:#1f2937;box-shadow:0 4px 8px rgba(37,99,235,0.3),0 2px 4px rgba(0,0,0,0.2),inset 0 -2px 4px rgba(0,0,0,0.1),inset 0 1px 2px rgba(255,255,255,0.3);transform:translateY(-1px)}
+  .badge[data-urgent="true"]{background:linear-gradient(135deg,rgba(220,38,38,0.3) 0%,rgba(153,27,27,0.4) 100%);border:1px solid rgba(239,68,68,0.6);color:#1f2937;font-weight:800;animation:pulse 2s ease-in-out infinite}
+  .badge[data-warning="true"]{background:linear-gradient(135deg,rgba(234,88,12,0.3) 0%,rgba(194,65,12,0.4) 100%);border:1px solid rgba(249,115,22,0.6);color:#1f2937;font-weight:800}
+  .badge[data-normal="true"]{background:linear-gradient(135deg,rgba(37,99,235,0.3) 0%,rgba(30,64,175,0.4) 100%);border:1px solid rgba(59,130,246,0.6);color:#1f2937}
   @keyframes pulse{0%,100%{transform:translateY(-1px) scale(1)}50%{transform:translateY(-1px) scale(1.05)}}
   .row{display:flex;gap:8px;font-size:13px;color:var(--muted)}
   .k{width:64px;flex:0 0 64px;color:var(--text);font-weight:700}
   .v{flex:1;min-width:0}
   .btn-link{display:inline-flex;justify-content:center;align-items:center;padding:9px 10px;border-radius:10px;border:1px solid var(--border);text-decoration:none;color:var(--text);font-weight:800;transition:all 0.3s}
-  .btn-link:hover{background:#1d4ed8;border-color:#1d4ed8;color:#fff;transform:translateY(-1px);box-shadow:0 4px 12px rgba(29,78,216,0.3)}
+  .btn-link:hover{background:#1d4ed8;border-color:#1d4ed8;color:#fff;transform:translateY(-1px)}
   .empty{border:1px dashed var(--border);border-radius:12px;padding:18px;text-align:center;color:var(--muted);margin-top:14px}
   footer{margin-top:22px;font-size:12px;color:var(--muted);text-align:center}
   .count{font-size:13px;color:var(--muted)}
   .filter-bar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0;padding:12px;background:#f9fafb;border:1px solid #e5e7eb;border-radius:12px}
   .filter-btn{padding:6px 12px;border-radius:8px;border:1px solid #e5e7eb;background:#ffffff;color:var(--text);font-size:13px;font-weight:700;cursor:pointer;transition:all 0.3s}
   .filter-btn:hover{background:#f3f4f6;border-color:#1d4ed8;transform:translateY(-1px)}
-  .filter-btn.active{background:#1d4ed8;border-color:#1d4ed8;color:#fff;box-shadow:0 4px 12px rgba(29,78,216,0.3)}
+  .filter-btn.active{background:#1d4ed8;border-color:#1d4ed8;color:#fff}
   .tab-cta{
-    padding:6px 8px;      /* 기본 탭보다 조금 작게 */
-    font-size:14px;
-    text-decoration:none;
-    display:inline-flex;
-    align-items:center;
+    padding:6px 8px; font-size:14px; text-decoration:none;
+    display:inline-flex; align-items:center; /* 오른쪽 끝 */
   }
+  .chip-btn{
+    display:inline-flex; align-items:center; gap:6px;
+    border:1px dashed var(--border); background:var(--badge);
+    padding:4px 8px; border-radius:999px; font-size:12px; font-weight:700;
+    cursor:pointer; transition:all .2s;
+  }
+  .chip-btn:hover{ transform:translateY(-1px); border-color:#1d4ed8 }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>채용 공고 · 12개 페이지</h1>
+    <h1>채용 공고</h1>
   </header>
 
   <nav class="tabs" id="tabs" role="tablist" aria-label="기관 선택"></nav>
@@ -74,11 +78,13 @@
     </select>
   </div>
 
+  <!-- 🔽 필터바: '관련 없음' 버튼 추가 -->
   <div class="filter-bar">
     <button class="filter-btn active" data-filter="all">전체</button>
     <button class="filter-btn" data-filter="urgent">🔴 긴급 (D-0~1)</button>
     <button class="filter-btn" data-filter="soon">🟠 마감임박 (D-2~5)</button>
     <button class="filter-btn" data-filter="normal">🔵 여유 (D-6+)</button>
+    <button class="filter-btn" data-filter="unrelated">🚫 관련 없음</button>
   </div>
 
   <div id="list" class="grid" role="list"></div>
@@ -86,13 +92,27 @@
   <footer>외부 JSON 로드 · Asia/Seoul</footer>
 </div>
 
-<!-- ↓ 스크립트는 반드시 </body> 바로 위에 둔다 ↓ -->
 <script>
+/* ====== '관련 없음' 상태 저장 ====== */
+const UNRELATED_KEY = 'jobs.unrelated.v1';
+const keyOf = (it) => (it.detail_url?.trim()) ||
+                      `${String(it.title||'').trim()}|${String(it.end_dt||'').trim()}`;
+const loadUnrelated = () => {
+  try {
+    const arr = JSON.parse(localStorage.getItem(UNRELATED_KEY) || '[]');
+    return new Set(Array.isArray(arr) ? arr : []);
+  } catch { return new Set(); }
+};
+const saveUnrelated = (set) => {
+  localStorage.setItem(UNRELATED_KEY, JSON.stringify(Array.from(set)));
+};
+let unrelatedSet = loadUnrelated();
+/* =================================== */
+
 (async () => {
   const tz = 'Asia/Seoul';
   const $  = s => document.querySelector(s);
 
-  // ▼ 여기 path만 네 실제 폴더로 맞춰라 (상대경로/대소문자 주의)
   const SOURCES = [
     { id:'amc',     label:'서울아산병원',   path:'./normalized/amc.json' },
     { id:'caumc',   label:'중앙대병원',     path:'./normalized/caumc.json' },
@@ -107,29 +127,27 @@
     { id:'sebran',  label:'세브란스',       path:'./normalized/sebran.json' },
     { id:'seoul',   label:'서울대병원',     path:'./normalized/seoul.json' },
   ];
-  const ALL_ID = '__all__';
+  const ALL_ID  = '__all__';
 
   const tabsEl = $('#tabs');
   const listEl = $('#list'), emptyEl = $('#empty'), countEl = $('#count');
   const qEl = $('#q'),      sortEl = $('#sort');
 
-  // 에러박스 (상단에 누적 표시)
+  // 에러박스
   const errBox = document.createElement('div');
   errBox.style.cssText = 'display:none;border:1px solid #b91c1c;background:#7f1d1d;color:#fff;padding:8px 10px;border-radius:8px;margin-top:8px;white-space:pre-wrap';
   document.querySelector('.wrap').insertBefore(errBox, document.querySelector('.toolbar'));
   const showError = (msg) => { errBox.textContent = msg; errBox.style.display = msg ? 'block' : 'none'; };
 
-  // JSON 로더(진단 로그 강화)
+  // JSON 로드
   async function loadJson(path, label){
     try{
       const res  = await fetch(path + `?t=${Date.now()}`, { cache:'no-store' });
       const text = await res.text();
       if(!res.ok) throw new Error(`${res.status} ${res.statusText} · body: ${text.slice(0,200)}`);
       let data;
-      try {
-        data = JSON.parse(text);
-      } catch {
-        // 주석/트레일링 콤마 정리 후 재파싱
+      try { data = JSON.parse(text); }
+      catch {
         const cleaned = text.replace(/\/\/.*$/mg,'').replace(/\/\*[\s\S]*?\*\//g,'').replace(/,\s*([}\]])/g,'$1');
         data = JSON.parse(cleaned);
       }
@@ -141,12 +159,11 @@
     }
   }
 
-  // 모든 소스 병렬 로딩
   const loaded   = await Promise.all(SOURCES.map(s => loadJson(s.path, s.label)));
   const dataById = Object.fromEntries(SOURCES.map((s,i) => [s.id, loaded[i]]));
   const allData  = SOURCES.flatMap((s,i) => loaded[i]);
 
-  // 탭 구성
+  // 탭(게스트북 CTA는 오른쪽 끝)
   function buildTabs(){
     const nodes = [];
     const mk = (id, label, n) => {
@@ -161,7 +178,7 @@
 
     const cta = document.createElement('a');
     cta.href = './guestbook.html';
-    cta.className = 'tab tab-cta';   // 탭 스타일 + 오른쪽 정렬
+    cta.className = 'tab tab-cta';
     cta.textContent = '병원 추가 게시판';
     cta.setAttribute('role','link');
 
@@ -169,7 +186,6 @@
     tabsEl.replaceChildren(...nodes);
   }
 
-  // 날짜 포맷
   const fmt = (dt) => {
     if (!dt) return '';
     const d = new Date(dt);
@@ -180,7 +196,6 @@
     }).format(d).trim();
   };
 
-  // 카드 생성
   function makeCard(it){
     const card = document.createElement('article'); card.className='card'; card.role='listitem';
     const h3   = document.createElement('h3'); h3.className='title'; h3.textContent = it.title || '(제목 없음)';
@@ -214,10 +229,32 @@
       const a = document.createElement('a'); a.className='btn-link'; a.href = it.detail_url; a.target='_blank'; a.rel='noopener noreferrer'; a.textContent='공고 보기';
       card.appendChild(a);
     }
+
+    // 관련 없음 토글 버튼
+    const actions = document.createElement('div');
+    actions.style.display = 'flex';
+    actions.style.gap = '8px';
+    const k = keyOf(it);
+
+    const btn = document.createElement('button');
+    btn.type = 'button';
+    btn.className = 'chip-btn';
+    const isMarked = unrelatedSet.has(k);
+    btn.textContent = isMarked ? '되돌리기' : '관련 없음으로 이동';
+
+    btn.addEventListener('click', () => {
+      if (unrelatedSet.has(k)) unrelatedSet.delete(k);
+      else unrelatedSet.add(k);
+      saveUnrelated(unrelatedSet);
+      apply(); // 현재 보던 화면 즉시 갱신
+    });
+
+    actions.appendChild(btn);
+    card.appendChild(actions);
     return card;
   }
 
-  // 상태 & 렌더링
+  // 상태/렌더링
   let current = ALL_ID;
   function selectTab(id){
     current = id;
@@ -226,26 +263,35 @@
     }
     apply();
   }
+
   const sourceList = () => current === ALL_ID ? [...allData] : [...(dataById[current] || [])];
 
   function apply(){
     const q = qEl.value.trim().toLowerCase();
     const sort = sortEl.value;
     const activeFilter = document.querySelector('.filter-btn.active')?.dataset.filter || 'all';
+
+    // 기본은 현재 탭의 리스트
     let arr = sourceList();
 
-    if (q) arr = arr.filter(x => String(x.title||'').toLowerCase().includes(q));
-
-    if (activeFilter !== 'all'){
-      arr = arr.filter(x => {
-        const m = x.dday?.match(/D-(\d+)/);
-        if (!m) return false;
-        const days = parseInt(m[1],10);
-        if (activeFilter === 'urgent') return days <= 1;
-        if (activeFilter === 'soon')   return days >= 2 && days <= 5;
-        if (activeFilter === 'normal') return days >= 6;
-        return true;
-      });
+    // 🔸 '관련 없음' 필터가 켜지면, 탭과 무관하게 전체에서 관련 없음만 모아서 보여줌
+    if (activeFilter === 'unrelated') {
+      arr = allData.filter(x => unrelatedSet.has(keyOf(x)));
+    } else {
+      if (q) arr = arr.filter(x => String(x.title||'').toLowerCase().includes(q));
+      if (activeFilter !== 'all'){
+        arr = arr.filter(x => {
+          const m = x.dday?.match(/D-(\d+)/);
+          if (!m) return false;
+          const days = parseInt(m[1],10);
+          if (activeFilter === 'urgent') return days <= 1;
+          if (activeFilter === 'soon')   return days >= 2 && days <= 5;
+          if (activeFilter === 'normal') return days >= 6;
+          return true;
+        });
+      }
+      // 탭 내에서도 '관련 없음'으로 보낸 건 숨김
+      arr = arr.filter(x => !unrelatedSet.has(keyOf(x)));
     }
 
     const getEnd   = it => new Date(it.end_dt   || 8640000000000000).getTime();
@@ -260,17 +306,17 @@
 
     listEl.innerHTML = '';
     if (!arr.length){
-      emptyEl.style.display='block'; countEl.textContent='0건'; return;
+      emptyEl.style.display='block'; if (countEl) countEl.textContent='0건'; return;
     }
     emptyEl.style.display='none';
     arr.forEach(it => listEl.appendChild(makeCard(it)));
-    countEl.textContent = `${arr.length}건`;
+    if (countEl) countEl.textContent = `${arr.length}건`;
   }
 
   buildTabs();
   selectTab(ALL_ID);
 
-  // UI 이벤트
+  // 필터 버튼 이벤트
   document.querySelectorAll('.filter-btn').forEach(btn=>{
     btn.addEventListener('click', () => {
       document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
