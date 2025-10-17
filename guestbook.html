@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>건의사항 · 선택+비번(관리자 권한)</title>
+<style>
+  :root{--bg:#ffffff;--card:#fff;--text:#0b1020;--muted:#606a7a;--accent:#1d4ed8;--border:#e5e7eb;--badge:#f1f5f9}
+  *{box-sizing:border-box}
+  html,body{margin:0;background:#ffffff;color:var(--text);font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",Arial,"Helvetica Neue",sans-serif}
+  .wrap{max-width:840px;margin:28px auto;padding:0 16px 40px}
+  header{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+  h1{font-size:20px;margin:0}
+  .muted{color:var(--muted);font-size:13px}
+  .card{background:#ffffff;border:1px solid var(--border);border-radius:14px;padding:14px;box-shadow:0 1px 3px rgba(0,0,0,0.08)}
+  .row{display:flex;gap:12px;flex-wrap:wrap}
+  .input, textarea{width:100%;background:#fff;border:1px solid var(--border);border-radius:10px;padding:10px;color:var(--text);transition:all .2s}
+  .input:focus, textarea:focus{outline:none;border-color:#1d4ed8;box-shadow:0 0 0 3px rgba(29,78,216,0.1)}
+  textarea{min-height:96px;resize:vertical}
+  .btn{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--border);background:#fff;border-radius:10px;padding:10px 12px;font-weight:800;cursor:pointer;transition:all .2s}
+  .btn:hover{transform:translateY(-1px);box-shadow:0 4px 12px rgba(29,78,216,0.15);border-color:#1d4ed8}
+  .btn.primary{background:#1d4ed8;border-color:#1d4ed8;color:#fff}
+  .btn.danger{border-color:#ef4444;color:#991b1b}
+  .btn.sm{padding:6px 10px;font-weight:700;border-radius:8px}
+  .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+  .who{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+  .pill{display:inline-flex;align-items:center;gap:8px;border:1px dashed var(--border);background:var(--badge);border-radius:999px;padding:6px 10px;font-weight:800}
+  .badge{display:inline-flex;align-items:center;gap:6px;background:var(--badge);border:1px dashed var(--border);padding:3px 8px;border-radius:999px;font-size:12px;font-weight:700}
+  .list{display:grid;grid-template-columns:1fr;gap:12px;margin-top:14px}
+  .post{position:relative;border:1px solid var(--border);border-radius:14px;padding:14px;background:#fff}
+  .post .meta{display:flex;gap:8px;align-items:center;justify-content:space-between}
+  .post .name{font-weight:800}
+  .post .time{font-size:12px;color:var(--muted)}
+  .post .msg{margin-top:8px;white-space:pre-wrap;word-break:break-word}
+  .err{display:none;border:1px solid #b91c1c;background:#7f1d1d;color:#fff;padding:8px 10px;border-radius:8px;margin:12px 0;white-space:pre-wrap}
+  footer{margin-top:20px;font-size:12px;color:var(--muted);text-align:center}
+  .link{color:var(--accent);text-decoration:none;font-weight:700}
+  .link:hover{text-decoration:underline}
+  .toast {
+    position: fixed; left: 50%; top: 20px; transform: translateX(-50%);
+    background: #111827; color:#fff; padding:10px 14px; border-radius:10px;
+    box-shadow: 0 6px 18px rgba(0,0,0,.2); z-index: 9999; opacity: 0;
+    transition: opacity .25s, transform .25s;
+    font-weight: 800; letter-spacing: .2px;
+    }
+    .toast.show {
+    opacity: 1; transform: translateX(-50%) translateY(0);
+    }
+
+    .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,.35);display:none;align-items:center;justify-content:center;z-index:9999}
+    .modal{background:#fff;border:1px solid var(--border);border-radius:14px;max-width:360px;width:92%;padding:16px;box-shadow:0 10px 30px rgba(0,0,0,.2);animation:pop .15s ease-out}
+    .modal h3{margin:0 0 8px;font-size:16px;font-weight:800}
+    .modal p{margin:0 0 14px;color:var(--muted);white-space:pre-wrap}
+    .modal .actions{display:flex;gap:8px;justify-content:flex-end}
+    .modal .btn{padding:8px 12px;border-radius:10px;border:1px solid var(--border);background:#fff;font-weight:800;cursor:pointer}
+    .modal .btn.primary{background:#1d4ed8;border-color:#1d4ed8;color:#fff}
+    @keyframes pop{from{transform:translateY(6px);opacity:.0}to{transform:translateY(0);opacity:1}}
+}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>건의사항</h1>
+      <div class="muted">작성자 선택 → 비밀번호 입력 후 글 작성 가능 (관리자: 데이터 관리)</div>
+    </div>
+    <a class="link" href="./index.html">← 메인으로</a>
+  </header>
+
+  <!-- 로그인(선택+비번) -->
+  <div class="card" style="margin:12px 0;">
+    <div class="who">
+      <span class="badge">작성자 선택:</span>
+      <button class="btn sm" data-user="나영">나영</button>
+      <button class="btn sm" data-user="현호쌤">현호쌤</button>
+      <button class="btn sm" data-user="혜빈쌤">혜빈쌤</button>
+      <button class="btn sm" data-admin="true">관리자</button>
+      <span id="status" class="pill" style="margin-left:auto">로그인 안 됨</span>
+      <button id="logoutBtn" class="btn sm" style="display:none">로그아웃</button>
+    </div>
+  </div>
+
+  <div id="err" class="err"></div>
+
+  <section class="card">
+    <form id="form">
+      <div class="row">
+        <input class="input" id="name" maxlength="40" placeholder="표시 이름" disabled />
+      </div>
+      <div class="row">
+        <textarea id="msg" maxlength="100" placeholder="메시지 (최대 100자, 줄바꿈 가능)" required disabled></textarea>
+      </div>
+      <div class="toolbar">
+        <button type="submit" id="submitBtn" class="btn primary" disabled>작성하기</button>
+
+        <!-- ▼ 관리자 전용 툴 (초기에는 숨김) -->
+        <button type="button" id="exportBtn" class="btn" style="display:none">JSON 내보내기</button>
+        <label id="importLabel" class="btn" style="display:none">
+          JSON 가져오기
+          <input id="importFile" type="file" accept="application/json" style="display:none">
+        </label>
+        <button type="button" id="clearBtn" class="btn danger" style="display:none">전체 삭제</button>
+      </div>
+      <div class="muted">※ 로그인 후에만 작성 가능. 일반 사용자는 본인 글만 삭제 가능. 관리자는 모든 기능/글 관리 가능.</div>
+    </form>
+  </section>
+
+  <div class="toolbar">
+    <span class="badge"><span id="count">0</span> 개 글</span>
+    <button type="button" id="sortBtn" class="btn sm">최신순</button>
+    <button type="button" id="copyLink" class="btn sm">페이지 링크 복사</button>
+  </div>
+
+  <section id="list" class="list" aria-live="polite"></section>
+
+  <footer>LocalStorage · 정적 페이지 · 평문 비밀번호 비교(간이)</footer>
+</div>
+
+<script>
+/* --- 토스트: 그대로 사용 가능(조금 개선) --- */
+function showToast(msg, ms=2000){
+  let t = document.querySelector('.toast');
+  if (!t) {
+    t = document.createElement('div');
+    t.className = 'toast';
+    document.body.appendChild(t);
+  }
+  t.textContent = msg;
+  // 등장
+  requestAnimationFrame(() => t.classList.add('show'));
+  // 자동 닫기
+  clearTimeout(t._timer);
+  t._timer = setTimeout(() => t.classList.remove('show'), ms);
+}
+
+(() => {
+  const $  = s => document.querySelector(s);
+  const $$ = s => Array.from(document.querySelectorAll(s));
+  const tz = 'Asia/Seoul';
+  const STORAGE_KEY = 'guestbook.plainpw.v2';
+  let posts = [];
+  let newestFirst = true;
+
+  // ★ 평문 비번(데모용)
+  const USERS = {
+    '나영': '000525',
+    '현호쌤': '000000',
+    '혜빈쌤': '000000',
+  };
+  const ADMIN = { name: '관리자', password: '김승우' };
+
+  let authed = null; // {name, role:'user'|'admin'}
+
+  const errBox = $('#err');
+  const showError = (m) => { errBox.textContent = m; errBox.style.display = m ? 'block' : 'none'; };
+  const escapeHTML = (s='') => s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const fmtTime = (ms) => new Intl.DateTimeFormat('ko-KR',{year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false,timeZone:tz}).format(new Date(ms));
+  const relTime = (ms) => { const sec=Math.floor((Date.now()-ms)/1000); if(sec<60)return `${sec}초 전`; const m=Math.floor(sec/60); if(m<60)return `${m}분 전`; const h=Math.floor(m/60); if(h<24)return `${h}시간 전`; const d=Math.floor(h/24); return `${d}일 전`; };
+
+  const save = () => localStorage.setItem(STORAGE_KEY, JSON.stringify(posts));
+  const load = () => { try { posts = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]'); if(!Array.isArray(posts)) posts=[]; } catch { posts=[]; } };
+
+  function setUIAuth(state){
+    authed = state;
+    const nameInput  = $('#name');
+    const msgInput   = $('#msg');
+    const submitBtn  = $('#submitBtn');
+    const statusEl   = $('#status');
+    const logoutBtn  = $('#logoutBtn');
+
+    const exportBtn  = $('#exportBtn');
+    const importLbl  = $('#importLabel');
+    const clearBtn   = $('#clearBtn');
+
+    if (authed){
+      nameInput.value = authed.name;
+      msgInput.disabled = false;
+      submitBtn.disabled = false;
+      statusEl.textContent = (authed.role === 'admin') ? `관리자 로그인` : `로그인: ${authed.name}`;
+      logoutBtn.style.display = '';
+
+      const isAdmin = authed.role === 'admin';
+      exportBtn.style.display = isAdmin ? '' : 'none';
+      importLbl.style.display = isAdmin ? '' : 'none';
+      clearBtn.style.display  = isAdmin ? '' : 'none';
+    }else{
+      nameInput.value = '';
+      msgInput.disabled = true;
+      submitBtn.disabled = true;
+      statusEl.textContent = '로그인 안 됨';
+      logoutBtn.style.display = 'none';
+      exportBtn.style.display = 'none';
+      importLbl.style.display = 'none';
+      clearBtn.style.display  = 'none';
+    }
+    nameInput.disabled = true;
+    render();
+  }
+
+  function loginAsUser(who){
+    const pw = prompt(`${who} 비밀번호 입력`);
+    if (pw == null) return;
+    if (USERS[who] && USERS[who] === pw.trim()){
+      setUIAuth({name: who, role: 'user'});
+    }else{
+      modalAlert('비밀번호가 올바르지 않습니다.', '알림');
+    }
+  }
+  function loginAsAdmin(){
+    const pw = prompt(`관리자 비밀번호 입력`);
+    if (pw == null) return;
+    if (pw.trim() === ADMIN.password){
+      setUIAuth({name: ADMIN.name, role: 'admin'});
+    }else{
+      modalAlert('비밀번호가 올바르지 않습니다.', '알림');
+    }
+  }
+
+  // 로그인/로그아웃
+  $$('.btn.sm[data-user]').forEach(btn => btn.addEventListener('click', () => loginAsUser(btn.dataset.user)));
+  $('[data-admin="true"]').addEventListener('click', loginAsAdmin);
+  $('#logoutBtn').addEventListener('click', () => setUIAuth(null));
+
+  // 렌더
+  function render(){
+    const list = $('#list');
+    list.innerHTML = '';
+    const arr = posts.slice().sort((a,b)=> newestFirst ? b.ts - a.ts : a.ts - b.ts);
+    $('#count').textContent = String(arr.length);
+    const isAdmin = authed && authed.role === 'admin';
+
+    for (const p of arr) {
+      const card = document.createElement('article'); card.className = 'post';
+      const meta = document.createElement('div'); meta.className='meta';
+
+      const left = document.createElement('div');
+      const name = document.createElement('span'); name.className='name'; name.textContent = p.author || '(익명)';
+      const time = document.createElement('span'); time.className='time'; time.textContent = `${fmtTime(p.ts)} · ${relTime(p.ts)}`;
+      left.append(name, document.createTextNode(' · '), time);
+
+      const right = document.createElement('div');
+      const canDelete = isAdmin || (authed && authed.role==='user' && authed.name === p.author);
+      if (canDelete){
+        const delBtn = document.createElement('button'); delBtn.className='btn danger sm'; delBtn.textContent='삭제';
+        delBtn.addEventListener('click', async() => {
+          if (!(await modalConfirm('정말 삭제할까요?', '삭제 확인', '삭제', '취소'))) return;
+          posts = posts.filter(x => x.id !== p.id);
+          save(); render();
+        });
+        right.appendChild(delBtn);
+      }
+
+      meta.append(left, right);
+
+      const msg = document.createElement('div'); msg.className='msg';
+      msg.innerHTML = escapeHTML(p.msg).replace(/\n/g,'<br>');
+
+      card.append(meta, msg);
+      list.appendChild(card);
+    }
+  }
+
+  // 초기화
+  load(); setUIAuth(null);
+
+  // ✅ 제출 핸들러: 딱 하나만!
+  $('#form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    showError('');
+    if (!authed){ showError('로그인 후 작성할 수 있어요.'); return; }
+    const msg = $('#msg').value.trim();
+    if (!msg){ showError('메시지는 필수예요.'); return; }
+
+    posts.push({
+      id: Math.random().toString(36).slice(2) + Date.now().toString(36),
+      author: authed.name,
+      msg: msg.slice(0,100),   // ← maxlength=100과 일치
+      ts: Date.now()
+    });
+    save(); render();
+    showToast('퇴근 후 확인하여 처리해드리겠습니다.', 2000);
+    $('#msg').value = '';
+  });
+
+  // 정렬 토글
+  $('#sortBtn').addEventListener('click', () => {
+    newestFirst = !newestFirst;
+    $('#sortBtn').textContent = newestFirst ? '최신순' : '오래된순';
+    render();
+  });
+
+  // 관리자: 전체 삭제
+  $('#clearBtn').addEventListener('click', async () => {
+    if (!(authed && authed.role==='admin')) { await modalAlert('관리자만 가능합니다.', '알림'); return; }
+    if (posts.length === 0) { await modalAlert('삭제할 글이 없습니다.', '알림'); return; }
+    if (!(await modalConfirm('정말 전체 삭제할까요?', '전체 삭제', '삭제', '취소'))) return;
+    posts = []; save(); render();   
+  });
+
+  // 관리자: 내보내기
+  $('#exportBtn').addEventListener('click', async () => {
+    if (!(authed && authed.role==='admin')) { await modalAlert('관리자만 가능합니다.', '알림'); return; }
+    const blob = new Blob([JSON.stringify(posts, null, 2)], {type:'application/json'});
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = `guestbook-${new Date().toISOString().slice(0,10)}.json`;
+    document.body.appendChild(a); a.click(); a.remove();
+    URL.revokeObjectURL(url);
+  });
+
+  // 관리자: 가져오기
+  $('#importFile').addEventListener('change', async (ev) => {
+    if (!(authed && authed.role==='admin')) { await modalAlert('관리자만 가능합니다.', '알림'); ev.target.value=''; return; }
+    const f = ev.target.files?.[0];
+    if (!f) return;
+    try {
+      const text = await f.text();
+      const data = JSON.parse(text);
+      if (!Array.isArray(data)) throw new Error('최상위 배열 아님');
+      const cleaned = data.map(x => ({
+        id: String(x.id || (Math.random().toString(36).slice(2)+Date.now().toString(36))),
+        author: String(x.author || '익명').slice(0,40),
+        msg: String(x.msg || '').slice(0,100),  // ← 여기서도 100으로 통일
+        ts: Number(x.ts || Date.now()),
+      })).filter(x => x.msg);
+      posts = cleaned; save(); render();
+      ev.target.value = '';
+    } catch (e) {
+      showError('가져오기 실패: ' + (e?.message || e));
+    }
+  });
+
+  // 링크 복사
+  $('#copyLink').addEventListener('click', async () => {
+    try { await navigator.clipboard.writeText(location.href); await modalAlert('링크를 복사했습니다.', '알림'); }
+    catch { await modalAlert('복사 실패. 수동으로 주소창을 복사하세요.', '알림'); }
+  });
+})();
+function modalAlert(message, title='알림', okText='확인'){
+  return new Promise(resolve=>{
+    const root = document.getElementById('modalRoot');
+    const titleEl = document.getElementById('modalTitle');
+    const msgEl = document.getElementById('modalMsg');
+    const ok = document.getElementById('modalOk');
+    const cancel = document.getElementById('modalCancel');
+
+    titleEl.textContent = title;
+    msgEl.textContent = message;
+    cancel.style.display = 'none';
+    ok.textContent = okText;
+
+    const close = () => { root.style.display='none'; root.setAttribute('aria-hidden','true'); ok.removeEventListener('click', onOk); document.removeEventListener('keydown', onKey); };
+    const onOk = () => { close(); resolve(); };
+    const onKey = (e)=>{ if(e.key==='Escape'){ close(); resolve(); } if(e.key==='Enter'){ onOk(); } };
+
+    ok.addEventListener('click', onOk);
+    document.addEventListener('keydown', onKey);
+
+    root.style.display='flex';
+    root.setAttribute('aria-hidden','false');
+    ok.focus();
+  });
+}
+
+function modalConfirm(message, title='확인', okText='확인', cancelText='취소'){
+  return new Promise(resolve=>{
+    const root = document.getElementById('modalRoot');
+    const titleEl = document.getElementById('modalTitle');
+    const msgEl = document.getElementById('modalMsg');
+    const ok = document.getElementById('modalOk');
+    const cancel = document.getElementById('modalCancel');
+
+    titleEl.textContent = title;
+    msgEl.textContent = message;
+    cancel.style.display = '';
+    ok.textContent = okText;
+    cancel.textContent = cancelText;
+
+    const close = () => {
+      root.style.display='none'; root.setAttribute('aria-hidden','true');
+      ok.removeEventListener('click', onOk);
+      cancel.removeEventListener('click', onCancel);
+      document.removeEventListener('keydown', onKey);
+    };
+    const onOk = () => { close(); resolve(true);  };
+    const onCancel = () => { close(); resolve(false); };
+    const onKey = (e)=>{ if(e.key==='Escape'){ onCancel(); } if(e.key==='Enter'){ onOk(); } };
+
+    ok.addEventListener('click', onOk);
+    cancel.addEventListener('click', onCancel);
+    document.addEventListener('keydown', onKey);
+
+    root.style.display='flex';
+    root.setAttribute('aria-hidden','false');
+    ok.focus();
+  });
+}
+
+</script>
+<div id="modalRoot" class="modal-backdrop" role="dialog" aria-modal="true" aria-hidden="true">
+  <div class="modal" role="document">
+    <h3 id="modalTitle">알림</h3>
+    <p id="modalMsg">메시지</p>
+    <div class="actions">
+      <button id="modalCancel" class="btn">취소</button>
+      <button id="modalOk" class="btn primary">확인</button>
+    </div>
+  </div>
+</div>
+</body>
+</html>

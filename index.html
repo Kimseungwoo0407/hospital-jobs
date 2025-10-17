@@ -46,13 +46,19 @@
   .filter-btn{padding:6px 12px;border-radius:8px;border:1px solid #e5e7eb;background:#ffffff;color:var(--text);font-size:13px;font-weight:700;cursor:pointer;transition:all 0.3s}
   .filter-btn:hover{background:#f3f4f6;border-color:#1d4ed8;transform:translateY(-1px)}
   .filter-btn.active{background:#1d4ed8;border-color:#1d4ed8;color:#fff;box-shadow:0 4px 12px rgba(29,78,216,0.3)}
+  .tab-cta{
+    padding:6px 8px;      /* 기본 탭보다 조금 작게 */
+    font-size:14px;
+    text-decoration:none;
+    display:inline-flex;
+    align-items:center;
+  }
 </style>
 </head>
 <body>
 <div class="wrap">
   <header>
     <h1>채용 공고 · 12개 페이지</h1>
-    <span class="count" id="count">0건</span>
   </header>
 
   <nav class="tabs" id="tabs" role="tablist" aria-label="기관 선택"></nav>
@@ -143,15 +149,23 @@
   // 탭 구성
   function buildTabs(){
     const nodes = [];
-    const mk = (id,label,n) => {
+    const mk = (id, label, n) => {
       const b = document.createElement('button');
-      b.className = 'tab'; b.role='tab'; b.dataset.id = id;
+      b.className = 'tab'; b.role = 'tab'; b.dataset.id = id;
       b.textContent = `${label}${typeof n==='number' ? ` (${n})` : ''}`;
       b.addEventListener('click', () => selectTab(id));
       return b;
     };
     nodes.push(mk(ALL_ID, '전체', allData.length));
-    for(const s of SOURCES) nodes.push(mk(s.id, s.label, (dataById[s.id]||[]).length));
+    for (const s of SOURCES) nodes.push(mk(s.id, s.label, (dataById[s.id]||[]).length));
+
+    const cta = document.createElement('a');
+    cta.href = './guestbook.html';
+    cta.className = 'tab tab-cta';   // 탭 스타일 + 오른쪽 정렬
+    cta.textContent = '병원 추가 게시판';
+    cta.setAttribute('role','link');
+
+    nodes.push(cta);
     tabsEl.replaceChildren(...nodes);
   }
 
