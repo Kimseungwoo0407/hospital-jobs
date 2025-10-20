@@ -104,7 +104,7 @@ def normalize_file(in_path, out_path=None):
     # 출력 경로
     if out_path is None:
         base = os.path.basename(in_path).rsplit(".", 1)[0]
-        out_dir = r"D:/med/normalized"
+        out_dir = r"C:\Users\LEGION\Desktop\hospital\hospital-jobs\normalized"
         os.makedirs(out_dir, exist_ok=True)
         out_path = os.path.join(out_dir, f"{base}.json")
 

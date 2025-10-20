@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>관리자 · 데이터 업데이트</title>
+<style>
+  :root{--bg:#ffffff;--card:#fff;--text:#0b1020;--muted:#606a7a;--accent:#1d4ed8;--border:#e5e7eb;--badge:#f1f5f9}
+  *{box-sizing:border-box}
+  html,body{margin:0;background:#f9fafb;color:var(--text);font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR",sans-serif}
+  .wrap{max-width:680px;margin:40px auto;padding:0 16px}
+  header{text-align:center;margin-bottom:32px}
+  h1{font-size:24px;margin:0 0 8px;font-weight:900}
+  .subtitle{color:var(--muted);font-size:14px}
+  .card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.1);margin-bottom:16px}
+  .status-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;font-weight:700;font-size:14px}
+  .status-badge.idle{background:#f1f5f9;color:#475569}
+  .status-badge.running{background:#dbeafe;color:#1e40af;animation:pulse 2s infinite}
+  .status-badge.success{background:#dcfce7;color:#166534}
+  .status-badge.error{background:#fee2e2;color:#991b1b}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:0.6}}
+  .info-grid{display:grid;gap:12px;margin:16px 0}
+  .info-row{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px dashed var(--border)}
+  .info-row:last-child{border:none}
+  .info-label{color:var(--muted);font-size:13px;font-weight:600}
+  .info-value{font-weight:700}
+  .btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:none;font-weight:800;font-size:15px;cursor:pointer;transition:all 0.2s}
+  .btn:disabled{opacity:0.5;cursor:not-allowed}
+  .btn-primary{background:#1d4ed8;color:#fff}
+  .btn-primary:hover:not(:disabled){background:#1e40af;transform:translateY(-2px);box-shadow:0 4px 12px rgba(29,78,216,0.3)}
+  .btn-secondary{background:#f1f5f9;color:#475569;border:1px solid var(--border)}
+  .btn-secondary:hover:not(:disabled){background:#e2e8f0}
+  .progress{margin:16px 0;padding:12px;background:#f1f5f9;border-radius:10px;color:#475569;font-size:13px;font-weight:600;text-align:center;min-height:40px;display:flex;align-items:center;justify-content:center}
+  .timer{font-size:32px;font-weight:900;text-align:center;margin:16px 0;color:var(--accent)}
+  .timer.warning{color:#ea580c}
+  .timer.ready{color:#16a34a}
+  .alert{padding:12px 16px;border-radius:10px;margin:16px 0;font-size:13px;font-weight:600}
+  .alert-info{background:#dbeafe;color:#1e40af;border:1px solid #93c5fd}
+  .alert-error{background:#fee2e2;color:#991b1b;border:1px solid #fca5a5}
+  footer{text-align:center;margin-top:32px;font-size:12px;color:var(--muted)}
+  .link{color:var(--accent);text-decoration:none;font-weight:700}
+  .link:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>🔧 관리자 패널</h1>
+    <p class="subtitle">채용 공고 데이터 업데이트 관리</p>
+  </header>
+
+  <div class="card">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
+      <h3 style="margin:0;font-size:16px">현재 상태</h3>
+      <span id="statusBadge" class="status-badge idle">⏸️ 대기 중</span>
+    </div>
+
+    <div class="info-grid">
+      <div class="info-row">
+        <span class="info-label">마지막 업데이트</span>
+        <span class="info-value" id="lastUpdate">불러오는 중...</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">경과 시간</span>
+        <span class="info-value" id="hoursPassedText">-</span>
+      </div>
+      <div class="info-row">
+        <span class="info-label">다음 업데이트 가능</span>
+        <span class="info-value" id="nextUpdateTime">-</span>
+      </div>
+    </div>
+
+    <div id="timerDisplay" class="timer">--:--:--</div>
+
+    <div id="progressBox" class="progress" style="display:none"></div>
+    <div id="errorBox" class="alert alert-error" style="display:none"></div>
+
+    <button id="updateBtn" class="btn btn-primary" disabled>
+      <span>🔄</span>
+      <span>공고 데이터 업데이트</span>
+    </button>
+
+    <div class="alert alert-info" style="margin-top:16px">
+      ⏰ 24시간마다 한 번씩 업데이트할 수 있습니다.<br>
+      업데이트는 5~10분 정도 소요됩니다.
+    </div>
+  </div>
+
+  <div class="card">
+    <h3 style="margin:0 0 12px;font-size:16px">빠른 이동</h3>
+    <div style="display:grid;gap:8px">
+      <a href="./index.html" class="btn btn-secondary">📋 채용 공고 보기</a>
+      <a href="./guestbook.html" class="btn btn-secondary">💬 건의사항 게시판</a>
+    </div>
+  </div>
+
+  <footer>
+    Flask Backend · Python Crawler · Real-time Status
+  </footer>
+</div>
+
+<script>
+const API_BASE = 'http://localhost:5000/api';
+
+const $ = s => document.querySelector(s);
+const statusBadge = $('#statusBadge');
+const lastUpdate = $('#lastUpdate');
+const hoursPassedText = $('#hoursPassedText');
+const nextUpdateTime = $('#nextUpdateTime');
+const timerDisplay = $('#timerDisplay');
+const progressBox = $('#progressBox');
+const errorBox = $('#errorBox');
+const updateBtn = $('#updateBtn');
+
+let canUpdate = false;
+let statusCheckInterval;
+
+// 시간 포맷
+const formatDate = (iso) => {
+  if (!iso) return '없음';
+  const d = new Date(iso);
+  return new Intl.DateTimeFormat('ko-KR', {
+    year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', second: '2-digit',
+    hour12: false
+  }).format(d);
+};
+
+const formatTimer = (hours) => {
+  const remaining = Math.max(0, 24 - hours);
+  const h = Math.floor(remaining);
+  const m = Math.floor((remaining - h) * 60);
+  const s = Math.floor(((remaining - h) * 60 - m) * 60);
+  return `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+};
+
+// 상태 체크
+async function checkStatus() {
+  try {
+    const res = await fetch(`${API_BASE}/status`);
+    const data = await res.json();
+
+    // 실행 중
+    if (data.running) {
+      statusBadge.className = 'status-badge running';
+      statusBadge.innerHTML = '🔄 실행 중...';
+      progressBox.style.display = 'block';
+      progressBox.textContent = data.progress || '처리 중...';
+      updateBtn.disabled = true;
+      errorBox.style.display = 'none';
+    } else {
+      // 에러
+      if (data.error) {
+        statusBadge.className = 'status-badge error';
+        statusBadge.innerHTML = '❌ 에러';
+        errorBox.style.display = 'block';
+        errorBox.textContent = data.error;
+        progressBox.style.display = 'none';
+      } else {
+        statusBadge.className = 'status-badge idle';
+        statusBadge.innerHTML = '⏸️ 대기 중';
+        progressBox.style.display = 'none';
+        errorBox.style.display = 'none';
+      }
+    }
+
+    // 마지막 업데이트 시간
+    lastUpdate.textContent = formatDate(data.last_update);
+
+  } catch (err) {
+    console.error('상태 체크 실패:', err);
+  }
+}
+
+// 업데이트 가능 여부 체크
+async function checkCanUpdate() {
+  try {
+    const res = await fetch(`${API_BASE}/can-update`);
+    const data = await res.json();
+
+    canUpdate = data.can_update;
+    const hours = data.hours_passed || 0;
+
+    hoursPassedText.textContent = hours ? `${hours.toFixed(1)}시간` : '-';
+
+    if (canUpdate) {
+      updateBtn.disabled = false;
+      timerDisplay.className = 'timer ready';
+      timerDisplay.textContent = '✅ 업데이트 가능';
+      nextUpdateTime.textContent = '지금 가능!';
+    } else {
+      updateBtn.disabled = true;
+      const remaining = formatTimer(hours);
+      timerDisplay.className = hours >= 20 ? 'timer warning' : 'timer';
+      timerDisplay.textContent = remaining;
+      
+      const next = new Date(data.last_update);
+      next.setHours(next.getHours() + 24);
+      nextUpdateTime.textContent = formatDate(next.toISOString());
+    }
+  } catch (err) {
+    console.error('업데이트 체크 실패:', err);
+  }
+}
+
+// 업데이트 실행
+updateBtn.addEventListener('click', async () => {
+  if (!canUpdate) return;
+
+  if (!confirm('크롤링을 시작하시겠습니까?\n5~10분 정도 소요됩니다.')) return;
+
+  try {
+    updateBtn.disabled = true;
+    const res = await fetch(`${API_BASE}/update`, { method: 'POST' });
+    const data = await res.json();
+
+    if (res.ok) {
+      progressBox.style.display = 'block';
+      progressBox.textContent = '🚀 크롤링 시작...';
+    } else {
+      throw new Error(data.error || '시작 실패');
+    }
+  } catch (err) {
+    alert('에러: ' + err.message);
+    updateBtn.disabled = false;
+  }
+});
+
+// 초기화 및 주기적 체크
+checkStatus();
+checkCanUpdate();
+
+statusCheckInterval = setInterval(() => {
+  checkStatus();
+  checkCanUpdate();
+}, 3000); // 3초마다 체크
+</script>
+</body>
+</html>

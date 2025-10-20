@@ -1,496 +1,551 @@
-<artifact identifier="job-board-firebase-unrelated" type="text/html" title="Firebase 연동 채용공고 (관련없음 공유)">
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>의료기관 채용 공고 · 12개 페이지</title>
-<style>
-  :root{--bg:#ffffff;--card:#fff;--text:#0b1020;--muted:#606a7a;--accent:#1d4ed8;--border:#e5e7eb;--badge:#f1f5f9}
-  *{box-sizing:border-box}
-  html,body{margin:0;background:#ffffff;color:var(--text);font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Noto Sans KR","Apple SD Gothic Neo","Malgun Gothic",Arial,"Helvetica Neue",sans-serif}
-  .wrap{max-width:1140px;margin:28px auto;padding:0 16px 40px}
-  header{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
-  h1{font-size:20px;margin:0}
-  .tabs{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0}
-  .tab{border:1px solid var(--border);background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 12%,transparent),transparent);padding:8px 10px;border-radius:10px;cursor:pointer;font-weight:800;transition:all 0.2s}
-  .tab:hover{transform:translateY(-1px);background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 18%,transparent),transparent)}
-  .tab[aria-selected="true"]{outline:2px solid color-mix(in srgb,var(--accent) 50%, transparent);background:linear-gradient(180deg,color-mix(in srgb,var(--accent) 20%,transparent),transparent)}
-  .toolbar{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
-  .input{background:#ffffff;border:1px solid var(--border);border-radius:10px;padding:8px 10px;color:var(--text);transition:all 0.3s}
-  .input:focus{outline:none;border-color:#1d4ed8;box-shadow:0 0 0 3px rgba(29,78,216,0.1)}
-  select.input{appearance:none;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23606a7a' d='M6 9L1 4h10z'/%3E%3C/svg%3E");background-repeat:no-repeat;background-position:right 10px center;padding-right:32px}
-  .input::placeholder{color:var(--muted);opacity:0.6}
-  .grid{display:grid;grid-template-columns:repeat(1,minmax(0,1fr));gap:14px;margin-top:12px}
-  @media (min-width:640px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
-  @media (min-width:980px){.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
-  .card{background:#ffffff;border:1px solid #e5e7eb;border-radius:14px;padding:14px;display:flex;flex-direction:column;gap:10px;box-shadow:0 1px 3px rgba(0,0,0,0.1);transition:all 0.3s;position:relative;overflow:hidden}
-  .card::before{content:'';position:absolute;top:0;left:-100%;width:100%;height:100%;background:linear-gradient(90deg,transparent,rgba(29,78,216,0.05),transparent);transition:left 0.6s}
-  .card:hover{transform:translateY(-4px);box-shadow:0 4px 12px rgba(0,0,0,0.15);border-color:#1d4ed8}
-  .card:hover::before{left:100%}
-  .title{font-weight:800;font-size:16px;margin:0;word-break:keep-all}
-  .badges{display:flex;gap:6px;flex-wrap:wrap}
-  .badge{display:inline-flex;align-items:center;gap:6px;background:var(--badge);border:1px dashed var(--border);padding:3px 8px;border-radius:999px;font-size:12px;font-weight:700;transition:all 0.3s}
-  .badge[data-urgent="true"]{background:linear-gradient(135deg,rgba(220,38,38,0.3) 0%,rgba(153,27,27,0.4) 100%);border:1px solid rgba(239,68,68,0.6);color:#1f2937;font-weight:800;animation:pulse 2s ease-in-out infinite}
-  .badge[data-warning="true"]{background:linear-gradient(135deg,rgba(234,88,12,0.3) 0%,rgba(194,65,12,0.4) 100%);border:1px solid rgba(249,115,22,0.6);color:#1f2937;font-weight:800}
-  .badge[data-normal="true"]{background:linear-gradient(135deg,rgba(37,99,235,0.3) 0%,rgba(30,64,175,0.4) 100%);border:1px solid rgba(59,130,246,0.6);color:#1f2937}
-  @keyframes pulse{0%,100%{transform:translateY(-1px) scale(1)}50%{transform:translateY(-1px) scale(1.05)}}
-  .row{display:flex;gap:8px;font-size:13px;color:var(--muted)}
-  .k{width:64px;flex:0 0 64px;color:var(--text);font-weight:700}
-  .v{flex:1;min-width:0}
-  .btn-link{display:inline-flex;justify-content:center;align-items:center;padding:9px 10px;border-radius:10px;border:1px solid var(--border);text-decoration:none;color:var(--text);font-weight:800;transition:all 0.3s}
-  .btn-link:hover{background:#1d4ed8;border-color:#1d4ed8;color:#fff;transform:translateY(-1px)}
-  .empty{border:1px dashed var(--border);border-radius:12px;padding:18px;text-align:center;color:var(--muted);margin-top:14px}
-  footer{margin-top:22px;font-size:12px;color:var(--muted);text-align:center}
-  .count{font-size:13px;color:var(--muted)}
-  .filter-bar{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0;padding:12px;background:#f9fafb;border:1px solid #e5e7eb;border-radius:12px}
-  .filter-btn{padding:6px 12px;border-radius:8px;border:1px solid #e5e7eb;background:#ffffff;color:var(--text);font-size:13px;font-weight:700;cursor:pointer;transition:all 0.3s}
-  .filter-btn:hover{background:#f3f4f6;border-color:#1d4ed8;transform:translateY(-1px)}
-  .filter-btn.active{background:#1d4ed8;border-color:#1d4ed8;color:#fff}
-  .tab-cta{
-    padding:6px 8px; font-size:14px; text-decoration:none;
-    display:inline-flex; align-items:center;
-  }
-  .chip-btn{
-    display:inline-flex; align-items:center; gap:6px;
-    border:1px dashed var(--border); background:var(--badge);
-    padding:4px 8px; border-radius:999px; font-size:12px; font-weight:700;
-    cursor:pointer; transition:all .2s;
-  }
-  .chip-btn:hover{ transform:translateY(-1px); border-color:#1d4ed8 }
-  .chip-btn:disabled{ opacity:0.5; cursor:not-allowed }
-  .notice-backdrop{
-    position:fixed; inset:0; display:none; align-items:center; justify-content:center;
-    background:rgba(0,0,0,.35); z-index:9999;
-  }
-  .notice{
-    width:min(520px,92%); background:#fff; border:1px solid var(--border); border-radius:16px;
-    box-shadow:0 12px 36px rgba(0,0,0,.25); overflow:hidden; transform:translateY(10px); opacity:0;
-    transition:transform .2s ease, opacity .2s ease;
-  }
-  .notice.show{ transform:translateY(0); opacity:1; }
-  .notice__head{
-    display:flex; align-items:center; gap:10px; padding:14px 16px;
-    background:linear-gradient(135deg, color-mix(in srgb, var(--accent) 12%, transparent), transparent);
-    border-bottom:1px solid var(--border);
-  }
-  .notice__icon{
-    display:inline-flex; align-items:center; justify-content:center;
-    width:36px; height:36px; border-radius:10px;
-    background:color-mix(in srgb, var(--accent) 12%, var(--badge));
-    border:1px dashed var(--border); font-size:18px;
-  }
-  .notice__title{ margin:0; font-size:16px; font-weight:900 }
-  .notice__body{ padding:16px; color:var(--text); }
-  .notice__body p{ margin:0 0 10px }
-  .notice__footer{
-    display:flex; gap:8px; justify-content:flex-end; padding:12px 16px; border-top:1px solid var(--border);
-  }
-  .notice-btn{
-    padding:8px 12px; border-radius:10px; border:1px solid var(--border);
-    background:#fff; font-weight:800; cursor:pointer; transition:transform .15s ease, box-shadow .15s ease;
-  }
-  .notice-btn:hover{ transform:translateY(-1px); box-shadow:0 6px 16px rgba(0,0,0,.12) }
-  .notice-btn.primary{ background:var(--accent); border-color:var(--accent); color:#fff }
-  .sync-status{
-    display:inline-flex; align-items:center; gap:6px; padding:4px 8px;
-    background:var(--badge); border:1px dashed var(--border); border-radius:999px;
-    font-size:12px; font-weight:700;
-  }
-</style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>의료기관 채용 공고 · 12개 페이지</title>
+  <style>
+    :root {
+      --bg: #ffffff;
+      --card: #fff;
+      --text: #0b1020;
+      --muted: #606a7a;
+      --accent: #1d4ed8;
+      --border: #e5e7eb;
+      --badge: #f1f5f9;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Noto Sans KR", "Apple SD Gothic Neo", "Malgun Gothic", Arial,
+        "Helvetica Neue", sans-serif;
+    }
+    .wrap { max-width: 1140px; margin: 28px auto; padding: 0 16px 40px; }
+    header {
+      display: flex; gap: 12px; align-items: center;
+      justify-content: space-between; flex-wrap: wrap;
+    }
+    h1 { font-size: 20px; margin: 0; }
+    .tabs {
+      display: flex; gap: 6px; flex-wrap: wrap; margin: 12px 0;
+    }
+    .tab {
+      border: 1px solid var(--border);
+      background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 12%, transparent), transparent);
+      padding: 8px 10px; border-radius: 10px; cursor: pointer;
+      font-weight: 800; transition: all 0.2s;
+    }
+    .tab:hover {
+      transform: translateY(-1px);
+      background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 18%, transparent), transparent);
+    }
+    .tab[aria-selected="true"] {
+      outline: 2px solid color-mix(in srgb, var(--accent) 50%, transparent);
+      background: linear-gradient(180deg, color-mix(in srgb, var(--accent) 20%, transparent), transparent);
+    }
+    .toolbar {
+      display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0;
+    }
+    .input {
+      background: #ffffff; border: 1px solid var(--border);
+      border-radius: 10px; padding: 8px 10px;
+      color: var(--text); transition: all 0.3s;
+    }
+    .input:focus {
+      outline: none; border-color: #1d4ed8;
+      box-shadow: 0 0 0 3px rgba(29,78,216,0.1);
+    }
+    select.input {
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23606a7a' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 10px center;
+      padding-right: 32px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(1,minmax(0,1fr));
+      gap: 14px; margin-top: 12px;
+    }
+    @media (min-width:640px){ .grid{ grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media (min-width:980px){ .grid{ grid-template-columns:repeat(3,minmax(0,1fr)); } }
+    .card {
+      background: #ffffff; border: 1px solid #e5e7eb;
+      border-radius: 14px; padding: 14px;
+      display: flex; flex-direction: column; gap: 10px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+      transition: all 0.3s; position: relative; overflow: hidden;
+    }
+    .card::before {
+      content: ''; position: absolute; top: 0; left: -100%;
+      width: 100%; height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(29,78,216,0.05), transparent);
+      transition: left 0.6s;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      border-color: #1d4ed8;
+    }
+    .card:hover::before { left: 100%; }
+    .title { font-weight: 800; font-size: 16px; margin: 0; word-break: keep-all; }
+    .badges { display: flex; gap: 6px; flex-wrap: wrap; }
+    .badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      background: var(--badge); border: 1px dashed var(--border);
+      padding: 3px 8px; border-radius: 999px;
+      font-size: 12px; font-weight: 700; transition: all 0.3s;
+    }
+    .badge[data-urgent="true"] {
+      background: linear-gradient(135deg, rgba(220,38,38,0.3), rgba(153,27,27,0.4));
+      border: 1px solid rgba(239,68,68,0.6);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    .badge[data-warning="true"] {
+      background: linear-gradient(135deg, rgba(234,88,12,0.3), rgba(194,65,12,0.4));
+      border: 1px solid rgba(249,115,22,0.6);
+    }
+    .badge[data-normal="true"] {
+      background: linear-gradient(135deg, rgba(37,99,235,0.3), rgba(30,64,175,0.4));
+      border: 1px solid rgba(59,130,246,0.6);
+    }
+    @keyframes pulse {
+      0%,100%{transform:scale(1)} 50%{transform:scale(1.05)}
+    }
+    .row { display: flex; gap: 8px; font-size: 13px; color: var(--muted); }
+    .k { width: 64px; flex: 0 0 64px; color: var(--text); font-weight: 700; }
+    .v { flex: 1; min-width: 0; }
+    .btn-link {
+      display: inline-flex; justify-content: center; align-items: center;
+      padding: 9px 10px; border-radius: 10px;
+      border: 1px solid var(--border); text-decoration: none;
+      color: var(--text); font-weight: 800; transition: all 0.3s;
+    }
+    .btn-link:hover {
+      background: #1d4ed8; border-color: #1d4ed8; color: #fff;
+      transform: translateY(-1px);
+    }
+    .empty {
+      border: 1px dashed var(--border);
+      border-radius: 12px; padding: 18px;
+      text-align: center; color: var(--muted); margin-top: 14px;
+    }
+    footer { margin-top: 22px; font-size: 12px; color: var(--muted); text-align: center; }
+    .count { font-size: 13px; color: var(--muted); }
+    .filter-bar {
+      display: flex; gap: 8px; flex-wrap: wrap; margin: 12px 0;
+      padding: 12px; background: #f9fafb; border: 1px solid #e5e7eb;
+      border-radius: 12px;
+    }
+    .filter-btn {
+      padding: 6px 12px; border-radius: 8px; border: 1px solid #e5e7eb;
+      background: #ffffff; color: var(--text);
+      font-size: 13px; font-weight: 700; cursor: pointer; transition: all 0.3s;
+    }
+    .filter-btn:hover { background:#f3f4f6; border-color:#1d4ed8; transform:translateY(-1px) }
+    .filter-btn.active { background:#1d4ed8; border-color:#1d4ed8; color:#fff }
+    .tab-cta { padding:6px 8px; font-size:14px; text-decoration:none; display:inline-flex; align-items:center; }
+    .chip-btn {
+      display:inline-flex; align-items:center; gap:6px;
+      border:1px dashed var(--border); background:var(--badge);
+      padding:4px 8px; border-radius:999px; font-size:12px; font-weight:700;
+      cursor:pointer; transition:all .2s;
+    }
+    .chip-btn:hover { transform:translateY(-1px); border-color:#1d4ed8 }
+    .chip-btn:disabled { opacity:0.5; cursor:not-allowed }
+    .notice-backdrop {
+      position:fixed; inset:0; display:none; align-items:center; justify-content:center;
+      background:rgba(0,0,0,.35); z-index:9999;
+    }
+    .notice {
+      width:min(520px,92%); background:#fff; border:1px solid var(--border);
+      border-radius:16px; box-shadow:0 12px 36px rgba(0,0,0,.25);
+      overflow:hidden; transform:translateY(10px); opacity:0;
+      transition:transform .2s ease, opacity .2s ease;
+    }
+    .notice.show { transform:translateY(0); opacity:1; }
+    .notice__head {
+      display:flex; align-items:center; gap:10px; padding:14px 16px;
+      background:linear-gradient(135deg, color-mix(in srgb, var(--accent) 12%, transparent), transparent);
+      border-bottom:1px solid var(--border);
+    }
+    .notice__icon {
+      display:inline-flex; align-items:center; justify-content:center;
+      width:36px; height:36px; border-radius:10px;
+      background:color-mix(in srgb, var(--accent) 12%, var(--badge));
+      border:1px dashed var(--border); font-size:18px;
+    }
+    .notice__title { margin:0; font-size:16px; font-weight:900; }
+    .notice__body { padding:16px; color:var(--text); }
+    .notice__footer {
+      display:flex; gap:8px; justify-content:flex-end;
+      padding:12px 16px; border-top:1px solid var(--border);
+    }
+    .notice-btn {
+      padding:8px 12px; border-radius:10px; border:1px solid var(--border);
+      background:#fff; font-weight:800; cursor:pointer;
+      transition:transform .15s ease, box-shadow .15s ease;
+    }
+    .notice-btn:hover { transform:translateY(-1px); box-shadow:0 6px 16px rgba(0,0,0,.12); }
+    .notice-btn.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+    .sync-status {
+      display:inline-flex; align-items:center; gap:6px;
+      padding:4px 8px; background:var(--badge);
+      border:1px dashed var(--border); border-radius:999px;
+      font-size:12px; font-weight:700;
+    }
+  </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <h1>채용 공고 🔥</h1>
-    <div style="display:flex;gap:8px;align-items:center">
-      <span class="sync-status" id="syncStatus">🔄 동기화 중...</span>
-      <span class="count" id="count">0건</span>
-    </div>
-  </header>
-  <nav class="tabs" id="tabs" role="tablist" aria-label="기관 선택"></nav>
-  <div class="toolbar">
-    <input id="q" class="input" placeholder="검색(제목 포함)" />
-    <select id="sort" class="input">
-      <option value="end_asc">종료 빠른순</option>
-      <option value="end_desc">종료 느린순</option>
-      <option value="start_asc">시작 빠른순</option>
-      <option value="start_desc">시작 느린순</option>
-      <option value="title_asc">제목 A→Z</option>
-    </select>
-  </div>
-  <div class="filter-bar">
-    <button class="filter-btn active" data-filter="all">전체</button>
-    <button class="filter-btn" data-filter="urgent">🔴 긴급 (D-0~1)</button>
-    <button class="filter-btn" data-filter="soon">🟠 마감임박 (D-2~5)</button>
-    <button class="filter-btn" data-filter="normal">🔵 여유 (D-6+)</button>
-    <button class="filter-btn" data-filter="unrelated">🚫 관련 없음</button>
-  </div>
-  <div id="list" class="grid" role="list"></div>
-  <div id="empty" class="empty">표시할 데이터가 없습니다.</div>
-  <footer>Firebase 실시간 동기화 · 모든 사용자가 "관련 없음" 상태 공유 · Asia/Seoul</footer>
-</div>
-<div id="noticeBackdrop" class="notice-backdrop" aria-modal="true" role="dialog" aria-labelledby="noticeTitle">
-  <article class="notice" role="document">
-    <header class="notice__head">
-      <span class="notice__icon">📢</span>
-      <h3 id="noticeTitle" class="notice__title">공지사항</h3>
+  <div class="wrap">
+    <header>
+      <h1>채용 공고 🔥</h1>
+      <div style="display:flex;gap:8px;align-items:center">
+        <span class="sync-status" id="syncStatus">🔄 동기화 중...</span>
+        <span class="count" id="count">0건</span>
+      </div>
     </header>
-    <div class="notice__body" id="noticeContent">
-      <p><strong>🔥 실시간 동기화 적용!</strong></p>
-      <p>"관련 없음" 버튼을 누르면 <strong>모든 사용자 화면에서 즉시 숨겨집니다.</strong></p>
-      <p>병원 추가 문의는 "<a href="./guestbook.html" style="color:var(--accent);font-weight:700">병원 추가 게시판</a>"에 남겨주세요 🙌</p>
+
+    <nav class="tabs" id="tabs" role="tablist" aria-label="기관 선택"></nav>
+
+    <div class="toolbar">
+      <input id="q" class="input" placeholder="검색(제목 포함)" />
+      <select id="sort" class="input">
+        <option value="end_asc">종료 빠른순</option>
+        <option value="end_desc">종료 느린순</option>
+        <option value="start_asc">시작 빠른순</option>
+        <option value="start_desc">시작 느린순</option>
+        <option value="title_asc">제목 A→Z</option>
+      </select>
     </div>
-    <footer class="notice__footer">
-      <button id="noticeHideToday" class="notice-btn">오늘 하루 보지 않기</button>
-      <button id="noticeClose" class="notice-btn primary">닫기</button>
-    </footer>
-  </article>
-</div>
-<!-- Firebase SDK -->
-<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
-<script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
-<script>
-// ========================================
-// 🔥 Firebase 설정
-// ========================================
-const firebaseConfig = {
-  apiKey: "AIzaSyBpyN0WdmiKDb35Ws4zhhvxpJ7QgBwU8Eg",
-  authDomain: "project-e965a.firebaseapp.com",
-  projectId: "project-e965a",
-  storageBucket: "project-e965a.firebasestorage.app",
-  messagingSenderId: "272028274639",
-  appId: "1:272028274639:web:a6e14e87cf6f44285b0cba",
-  measurementId: "G-KGQ4FSCF6V"
-};
 
-firebase.initializeApp(firebaseConfig);
-const db = firebase.firestore();
-const unrelatedRef = db.collection('unrelated');
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">전체</button>
+      <button class="filter-btn" data-filter="urgent">🔴 긴급 (D-0~1)</button>
+      <button class="filter-btn" data-filter="soon">🟠 마감임박 (D-2~5)</button>
+      <button class="filter-btn" data-filter="normal">🔵 여유 (D-6+)</button>
+      <button class="filter-btn" data-filter="unrelated">🚫 관련 없음</button>
+    </div>
 
-// ========================================
-// "관련 없음" 실시간 동기화
-// ========================================
-let unrelatedSet = new Set();
-const syncStatus = document.getElementById('syncStatus');
+    <div id="list" class="grid" role="list"></div>
+    <div id="empty" class="empty">표시할 데이터가 없습니다.</div>
 
-const keyOf = (it) => {
-  const raw = (it.detail_url?.trim()) || 
-              `${String(it.title||'').trim()}|${String(it.end_dt||'').trim()}`;
-  // Firestore에서 금지된 문자 제거
-  return raw.replace(/[\/\.\#\$\[\]]/g, '_').slice(0, 1500);
-};
-// Firebase에서 실시간으로 "관련 없음" 데이터 로드
-unrelatedRef.onSnapshot(snapshot => {
-  unrelatedSet = new Set();
-  snapshot.forEach(doc => {
-    unrelatedSet.add(doc.id); // doc.id가 키
-  });
-  syncStatus.textContent = `✅ 동기화됨 (${unrelatedSet.size}건 숨김)`;
-  if (window.applyFilters) window.applyFilters(); // 화면 갱신
-}, err => {
-  console.error('Firebase 동기화 에러:', err);
-  syncStatus.textContent = '❌ 동기화 실패';
-});
+    <footer>Firebase 실시간 동기화 · 모든 사용자가 "관련 없음" 상태 공유 · Asia/Seoul</footer>
+  </div>
 
-// "관련 없음" 추가
-async function addUnrelated(key) {
-  try {
-    await unrelatedRef.doc(key).set({ createdAt: Date.now() });
-  } catch (err) {
-    console.error('추가 실패:', err);
-    alert('서버 오류가 발생했습니다.');
-  }
-}
+  <!-- 공지 모달 -->
+  <div id="noticeBackdrop" class="notice-backdrop" aria-modal="true" role="dialog" aria-labelledby="noticeTitle">
+    <article class="notice" role="document">
+      <header class="notice__head">
+        <span class="notice__icon">📢</span>
+        <h3 id="noticeTitle" class="notice__title">공지사항</h3>
+      </header>
+      <div class="notice__body" id="noticeContent">
+        <p><strong>🔥 실시간 동기화 적용!</strong></p>
+        <p>"관련 없음" 버튼을 누르면 <strong>모든 사용자 화면에서 즉시 숨겨집니다.</strong></p>
+        <p>병원 추가 문의는 "<a href="./guestbook.html" style="color:var(--accent);font-weight:700">병원 추가 게시판</a>"에 남겨주세요 🙌</p>
+      </div>
+      <footer class="notice__footer">
+        <button id="noticeHideToday" class="notice-btn">오늘 하루 보지 않기</button>
+        <button id="noticeClose" class="notice-btn primary">닫기</button>
+      </footer>
+    </article>
+  </div>
 
-// "관련 없음" 제거
-async function removeUnrelated(key) {
-  try {
-    await unrelatedRef.doc(key).delete();
-  } catch (err) {
-    console.error('제거 실패:', err);
-    alert('서버 오류가 발생했습니다.');
-  }
-}
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
 
-// ========================================
-// 메인 로직
-// ========================================
-(async () => {
-  const tz = 'Asia/Seoul';
-  const $  = s => document.querySelector(s);
-
-  const SOURCES = [
-    { id:'amc',     label:'서울아산병원',   path:'./normalized/amc.json' },
-    { id:'caumc',   label:'중앙대병원',     path:'./normalized/caumc.json' },
-    { id:'cmcseoul',label:'가톨릭 서울성모', path:'./normalized/cmcseoul.json' },
-    { id:'gunguk',  label:'건국대병원',     path:'./normalized/gunguk.json' },
-    { id:'hyumc',   label:'한양대병원',     path:'./normalized/hyumc.json' },
-    { id:'kbsmc',   label:'강북삼성병원',   path:'./normalized/kbsmc.json' },
-    { id:'khmc',    label:'경희의료원',     path:'./normalized/khmc.json' },
-    { id:'kumc',    label:'고려대의료원',   path:'./normalized/kumc.json' },
-    { id:'mokdong', label:'이대목동',       path:'./normalized/mokdong.json' },
-    { id:'samsung', label:'삼성서울',       path:'./normalized/samsung.json' },
-    { id:'sebran',  label:'세브란스',       path:'./normalized/sebran.json' },
-    { id:'seoul',   label:'서울대병원',     path:'./normalized/seoul.json' },
-  ];
-  const ALL_ID  = '__all__';
-
-  const tabsEl = $('#tabs');
-  const listEl = $('#list'), emptyEl = $('#empty'), countEl = $('#count');
-  const qEl = $('#q'), sortEl = $('#sort');
-
-  const errBox = document.createElement('div');
-  errBox.style.cssText = 'display:none;border:1px solid #b91c1c;background:#7f1d1d;color:#fff;padding:8px 10px;border-radius:8px;margin-top:8px;white-space:pre-wrap';
-  document.querySelector('.wrap').insertBefore(errBox, document.querySelector('.toolbar'));
-  const showError = (msg) => { errBox.textContent = msg; errBox.style.display = msg ? 'block' : 'none'; };
-
-  async function loadJson(path, label){
-    try{
-      const res  = await fetch(path + `?t=${Date.now()}`, { cache:'no-store' });
-      const text = await res.text();
-      if(!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-      let data;
-      try { data = JSON.parse(text); }
-      catch {
-        const cleaned = text.replace(/\/\/.*$/mg,'').replace(/\/\*[\s\S]*?\*\//g,'').replace(/,\s*([}\]])/g,'$1');
-        data = JSON.parse(cleaned);
-      }
-      if(!Array.isArray(data)) data = [data];
-      return data.map(x => ({ ...x, __source: label }));
-    }catch(e){
-      showError((errBox.textContent ? errBox.textContent + '\n' : '') + `불러오기 실패: ${label} → ${e.message}`);
-      return [];
-    }
-  }
-
-  const loaded   = await Promise.all(SOURCES.map(s => loadJson(s.path, s.label)));
-  const dataById = Object.fromEntries(SOURCES.map((s,i) => [s.id, loaded[i]]));
-  const allData  = SOURCES.flatMap((s,i) => loaded[i]);
-
-  function buildTabs(){
-    const nodes = [];
-    const mk = (id, label, n) => {
-      const b = document.createElement('button');
-      b.className = 'tab'; b.role = 'tab'; b.dataset.id = id;
-      b.textContent = `${label}${typeof n==='number' ? ` (${n})` : ''}`;
-      b.addEventListener('click', () => selectTab(id));
-      return b;
+  <script>
+    // ======================
+    // 🔥 Firebase 설정
+    // ======================
+    const firebaseConfig = {
+      apiKey: "AIzaSyBpyN0WdmiKDb35Ws4zhhvxpJ7QgBwU8Eg",
+      authDomain: "project-e965a.firebaseapp.com",
+      projectId: "project-e965a",
+      storageBucket: "project-e965a.firebasestorage.app",
+      messagingSenderId: "272028274639",
+      appId: "1:272028274639:web:a6e14e87cf6f44285b0cba",
+      measurementId: "G-KGQ4FSCF6V"
     };
-    nodes.push(mk(ALL_ID, '전체', allData.length));
-    for (const s of SOURCES) nodes.push(mk(s.id, s.label, (dataById[s.id]||[]).length));
+    firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore();
+    const unrelatedRef = db.collection('unrelated');
 
-    const cta = document.createElement('a');
-    cta.href = './guestbook.html';
-    cta.className = 'tab tab-cta';
-    cta.textContent = '병원 추가 게시판';
-    cta.setAttribute('role','link');
+    // ======================
+    // "관련 없음" 실시간 동기화
+    // ======================
+    let unrelatedSet = new Set();
+    const syncStatus = document.getElementById('syncStatus');
 
-    nodes.push(cta);
-    tabsEl.replaceChildren(...nodes);
-  }
-
-  const fmt = (dt) => {
-    if (!dt) return '';
-    const d = new Date(dt);
-    if (isNaN(d)) return '';
-    return new Intl.DateTimeFormat('ko-KR', {
-      year:'numeric', month:'2-digit', day:'2-digit',
-      hour:'2-digit', minute:'2-digit', hour12:false, timeZone: tz
-    }).format(d).trim();
-  };
-
-  function makeCard(it){
-    const card = document.createElement('article'); 
-    card.className='card'; 
-    card.role='listitem';
-    
-    const h3 = document.createElement('h3'); 
-    h3.className='title'; 
-    h3.textContent = it.title || '(제목 없음)';
-    
-    const badges = document.createElement('div'); 
-    badges.className='badges';
-
-    if (it.dday){
-      const b = document.createElement('span'); 
-      b.className='badge'; 
-      b.textContent = it.dday;
-      const m = it.dday.match(/D-(\d+)/);
-      if (m){
-        const days = parseInt(m[1],10);
-        if (days <= 1) b.setAttribute('data-urgent','true');
-        else if (days <= 5) b.setAttribute('data-warning','true');
-        else b.setAttribute('data-normal','true');
-      }
-      badges.appendChild(b);
-    }
-    if (it.__source){
-      const b = document.createElement('span'); 
-      b.className='badge'; 
-      b.textContent = it.__source;
-      badges.appendChild(b);
-    }
-
-    const row = (k,v) => {
-      const r = document.createElement('div'); 
-      r.className='row';
-      const kEl = document.createElement('div'); 
-      kEl.className='k'; 
-      kEl.textContent = k;
-      const vEl = document.createElement('div'); 
-      vEl.className='v'; 
-      vEl.textContent = v || '-';
-      r.append(kEl,vEl); 
-      return r;
+    const keyOf = (it) => {
+      const raw = (it.detail_url?.trim()) || `${String(it.title||'').trim()}|${String(it.end_dt||'').trim()}`;
+      return raw.replace(/[/.#$\[\]]/g, '_').slice(0, 1500);
     };
 
-    card.append(h3, badges, row('시작', fmt(it.start_dt)), row('종료', fmt(it.end_dt)));
-    
-    if (it.detail_url){
-      const a = document.createElement('a'); 
-      a.className='btn-link'; 
-      a.href = it.detail_url; 
-      a.target='_blank'; 
-      a.rel='noopener noreferrer'; 
-      a.textContent='공고 보기';
-      card.appendChild(a);
-    }
-
-    // 관련 없음 버튼
-    const actions = document.createElement('div');
-    actions.style.display = 'flex';
-    actions.style.gap = '8px';
-    const k = keyOf(it);
-
-    const btn = document.createElement('button');
-    btn.type = 'button';
-    btn.className = 'chip-btn';
-    const isMarked = unrelatedSet.has(k);
-    btn.textContent = isMarked ? '✅ 되돌리기' : '🚫 관련 없음';
-
-    btn.addEventListener('click', async () => {
-      btn.disabled = true;
-      if (unrelatedSet.has(k)) {
-        await removeUnrelated(k);
-      } else {
-        await addUnrelated(k);
-      }
-      btn.disabled = false;
+    unrelatedRef.onSnapshot(snapshot => {
+      unrelatedSet = new Set();
+      snapshot.forEach(doc => unrelatedSet.add(doc.id));
+      syncStatus.textContent = `✅ 동기화됨 (${unrelatedSet.size}건 숨김)`;
+      if (window.applyFilters) window.applyFilters();
+    }, err => {
+      console.error('Firebase 동기화 에러:', err);
+      syncStatus.textContent = '❌ 동기화 실패';
     });
 
-    actions.appendChild(btn);
-    card.appendChild(actions);
-    return card;
-  }
-
-  let current = ALL_ID;
-  function selectTab(id){
-    current = id;
-    for (const btn of tabsEl.querySelectorAll('.tab')){
-      btn.setAttribute('aria-selected', btn.dataset.id===id ? 'true' : 'false');
+    async function addUnrelated(key) {
+      try { await unrelatedRef.doc(key).set({ createdAt: Date.now() }); }
+      catch (err) { alert('서버 오류가 발생했습니다.'); }
     }
-    apply();
-  }
 
-  const sourceList = () => current === ALL_ID ? [...allData] : [...(dataById[current] || [])];
+    async function removeUnrelated(key) {
+      try { await unrelatedRef.doc(key).delete(); }
+      catch (err) { alert('서버 오류가 발생했습니다.'); }
+    }
+  </script>
 
-  function apply(){
-    const q = qEl.value.trim().toLowerCase();
-    const sort = sortEl.value;
-    const activeFilter = document.querySelector('.filter-btn.active')?.dataset.filter || 'all';
+  <!-- 메인 로직 -->
+  <script>
+    (async () => {
+      const tz = 'Asia/Seoul';
+      const $ = s => document.querySelector(s);
 
-    let arr = sourceList();
+      const SOURCES = [
+        { id:'amc', label:'서울아산병원', path:'./normalized/amc.json' },
+        { id:'caumc', label:'중앙대병원', path:'./normalized/caumc.json' },
+        { id:'cmcseoul', label:'가톨릭 서울성모', path:'./normalized/cmcseoul.json' },
+        { id:'gunguk', label:'건국대병원', path:'./normalized/gunguk.json' },
+        { id:'hyumc', label:'한양대병원', path:'./normalized/hyumc.json' },
+        { id:'kbsmc', label:'강북삼성병원', path:'./normalized/kbsmc.json' },
+        { id:'khmc', label:'경희의료원', path:'./normalized/khmc.json' },
+        { id:'kumc', label:'고려대의료원', path:'./normalized/kumc.json' },
+        { id:'mokdong', label:'이대목동', path:'./normalized/mokdong.json' },
+        { id:'samsung', label:'삼성서울', path:'./normalized/samsung.json' },
+        { id:'sebran', label:'세브란스', path:'./normalized/sebran.json' },
+        { id:'seoul', label:'서울대병원', path:'./normalized/seoul.json' },
+      ];
 
-    if (activeFilter === 'unrelated') {
-      arr = allData.filter(x => unrelatedSet.has(keyOf(x)));
-    } else {
-      if (q) arr = arr.filter(x => String(x.title||'').toLowerCase().includes(q));
-      if (activeFilter !== 'all'){
-        arr = arr.filter(x => {
-          const m = x.dday?.match(/D-(\d+)/);
-          if (!m) return false;
-          const days = parseInt(m[1],10);
-          if (activeFilter === 'urgent') return days <= 1;
-          if (activeFilter === 'soon')   return days >= 2 && days <= 5;
-          if (activeFilter === 'normal') return days >= 6;
-          return true;
+      const ALL_ID = 'all';
+      const tabsEl = $('#tabs');
+      const listEl = $('#list'), emptyEl = $('#empty'), countEl = $('#count');
+      const qEl = $('#q'), sortEl = $('#sort');
+
+      const errBox = document.createElement('div');
+      errBox.style.cssText = 'display:none;border:1px solid #b91c1c;background:#7f1d1d;color:#fff;padding:8px 10px;border-radius:8px;margin-top:8px;white-space:pre-wrap';
+      document.querySelector('.wrap').insertBefore(errBox, document.querySelector('.toolbar'));
+      const showError = msg => { errBox.textContent = msg; errBox.style.display = msg ? 'block' : 'none'; };
+
+      async function loadJson(path, label) {
+        try {
+          const res = await fetch(`${path}?t=${Date.now()}`, { cache: 'no-store' });
+          const text = await res.text();
+          if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+          let data;
+          try { data = JSON.parse(text); }
+          catch { data = JSON.parse(text.replace(/,\s*([}\]])/g, '$1')); }
+          if (!Array.isArray(data)) data = [data];
+          return data.map(x => ({ ...x, __source: label }));
+        } catch (e) {
+          showError((errBox.textContent ? errBox.textContent + '\n' : '') + `불러오기 실패: ${label} → ${e.message}`);
+          return [];
+        }
+      }
+
+      const loaded = await Promise.all(SOURCES.map(s => loadJson(s.path, s.label)));
+      const dataById = Object.fromEntries(SOURCES.map((s,i) => [s.id, loaded[i]]));
+      const allData = SOURCES.flatMap((s,i) => loaded[i]);
+
+      function buildTabs() {
+        const nodes = [];
+        const mk = (id, label, n) => {
+          const b = document.createElement('button');
+          b.className = 'tab'; b.role = 'tab'; b.dataset.id = id;
+          b.textContent = `${label}${typeof n === 'number' ? ` (${n})` : ''}`;
+          b.addEventListener('click', () => selectTab(id));
+          return b;
+        };
+        nodes.push(mk(ALL_ID, '전체', allData.length));
+        for (const s of SOURCES) nodes.push(mk(s.id, s.label, (dataById[s.id]||[]).length));
+
+        const guestbookCta = document.createElement('a');
+        guestbookCta.href = './guestbook.html';
+        guestbookCta.className = 'tab tab-cta';
+        guestbookCta.textContent = '💬 병원 추가 게시판';
+        guestbookCta.setAttribute('role', 'link');
+
+        const adminCta = document.createElement('a');
+        adminCta.href = './admin.html';
+        adminCta.className = 'tab tab-cta';
+        adminCta.textContent = '🔧 관리자';
+        adminCta.setAttribute('role', 'link');
+
+        nodes.push(guestbookCta, adminCta);
+        tabsEl.replaceChildren(...nodes);
+      }
+
+      function makeCard(it) {
+        const card = document.createElement('article');
+        card.className = 'card';
+        card.role = 'listitem';
+
+        const h3 = document.createElement('h3');
+        h3.className = 'title';
+        h3.textContent = it.title || '(제목 없음)';
+
+        const badges = document.createElement('div');
+        badges.className = 'badges';
+
+        if (it.dday) {
+          const b = document.createElement('span');
+          b.className = 'badge';
+          b.textContent = it.dday;
+          const m = it.dday.match(/D-(\d+)/);
+          if (m) {
+            const days = parseInt(m[1],10);
+            if (days <= 1) b.dataset.urgent = true;
+            else if (days <= 5) b.dataset.warning = true;
+            else b.dataset.normal = true;
+          }
+          badges.appendChild(b);
+        }
+
+        if (it.__source) {
+          const b = document.createElement('span');
+          b.className = 'badge';
+          b.textContent = it.__source;
+          badges.appendChild(b);
+        }
+
+        const row = (k,v) => {
+          const r = document.createElement('div'); r.className='row';
+          const kEl = document.createElement('div'); kEl.className='k'; kEl.textContent=k;
+          const vEl = document.createElement('div'); vEl.className='v'; vEl.textContent=v||'-';
+          r.append(kEl,vEl); return r;
+        };
+
+        card.append(h3, badges, row('시작', it.start_dt || '-'), row('종료', it.end_dt || '-'));
+
+        if (it.detail_url) {
+          const a = document.createElement('a');
+          a.className = 'btn-link'; a.href = it.detail_url; a.target = '_blank'; a.rel = 'noopener noreferrer';
+          a.textContent = '공고 보기'; card.appendChild(a);
+        }
+
+        const actions = document.createElement('div');
+        actions.style.display = 'flex'; actions.style.gap = '8px';
+        const k = keyOf(it);
+        const btn = document.createElement('button');
+        btn.type = 'button'; btn.className = 'chip-btn';
+        const isMarked = unrelatedSet.has(k);
+        btn.textContent = isMarked ? '✅ 되돌리기' : '🚫 관련 없음';
+        btn.addEventListener('click', async () => {
+          btn.disabled = true;
+          if (unrelatedSet.has(k)) await removeUnrelated(k);
+          else await addUnrelated(k);
+          btn.disabled = false;
         });
+        actions.appendChild(btn);
+        card.appendChild(actions);
+        return card;
       }
-      arr = arr.filter(x => !unrelatedSet.has(keyOf(x)));
-    }
 
-    const getEnd   = it => new Date(it.end_dt   || 8640000000000000).getTime();
-    const getStart = it => new Date(it.start_dt || 8640000000000000).getTime();
-    switch (sort){
-      case 'end_asc':   arr.sort((a,b)=> getEnd(a)-getEnd(b));   break;
-      case 'end_desc':  arr.sort((a,b)=> getEnd(b)-getEnd(a));   break;
-      case 'start_asc': arr.sort((a,b)=> getStart(a)-getStart(b)); break;
-      case 'start_desc':arr.sort((a,b)=> getStart(b)-getStart(a)); break;
-      case 'title_asc': arr.sort((a,b)=> String(a.title||'').localeCompare(String(b.title||''),'ko')); break;
-    }
+      let current = ALL_ID;
+      function selectTab(id) {
+        current = id;
+        for (const btn of tabsEl.querySelectorAll('.tab')) {
+          btn.setAttribute('aria-selected', btn.dataset.id === id ? 'true' : 'false');
+        }
+        apply();
+      }
 
-    listEl.innerHTML = '';
-    if (!arr.length){
-      emptyEl.style.display='block'; 
-      if (countEl) countEl.textContent='0건'; 
-      return;
-    }
-    emptyEl.style.display='none';
-    arr.forEach(it => listEl.appendChild(makeCard(it)));
-    if (countEl) countEl.textContent = `${arr.length}건`;
-  }
+      const sourceList = () => current === ALL_ID ? [...allData] : [...(dataById[current] || [])];
 
-  window.applyFilters = apply; // Firebase 리스너에서 호출
+      function apply() {
+        const q = qEl.value.trim().toLowerCase();
+        const sort = sortEl.value;
+        const activeFilter = document.querySelector('.filter-btn.active')?.dataset.filter || 'all';
+        let arr = sourceList();
 
-  buildTabs();
-  selectTab(ALL_ID);
+        if (activeFilter === 'unrelated') {
+          arr = allData.filter(x => unrelatedSet.has(keyOf(x)));
+        } else {
+          if (q) arr = arr.filter(x => String(x.title||'').toLowerCase().includes(q));
+          if (activeFilter !== 'all') {
+            arr = arr.filter(x => {
+              const m = x.dday?.match(/D-(\d+)/);
+              if (!m) return false;
+              const days = parseInt(m[1],10);
+              if (activeFilter === 'urgent') return days <= 1;
+              if (activeFilter === 'soon') return days >= 2 && days <= 5;
+              if (activeFilter === 'normal') return days >= 6;
+              return true;
+            });
+          }
+          arr = arr.filter(x => !unrelatedSet.has(keyOf(x)));
+        }
 
-  document.querySelectorAll('.filter-btn').forEach(btn=>{
-    btn.addEventListener('click', () => {
-      document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
-      btn.classList.add('active');
-      apply();
-    });
-  });
-  qEl.addEventListener('input', apply);
-  sortEl.addEventListener('change', apply);
-})();
-</script>
-<!-- 공지 모달 -->
-<script>
-(function(){
-  const KEY = 'site.notice.dismissedAt';
-  const backdrop = document.getElementById('noticeBackdrop');
-  const hideTodayBtn = document.getElementById('noticeHideToday');
-  const closeBtn = document.getElementById('noticeClose');
+        listEl.innerHTML = '';
+        if (!arr.length) {
+          emptyEl.style.display='block';
+          if (countEl) countEl.textContent='0건';
+          return;
+        }
+        emptyEl.style.display='none';
+        arr.forEach(it => listEl.appendChild(makeCard(it)));
+        if (countEl) countEl.textContent = `${arr.length}건`;
+      }
 
-  const todayStr = () => {
-    const d = new Date();
-    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-  };
+      window.applyFilters = apply;
+      buildTabs();
+      selectTab(ALL_ID);
 
-  const dismissed = localStorage.getItem(KEY);
-  if (dismissed !== todayStr()) {
-    backdrop.style.display = 'flex';
-    requestAnimationFrame(()=> {
-      backdrop.querySelector('.notice')?.classList.add('show');
-    });
-  }
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.filter-btn').forEach(b=>b.classList.remove('active'));
+          btn.classList.add('active'); apply();
+        });
+      });
 
-  const close = (rememberToday=false) => {
-    if (rememberToday) localStorage.setItem(KEY, todayStr());
-    const box = backdrop.querySelector('.notice');
-    box.classList.remove('show');
-    setTimeout(()=>{ backdrop.style.display='none'; }, 180);
-  };
+      qEl.addEventListener('input', apply);
+      sortEl.addEventListener('change', apply);
+    })();
+  </script>
 
-  hideTodayBtn?.addEventListener('click', ()=> close(true));
-  closeBtn?.addEventListener('click', ()=> close(false));
-  backdrop.addEventListener('click', (e)=>{ if (e.target === backdrop) close(false); });
-  document.addEventListener('keydown', (e)=>{ if (e.key === 'Escape' && backdrop.style.display === 'flex') close(false); });
-})();
-</script>
+  <!-- 공지 모달 동작 -->
+  <script>
+    (function() {
+      const KEY = 'site.notice.dismissedAt';
+      const backdrop = document.getElementById('noticeBackdrop');
+      const hideTodayBtn = document.getElementById('noticeHideToday');
+      const closeBtn = document.getElementById('noticeClose');
+
+      const todayStr = () => {
+        const d = new Date();
+        return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+      };
+
+      const dismissed = localStorage.getItem(KEY);
+      if (dismissed !== todayStr()) {
+        backdrop.style.display = 'flex';
+        requestAnimationFrame(()=> backdrop.querySelector('.notice')?.classList.add('show'));
+      }
+
+      const close = (rememberToday=false) => {
+        if (rememberToday) localStorage.setItem(KEY, todayStr());
+        const box = backdrop.querySelector('.notice');
+        box.classList.remove('show');
+        setTimeout(()=>{ backdrop.style.display='none'; }, 180);
+      };
+
+      hideTodayBtn?.addEventListener('click', ()=> close(true));
+      closeBtn?.addEventListener('click', ()=> close(false));
+      backdrop.addEventListener('click', e => { if (e.target === backdrop) close(false); });
+      document.addEventListener('keydown', e => { if (e.key === 'Escape' && backdrop.style.display === 'flex') close(false); });
+    })();
+  </script>
 </body>
 </html>
-</artifact>

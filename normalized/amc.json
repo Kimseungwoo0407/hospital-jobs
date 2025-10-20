@@ -1,100 +1,79 @@
 [
   {
-    "title": "내과 당직전담(촉탁의사) 초빙",
-    "start_dt": "2025-09-26T18:00:00+09:00",
-    "end_dt": "2025-10-19T18:00:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4952&announceSn=20250341"
-  },
-  {
-    "title": "서울아산병원 입원전담전문의(Hospitalist) 초빙",
-    "start_dt": "2025-09-17T18:00:00+09:00",
-    "end_dt": "2025-10-19T18:00:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4936&announceSn=20250325"
-  },
-  {
-    "title": "서울아산병원 진료교수 초빙",
-    "start_dt": "2025-09-17T18:00:00+09:00",
-    "end_dt": "2025-10-19T18:00:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4935&announceSn=20250324"
-  },
-  {
-    "title": "건강의학과 건진교수(소화기내과/파트타임) 초빙",
-    "start_dt": "2025-09-17T18:00:00+09:00",
-    "end_dt": "2025-10-19T18:00:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4934&announceSn=20250323"
-  },
-  {
-    "title": "간호부 간호간병통합서비스병동 (간호조무사) 모집",
-    "start_dt": "2025-10-15T14:30:00+09:00",
-    "end_dt": "2025-10-19T23:00:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4968&announceSn=20250357"
-  },
-  {
-    "title": "간호부 기능직 모집",
-    "start_dt": "2025-10-15T14:00:00+09:00",
-    "end_dt": "2025-10-19T23:00:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4967&announceSn=20250356"
-  },
-  {
-    "title": "보안관리팀 보안원 모집",
-    "start_dt": "2025-10-15T13:30:00+09:00",
-    "end_dt": "2025-10-19T23:00:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4966&announceSn=20250355"
-  },
-  {
-    "title": "병리팀 임상병리사 모집",
-    "start_dt": "2025-10-14T16:00:00+09:00",
-    "end_dt": "2025-10-19T23:00:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4964&announceSn=20250353"
-  },
-  {
-    "title": "간호부 기능직 조무(주3일 근무) 모집 공고",
-    "start_dt": "2025-10-14T08:50:00+09:00",
-    "end_dt": "2025-10-19T23:00:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4963&announceSn=20250352"
-  },
-  {
-    "title": "[모집연장] 후생사업팀 사무직 모집",
-    "start_dt": "2025-10-13T11:30:00+09:00",
-    "end_dt": "2025-10-19T23:00:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4961&announceSn=20250350"
-  },
-  {
     "title": "특수검사팀 임상병리사 모집",
     "start_dt": "2025-10-15T10:00:00+09:00",
     "end_dt": "2025-10-21T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-1",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4965&announceSn=20250354"
   },
   {
     "title": "핵의학팀 방사선사 모집",
     "start_dt": "2025-10-17T15:00:00+09:00",
     "end_dt": "2025-10-22T23:00:00+09:00",
-    "dday": "D-4",
+    "dday": "D-2",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4969&announceSn=20250359"
   },
   {
-    "title": "마취통증의학과 임상교수 초빙",
-    "start_dt": "2025-08-25T18:00:00+09:00",
-    "end_dt": "2025-10-26T18:00:00+09:00",
-    "dday": "D-8",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4906&announceSn=20250295"
+    "title": "영상의학팀 방사선사 모집",
+    "start_dt": "2025-10-20T15:00:00+09:00",
+    "end_dt": "2025-10-23T17:00:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4971&announceSn=20250361"
+  },
+  {
+    "title": "외과 사무직(의국사무) 모집",
+    "start_dt": "2025-10-20T13:00:00+09:00",
+    "end_dt": "2025-10-23T23:00:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4970&announceSn=20250360"
   },
   {
     "title": "산부인과 촉탁임상교수 초빙",
     "start_dt": "2025-08-25T18:00:00+09:00",
     "end_dt": "2025-10-26T18:00:00+09:00",
-    "dday": "D-8",
+    "dday": "D-6",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4905&announceSn=20250296"
+  },
+  {
+    "title": "마취통증의학과 임상교수 초빙",
+    "start_dt": "2025-08-25T18:00:00+09:00",
+    "end_dt": "2025-10-26T18:00:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4906&announceSn=20250295"
+  },
+  {
+    "title": "고객만족팀 간호사 모집",
+    "start_dt": "2025-10-20T16:00:00+09:00",
+    "end_dt": "2025-10-26T23:00:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4974&announceSn=20250364"
+  },
+  {
+    "title": "건진운영팀 간호사 모집",
+    "start_dt": "2025-10-20T16:00:00+09:00",
+    "end_dt": "2025-10-26T23:00:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4973&announceSn=20250363"
+  },
+  {
+    "title": "암병원운영지원팀 간호사 모집",
+    "start_dt": "2025-10-20T15:00:00+09:00",
+    "end_dt": "2025-10-26T23:00:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4972&announceSn=20250362"
+  },
+  {
+    "title": "서울아산병원 진료교수 초빙",
+    "start_dt": "2025-10-20T18:00:00+09:00",
+    "end_dt": "2025-11-16T18:00:00+09:00",
+    "dday": "D-27",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4976&announceSn=20250366"
+  },
+  {
+    "title": "서울아산병원 입원전담전문의(Hospitalist) 초빙",
+    "start_dt": "2025-10-20T18:00:00+09:00",
+    "end_dt": "2025-11-16T18:00:00+09:00",
+    "dday": "D-27",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4975&announceSn=20250365"
   }
 ]
