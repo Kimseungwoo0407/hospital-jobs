@@ -84,7 +84,7 @@ def crawl_eumc(output="seoul_mokdong.json"):
             "detail_url": detail_url,
         })
 
-    with open("./json/seoul_mokdong.json", "w", encoding="utf-8") as f:
+    with open("json/seoul_mokdong.json", "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
     log.info("총 %d건 수집 완료 → %s", len(results), output)
