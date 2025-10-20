@@ -11,9 +11,13 @@ LIST_PATH = "/intro/recrut/list.do"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 KST = timezone(timedelta(hours=9))
 
-logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
+LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
+logging.basicConfig(level=getattr(logging, LOG_LEVEL, logging.INFO),
+                    format="%(asctime)s [%(levelname)s] %(message)s")
 log = logging.getLogger("eumc")
 
+
+# ---------- utils ----------
 def parse_dt_kst(s: str):
     s = s.strip().replace("/", "-").replace(".", "-")
     for fmt in ("%Y-%m-%d", "%Y-%m-%d %H:%M"):
@@ -22,6 +26,7 @@ def parse_dt_kst(s: str):
         except ValueError:
             continue
     return None
+
 
 def parse_range(txt: str):
     """
@@ -40,7 +45,16 @@ def parse_range(txt: str):
         edt = edt.replace(hour=23, minute=59)
     return sdt, edt
 
-def crawl_eumc(output="seoul_mokdong.json"):
+
+# ---------- core ----------
+def crawl_eumc(output="json/seoul_mokdong.json", end_past_skip=True):
+    """
+    서울의료원(이대서울병원) 채용공고 크롤링
+    - 목록: #content > div > ul.card-list > li
+    - 제목: div > strong
+    - 기간: div > div
+    - 링크: a[href]
+    """
     sess = requests.Session()
     sess.headers.update(HEADERS)
 
@@ -72,8 +86,8 @@ def crawl_eumc(output="seoul_mokdong.json"):
         sdt, edt = parse_range(date_text)
         detail_url = urljoin(BASE, a.get("href", ""))
 
-        # 마감된 공고는 스킵
-        if edt and edt.date() < today:
+        # 이미 마감된 공고는 스킵 (옵션)
+        if end_past_skip and edt and edt.date() < today:
             continue
 
         results.append({
@@ -84,12 +98,19 @@ def crawl_eumc(output="seoul_mokdong.json"):
             "detail_url": detail_url,
         })
 
-    with open("json/seoul_mokdong.json", "w", encoding="utf-8") as f:
+    # 🔥 출력 폴더 자동 생성
+    os.makedirs(os.path.dirname(output), exist_ok=True)
+
+    with open(output, "w", encoding="utf-8") as f:
         json.dump(results, f, ensure_ascii=False, indent=2)
 
     log.info("총 %d건 수집 완료 → %s", len(results), output)
     return results
 
 
+# ---------- main ----------
 if __name__ == "__main__":
-    crawl_eumc()
+    crawl_eumc(
+        output=os.getenv("OUTPUT", "json/seoul_mokdong.json"),
+        end_past_skip=(os.getenv("END_PAST_SKIP", "1") == "1"),
+    )
