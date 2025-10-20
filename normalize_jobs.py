@@ -101,17 +101,19 @@ def normalize_file(in_path, out_path=None):
         return
 
     norm = [normalize_record(r) for r in data]
-    # 출력 경로
+
+    # ✅ GitHub Actions에서도 작동하도록 상대 경로로 변경
     if out_path is None:
         base = os.path.basename(in_path).rsplit(".", 1)[0]
-        out_dir = r"C:\Users\LEGION\Desktop\hospital\hospital-jobs\normalized"
+        # 현재 작업 디렉토리 기준 normalized 폴더
+        out_dir = os.path.join(os.getcwd(), "normalized")
         os.makedirs(out_dir, exist_ok=True)
         out_path = os.path.join(out_dir, f"{base}.json")
 
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(norm, f, ensure_ascii=False, indent=2)
 
-    print(f"OK: {os.path.basename(in_path)} → {os.path.relpath(out_path)} ({len(norm)}건)")
+    print(f"✅ {os.path.basename(in_path)} → {out_path} ({len(norm)}건)")
 
 def expand_targets(args):
     targets = []
