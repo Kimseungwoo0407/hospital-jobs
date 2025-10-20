@@ -16,6 +16,38 @@
     "hospital": "공채"
   },
   {
+    "title": "[안암병원 25-184]약제팀 계약직 일반업무원 모집",
+    "start_dt": "2025-10-20T00:00+09:00",
+    "end_dt": "2025-10-26T15:00+09:00",
+    "dday": "D-6",
+    "status": "접수중",
+    "recu_idx": "87160",
+    "announce_sn": "87160",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/87160",
+    "tags": [
+      "안암병원",
+      "일반채용",
+      "신입"
+    ],
+    "hospital": "안암병원"
+  },
+  {
+    "title": "[안암병원 25-183]원무팀 계약직 직원 모집",
+    "start_dt": "2025-10-20T00:00+09:00",
+    "end_dt": "2025-10-26T15:00+09:00",
+    "dday": "D-6",
+    "status": "접수중",
+    "recu_idx": "87159",
+    "announce_sn": "87159",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/87159",
+    "tags": [
+      "안암병원",
+      "일반채용",
+      "신입"
+    ],
+    "hospital": "안암병원"
+  },
+  {
     "title": "[구로병원]건강증진센터 계약직방사선사 모집",
     "start_dt": "2025-10-20T00:00+09:00",
     "end_dt": "2025-10-26T23:59+09:00",
