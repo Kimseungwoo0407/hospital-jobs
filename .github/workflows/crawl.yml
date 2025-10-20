@@ -31,7 +31,8 @@ jobs:
         run: |
           git config user.email "github-actions@github.com"
           git config user.name "GitHub Actions"
-          git add normalized/ json/
+          git add -A
           git commit -m "🔄 Update jobs $(date +'%Y-%m-%d %H:%M')" || echo "No changes"
           git pull origin main --rebase || true
           git push origin HEAD:main
+
