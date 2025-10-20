@@ -21,7 +21,7 @@
     "title": "영상의학팀 방사선사 모집",
     "start_dt": "2025-10-20T15:00:00+09:00",
     "end_dt": "2025-10-23T17:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "4971",
     "announce_sn": "20250361",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4971&announceSn=20250361"
@@ -52,6 +52,15 @@
     "recu_idx": "4906",
     "announce_sn": "20250295",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4906&announceSn=20250295"
+  },
+  {
+    "title": "중앙공급팀 기능직 모집",
+    "start_dt": "2025-10-20T17:00:00+09:00",
+    "end_dt": "2025-10-26T23:00:00+09:00",
+    "dday": "D-6",
+    "recu_idx": "4977",
+    "announce_sn": "20250367",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4977&announceSn=20250367"
   },
   {
     "title": "고객만족팀 간호사 모집",
