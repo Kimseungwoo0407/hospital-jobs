@@ -1,0 +1,41 @@
+name: Crawl Jobs
+
+on:
+  workflow_dispatch:  # 수동/API 트리거
+  schedule:
+    - cron: '0 0 * * *'  # 매일 자정 (선택사항)
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      
+      - name: Run crawler
+        run: |
+          python src/run_all.py
+          python normalize_jobs.py ./json
+      
+      - name: Commit and push
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add normalized/ json/
+          git commit -m "🔄 Update jobs $(date +'%Y-%m-%d %H:%M')" || exit 0
+          git push
+      
+      - name: Update Firebase status
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        run: |
+          # Firebase에 완료 상태 업데이트 (선택사항)
+          echo "Crawl completed"
