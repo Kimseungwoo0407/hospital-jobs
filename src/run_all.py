@@ -22,6 +22,7 @@ JOBS = [
     ("서울대학교병원", "seoul.py", "seoul.json"),
     ("서울아산병원", "seoul_asan.py", "amc.json"),
     ("가톨릭대학교 서울성모병원", "sungmo.py", "cmcseoul.json"),
+    ("이대서울병원", "seoul_mokdong.py", "seoul_mokdong.json")
 ]
 
 def safe_move(src_path, dst_path):
