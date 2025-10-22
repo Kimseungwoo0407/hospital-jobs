@@ -78,5 +78,25 @@
     "end_dt": "2025-10-23T23:59:00+09:00",
     "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=231522"
+  },
+  {
+    "title": "[일반-신촌] 2026년도 일반직 인턴(사회복지사, 임상심리사, 전공약사, 치과기공사) 모집",
+    "location": "신촌",
+    "status": "접수중",
+    "date_text": "2025.10.21(화) 00:00 ~ 2025.10.31(금) 23:59",
+    "start_dt": "2025-10-21T00:00:00+09:00",
+    "end_dt": "2025-10-31T23:59:00+09:00",
+    "dday": "D-9",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=231299"
+  },
+  {
+    "title": "[일반-신촌] 사무원(계약직) 세브)임상연구관리실 사무팀 25.10 모집",
+    "location": "신촌",
+    "status": "접수중",
+    "date_text": "2025.10.13(월) 00:00 ~ 2025.10.22(수) 23:59",
+    "start_dt": "2025-10-13T00:00:00+09:00",
+    "end_dt": "2025-10-22T23:59:00+09:00",
+    "dday": "D-0",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=231098"
   }
 ]
