@@ -1,44 +1,51 @@
 [
   {
+    "title": "계약직 신입직원 [조제팀 주말약사] 공개채용 모집공고",
+    "start_dt": "2025-10-21T00:00:00+09:00",
+    "end_dt": "2025-10-27T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2510210016"
+  },
+  {
     "title": "계약직 신입직원 [건강증진센터 오전근무 간호사] 공개채용 모집공고",
     "start_dt": "2025-10-20T00:00:00+09:00",
     "end_dt": "2025-10-26T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.incruit.com/khmc/job/2510200004"
   },
   {
     "title": "장애인 특별채용_계약직 신입직원 [헬스키퍼실 매니저] 공개채용 모집공고",
     "start_dt": "2025-10-20T00:00:00+09:00",
     "end_dt": "2025-10-22T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2510200002"
   },
   {
     "title": "계약직 신입직원 [고위험산모센터 계약직 사무보조] 공개채용 모집",
     "start_dt": "2025-10-17T00:00:00+09:00",
     "end_dt": "2025-10-26T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.incruit.com/khmc/job/2510170002"
   },
   {
     "title": "계약직 신입직원 [한방약무팀 한약사] 공개채용 모집공고",
     "start_dt": "2025-10-16T00:00:00+09:00",
     "end_dt": "2025-10-22T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2510160017"
   },
   {
     "title": "계약직 신입직원 [시설관리팀 기계기사] 공개채용 모집공고",
     "start_dt": "2025-10-16T00:00:00+09:00",
     "end_dt": "2025-10-22T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2510160013"
   },
   {
     "title": "계약직 신입직원 [영양팀 조리원] 공개채용 모집공고",
     "start_dt": "2025-10-13T00:00:00+09:00",
     "end_dt": "2025-10-26T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.incruit.com/khmc/job/2510140003"
   }
 ]

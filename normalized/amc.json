@@ -1,93 +1,100 @@
 [
   {
-    "title": "특수검사팀 임상병리사 모집",
-    "start_dt": "2025-10-15T10:00:00+09:00",
-    "end_dt": "2025-10-21T23:00:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4965&announceSn=20250354"
-  },
-  {
     "title": "핵의학팀 방사선사 모집",
     "start_dt": "2025-10-17T15:00:00+09:00",
     "end_dt": "2025-10-22T23:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4969&announceSn=20250359"
   },
   {
     "title": "영상의학팀 방사선사 모집",
     "start_dt": "2025-10-20T15:00:00+09:00",
     "end_dt": "2025-10-23T17:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4971&announceSn=20250361"
   },
   {
     "title": "외과 사무직(의국사무) 모집",
     "start_dt": "2025-10-20T13:00:00+09:00",
     "end_dt": "2025-10-23T23:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4970&announceSn=20250360"
   },
   {
     "title": "산부인과 촉탁임상교수 초빙",
     "start_dt": "2025-08-25T18:00:00+09:00",
     "end_dt": "2025-10-26T18:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4905&announceSn=20250296"
   },
   {
     "title": "마취통증의학과 임상교수 초빙",
     "start_dt": "2025-08-25T18:00:00+09:00",
     "end_dt": "2025-10-26T18:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4906&announceSn=20250295"
+  },
+  {
+    "title": "심장검사팀 임상병리사 모집",
+    "start_dt": "2025-10-21T15:00:00+09:00",
+    "end_dt": "2025-10-26T23:00:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4981&announceSn=20250370"
+  },
+  {
+    "title": "간호간병통합서비스병동 (조무) 모집",
+    "start_dt": "2025-10-21T11:00:00+09:00",
+    "end_dt": "2025-10-26T23:00:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4979&announceSn=20250369"
   },
   {
     "title": "중앙공급팀 기능직 모집",
     "start_dt": "2025-10-20T17:00:00+09:00",
     "end_dt": "2025-10-26T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4977&announceSn=20250367"
   },
   {
     "title": "고객만족팀 간호사 모집",
     "start_dt": "2025-10-20T16:00:00+09:00",
     "end_dt": "2025-10-26T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4974&announceSn=20250364"
   },
   {
     "title": "건진운영팀 간호사 모집",
     "start_dt": "2025-10-20T16:00:00+09:00",
     "end_dt": "2025-10-26T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4973&announceSn=20250363"
   },
   {
     "title": "암병원운영지원팀 간호사 모집",
     "start_dt": "2025-10-20T15:00:00+09:00",
     "end_dt": "2025-10-26T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4972&announceSn=20250362"
   },
   {
     "title": "2026년 사회복지팀 사회복지사(인턴사원) 모집",
     "start_dt": "2025-10-21T10:00:00+09:00",
     "end_dt": "2025-10-27T23:00:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4978&announceSn=20250368"
   },
   {
     "title": "서울아산병원 진료교수 초빙",
     "start_dt": "2025-10-20T18:00:00+09:00",
     "end_dt": "2025-11-16T18:00:00+09:00",
-    "dday": "D-26",
+    "dday": "D-25",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4976&announceSn=20250366"
   },
   {
     "title": "서울아산병원 입원전담전문의(Hospitalist) 초빙",
     "start_dt": "2025-10-20T18:00:00+09:00",
     "end_dt": "2025-11-16T18:00:00+09:00",
-    "dday": "D-26",
+    "dday": "D-25",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4975&announceSn=20250365"
   }
 ]
