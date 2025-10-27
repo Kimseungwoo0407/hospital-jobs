@@ -252,7 +252,7 @@ def crawl_snubh_recruitment():
 
 def save_to_json(data, filename='snubh.json'):
     """JSON 파일로 저장"""
-    with open(f"./json/{filename}", 'w', encoding='utf-8') as f:
+    with open(filename, 'w', encoding='utf-8') as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print(f"\n결과를 {filename}에 저장했습니다.")
 
