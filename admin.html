@@ -15,6 +15,7 @@
   .card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.1);margin-bottom:16px}
   .status-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;font-weight:700;font-size:14px}
   .status-badge.idle{background:#f1f5f9;color:#475569}
+  .status-badge.running{background:#fef3c7;color:#92400e}
   .status-badge.success{background:#dcfce7;color:#166534}
   .status-badge.error{background:#fee2e2;color:#991b1b}
   .btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:none;font-weight:800;font-size:15px;cursor:pointer;transition:all 0.2s}
@@ -25,9 +26,15 @@
   .btn-secondary:hover:not(:disabled){background:#e2e8f0}
   .alert{padding:12px 16px;border-radius:10px;margin:16px 0;font-size:13px;font-weight:600}
   .alert-info{background:#dbeafe;color:#1e40af;border:1px solid #93c5fd}
+  .alert-success{background:#dcfce7;color:#166534;border:1px solid #86efac}
   .alert-error{background:#fee2e2;color:#991b1b;border:1px solid #fca5a5}
+  .log-item{padding:8px 12px;background:#f8fafc;border-left:3px solid #cbd5e1;margin:8px 0;border-radius:4px;font-size:13px}
+  .log-item.success{border-left-color:#22c55e}
+  .log-item.error{border-left-color:#ef4444}
+  .log-item.running{border-left-color:#f59e0b}
   footer{text-align:center;margin-top:32px;font-size:12px;color:var(--muted)}
   .link{color:var(--accent);text-decoration:none;font-weight:700}
+  #logContainer{max-height:300px;overflow-y:auto;margin-top:16px}
 </style>
 </head>
 <body>
@@ -53,7 +60,17 @@
       약 5~10분 후 데이터가 자동 갱신됩니다.
     </div>
 
+    <div id="successBox" class="alert alert-success" style="display:none"></div>
     <div id="errorBox" class="alert alert-error" style="display:none"></div>
+
+    <div id="logContainer"></div>
+  </div>
+
+  <div class="card">
+    <h3 style="margin:0 0 12px;font-size:16px">최근 업데이트 기록</h3>
+    <div id="recentRuns" style="font-size:13px;color:var(--muted)">
+      로딩 중...
+    </div>
   </div>
 
   <div class="card">
@@ -75,18 +92,195 @@ const OWNER = "Kimseungwoo0407";
 const REPO = "hospital-jobs";
 const WORKFLOW_FILE = "crawl.yml";
 
+// ======================================
+// 🔒 여기에 암호화된 토큰을 넣으세요
+// ======================================
+// 암호화 방법: btoa("ghp_your_token_here")
+// 예시: const ENCODED_TOKEN = "Z2hwX3lvdXJfdG9rZW5faGVyZQ==";
+const ENCODED_TOKEN = "Z2hwX05xYjNWUHRiN2NmdDlCSkwwckEwTlFWN0VaMTlRbDAyeTVNdg==";
+// ======================================
+
 const statusBadge = document.getElementById('statusBadge');
 const updateBtn = document.getElementById('updateBtn');
+const infoBox = document.getElementById('infoBox');
+const successBox = document.getElementById('successBox');
 const errorBox = document.getElementById('errorBox');
+const logContainer = document.getElementById('logContainer');
+const recentRuns = document.getElementById('recentRuns');
 
+let checkInterval = null;
+let isRunning = false; // 실행 중 여부 플래그
+
+// 토큰 디코딩
+function getToken() {
+  try {
+    return atob(ENCODED_TOKEN);
+  } catch (e) {
+    return null;
+  }
+}
+
+// 로그 추가
+function addLog(message, type = 'info') {
+  const log = document.createElement('div');
+  log.className = `log-item ${type}`;
+  log.textContent = `${new Date().toLocaleTimeString('ko-KR')} - ${message}`;
+  logContainer.insertBefore(log, logContainer.firstChild);
+}
+
+// 워크플로우 실행 상태 확인
+async function checkWorkflowStatus() {
+  const token = getToken();
+  if (!token) return;
+
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${OWNER}/${REPO}/actions/runs?per_page=1`,
+      {
+        headers: {
+          "Authorization": `token ${token}`,
+          "Accept": "application/vnd.github.v3+json",
+        }
+      }
+    );
+
+    if (res.ok) {
+      const data = await res.json();
+      if (data.workflow_runs && data.workflow_runs.length > 0) {
+        const latestRun = data.workflow_runs[0];
+        updateStatus(latestRun.status, latestRun.conclusion);
+        
+        // 완료되면 체크 중지
+        if (latestRun.status === 'completed') {
+          if (checkInterval) {
+            clearInterval(checkInterval);
+            checkInterval = null;
+          }
+          
+          if (latestRun.conclusion === 'success') {
+            successBox.textContent = `✅ 업데이트 완료! (${new Date(latestRun.updated_at).toLocaleString('ko-KR')})`;
+            successBox.style.display = 'block';
+            addLog('데이터 업데이트 완료', 'success');
+          } else {
+            errorBox.textContent = `❌ 업데이트 실패: ${latestRun.conclusion}`;
+            errorBox.style.display = 'block';
+            addLog(`업데이트 실패: ${latestRun.conclusion}`, 'error');
+          }
+        }
+      }
+    }
+  } catch (err) {
+    console.error('상태 확인 오류:', err);
+  }
+}
+
+// 상태 업데이트
+function updateStatus(status, conclusion) {
+  if (status === 'in_progress' || status === 'queued') {
+    statusBadge.textContent = '🚀 실행 중...';
+    statusBadge.className = 'status-badge running';
+    updateBtn.disabled = true; // 버튼 비활성화
+    isRunning = true;
+  } else if (status === 'completed') {
+    if (conclusion === 'success') {
+      statusBadge.textContent = '✅ 완료';
+      statusBadge.className = 'status-badge success';
+    } else {
+      statusBadge.textContent = '❌ 실패';
+      statusBadge.className = 'status-badge error';
+    }
+    updateBtn.disabled = false; // 버튼 활성화
+    isRunning = false;
+  }
+}
+
+// 최근 실행 기록 로드
+async function loadRecentRuns() {
+  const token = getToken();
+  if (!token) {
+    recentRuns.innerHTML = '⚠️ 토큰이 설정되지 않았습니다.';
+    return;
+  }
+
+  try {
+    const res = await fetch(
+      `https://api.github.com/repos/${OWNER}/${REPO}/actions/runs?per_page=5`,
+      {
+        headers: {
+          "Authorization": `token ${token}`,
+          "Accept": "application/vnd.github.v3+json",
+        }
+      }
+    );
+
+    if (res.ok) {
+      const data = await res.json();
+      if (data.workflow_runs && data.workflow_runs.length > 0) {
+        let html = '<div style="display:grid;gap:8px">';
+        data.workflow_runs.slice(0, 5).forEach(run => {
+          const icon = run.conclusion === 'success' ? '✅' : 
+                      run.conclusion === 'failure' ? '❌' : '⏳';
+          const status = run.status === 'completed' ? run.conclusion : run.status;
+          const date = new Date(run.created_at).toLocaleString('ko-KR');
+          html += `
+            <div style="padding:8px;background:#f8fafc;border-radius:6px;display:flex;justify-content:space-between;align-items:center">
+              <span>${icon} ${status}</span>
+              <span style="color:var(--muted);font-size:12px">${date}</span>
+            </div>
+          `;
+        });
+        html += '</div>';
+        recentRuns.innerHTML = html;
+        
+        // 최신 실행이 진행 중이면 자동으로 상태 체크 시작
+        const latestRun = data.workflow_runs[0];
+        if (latestRun.status !== 'completed') {
+          updateStatus(latestRun.status, latestRun.conclusion);
+          startStatusCheck();
+        } else {
+          updateStatus(latestRun.status, latestRun.conclusion);
+        }
+      } else {
+        recentRuns.textContent = '아직 실행 기록이 없습니다.';
+      }
+    } else {
+      recentRuns.textContent = '기록을 불러올 수 없습니다.';
+    }
+  } catch (err) {
+    recentRuns.textContent = '오류 발생: ' + err.message;
+  }
+}
+
+// 상태 체크 시작
+function startStatusCheck() {
+  if (checkInterval) clearInterval(checkInterval);
+  checkInterval = setInterval(checkWorkflowStatus, 10000); // 10초마다 체크
+  checkWorkflowStatus(); // 즉시 한 번 체크
+}
+
+// 크롤링 실행
 async function triggerCrawl() {
-  const token = prompt("GitHub Personal Access Token을 입력하세요:");
+  const token = getToken();
 
-  if (!token) return alert("❌ 토큰이 필요합니다.");
+  if (!token || token === "여기에_Base64로_인코딩된_토큰을_넣으세요") {
+    alert("❌ 토큰이 설정되지 않았습니다.\n소스코드에서 ENCODED_TOKEN을 설정해주세요.");
+    return;
+  }
+
+  // 이미 실행 중이면 차단
+  if (isRunning) {
+    alert("⚠️ 이미 워크플로우가 실행 중입니다.\n완료될 때까지 기다려주세요.");
+    return;
+  }
 
   updateBtn.disabled = true;
-  statusBadge.textContent = "🚀 실행 중...";
-  statusBadge.className = "status-badge idle";
+  isRunning = true;
+  statusBadge.textContent = "🚀 실행 요청 중...";
+  statusBadge.className = "status-badge running";
+  successBox.style.display = 'none';
+  errorBox.style.display = 'none';
+  
+  addLog('워크플로우 실행 요청 시작', 'info');
 
   try {
     const res = await fetch(
@@ -101,28 +295,44 @@ async function triggerCrawl() {
       }
     );
 
-    if (res.ok) {
-      statusBadge.textContent = "✅ 실행 요청 완료!";
-      statusBadge.className = "status-badge success";
-      alert("GitHub Actions 워크플로우가 실행되었습니다.\n잠시 후 데이터가 업데이트됩니다.");
+    if (res.ok || res.status === 204) {
+      statusBadge.textContent = "🚀 실행 중...";
+      statusBadge.className = "status-badge running";
+      infoBox.style.display = 'none';
+      addLog('워크플로우 실행 시작됨', 'running');
+      
+      // 상태 체크 시작
+      setTimeout(() => {
+        startStatusCheck();
+        loadRecentRuns();
+      }, 3000); // 3초 후 상태 체크 시작
+      
     } else {
       const text = await res.text();
       statusBadge.textContent = "❌ 오류";
       statusBadge.className = "status-badge error";
       errorBox.style.display = "block";
-      errorBox.textContent = text;
+      errorBox.textContent = `실행 실패: ${text}`;
+      addLog(`실행 실패: ${text}`, 'error');
+      isRunning = false;
     }
   } catch (err) {
     statusBadge.textContent = "❌ 네트워크 오류";
     statusBadge.className = "status-badge error";
     errorBox.style.display = "block";
-    errorBox.textContent = err.message;
+    errorBox.textContent = `오류: ${err.message}`;
+    addLog(`네트워크 오류: ${err.message}`, 'error');
+    isRunning = false;
   } finally {
-    updateBtn.disabled = false;
+    updateBtn.disabled = isRunning; // 실행 중이 아닐 때만 활성화
   }
 }
 
+// 이벤트 리스너
 updateBtn.addEventListener('click', triggerCrawl);
+
+// 페이지 로드시 최근 실행 기록 로드
+loadRecentRuns();
 </script>
 </body>
 </html>
