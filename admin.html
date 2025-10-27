@@ -13,21 +13,26 @@
   h1{font-size:24px;margin:0 0 8px;font-weight:900}
   .subtitle{color:var(--muted);font-size:14px}
   .card{background:#fff;border:1px solid var(--border);border-radius:16px;padding:24px;box-shadow:0 1px 3px rgba(0,0,0,0.1);margin-bottom:16px}
+  .card-small{padding:16px}
   .status-badge{display:inline-flex;align-items:center;gap:8px;padding:8px 12px;border-radius:999px;font-weight:700;font-size:14px}
   .status-badge.idle{background:#f1f5f9;color:#475569}
   .status-badge.running{background:#fef3c7;color:#92400e}
   .status-badge.success{background:#dcfce7;color:#166534}
   .status-badge.error{background:#fee2e2;color:#991b1b}
+  .status-badge.fresh{background:#dbeafe;color:#1e40af}
+  .status-badge.locked{background:#fef3c7;color:#92400e}
   .btn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;padding:14px;border-radius:12px;border:none;font-weight:800;font-size:15px;cursor:pointer;transition:all 0.2s}
   .btn:disabled{opacity:0.5;cursor:not-allowed}
   .btn-primary{background:#1d4ed8;color:#fff}
   .btn-primary:hover:not(:disabled){background:#1e40af;transform:translateY(-2px);box-shadow:0 4px 12px rgba(29,78,216,0.3)}
   .btn-secondary{background:#f1f5f9;color:#475569;border:1px solid var(--border)}
   .btn-secondary:hover:not(:disabled){background:#e2e8f0}
+  .btn-small{padding:10px;font-size:13px}
   .alert{padding:12px 16px;border-radius:10px;margin:16px 0;font-size:13px;font-weight:600}
   .alert-info{background:#dbeafe;color:#1e40af;border:1px solid #93c5fd}
   .alert-success{background:#dcfce7;color:#166534;border:1px solid #86efac}
   .alert-error{background:#fee2e2;color:#991b1b;border:1px solid #fca5a5}
+  .alert-warning{background:#fef3c7;color:#92400e;border:1px solid #fcd34d}
   .log-item{padding:8px 12px;background:#f8fafc;border-left:3px solid #cbd5e1;margin:8px 0;border-radius:4px;font-size:13px}
   .log-item.success{border-left-color:#22c55e}
   .log-item.error{border-left-color:#ef4444}
@@ -35,6 +40,28 @@
   footer{text-align:center;margin-top:32px;font-size:12px;color:var(--muted)}
   .link{color:var(--accent);text-decoration:none;font-weight:700}
   #logContainer{max-height:300px;overflow-y:auto;margin-top:16px}
+  .input-group{margin-bottom:12px}
+  .input-group label{display:block;margin-bottom:6px;font-weight:600;font-size:13px}
+  .input-group input{width:100%;padding:10px;border:2px solid var(--border);border-radius:8px;font-size:13px;font-family:monospace}
+  .input-group input:focus{outline:none;border-color:var(--accent)}
+  .help-text{font-size:11px;color:var(--muted);margin-top:4px}
+  .token-saved{background:#dcfce7;color:#166534;padding:8px 12px;border-radius:6px;font-size:12px;margin-bottom:12px;display:none}
+  .data-status{background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);color:#fff;padding:20px;border-radius:12px;margin-bottom:16px}
+  .data-status-title{font-size:13px;opacity:0.9;margin-bottom:8px;font-weight:600}
+  .data-status-time{font-size:24px;font-weight:900;margin-bottom:4px}
+  .data-status-label{font-size:13px;opacity:0.85;display:flex;align-items:center;gap:6px}
+  .freshness-indicator{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;background:rgba(255,255,255,0.2);border-radius:999px;font-size:12px;font-weight:700}
+  .stats-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:16px}
+  .stat-item{background:#f8fafc;padding:12px;border-radius:8px;text-align:center}
+  .stat-value{font-size:20px;font-weight:900;color:var(--accent);margin-bottom:4px}
+  .stat-label{font-size:12px;color:var(--muted)}
+  .token-section{background:#fffbeb;border:2px dashed #fbbf24;padding:12px;border-radius:8px;margin-bottom:16px}
+  .token-section-title{font-size:13px;font-weight:700;margin-bottom:8px;color:#92400e;display:flex;align-items:center;gap:6px}
+  .collapse-btn{background:none;border:none;color:var(--muted);cursor:pointer;font-size:12px;padding:4px 8px;border-radius:4px;transition:all 0.2s}
+  .collapse-btn:hover{background:#f3f4f6}
+  .token-content{overflow:hidden;transition:all 0.3s ease}
+  .token-content.collapsed{max-height:0;opacity:0}
+  .token-content.expanded{max-height:500px;opacity:1}
 </style>
 </head>
 <body>
@@ -44,20 +71,94 @@
     <p class="subtitle">GitHub Actions 기반 데이터 업데이트</p>
   </header>
 
+  <!-- 데이터 상태 카드 -->
   <div class="card">
-    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
-      <h3 style="margin:0;font-size:16px">현재 상태</h3>
-      <span id="statusBadge" class="status-badge idle">⏸️ 대기 중</span>
+    <div class="data-status">
+      <div class="data-status-title">마지막 데이터 업데이트</div>
+      <div class="data-status-time" id="lastUpdateTime">확인 중...</div>
+      <div class="data-status-label">
+        <span id="freshnessIndicator" class="freshness-indicator">
+          ✨ 확인 중...
+        </span>
+      </div>
     </div>
 
-    <button id="updateBtn" class="btn btn-primary">
+    <div class="stats-grid" id="statsGrid" style="display:none">
+      <div class="stat-item">
+        <div class="stat-value" id="timeSinceUpdate">-</div>
+        <div class="stat-label">경과 시간</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value" id="nextScheduled">-</div>
+        <div class="stat-label">다음 자동 업데이트</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 토큰 입력 섹션 (작고 접을 수 있음) -->
+  <div class="card card-small">
+    <div class="token-section">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <div class="token-section-title">
+          <span>🔐</span>
+          <span id="tokenStatusText">수동 업데이트를 위한 토큰 필요</span>
+        </div>
+        <button id="toggleTokenBtn" class="collapse-btn">▼ 펼치기</button>
+      </div>
+      
+      <div id="tokenContent" class="token-content collapsed">
+        <div style="margin-top:12px">
+          <div class="input-group">
+            <label for="tokenInput">GitHub Personal Access Token</label>
+            <input 
+              type="password" 
+              id="tokenInput" 
+              placeholder="ghp_xxxxxxxxxxxxxxxxxxxx" 
+              autocomplete="off"
+            />
+            <div class="help-text">
+              🔗 <a href="https://github.com/settings/tokens/new?scopes=repo,workflow" target="_blank" class="link">토큰 생성</a> (repo, workflow 권한 필요)
+            </div>
+          </div>
+
+          <button id="saveTokenBtn" class="btn btn-primary btn-small">
+            <span>💾</span>
+            <span>토큰 저장</span>
+          </button>
+
+          <div id="tokenSaved" class="token-saved">
+            ✅ 토큰이 저장되었습니다.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 메인 컨트롤 카드 -->
+  <div class="card" id="mainCard">
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
+      <h3 style="margin:0;font-size:16px">수동 업데이트</h3>
+      <span id="statusBadge" class="status-badge locked">🔒 토큰 필요</span>
+    </div>
+
+    <button id="updateBtn" class="btn btn-primary" disabled>
       <span>🔄</span>
-      <span>공고 데이터 업데이트</span>
+      <span>지금 바로 업데이트 실행</span>
+    </button>
+
+    <button id="changeTokenBtn" class="btn btn-secondary" style="margin-top:8px;display:none">
+      <span>🔑</span>
+      <span>토큰 변경하기</span>
     </button>
 
     <div id="infoBox" class="alert alert-info">
-      ⏰ 이 버튼을 누르면 GitHub Actions 워크플로우(<code>crawl.yml</code>)가 실행됩니다.<br>
-      약 5~10분 후 데이터가 자동 갱신됩니다.
+      ⏰ 버튼을 누르면 GitHub Actions 워크플로우가 즉시 실행됩니다.<br>
+      약 5~10분 후 데이터가 갱신됩니다. (자동 업데이트는 매일 자정에 실행됩니다)
+    </div>
+
+    <div id="needTokenBox" class="alert alert-warning">
+      🔐 수동 업데이트를 실행하려면 위의 토큰 섹션에서 GitHub Personal Access Token을 입력해주세요.<br>
+      토큰 없이도 자동 업데이트(매일 자정)는 정상 작동합니다.
     </div>
 
     <div id="successBox" class="alert alert-success" style="display:none"></div>
@@ -66,13 +167,17 @@
     <div id="logContainer"></div>
   </div>
 
-  <div class="card">
+  <!-- 최근 업데이트 기록 -->
+  <div class="card" id="historyCard">
     <h3 style="margin:0 0 12px;font-size:16px">최근 업데이트 기록</h3>
     <div id="recentRuns" style="font-size:13px;color:var(--muted)">
-      로딩 중...
+      <div class="alert alert-warning" style="margin:0">
+        🔐 업데이트 기록을 보려면 토큰을 입력해주세요.
+      </div>
     </div>
   </div>
 
+  <!-- 빠른 이동 -->
   <div class="card">
     <h3 style="margin:0 0 12px;font-size:16px">빠른 이동</h3>
     <div style="display:grid;gap:8px">
@@ -92,31 +197,166 @@ const OWNER = "Kimseungwoo0407";
 const REPO = "hospital-jobs";
 const WORKFLOW_FILE = "crawl.yml";
 
-// ======================================
-// 🔒 여기에 암호화된 토큰을 넣으세요
-// ======================================
-// 암호화 방법: btoa("ghp_your_token_here")
-// 예시: const ENCODED_TOKEN = "Z2hwX3lvdXJfdG9rZW5faGVyZQ==";
-const ENCODED_TOKEN = "Z2hwX05xYjNWUHRiN2NmdDlCSkwwckEwTlFWN0VaMTlRbDAyeTVNdg==";
-// ======================================
+// 세션 저장소 키
+const TOKEN_KEY = 'gh_admin_token';
 
 const statusBadge = document.getElementById('statusBadge');
 const updateBtn = document.getElementById('updateBtn');
 const infoBox = document.getElementById('infoBox');
+const needTokenBox = document.getElementById('needTokenBox');
 const successBox = document.getElementById('successBox');
 const errorBox = document.getElementById('errorBox');
 const logContainer = document.getElementById('logContainer');
 const recentRuns = document.getElementById('recentRuns');
+const mainCard = document.getElementById('mainCard');
+const historyCard = document.getElementById('historyCard');
+const tokenInput = document.getElementById('tokenInput');
+const saveTokenBtn = document.getElementById('saveTokenBtn');
+const changeTokenBtn = document.getElementById('changeTokenBtn');
+const tokenSaved = document.getElementById('tokenSaved');
+const lastUpdateTime = document.getElementById('lastUpdateTime');
+const freshnessIndicator = document.getElementById('freshnessIndicator');
+const timeSinceUpdate = document.getElementById('timeSinceUpdate');
+const nextScheduled = document.getElementById('nextScheduled');
+const statsGrid = document.getElementById('statsGrid');
+const tokenStatusText = document.getElementById('tokenStatusText');
+const toggleTokenBtn = document.getElementById('toggleTokenBtn');
+const tokenContent = document.getElementById('tokenContent');
 
 let checkInterval = null;
-let isRunning = false; // 실행 중 여부 플래그
+let isRunning = false;
+let lastSuccessfulRun = null;
 
-// 토큰 디코딩
+// 토큰 가져오기
 function getToken() {
-  try {
-    return atob(ENCODED_TOKEN);
-  } catch (e) {
-    return null;
+  return sessionStorage.getItem(TOKEN_KEY);
+}
+
+// 토큰 저장
+function saveToken(token) {
+  sessionStorage.setItem(TOKEN_KEY, token);
+}
+
+// 토큰 삭제
+function clearToken() {
+  sessionStorage.removeItem(TOKEN_KEY);
+}
+
+// 토큰 섹션 토글
+toggleTokenBtn.addEventListener('click', () => {
+  if (tokenContent.classList.contains('collapsed')) {
+    tokenContent.classList.remove('collapsed');
+    tokenContent.classList.add('expanded');
+    toggleTokenBtn.textContent = '▲ 접기';
+  } else {
+    tokenContent.classList.remove('expanded');
+    tokenContent.classList.add('collapsed');
+    toggleTokenBtn.textContent = '▼ 펼치기';
+  }
+});
+
+// 시간 차이 계산
+function getTimeAgo(date) {
+  const now = new Date();
+  const diff = now - date;
+  const minutes = Math.floor(diff / 60000);
+  const hours = Math.floor(minutes / 60);
+  const days = Math.floor(hours / 24);
+
+  if (days > 0) return `${days}일 전`;
+  if (hours > 0) return `${hours}시간 전`;
+  if (minutes > 0) return `${minutes}분 전`;
+  return '방금 전';
+}
+
+// 다음 자정까지 시간 계산
+function getTimeUntilMidnight() {
+  const now = new Date();
+  const tomorrow = new Date(now);
+  tomorrow.setDate(tomorrow.getDate() + 1);
+  tomorrow.setHours(0, 0, 0, 0);
+  
+  const diff = tomorrow - now;
+  const hours = Math.floor(diff / (1000 * 60 * 60));
+  const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+  
+  return `${hours}시간 ${minutes}분`;
+}
+
+// 데이터 신선도 표시
+function updateDataFreshness(lastRun) {
+  if (!lastRun) {
+    freshnessIndicator.innerHTML = '❓ 업데이트 기록 없음';
+    lastUpdateTime.textContent = '토큰 입력 후 확인 가능';
+    return;
+  }
+
+  const runDate = new Date(lastRun.updated_at);
+  const now = new Date();
+  const hoursSince = (now - runDate) / (1000 * 60 * 60);
+
+  lastUpdateTime.textContent = runDate.toLocaleString('ko-KR', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit'
+  });
+
+  timeSinceUpdate.textContent = getTimeAgo(runDate);
+  nextScheduled.textContent = getTimeUntilMidnight();
+  statsGrid.style.display = 'grid';
+
+  if (hoursSince < 1) {
+    freshnessIndicator.innerHTML = '✨ 최신 데이터';
+    freshnessIndicator.style.background = 'rgba(34, 197, 94, 0.3)';
+  } else if (hoursSince < 12) {
+    freshnessIndicator.innerHTML = '✅ 최근 데이터';
+    freshnessIndicator.style.background = 'rgba(59, 130, 246, 0.3)';
+  } else if (hoursSince < 24) {
+    freshnessIndicator.innerHTML = '⏰ 당일 데이터';
+    freshnessIndicator.style.background = 'rgba(245, 158, 11, 0.3)';
+  } else {
+    freshnessIndicator.innerHTML = '⚠️ 오래된 데이터';
+    freshnessIndicator.style.background = 'rgba(239, 68, 68, 0.3)';
+  }
+}
+
+// UI 업데이트
+function updateUI() {
+  const token = getToken();
+  
+  if (token) {
+    // 토큰이 있을 때
+    tokenStatusText.textContent = '✅ 토큰 저장됨 - 수동 업데이트 가능';
+    statusBadge.textContent = '⏸️ 대기 중';
+    statusBadge.className = 'status-badge idle';
+    updateBtn.disabled = false;
+    changeTokenBtn.style.display = 'block';
+    needTokenBox.style.display = 'none';
+    tokenContent.classList.remove('expanded');
+    tokenContent.classList.add('collapsed');
+    toggleTokenBtn.textContent = '▼ 펼치기';
+    loadRecentRuns();
+  } else {
+    // 토큰이 없을 때
+    tokenStatusText.textContent = '수동 업데이트를 위한 토큰 필요';
+    statusBadge.textContent = '🔒 토큰 필요';
+    statusBadge.className = 'status-badge locked';
+    updateBtn.disabled = true;
+    changeTokenBtn.style.display = 'none';
+    needTokenBox.style.display = 'block';
+    
+    // 토큰 없이도 기본 정보는 표시
+    lastUpdateTime.textContent = '토큰 입력 후 정확한 시간 확인 가능';
+    freshnessIndicator.innerHTML = '🔒 토큰 필요';
+    
+    recentRuns.innerHTML = `
+      <div class="alert alert-warning" style="margin:0">
+        🔐 업데이트 기록을 보려면 위에서 토큰을 입력해주세요.<br>
+        <small>자동 업데이트(매일 자정)는 토큰 없이도 정상 작동합니다.</small>
+      </div>
+    `;
   }
 }
 
@@ -161,6 +401,8 @@ async function checkWorkflowStatus() {
             successBox.textContent = `✅ 업데이트 완료! (${new Date(latestRun.updated_at).toLocaleString('ko-KR')})`;
             successBox.style.display = 'block';
             addLog('데이터 업데이트 완료', 'success');
+            lastSuccessfulRun = latestRun;
+            updateDataFreshness(latestRun);
           } else {
             errorBox.textContent = `❌ 업데이트 실패: ${latestRun.conclusion}`;
             errorBox.style.display = 'block';
@@ -179,7 +421,7 @@ function updateStatus(status, conclusion) {
   if (status === 'in_progress' || status === 'queued') {
     statusBadge.textContent = '🚀 실행 중...';
     statusBadge.className = 'status-badge running';
-    updateBtn.disabled = true; // 버튼 비활성화
+    updateBtn.disabled = true;
     isRunning = true;
   } else if (status === 'completed') {
     if (conclusion === 'success') {
@@ -189,7 +431,7 @@ function updateStatus(status, conclusion) {
       statusBadge.textContent = '❌ 실패';
       statusBadge.className = 'status-badge error';
     }
-    updateBtn.disabled = false; // 버튼 활성화
+    updateBtn.disabled = false;
     isRunning = false;
   }
 }
@@ -198,13 +440,12 @@ function updateStatus(status, conclusion) {
 async function loadRecentRuns() {
   const token = getToken();
   if (!token) {
-    recentRuns.innerHTML = '⚠️ 토큰이 설정되지 않았습니다.';
     return;
   }
 
   try {
     const res = await fetch(
-      `https://api.github.com/repos/${OWNER}/${REPO}/actions/runs?per_page=5`,
+      `https://api.github.com/repos/${OWNER}/${REPO}/actions/runs?per_page=10`,
       {
         headers: {
           "Authorization": `token ${token}`,
@@ -216,6 +457,16 @@ async function loadRecentRuns() {
     if (res.ok) {
       const data = await res.json();
       if (data.workflow_runs && data.workflow_runs.length > 0) {
+        // 가장 최근 성공한 실행 찾기
+        const successfulRun = data.workflow_runs.find(run => 
+          run.status === 'completed' && run.conclusion === 'success'
+        );
+        
+        if (successfulRun) {
+          lastSuccessfulRun = successfulRun;
+          updateDataFreshness(successfulRun);
+        }
+
         let html = '<div style="display:grid;gap:8px">';
         data.workflow_runs.slice(0, 5).forEach(run => {
           const icon = run.conclusion === 'success' ? '✅' : 
@@ -242,6 +493,8 @@ async function loadRecentRuns() {
         }
       } else {
         recentRuns.textContent = '아직 실행 기록이 없습니다.';
+        lastUpdateTime.textContent = '업데이트 기록 없음';
+        freshnessIndicator.innerHTML = '❓ 데이터 없음';
       }
     } else {
       recentRuns.textContent = '기록을 불러올 수 없습니다.';
@@ -254,20 +507,19 @@ async function loadRecentRuns() {
 // 상태 체크 시작
 function startStatusCheck() {
   if (checkInterval) clearInterval(checkInterval);
-  checkInterval = setInterval(checkWorkflowStatus, 10000); // 10초마다 체크
-  checkWorkflowStatus(); // 즉시 한 번 체크
+  checkInterval = setInterval(checkWorkflowStatus, 10000);
+  checkWorkflowStatus();
 }
 
 // 크롤링 실행
 async function triggerCrawl() {
   const token = getToken();
 
-  if (!token || token === "여기에_Base64로_인코딩된_토큰을_넣으세요") {
-    alert("❌ 토큰이 설정되지 않았습니다.\n소스코드에서 ENCODED_TOKEN을 설정해주세요.");
+  if (!token) {
+    alert("❌ 토큰이 설정되지 않았습니다.");
     return;
   }
 
-  // 이미 실행 중이면 차단
   if (isRunning) {
     alert("⚠️ 이미 워크플로우가 실행 중입니다.\n완료될 때까지 기다려주세요.");
     return;
@@ -279,6 +531,7 @@ async function triggerCrawl() {
   statusBadge.className = "status-badge running";
   successBox.style.display = 'none';
   errorBox.style.display = 'none';
+  needTokenBox.style.display = 'none';
   
   addLog('워크플로우 실행 요청 시작', 'info');
 
@@ -301,11 +554,10 @@ async function triggerCrawl() {
       infoBox.style.display = 'none';
       addLog('워크플로우 실행 시작됨', 'running');
       
-      // 상태 체크 시작
       setTimeout(() => {
         startStatusCheck();
         loadRecentRuns();
-      }, 3000); // 3초 후 상태 체크 시작
+      }, 3000);
       
     } else {
       const text = await res.text();
@@ -324,15 +576,68 @@ async function triggerCrawl() {
     addLog(`네트워크 오류: ${err.message}`, 'error');
     isRunning = false;
   } finally {
-    updateBtn.disabled = isRunning; // 실행 중이 아닐 때만 활성화
+    updateBtn.disabled = isRunning;
   }
 }
 
-// 이벤트 리스너
+// 토큰 저장 버튼 클릭
+saveTokenBtn.addEventListener('click', () => {
+  const token = tokenInput.value.trim();
+  
+  if (!token) {
+    alert('❌ 토큰을 입력해주세요.');
+    return;
+  }
+  
+  if (!token.startsWith('ghp_') && !token.startsWith('github_pat_')) {
+    alert('⚠️ 올바른 GitHub Personal Access Token 형식이 아닙니다.\nghp_ 또는 github_pat_로 시작해야 합니다.');
+    return;
+  }
+  
+  saveToken(token);
+  tokenSaved.style.display = 'block';
+  
+  setTimeout(() => {
+    updateUI();
+    tokenSaved.style.display = 'none';
+  }, 1500);
+});
+
+// 토큰 변경 버튼 클릭
+changeTokenBtn.addEventListener('click', () => {
+  if (confirm('토큰을 변경하시겠습니까? 다시 입력해야 합니다.')) {
+    clearToken();
+    tokenInput.value = '';
+    tokenSaved.style.display = 'none';
+    tokenContent.classList.remove('collapsed');
+    tokenContent.classList.add('expanded');
+    toggleTokenBtn.textContent = '▲ 접기';
+    updateUI();
+  }
+});
+
+// 업데이트 버튼 클릭
 updateBtn.addEventListener('click', triggerCrawl);
 
-// 페이지 로드시 최근 실행 기록 로드
-loadRecentRuns();
+// Enter 키로 토큰 저장
+tokenInput.addEventListener('keypress', (e) => {
+  if (e.key === 'Enter') {
+    saveTokenBtn.click();
+  }
+});
+
+// 페이지 로드시 UI 초기화
+updateUI();
+
+// 1분마다 시간 업데이트
+setInterval(() => {
+  if (lastSuccessfulRun) {
+    timeSinceUpdate.textContent = getTimeAgo(new Date(lastSuccessfulRun.updated_at));
+    nextScheduled.textContent = getTimeUntilMidnight();
+  } else {
+    nextScheduled.textContent = getTimeUntilMidnight();
+  }
+}, 60000);
 </script>
 </body>
 </html>
