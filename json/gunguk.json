@@ -4,7 +4,7 @@
     "period_text": "2025-10-24 15:00 ~ 2028-12-31 23:39",
     "start_dt": "2025-10-24T15:00:00+09:00",
     "end_dt": "2028-12-31T23:39:00+09:00",
-    "status_text": "D-1162",
+    "status_text": "D-1161",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1279"
   },
   {
@@ -12,15 +12,7 @@
     "period_text": "2025-10-23 08:00 ~ 2025-10-29 23:59",
     "start_dt": "2025-10-23T08:00:00+09:00",
     "end_dt": "2025-10-29T23:59:00+09:00",
-    "status_text": "D-3",
+    "status_text": "D-2",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1278"
-  },
-  {
-    "title": "[계약직] 외래간호팀 플로팅 간호사 채용",
-    "period_text": "2025-10-20 15:00 ~ 2025-10-26 23:59",
-    "start_dt": "2025-10-20T15:00:00+09:00",
-    "end_dt": "2025-10-26T23:59:00+09:00",
-    "status_text": "D-Day",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1277"
   }
 ]
