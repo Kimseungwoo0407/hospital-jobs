@@ -370,19 +370,21 @@
       const syncText = document.getElementById('syncText');
 
       const SOURCES = [
-        { id:'a', label:'소속1', path:'data_a.json' },
-        { id:'b', label:'소속2', path:'data_b.json' },
-        { id:'c', label:'소속3', path:'data_c.json' },
-        { id:'d', label:'소속4', path:'data_d.json' },
-        { id:'e', label:'소속5', path:'data_e.json' },
-        { id:'f', label:'소속6', path:'data_f.json' },
-        { id:'g', label:'소속7', path:'data_g.json' },
-        { id:'h', label:'소속8', path:'data_h.json' },
-        { id:'i', label:'소속9', path:'data_i.json' },
-        { id:'j', label:'소속10', path:'data_j.json' },
-        { id:'k', label:'소속11', path:'data_k.json' },
-        { id:'l', label:'소속12', path:'data_l.json' }
-      ];
+        { id:'amc', label:'서울아산병원', path:'./normalized/amc.json' },
+        { id:'caumc', label:'중앙대병원', path:'./normalized/caumc.json' },
+        { id:'cmcseoul', label:'가톨릭 서울성모', path:'./normalized/cmcseoul.json' },
+        { id:'gunguk', label:'건국대병원', path:'./normalized/gunguk.json' },
+        { id:'hyumc', label:'한양대병원', path:'./normalized/hyumc.json' },
+        { id:'kbsmc', label:'강북삼성병원', path:'./normalized/kbsmc.json' },
+        { id:'khmc', label:'경희의료원', path:'./normalized/khmc.json' },
+        { id:'kumc', label:'고려대의료원', path:'./normalized/kumc.json' },
+        { id:'mokdong', label:'이대목동', path:'./normalized/mokdong.json' },
+        { id:'samsung', label:'삼성서울', path:'./normalized/samsung.json' },
+        { id:'sebrance', label:'세브란스', path:'./normalized/sebrance.json' },
+        { id:'seoul', label:'서울대병원', path:'./normalized/seoul.json' },
+        { id:'seoul_mokdong', label:'이대서울', path:'./normalized/seoul_mokdong.json'},
+        { id:'snubh', label:'서울분당', path:'./normalized/snubh.json'},
+    ];
       const ALL_ID = '__all__';
       const UNRELATED_KEY = 'site.unrelated';
       let unrelatedSet = new Set(JSON.parse(localStorage.getItem(UNRELATED_KEY)||'[]'));
