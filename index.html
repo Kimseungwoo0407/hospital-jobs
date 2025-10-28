@@ -29,6 +29,42 @@
       justify-content: space-between; flex-wrap: wrap;
     }
     h1 { font-size: 20px; margin: 0; }
+    
+    /* 방문자 수 표시 스타일 */
+    .visitor-stats {
+      display: flex;
+      gap: 12px;
+      align-items: center;
+      padding: 8px 12px;
+      background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+      border: 1px solid #bae6fd;
+      border-radius: 12px;
+      font-size: 13px;
+      font-weight: 600;
+    }
+    .visitor-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .visitor-icon {
+      font-size: 16px;
+    }
+    .visitor-label {
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .visitor-count {
+      color: var(--accent);
+      font-weight: 800;
+      font-size: 15px;
+    }
+    .visitor-divider {
+      width: 1px;
+      height: 20px;
+      background: #bae6fd;
+    }
+    
     .tabs {
       display: flex; gap: 6px; flex-wrap: wrap; margin: 12px 0;
     }
@@ -194,172 +230,196 @@
     .sync-status {
       display:inline-flex; align-items:center; gap:6px;
       padding:4px 8px; background:var(--badge);
-      border:1px dashed var(--border); border-radius:999px;
-      font-size:12px; font-weight:700;
+      border:1px dashed var(--border); border-radius:8px; font-size:12px; font-weight:700;
     }
+    .sync-status.active { color:#16a34a; border-color:#86efac }
+    .sync-status.error { color:#dc2626; border-color:#fca5a5 }
   </style>
 </head>
 <body>
   <div class="wrap">
     <header>
-      <h1>영이 채용 공고 🔥</h1>
-      <div style="display:flex;gap:8px;align-items:center">
-        <span class="sync-status" id="syncStatus">🔄 동기화 중...</span>
-        <span class="count" id="count">0건</span>
+      <h1>의료기관 채용 공고 · 12개 페이지</h1>
+      
+      <!-- 방문자 통계 -->
+      <div class="visitor-stats">
+        <div class="visitor-item">
+          <span class="visitor-icon">👤</span>
+          <div>
+            <div class="visitor-label">오늘</div>
+            <div class="visitor-count" id="todayCount">0</div>
+          </div>
+        </div>
+        <div class="visitor-divider"></div>
+        <div class="visitor-item">
+          <span class="visitor-icon">👥</span>
+          <div>
+            <div class="visitor-label">전체</div>
+            <div class="visitor-count" id="totalCount">0</div>
+          </div>
+        </div>
       </div>
+      
+      <span class="sync-status" id="syncStatus">●<span id="syncText">동기화 중...</span></span>
     </header>
 
-    <nav class="tabs" id="tabs" role="tablist" aria-label="기관 선택"></nav>
-
-    <div class="toolbar">
-      <input id="q" class="input" placeholder="검색(제목 포함)" />
-      <select id="sort" class="input">
-        <option value="end_asc">종료 빠른순</option>
-        <option value="end_desc">종료 느린순</option>
-        <option value="start_asc">시작 빠른순</option>
-        <option value="start_desc">시작 느린순</option>
-        <option value="title_asc">제목 A→Z</option>
-      </select>
-    </div>
+    <div class="tabs" role="tablist"></div>
 
     <div class="filter-bar">
       <button class="filter-btn active" data-filter="all">전체</button>
-      <button class="filter-btn" data-filter="urgent">🔴 긴급 (D-0~1)</button>
-      <button class="filter-btn" data-filter="soon">🟠 마감임박 (D-2~5)</button>
-      <button class="filter-btn" data-filter="normal">🔵 여유 (D-6+)</button>
+      <button class="filter-btn" data-filter="urgent">🔥 긴급 (D-1)</button>
+      <button class="filter-btn" data-filter="soon">⚡ 임박 (D-2~5)</button>
+      <button class="filter-btn" data-filter="normal">📌 일반 (D-6+)</button>
       <button class="filter-btn" data-filter="unrelated">🚫 관련 없음</button>
     </div>
 
-    <div id="list" class="grid" role="list"></div>
-    <div id="empty" class="empty">표시할 데이터가 없습니다.</div>
+    <div class="toolbar">
+      <input class="input" placeholder="병원명 또는 공고 검색" id="search" />
+      <select class="input" id="sort">
+        <option value="recent">최신순</option>
+        <option value="deadline">마감임박순</option>
+      </select>
+      <span class="count" id="count">0건</span>
+    </div>
 
-    <footer>Firebase 실시간 동기화 · 모든 사용자가 "관련 없음" 상태 공유 · Asia/Seoul</footer>
+    <section class="grid" id="list" role="list"></section>
+    <div class="empty" style="display:none" id="empty">
+      검색 결과가 없습니다.
+    </div>
+
+    <footer>
+      ⓒ 2025 의료기관 채용 공고 통합 플랫폼. 모든 권리 보유.
+    </footer>
   </div>
 
   <!-- 공지 모달 -->
-  <div id="noticeBackdrop" class="notice-backdrop" aria-modal="true" role="dialog" aria-labelledby="noticeTitle">
-    <article class="notice" role="document">
-      <header class="notice__head">
+  <div class="notice-backdrop" id="noticeBackdrop">
+    <div class="notice">
+      <div class="notice__head">
         <span class="notice__icon">📢</span>
-        <h3 id="noticeTitle" class="notice__title">공지사항</h3>
-      </header>
-      <div class="notice__body" id="noticeContent">
-        <p><strong>🔥 실시간 동기화 적용!</strong></p>
-        <p>"관련 없음" 버튼을 누르면 <strong>모든 사용자 화면에서 즉시 숨겨집니다.</strong></p>
-        <p>병원 추가 문의는 "<a href="./guestbook.html" style="color:var(--accent);font-weight:700">병원 추가 게시판</a>"에 남겨주세요 🙌</p>
+        <h2 class="notice__title">공지사항</h2>
       </div>
-      <footer class="notice__footer">
-        <button id="noticeHideToday" class="notice-btn">오늘 하루 보지 않기</button>
-        <button id="noticeClose" class="notice-btn primary">닫기</button>
-      </footer>
-    </article>
+      <div class="notice__body">
+        <p style="margin:0 0 10px">의료기관 채용 공고 사이트에 오신 것을 환영합니다!</p>
+        <p style="margin:0">최신 채용 정보를 확인하고, 원하는 병원을 찾아보세요. 게시판에서 병원 추가 요청도 가능합니다.</p>
+      </div>
+      <div class="notice__footer">
+        <button class="notice-btn" id="noticeHideToday">오늘 하루 보지 않기</button>
+        <button class="notice-btn primary" id="noticeClose">확인</button>
+      </div>
+    </div>
   </div>
 
-  <!-- Firebase SDK -->
-  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
-
+  <!-- 방문자 추적 스크립트 -->
   <script>
-    // ======================
-    // 🔥 Firebase 설정
-    // ======================
-    const firebaseConfig = {
-      apiKey: "AIzaSyBpyN0WdmiKDb35Ws4zhhvxpJ7QgBwU8Eg",
-      authDomain: "project-e965a.firebaseapp.com",
-      projectId: "project-e965a",
-      storageBucket: "project-e965a.firebasestorage.app",
-      messagingSenderId: "272028274639",
-      appId: "1:272028274639:web:a6e14e87cf6f44285b0cba",
-      measurementId: "G-KGQ4FSCF6V"
-    };
-    firebase.initializeApp(firebaseConfig);
-    const db = firebase.firestore();
-    const unrelatedRef = db.collection('unrelated');
-
-    // ======================
-    // "관련 없음" 실시간 동기화
-    // ======================
-    let unrelatedSet = new Set();
-    const syncStatus = document.getElementById('syncStatus');
-
-    const keyOf = (it) => {
-      const raw = (it.detail_url?.trim()) || `${String(it.title||'').trim()}|${String(it.end_dt||'').trim()}`;
-      return raw.replace(/[/.#$\[\]]/g, '_').slice(0, 1500);
-    };
-
-    unrelatedRef.onSnapshot(snapshot => {
-      unrelatedSet = new Set();
-      snapshot.forEach(doc => unrelatedSet.add(doc.id));
-      syncStatus.textContent = `✅ 동기화됨 (${unrelatedSet.size}건 숨김)`;
-      if (window.applyFilters) window.applyFilters();
-    }, err => {
-      console.error('Firebase 동기화 에러:', err);
-      syncStatus.textContent = '❌ 동기화 실패';
-    });
-
-    async function addUnrelated(key) {
-      try { await unrelatedRef.doc(key).set({ createdAt: Date.now() }); }
-      catch (err) { alert('서버 오류가 발생했습니다.'); }
-    }
-
-    async function removeUnrelated(key) {
-      try { await unrelatedRef.doc(key).delete(); }
-      catch (err) { alert('서버 오류가 발생했습니다.'); }
-    }
+    (function() {
+      const VISITOR_KEY = 'site.visitor';
+      const TODAY_KEY = 'site.visitor.today';
+      
+      function getTodayString() {
+        const d = new Date();
+        return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+      }
+      
+      function initVisitorTracking() {
+        const today = getTodayString();
+        
+        // 전체 방문자 수
+        let totalVisitors = parseInt(localStorage.getItem(VISITOR_KEY) || '0', 10);
+        
+        // 오늘 방문 기록
+        const todayData = JSON.parse(localStorage.getItem(TODAY_KEY) || '{}');
+        
+        // 날짜가 바뀌었으면 오늘 방문자 수 초기화
+        if (todayData.date !== today) {
+          todayData.date = today;
+          todayData.count = 0;
+          todayData.visited = false;
+        }
+        
+        // 오늘 첫 방문이면 카운트 증가
+        if (!todayData.visited) {
+          totalVisitors++;
+          todayData.count++;
+          todayData.visited = true;
+          
+          localStorage.setItem(VISITOR_KEY, totalVisitors.toString());
+          localStorage.setItem(TODAY_KEY, JSON.stringify(todayData));
+        }
+        
+        // 화면에 표시
+        document.getElementById('todayCount').textContent = todayData.count.toLocaleString();
+        document.getElementById('totalCount').textContent = totalVisitors.toLocaleString();
+      }
+      
+      // 페이지 로드 시 방문자 추적 초기화
+      initVisitorTracking();
+    })();
   </script>
 
-  <!-- 메인 로직 -->
+  <!-- 기존 메인 스크립트 -->
   <script>
-    (async () => {
-      const tz = 'Asia/Seoul';
-      const $ = s => document.querySelector(s);
+    (async function() {
+      const tabsEl = document.querySelector('.tabs');
+      const qEl = document.getElementById('search');
+      const sortEl = document.getElementById('sort');
+      const listEl = document.getElementById('list');
+      const emptyEl = document.getElementById('empty');
+      const countEl = document.getElementById('count');
+      const syncStatus = document.getElementById('syncStatus');
+      const syncText = document.getElementById('syncText');
 
       const SOURCES = [
-        { id:'amc', label:'서울아산병원', path:'./normalized/amc.json' },
-        { id:'caumc', label:'중앙대병원', path:'./normalized/caumc.json' },
-        { id:'cmcseoul', label:'가톨릭 서울성모', path:'./normalized/cmcseoul.json' },
-        { id:'gunguk', label:'건국대병원', path:'./normalized/gunguk.json' },
-        { id:'hyumc', label:'한양대병원', path:'./normalized/hyumc.json' },
-        { id:'kbsmc', label:'강북삼성병원', path:'./normalized/kbsmc.json' },
-        { id:'khmc', label:'경희의료원', path:'./normalized/khmc.json' },
-        { id:'kumc', label:'고려대의료원', path:'./normalized/kumc.json' },
-        { id:'mokdong', label:'이대목동', path:'./normalized/mokdong.json' },
-        { id:'samsung', label:'삼성서울', path:'./normalized/samsung.json' },
-        { id:'sebrance', label:'세브란스', path:'./normalized/sebrance.json' },
-        { id:'seoul', label:'서울대병원', path:'./normalized/seoul.json' },
-        { id:'seoul_mokdong', label:'이대서울', path:'./normalized/seoul_mokdong.json'},
-        { id:'snubh', label:'서울분당', path:'./normalized/snubh.json'}
+        { id:'a', label:'소속1', path:'data_a.json' },
+        { id:'b', label:'소속2', path:'data_b.json' },
+        { id:'c', label:'소속3', path:'data_c.json' },
+        { id:'d', label:'소속4', path:'data_d.json' },
+        { id:'e', label:'소속5', path:'data_e.json' },
+        { id:'f', label:'소속6', path:'data_f.json' },
+        { id:'g', label:'소속7', path:'data_g.json' },
+        { id:'h', label:'소속8', path:'data_h.json' },
+        { id:'i', label:'소속9', path:'data_i.json' },
+        { id:'j', label:'소속10', path:'data_j.json' },
+        { id:'k', label:'소속11', path:'data_k.json' },
+        { id:'l', label:'소속12', path:'data_l.json' }
       ];
+      const ALL_ID = '__all__';
+      const UNRELATED_KEY = 'site.unrelated';
+      let unrelatedSet = new Set(JSON.parse(localStorage.getItem(UNRELATED_KEY)||'[]'));
 
-      const ALL_ID = 'all';
-      const tabsEl = $('#tabs');
-      const listEl = $('#list'), emptyEl = $('#empty'), countEl = $('#count');
-      const qEl = $('#q'), sortEl = $('#sort');
+      function keyOf(it){ return `${it.__source||''}||${it.title||''}||${it.start_dt||''}||${it.end_dt||''}`; }
 
-      const errBox = document.createElement('div');
-      errBox.style.cssText = 'display:none;border:1px solid #b91c1c;background:#7f1d1d;color:#fff;padding:8px 10px;border-radius:8px;margin-top:8px;white-space:pre-wrap';
-      document.querySelector('.wrap').insertBefore(errBox, document.querySelector('.toolbar'));
-      const showError = msg => { errBox.textContent = msg; errBox.style.display = msg ? 'block' : 'none'; };
+      async function addUnrelated(k){
+        unrelatedSet.add(k);
+        localStorage.setItem(UNRELATED_KEY, JSON.stringify([...unrelatedSet]));
+        apply();
+      }
+      async function removeUnrelated(k){
+        unrelatedSet.delete(k);
+        localStorage.setItem(UNRELATED_KEY, JSON.stringify([...unrelatedSet]));
+        apply();
+      }
 
-      async function loadJson(path, label) {
+      async function loadJson(path, label){
+        syncText.textContent = `${label} 로딩 중...`;
         try {
-          const res = await fetch(`${path}?t=${Date.now()}`, { cache: 'no-store' });
-          const text = await res.text();
-          if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-          let data;
-          try { data = JSON.parse(text); }
-          catch { data = JSON.parse(text.replace(/,\s*([}\]])/g, '$1')); }
-          if (!Array.isArray(data)) data = [data];
-          return data.map(x => ({ ...x, __source: label }));
-        } catch (e) {
-          showError((errBox.textContent ? errBox.textContent + '\n' : '') + `불러오기 실패: ${label} → ${e.message}`);
+          const r = await fetch(path);
+          if(!r.ok) throw new Error(`${path} 로드 실패`);
+          const data = await r.json();
+          return data.map(x=>({...x, __source:label}));
+        } catch(e) {
+          console.warn(`${path} 로드 오류:`, e);
           return [];
         }
       }
 
+      syncText.textContent = '데이터 로딩 중...';
       const loaded = await Promise.all(SOURCES.map(s => loadJson(s.path, s.label)));
       const dataById = Object.fromEntries(SOURCES.map((s,i) => [s.id, loaded[i]]));
       const allData = SOURCES.flatMap((s,i) => loaded[i]);
+
+      syncStatus.className = 'sync-status active';
+      syncText.textContent = '동기화 완료';
 
       function buildTabs() {
         const nodes = [];
@@ -551,5 +611,3 @@
   </script>
 </body>
 </html>
-
-
