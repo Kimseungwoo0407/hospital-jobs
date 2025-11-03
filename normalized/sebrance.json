@@ -3,70 +3,63 @@
     "title": "[일반-강남] 간호사(계약직) 헬스체크업 25.11 모집",
     "start_dt": "2025-10-31T00:00:00+09:00",
     "end_dt": "2025-11-06T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233014"
   },
   {
     "title": "[일반-강남] 임상병리사(계약직;단시간) 진단검사의학팀 25.11 모집",
     "start_dt": "2025-10-30T00:00:00+09:00",
     "end_dt": "2025-11-05T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233013"
   },
   {
     "title": "[일반-신촌] 사무원(계약직) 세브)입원원무팀 (응급진료센터) 25.10 모집",
     "start_dt": "2025-10-29T00:00:00+09:00",
     "end_dt": "2025-11-09T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232701"
   },
   {
     "title": "[일반-강남] 방사선사(계약직) 영상의학팀 25.11 모집",
     "start_dt": "2025-10-28T00:00:00+09:00",
     "end_dt": "2025-11-03T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232612"
   },
   {
     "title": "[일반-강남] 시설기사(계약직) 의료정보팀 25.11 모집",
     "start_dt": "2025-10-28T00:00:00+09:00",
     "end_dt": "2025-11-03T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232609"
   },
   {
     "title": "[일반-강남] 간호사(계약직) 진료협력팀 25.11 모집",
     "start_dt": "2025-10-28T00:00:00+09:00",
     "end_dt": "2025-11-03T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232607"
+  },
+  {
+    "title": "[일반-신촌] 신규 약사(정규직) 세브)약무국 25.11 모집",
+    "start_dt": "2025-11-03T00:00:00+09:00",
+    "end_dt": "2025-11-09T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232586"
   },
   {
     "title": "[일반-신촌] 사무원(계약직) 간대)BK21 S-L.E.A.P 미래간호인재교육연구단 25.10 모집 (육아휴직 대체)",
     "start_dt": "2025-10-28T00:00:00+09:00",
     "end_dt": "2025-11-03T23:59:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232451"
-  },
-  {
-    "title": "[일반-신촌] 간호사(계약직) 세브)영상의학팀 25.10-2 모집",
-    "start_dt": "2025-10-27T00:00:00+09:00",
-    "end_dt": "2025-11-02T23:59:00+09:00",
     "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232387"
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232451"
   },
   {
     "title": "[일반-신촌]간호사(계약직) 세브)호흡기내과 기관지경검사실 25.10 모집",
     "start_dt": "2025-10-29T00:00:00+09:00",
     "end_dt": "2025-11-04T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232329"
-  },
-  {
-    "title": "[일반-신촌] 기능원(계약직:간호조무사) 간호간병통합서비스병동 25.10 모집",
-    "start_dt": "2025-10-23T00:00:00+09:00",
-    "end_dt": "2025-11-02T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232204"
   }
 ]
