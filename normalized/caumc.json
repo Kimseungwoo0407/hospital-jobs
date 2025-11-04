@@ -1,23 +1,51 @@
 [
   {
+    "title": "중앙대학교의료원 광명소하검진센터 임상병리사 (휴직대체) 모집 (2025.11)",
+    "start_dt": "2025-11-03T17:00:00+09:00",
+    "end_dt": "2025-11-09T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233087"
+  },
+  {
+    "title": "중앙대학교의료원(광명병원) 진료협력팀 행정직(간호사) (휴직대체) 모집 (2025.11)",
+    "start_dt": "2025-11-03T17:00:00+09:00",
+    "end_dt": "2025-11-09T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233084"
+  },
+  {
+    "title": "중앙대학교의료원(광명병원) 영상의학과 방사선사 (휴직대체) 모집 (2025.11)",
+    "start_dt": "2025-11-03T17:00:00+09:00",
+    "end_dt": "2025-11-09T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233079"
+  },
+  {
+    "title": "중앙대학교병원(서울병원) 임상심리실 임상심리레지던트(계약직) 모집 (2025.11)",
+    "start_dt": "2025-11-03T10:00:00+09:00",
+    "end_dt": "2025-11-16T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233043"
+  },
+  {
+    "title": "중앙대학교의료원(서울병원) 시설팀(기관실) 기능사(계약직) 모집(2025.11)",
+    "start_dt": "2025-11-03T10:00:00+09:00",
+    "end_dt": "2025-11-09T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232911"
+  },
+  {
     "title": "중앙대학교의료원(서울병원) 연구기획관리팀 행정(연구지원) (계약직) 모집 (2025.11)",
     "start_dt": "2025-10-31T10:00:00+09:00",
     "end_dt": "2025-11-06T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232844"
-  },
-  {
-    "title": "중앙대학교의료원(서울병원) 정신건강의학과(생명사랑위기대응센터) 사회복지사(계약직) 모집 (2025.10)",
-    "start_dt": "2025-10-28T10:00:00+09:00",
-    "end_dt": "2025-11-03T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232492"
   },
   {
     "title": "FAQ 게시판 운영 안내",
     "start_dt": "2022-06-13T16:00:00+09:00",
     "end_dt": "2040-01-01T00:01:00+09:00",
-    "dday": "D-5172",
+    "dday": "D-5171",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=74639"
   }
 ]

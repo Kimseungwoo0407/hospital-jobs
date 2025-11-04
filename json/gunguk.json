@@ -1,26 +1,26 @@
 [
   {
+    "title": "[계약직] 정신건강전문요원(임상심리사) 채용",
+    "period_text": "2025-11-10 09:00 ~ 2025-11-17 17:00",
+    "start_dt": "2025-11-10T09:00:00+09:00",
+    "end_dt": "2025-11-17T17:00:00+09:00",
+    "status_text": "D-13",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1285"
+  },
+  {
+    "title": "[계약직] 외래간호팀 플로팅 간호사 채용",
+    "period_text": "2025-11-03 09:00 ~ 2025-11-09 23:59",
+    "start_dt": "2025-11-03T09:00:00+09:00",
+    "end_dt": "2025-11-09T23:59:00+09:00",
+    "status_text": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1284"
+  },
+  {
     "title": "[계약직] 원무팀 사무원 채용",
     "period_text": "2025-10-29 13:00 ~ 2025-11-04 23:59",
     "start_dt": "2025-10-29T13:00:00+09:00",
     "end_dt": "2025-11-04T23:59:00+09:00",
-    "status_text": "D-1",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1283"
-  },
-  {
-    "title": "[계약직] 신경외과 전담간호사 채용",
-    "period_text": "2025-10-27 16:00 ~ 2025-11-03 23:59",
-    "start_dt": "2025-10-27T16:00:00+09:00",
-    "end_dt": "2025-11-03T23:59:00+09:00",
     "status_text": "D-Day",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1280"
-  },
-  {
-    "title": "[계약직] 장례식장 조리원 채용",
-    "period_text": "2025-10-24 15:00 ~ 2028-12-31 23:39",
-    "start_dt": "2025-10-24T15:00:00+09:00",
-    "end_dt": "2028-12-31T23:39:00+09:00",
-    "status_text": "D-1154",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1279"
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1283"
   }
 ]

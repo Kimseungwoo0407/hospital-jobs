@@ -2,8 +2,8 @@
   {
     "title": "고려대학교 의료원 2026년도 상반기 신규 임상교원 초빙 공고 (안암병원/구로병원/안산병원)",
     "start_dt": "2025-10-14T00:00+09:00",
-    "end_dt": "2025-11-06T00:00+09:00",
-    "dday": "D-3",
+    "end_dt": "2025-11-20T00:00+09:00",
+    "dday": "D-16",
     "status": "접수중",
     "recu_idx": "86431",
     "announce_sn": "86431",
@@ -14,5 +14,69 @@
       "신입/경력"
     ],
     "hospital": "공채"
+  },
+  {
+    "title": "[안암병원 25-197]약제팀 계약직 일반업무원 모집",
+    "start_dt": "2025-11-03T00:00+09:00",
+    "end_dt": "2025-11-09T15:00+09:00",
+    "dday": "D-5",
+    "status": "접수중",
+    "recu_idx": "88517",
+    "announce_sn": "88517",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/88517",
+    "tags": [
+      "안암병원",
+      "일반채용",
+      "신입"
+    ],
+    "hospital": "안암병원"
+  },
+  {
+    "title": "[구로병원]간호부 중환자실 계약직일반업무원 모집",
+    "start_dt": "2025-11-03T00:00+09:00",
+    "end_dt": "2025-11-08T23:59+09:00",
+    "dday": "D-4",
+    "status": "접수중",
+    "recu_idx": "88480",
+    "announce_sn": "88480",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/88480",
+    "tags": [
+      "구로병원",
+      "일반채용",
+      "신입"
+    ],
+    "hospital": "구로병원"
+  },
+  {
+    "title": "[구로병원]간호부 중증외상수련센터 계약직간호사 모집",
+    "start_dt": "2025-11-03T00:00+09:00",
+    "end_dt": "2025-11-08T23:59+09:00",
+    "dday": "D-4",
+    "status": "접수중",
+    "recu_idx": "88478",
+    "announce_sn": "88478",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/88478",
+    "tags": [
+      "구로병원",
+      "일반채용",
+      "신입"
+    ],
+    "hospital": "구로병원"
+  },
+  {
+    "title": "[안암병원 25-196]치과 계약직 치위생사 모집",
+    "start_dt": "2025-11-03T00:00+09:00",
+    "end_dt": "2025-11-09T15:00+09:00",
+    "dday": "D-5",
+    "status": "접수중",
+    "recu_idx": "88476",
+    "announce_sn": "88476",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/88476",
+    "tags": [
+      "안암병원",
+      "일반채용",
+      "신입"
+    ],
+    "hospital": "안암병원"
   }
 ]
