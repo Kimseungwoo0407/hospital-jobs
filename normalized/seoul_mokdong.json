@@ -1,58 +1,44 @@
 [
   {
-    "title": "D-13[서울병원] 영상의학과 계약직 방사선사 공개채용 공고",
+    "title": "D-23[서울병원] 2026년도 이대서울병원 전임의사(fellow) 초빙공고",
+    "start_dt": "2025-11-03T00:00:00+09:00",
+    "end_dt": "2025-11-28T23:59:00+09:00",
+    "dday": "D-23",
+    "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=28985&pageIndex=1&searchWord=&bid_status=I"
+  },
+  {
+    "title": "D-12[서울병원] 영상의학과 계약직 방사선사 공개채용 공고",
     "start_dt": "2025-11-04T00:00:00+09:00",
     "end_dt": "2025-11-17T23:59:00+09:00",
-    "dday": "D-13",
+    "dday": "D-12",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=28978&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-6[이화의료원] 국제의료사업팀 단기간 아르바이트(러시아어 코디네이터) 공개채용 공고",
+    "title": "D-5[이화의료원] 국제의료사업팀 단기간 아르바이트(러시아어 코디네이터) 공개채용 공고",
     "start_dt": "2025-10-31T00:00:00+09:00",
     "end_dt": "2025-11-10T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=28967&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-0[서울병원] 보험심사팀 계약직 사무원 공개채용 공고",
-    "start_dt": "2025-10-29T00:00:00+09:00",
-    "end_dt": "2025-11-04T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=28945&pageIndex=1&searchWord=&bid_status=I"
-  },
-  {
-    "title": "D-0[서울병원] 약제팀 계약직 주간약사 공개채용 공고",
-    "start_dt": "2025-10-29T00:00:00+09:00",
-    "end_dt": "2025-11-04T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=28943&pageIndex=1&searchWord=&bid_status=I"
-  },
-  {
-    "title": "D-0[이화의료원] 서울병원 의공팀 정규직 사무원(신입) 공개채용 공고",
-    "start_dt": "2025-10-29T00:00:00+09:00",
-    "end_dt": "2025-11-04T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=28940&pageIndex=1&searchWord=&bid_status=I"
-  },
-  {
-    "title": "D-26[서울병원] 간호부 계약직 기능원 공개채용 공고",
+    "title": "D-25[서울병원] 간호부 계약직 기능원 공개채용 공고",
     "start_dt": "2025-10-16T00:00:00+09:00",
     "end_dt": "2025-11-30T23:59:00+09:00",
-    "dday": "D-26",
+    "dday": "D-25",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=28817&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-26[서울병원] 간호부 계약직 간호사(중앙공급실) 공개채용 공고",
+    "title": "D-25[서울병원] 간호부 계약직 간호사(중앙공급실) 공개채용 공고",
     "start_dt": "2025-10-16T00:00:00+09:00",
     "end_dt": "2025-11-30T23:59:00+09:00",
-    "dday": "D-26",
+    "dday": "D-25",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=28814&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-26[서울병원] 간호부 계약직 간호사(외래) 공개채용 공고",
+    "title": "D-25[서울병원] 간호부 계약직 간호사(외래) 공개채용 공고",
     "start_dt": "2025-10-13T00:00:00+09:00",
     "end_dt": "2025-11-30T23:59:00+09:00",
-    "dday": "D-26",
+    "dday": "D-25",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=28790&pageIndex=1&searchWord=&bid_status=I"
   }
 ]

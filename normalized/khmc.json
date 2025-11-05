@@ -1,44 +1,58 @@
 [
   {
+    "title": "계약직 신입직원 [간호본부 사무직] 공개채용 모집공고",
+    "start_dt": "2025-11-04T00:00:00+09:00",
+    "end_dt": "2025-11-11T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2511040020"
+  },
+  {
+    "title": "계약직 신입직원 [시설관리팀 기능직 기계기사] 공개채용 모집공고",
+    "start_dt": "2025-11-04T00:00:00+09:00",
+    "end_dt": "2025-11-10T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2511040010"
+  },
+  {
     "title": "계약직 신입직원 [병리과 임상병리사] 공개채용 모집공고",
     "start_dt": "2025-11-04T00:00:00+09:00",
     "end_dt": "2025-11-09T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.incruit.com/khmc/job/2511040005"
   },
   {
     "title": "2026년도 경희대학교병원 수련 임상심리사 모집 공고",
     "start_dt": "2025-11-04T00:00:00+09:00",
     "end_dt": "2025-11-09T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.incruit.com/khmc/job/2511040004"
   },
   {
     "title": "계약직 신입직원 [시설관리팀 기계기사] 공개채용 모집공고",
     "start_dt": "2025-10-30T00:00:00+09:00",
     "end_dt": "2025-11-09T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.incruit.com/khmc/job/2510300015"
   },
   {
     "title": "계약직 신입직원 [경희대학교한방병원 한방간호팀 외래 간호사] 공개채용 모집공고",
     "start_dt": "2025-10-28T00:00:00+09:00",
     "end_dt": "2025-11-11T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://recruit.incruit.com/khmc/job/2510280008"
   },
   {
     "title": "계약직 신입직원 [경희대학교병원 간호본부 외래 간호사] 공개채용 모집공고",
     "start_dt": "2025-10-28T00:00:00+09:00",
     "end_dt": "2025-11-14T23:59:00+09:00",
-    "dday": "D-10",
+    "dday": "D-9",
     "detail_url": "https://recruit.incruit.com/khmc/job/2510280007"
   },
   {
     "title": "계약직 신입직원 [간호본부 병동지원인력/조무사] 공개채용 모집공고",
     "start_dt": "2025-10-23T00:00:00+09:00",
     "end_dt": "2025-11-14T23:59:00+09:00",
-    "dday": "D-10",
+    "dday": "D-9",
     "detail_url": "https://recruit.incruit.com/khmc/job/2510230014"
   }
 ]
