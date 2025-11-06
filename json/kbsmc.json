@@ -14,7 +14,7 @@
     "period_text": "2025.10.30 ~ 2025.11.06",
     "start_dt": "2025-10-30T00:00:00+09:00",
     "end_dt": "2025-11-06T23:59:00+09:00",
-    "status_text": "NEW",
+    "status_text": "",
     "detail_url": "javascript:viewRecruit(2672);"
   }
 ]
