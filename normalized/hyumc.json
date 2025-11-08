@@ -3,28 +3,35 @@
     "title": "원무팀 사무원 (임시직)",
     "start_dt": "2025-10-28T00:00:00+09:00",
     "end_dt": "2025-11-10T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/87867"
   },
   {
     "title": "2025년도 신규간호사 추가모집 (정규직)",
     "start_dt": "2025-10-29T00:00:00+09:00",
     "end_dt": "2025-11-11T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/88083"
   },
   {
     "title": "이비인후과 임상병리사 (수면다원검사 기사) (임시직)",
     "start_dt": "2025-11-03T00:00:00+09:00",
     "end_dt": "2025-11-16T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/88429"
   },
   {
     "title": "소아청소년과 전담간호사 (임시직)",
     "start_dt": "2025-11-03T00:00:00+09:00",
     "end_dt": "2025-11-16T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/88499"
+  },
+  {
+    "title": "의학연구원 융합의료기기센터 사무원 (임시직)",
+    "start_dt": "2025-11-07T00:00:00+09:00",
+    "end_dt": "2025-11-20T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/88954"
   }
 ]
