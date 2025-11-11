@@ -1,10 +1,26 @@
 [
   {
+    "title": "야간약사 채용",
+    "period_text": "2025-11-11 08:00 ~ 2028-12-31 23:59",
+    "start_dt": "2025-11-11T08:00:00+09:00",
+    "end_dt": "2028-12-31T23:59:00+09:00",
+    "status_text": "D-1146",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1288"
+  },
+  {
+    "title": "[계약직] 외래간호팀 신경과 간호사 채용",
+    "period_text": "2025-11-10 12:00 ~ 2025-11-16 23:59",
+    "start_dt": "2025-11-10T12:00:00+09:00",
+    "end_dt": "2025-11-16T23:59:00+09:00",
+    "status_text": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1287"
+  },
+  {
     "title": "[계약직] 헬스케어센터 간호사 채용(접수)",
     "period_text": "2025-11-06 14:00 ~ 2025-11-13 23:59",
     "start_dt": "2025-11-06T14:00:00+09:00",
     "end_dt": "2025-11-13T23:59:00+09:00",
-    "status_text": "D-3",
+    "status_text": "D-2",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1286"
   },
   {
@@ -12,7 +28,7 @@
     "period_text": "2025-11-10 09:00 ~ 2025-11-17 17:00",
     "start_dt": "2025-11-10T09:00:00+09:00",
     "end_dt": "2025-11-17T17:00:00+09:00",
-    "status_text": "D-7",
+    "status_text": "D-6",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1285"
   }
 ]
