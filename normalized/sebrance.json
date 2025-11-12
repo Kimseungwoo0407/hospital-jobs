@@ -1,51 +1,86 @@
 [
   {
+    "title": "[일반-신촌] 기능원(계약직:간호조무사) 간호간병통합서비스병동 25.11-2 모집",
+    "start_dt": "2025-11-11T00:00:00+09:00",
+    "end_dt": "2025-11-17T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233904"
+  },
+  {
     "title": "[일반-강남] 임상병리사(계약직) 심장내과 25.11 모집",
     "start_dt": "2025-11-10T00:00:00+09:00",
     "end_dt": "2025-11-16T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233843"
   },
   {
     "title": "[일반-신촌]간호사(계약직) 세브)호흡기내과 기관지경검사실 25.11 모집",
     "start_dt": "2025-11-06T00:00:00+09:00",
     "end_dt": "2025-11-12T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233543"
   },
   {
-    "title": "[일반-강남] 사무원(계약직) 원무팀 25.11 모집",
-    "start_dt": "2025-11-05T00:00:00+09:00",
-    "end_dt": "2025-11-11T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233416"
-  },
-  {
-    "title": "[일반-강남] 2026년도 일반직 인턴 (임상심리사) 모집",
-    "start_dt": "2025-11-05T00:00:00+09:00",
-    "end_dt": "2025-11-11T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233323"
+    "title": "[일반-신촌] 임상심리사(계약직) 의대)학생마인드케어센터 25.11 모집",
+    "start_dt": "2025-11-11T00:00:00+09:00",
+    "end_dt": "2025-11-20T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233446"
   },
   {
     "title": "[일반-신촌]방사선사(계약직) 심혈관)심장내과 부정맥시술실 25.11 모집(육아휴직 대체)",
     "start_dt": "2025-11-05T00:00:00+09:00",
-    "end_dt": "2025-11-11T23:59:00+09:00",
-    "dday": "D-0",
+    "end_dt": "2025-11-16T23:59:00+09:00",
+    "dday": "D-4",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233085"
   },
   {
     "title": "[일반-신촌] 치과위생사(계약직) 치과)보철과 25.11 모집",
     "start_dt": "2025-11-04T00:00:00+09:00",
     "end_dt": "2025-11-13T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233081"
   },
   {
     "title": "[일반-신촌] 치과위생사(계약직) 치과)교정과 25.11 모집",
     "start_dt": "2025-11-03T00:00:00+09:00",
     "end_dt": "2025-11-12T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232778"
+  },
+  {
+    "title": "[일반-신촌] 임상병리사(계약직) 의대)연세의생명연구원 연구지원부(전자현미경실) 25.11 모집",
+    "start_dt": "2025-11-04T00:00:00+09:00",
+    "end_dt": "2025-11-13T23:59:00+09:00",
+    "dday": "D-1",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232717"
+  },
+  {
+    "title": "[일반-신촌] 임상병리사(계약직) 의대)연세의생명연구원 연구지원부(조직병리실) 25.11 모집",
+    "start_dt": "2025-11-04T00:00:00+09:00",
+    "end_dt": "2025-11-13T23:59:00+09:00",
+    "dday": "D-1",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232712"
+  },
+  {
+    "title": "[일반-신촌] 신규 약사(정규직) 세브)약무국 25.11 모집",
+    "start_dt": "2025-11-03T00:00:00+09:00",
+    "end_dt": "2025-11-20T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232586"
+  },
+  {
+    "title": "[일반-강남] 약사(계약직;야간전담) 약제팀 25.10-1 모집",
+    "start_dt": "2025-10-20T00:00:00+09:00",
+    "end_dt": "2025-11-17T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=231799"
+  },
+  {
+    "title": "[일반-신촌] 2026년도 일반직 인턴(전공약사) 모집",
+    "start_dt": "2025-10-21T00:00:00+09:00",
+    "end_dt": "2025-11-20T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=231299"
   }
 ]
