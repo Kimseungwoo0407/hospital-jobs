@@ -1,5 +1,14 @@
 [
   {
+    "title": "평택지역 부속의원 임상병리사 모집",
+    "job_type": "의료 기사직",
+    "period_text": "2025.11.13 ~ 2025.11.19",
+    "start_dt": "2025-11-13T00:00:00+09:00",
+    "end_dt": "2025-11-19T23:59:00+09:00",
+    "status_text": "NEW",
+    "detail_url": "javascript:viewRecruit(2685);"
+  },
+  {
     "title": "영상의학과 방사선사 모집",
     "job_type": "의료 기사직",
     "period_text": "2025.11.11 ~ 2025.11.18",
@@ -7,14 +16,5 @@
     "end_dt": "2025-11-18T23:59:00+09:00",
     "status_text": "NEW",
     "detail_url": "javascript:viewRecruit(2679);"
-  },
-  {
-    "title": "심장센터 방사선사 모집",
-    "job_type": "의료 기사직",
-    "period_text": "2025.11.04 ~ 2025.11.16",
-    "start_dt": "2025-11-04T00:00:00+09:00",
-    "end_dt": "2025-11-16T23:59:00+09:00",
-    "status_text": "",
-    "detail_url": "javascript:viewRecruit(2673);"
   }
 ]
