@@ -6,7 +6,7 @@
     "date_text": "2025.11.17(월) 00:00 ~ 2025.11.23(일) 23:59",
     "start_dt": "2025-11-17T00:00:00+09:00",
     "end_dt": "2025-11-23T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234338"
   },
   {
@@ -16,7 +16,7 @@
     "date_text": "2025.11.14(금) 00:00 ~ 2025.11.20(목) 23:59",
     "start_dt": "2025-11-14T00:00:00+09:00",
     "end_dt": "2025-11-20T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234309"
   },
   {
@@ -26,7 +26,7 @@
     "date_text": "2025.11.14(금) 00:00 ~ 2025.11.20(목) 23:59",
     "start_dt": "2025-11-14T00:00:00+09:00",
     "end_dt": "2025-11-20T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234245"
   },
   {
@@ -36,7 +36,7 @@
     "date_text": "2025.11.14(금) 00:00 ~ 2025.11.20(목) 23:59",
     "start_dt": "2025-11-14T00:00:00+09:00",
     "end_dt": "2025-11-20T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234242"
   },
   {
@@ -46,18 +46,28 @@
     "date_text": "2025.11.13(목) 00:00 ~ 2025.11.19(수) 23:59",
     "start_dt": "2025-11-13T00:00:00+09:00",
     "end_dt": "2025-11-19T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234163"
   },
   {
-    "title": "[일반-신촌] 기능원(계약직:간호조무사) 간호간병통합서비스병동 25.11-2 모집",
+    "title": "[일반-강남] 임상병리사(계약직;단시간) 진단검사의학팀 25.11-1 모집",
+    "location": "강남",
+    "status": "접수중",
+    "date_text": "2025.11.12(수) 00:00 ~ 2025.11.19(수) 23:59",
+    "start_dt": "2025-11-12T00:00:00+09:00",
+    "end_dt": "2025-11-19T23:59:00+09:00",
+    "dday": "D-1",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234036"
+  },
+  {
+    "title": "[일반-신촌] 치과위생사(계약직) 치과)진료혁신팀 25.11 모집",
     "location": "신촌",
     "status": "접수중",
-    "date_text": "2025.11.11(화) 00:00 ~ 2025.11.17(월) 23:59",
-    "start_dt": "2025-11-11T00:00:00+09:00",
-    "end_dt": "2025-11-17T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233904"
+    "date_text": "2025.11.17(월) 00:00 ~ 2025.11.26(수) 23:59",
+    "start_dt": "2025-11-17T00:00:00+09:00",
+    "end_dt": "2025-11-26T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234034"
   },
   {
     "title": "[일반-신촌] 방사선사(단기계약직) 세브)영상의학팀 25.11 모집",
@@ -66,7 +76,7 @@
     "date_text": "2025.11.13(목) 00:00 ~ 2025.11.23(일) 23:59",
     "start_dt": "2025-11-13T00:00:00+09:00",
     "end_dt": "2025-11-23T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233834"
   },
   {
@@ -76,7 +86,7 @@
     "date_text": "2025.11.11(화) 00:00 ~ 2025.11.20(목) 23:59",
     "start_dt": "2025-11-11T00:00:00+09:00",
     "end_dt": "2025-11-20T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233446"
   },
   {
@@ -86,7 +96,7 @@
     "date_text": "2025.11.04(화) 00:00 ~ 2025.11.20(목) 23:59",
     "start_dt": "2025-11-04T00:00:00+09:00",
     "end_dt": "2025-11-20T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232717"
   },
   {
@@ -96,17 +106,17 @@
     "date_text": "2025.11.03(월) 00:00 ~ 2025.11.20(목) 23:59",
     "start_dt": "2025-11-03T00:00:00+09:00",
     "end_dt": "2025-11-20T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232586"
   },
   {
     "title": "[일반-강남] 약사(계약직;야간전담) 약제팀 25.10-1 모집",
     "location": "강남",
     "status": "접수중",
-    "date_text": "2025.10.20(월) 00:00 ~ 2025.11.17(월) 23:59",
+    "date_text": "2025.10.20(월) 00:00 ~ 2025.11.24(월) 23:59",
     "start_dt": "2025-10-20T00:00:00+09:00",
-    "end_dt": "2025-11-17T23:59:00+09:00",
-    "dday": "D-0",
+    "end_dt": "2025-11-24T23:59:00+09:00",
+    "dday": "D-6",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=231799"
   },
   {
@@ -116,7 +126,7 @@
     "date_text": "2025.10.21(화) 00:00 ~ 2025.11.20(목) 23:59",
     "start_dt": "2025-10-21T00:00:00+09:00",
     "end_dt": "2025-11-20T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=231299"
   }
 ]
