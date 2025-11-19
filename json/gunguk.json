@@ -1,10 +1,42 @@
 [
   {
+    "title": "[계약직] 진단검사의학팀 임상병리사 채용진(채혈)",
+    "period_text": "2025-11-19 08:00 ~ 2025-11-25 23:59",
+    "start_dt": "2025-11-19T08:00:00+09:00",
+    "end_dt": "2025-11-25T23:59:00+09:00",
+    "status_text": "D-6",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1292"
+  },
+  {
+    "title": "[계약직] 전담간호팀(산부인과) 전담간호사 채용",
+    "period_text": "2025-11-18 15:00 ~ 2025-11-24 23:59",
+    "start_dt": "2025-11-18T15:00:00+09:00",
+    "end_dt": "2025-11-24T23:59:00+09:00",
+    "status_text": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1291"
+  },
+  {
+    "title": "[계약직] 진단검사의학팀 임상병리사 채용",
+    "period_text": "2025-11-18 13:00 ~ 2025-11-24 23:59",
+    "start_dt": "2025-11-18T13:00:00+09:00",
+    "end_dt": "2025-11-24T23:59:00+09:00",
+    "status_text": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1290"
+  },
+  {
+    "title": "[계약직] 전담간호팀(신경외과) 전담간호사 채용",
+    "period_text": "2025-11-18 09:00 ~ 2025-11-24 23:59",
+    "start_dt": "2025-11-18T09:00:00+09:00",
+    "end_dt": "2025-11-24T23:59:00+09:00",
+    "status_text": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1289"
+  },
+  {
     "title": "야간약사 채용",
     "period_text": "2025-11-11 08:00 ~ 2028-12-31 23:59",
     "start_dt": "2025-11-11T08:00:00+09:00",
     "end_dt": "2028-12-31T23:59:00+09:00",
-    "status_text": "D-1139",
+    "status_text": "D-1138",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1288"
   }
 ]
