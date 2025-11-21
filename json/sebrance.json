@@ -1,12 +1,22 @@
 [
   {
+    "title": "[일반-신촌] 기능원(계약직:간호조무사) 간호간병통합서비스병동 25.11-3 모집",
+    "location": "신촌",
+    "status": "접수중",
+    "date_text": "2025.11.20(목) 00:00 ~ 2025.11.24(월) 23:59",
+    "start_dt": "2025-11-20T00:00:00+09:00",
+    "end_dt": "2025-11-24T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234781"
+  },
+  {
     "title": "[일반-강남] 임상병리사(계약직) 병리팀 25.11 모집",
     "location": "강남",
     "status": "접수중",
     "date_text": "2025.11.19(수) 00:00 ~ 2025.11.25(화) 23:59",
     "start_dt": "2025-11-19T00:00:00+09:00",
     "end_dt": "2025-11-25T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234718"
   },
   {
@@ -16,7 +26,7 @@
     "date_text": "2025.11.18(화) 00:00 ~ 2025.11.23(일) 23:59",
     "start_dt": "2025-11-18T00:00:00+09:00",
     "end_dt": "2025-11-23T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234514"
   },
   {
@@ -26,38 +36,8 @@
     "date_text": "2025.11.17(월) 00:00 ~ 2025.11.23(일) 23:59",
     "start_dt": "2025-11-17T00:00:00+09:00",
     "end_dt": "2025-11-23T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234338"
-  },
-  {
-    "title": "[일반-강남] 방사선사(계약직) 영상의학팀 25.11-1 모집",
-    "location": "강남",
-    "status": "접수중",
-    "date_text": "2025.11.14(금) 00:00 ~ 2025.11.20(목) 23:59",
-    "start_dt": "2025-11-14T00:00:00+09:00",
-    "end_dt": "2025-11-20T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234309"
-  },
-  {
-    "title": "[일반-강남] 간호조무사(계약직) 입원간호팀 25.11-1 모집",
-    "location": "강남",
-    "status": "접수중",
-    "date_text": "2025.11.14(금) 00:00 ~ 2025.11.20(목) 23:59",
-    "start_dt": "2025-11-14T00:00:00+09:00",
-    "end_dt": "2025-11-20T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234245"
-  },
-  {
-    "title": "[일반-강남] 보건의료정보관리사(계약직) 의무기록팀 25.11 모집",
-    "location": "강남",
-    "status": "접수중",
-    "date_text": "2025.11.14(금) 00:00 ~ 2025.11.20(목) 23:59",
-    "start_dt": "2025-11-14T00:00:00+09:00",
-    "end_dt": "2025-11-20T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234242"
   },
   {
     "title": "[일반-신촌]전산원(계약직) 디지털헬스실 정보서비스팀 25.11 모집",
@@ -66,7 +46,7 @@
     "date_text": "2025.11.18(화) 00:00 ~ 2025.11.27(목) 23:59",
     "start_dt": "2025-11-18T00:00:00+09:00",
     "end_dt": "2025-11-27T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234126"
   },
   {
@@ -76,7 +56,7 @@
     "date_text": "2025.11.17(월) 00:00 ~ 2025.11.26(수) 23:59",
     "start_dt": "2025-11-17T00:00:00+09:00",
     "end_dt": "2025-11-26T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234034"
   },
   {
@@ -86,7 +66,17 @@
     "date_text": "2025.11.13(목) 00:00 ~ 2025.11.23(일) 23:59",
     "start_dt": "2025-11-13T00:00:00+09:00",
     "end_dt": "2025-11-23T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=233834"
+  },
+  {
+    "title": "[일반-신촌] 신규 약사(정규직) 세브)약무국 25.11 모집 (공고연장)",
+    "location": "신촌",
+    "status": "접수중",
+    "date_text": "2025.11.03(월) 00:00 ~ 2025.11.23(일) 23:59",
+    "start_dt": "2025-11-03T00:00:00+09:00",
+    "end_dt": "2025-11-23T23:59:00+09:00",
+    "dday": "D-2",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=232586"
   }
 ]

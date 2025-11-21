@@ -1,12 +1,24 @@
 [
   {
+    "title": "[목동병원] 진료부 영상의학과 계약직 방사선사 공개채용 공고",
+    "start_dt": "2025-11-21T00:00:00+09:00",
+    "end_dt": "2025-11-27T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29166&pageIndex=1&searchWord=&bid_status=I",
+    "raw_lines": [
+      "D-6",
+      "[목동병원] 진료부 영상의학과 계약직 방사선사 공개채용 공고",
+      "2025-11-21 00:00:00 ~ 2025-11-27 23:59:00"
+    ]
+  },
+  {
     "title": "[이화의료원] 목동병원 병리과 정규직(신입) 임상병리사 공개채용 공고",
     "start_dt": "2025-11-20T00:00:00+09:00",
     "end_dt": "2025-11-26T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29137&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-6",
+      "D-5",
       "[이화의료원] 목동병원 병리과 정규직(신입) 임상병리사 공개채용 공고",
       "2025-11-20 00:00:00 ~ 2025-11-26 23:59:00"
     ]
@@ -15,10 +27,10 @@
     "title": "[이화의료원] 목동병원 간호부 정규직 전담간호사(경력) 공개채용 공고",
     "start_dt": "2025-11-20T00:00:00+09:00",
     "end_dt": "2025-11-26T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29135&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-6",
+      "D-5",
       "[이화의료원] 목동병원 간호부 정규직 전담간호사(경력) 공개채용 공고",
       "2025-11-20 00:00:00 ~ 2025-11-26 23:59:00"
     ]
@@ -27,10 +39,10 @@
     "title": "[목동병원] 진료부 핵의학과 계약직 방사선사 공개채용 공고",
     "start_dt": "2025-11-19T00:00:00+09:00",
     "end_dt": "2025-11-26T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29117&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-6",
+      "D-5",
       "[목동병원] 진료부 핵의학과 계약직 방사선사 공개채용 공고",
       "2025-11-19 00:00:00 ~ 2025-11-26 23:59:00"
     ]
@@ -39,10 +51,10 @@
     "title": "[목동병원] 여성암병원 계약직 간호사(영상의학과 근무) 공개채용 공고",
     "start_dt": "2025-11-18T00:00:00+09:00",
     "end_dt": "2025-11-25T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29099&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-5",
+      "D-4",
       "[목동병원] 여성암병원 계약직 간호사(영상의학과 근무) 공개채용 공고",
       "2025-11-18 00:00:00 ~ 2025-11-25 23:59:00"
     ]
@@ -51,34 +63,22 @@
     "title": "[목동병원] 2026년도 이대목동병원 치과 전공의(레지던트 1년차) 모집 공고",
     "start_dt": "2025-11-17T09:00:00+09:00",
     "end_dt": "2025-11-26T17:00:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29093&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-6",
+      "D-5",
       "[목동병원] 2026년도 이대목동병원 치과 전공의(레지던트 1년차) 모집 공고",
       "2025-11-17 09:00:00 ~ 2025-11-26 17:00:00"
-    ]
-  },
-  {
-    "title": "[목동병원] 사무부 원무팀 계약직 사무원(응급당직) 공개채용 공고",
-    "start_dt": "2025-11-14T00:00:00+09:00",
-    "end_dt": "2025-11-20T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29067&pageIndex=1&searchWord=&bid_status=I",
-    "raw_lines": [
-      "D-0",
-      "[목동병원] 사무부 원무팀 계약직 사무원(응급당직) 공개채용 공고",
-      "2025-11-14 00:00:00 ~ 2025-11-20 23:59:00"
     ]
   },
   {
     "title": "[이화의료원] 2026년 상반기 이화여자대학교 의료원 비전임교원 초빙 공고",
     "start_dt": "2025-11-05T09:00:00+09:00",
     "end_dt": "2025-11-21T17:05:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=28993&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-1",
+      "D-0",
       "[이화의료원] 2026년 상반기 이화여자대학교 의료원 비전임교원 초빙 공고",
       "2025-11-05 09:00:00 ~ 2025-11-21 17:05:00"
     ]
@@ -87,10 +87,10 @@
     "title": "2026년도 이대목동병원 전임의사(fellow) 초빙 공고",
     "start_dt": "2025-11-03T09:00:00+09:00",
     "end_dt": "2025-11-21T17:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=28976&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-1",
+      "D-0",
       "2026년도 이대목동병원 전임의사(fellow) 초빙 공고",
       "2025-11-03 09:00:00 ~ 2025-11-21 17:00:00"
     ]
