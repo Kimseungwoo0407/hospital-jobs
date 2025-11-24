@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "title": "산부인과 방사선사(휴직대체) 모집",
+    "job_type": "의료 기사직",
+    "period_text": "2025.11.24 ~ 2025.11.30",
+    "start_dt": "2025-11-24T00:00:00+09:00",
+    "end_dt": "2025-11-30T23:59:00+09:00",
+    "status_text": "NEW",
+    "detail_url": "javascript:viewRecruit(2693);"
+  },
+  {
+    "title": "진단검사의학과 임상병리사(야간전담) 모집",
+    "job_type": "의료 기사직",
+    "period_text": "2025.11.24 ~ 2025.11.30",
+    "start_dt": "2025-11-24T00:00:00+09:00",
+    "end_dt": "2025-11-30T23:59:00+09:00",
+    "status_text": "NEW",
+    "detail_url": "javascript:viewRecruit(2695);"
+  }
+]
