@@ -1,7 +1,7 @@
 [
   {
     "title": "진행중\n서울성모병원 내과 응급실 전담 전문의 모집",
-    "start_dt": "2025-11-26T09:00+09:00",
+    "start_dt": "2025-11-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -11,7 +11,7 @@
   },
   {
     "title": "진행중\n혈액내과 촉탁의 모집공고",
-    "start_dt": "2025-11-26T09:00+09:00",
+    "start_dt": "2025-11-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -21,7 +21,7 @@
   },
   {
     "title": "진행중\n서울성모병원 순환기내과 중환자실 당직의사 모집 공고",
-    "start_dt": "2025-11-26T09:00+09:00",
+    "start_dt": "2025-11-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -31,7 +31,7 @@
   },
   {
     "title": "진행중\n가톨릭대학교 서울성모병원 호흡기내과 촉탁의/ 내과 중환자실 당직의 모집 공고",
-    "start_dt": "2025-11-26T09:00+09:00",
+    "start_dt": "2025-11-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -41,7 +41,7 @@
   },
   {
     "title": "진행중\n산부인과 계약직의사(당직의사) 모집 공고",
-    "start_dt": "2025-11-26T09:00+09:00",
+    "start_dt": "2025-11-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -51,7 +51,7 @@
   },
   {
     "title": "진행중\n가톨릭대학교 서울성모병원 혈액내과 당직의사 모집 공고",
-    "start_dt": "2025-11-26T09:00+09:00",
+    "start_dt": "2025-11-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -61,7 +61,7 @@
   },
   {
     "title": "진행중\n전진상의원 파견 진료전문의 모집 공고",
-    "start_dt": "2025-11-26T09:00+09:00",
+    "start_dt": "2025-11-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -110,70 +110,20 @@
     "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540155?p=1&s=12&q=%7B%7D"
   },
   {
-    "title": "진행중\n방사선직(평생건강증진팀/계약직) 공개채용 최종합격자 안내",
-    "start_dt": "2025-11-25T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "540097",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540097?p=1&s=12&q=%7B%7D"
-  },
-  {
-    "title": "진행중\n시간제 약사(약제부/계약직) 공개채용 최종합격자 안내",
-    "start_dt": "2025-11-25T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "540090",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540090?p=2&s=12&q=%7B%7D"
-  },
-  {
-    "title": "진행중\n의료지원직(약제부/계약직) 공개채용 최종합격자 안내",
-    "start_dt": "2025-11-25T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "540089",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540089?p=2&s=12&q=%7B%7D"
-  },
-  {
-    "title": "진행중\n사무직(국제협력팀/휴직대체) 공개채용 최종합격자 안내",
-    "start_dt": "2025-11-25T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "540088",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540088?p=2&s=12&q=%7B%7D"
-  },
-  {
-    "title": "진행중\n임상병리직 또는 안경사직(안센터운영팀/계약직) 공개채용 최종합격자 안내",
-    "start_dt": "2025-11-25T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "540087",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540087?p=2&s=12&q=%7B%7D"
-  },
-  {
     "title": "진행중\n사무직(자원봉사지원팀/아르바이트) 공개채용(기간연장)",
     "start_dt": "2025-11-27T09:00+09:00",
     "end_dt": null,
-    "dday": "D-1",
+    "dday": null,
     "status": "진행중",
     "recu_idx": "540034",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540034?p=2&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540034?p=1&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n사무직(IRB행정팀/계약직) 인성검사 합격자 안내",
     "start_dt": "2025-12-01T09:00+09:00",
     "end_dt": null,
-    "dday": "D-5",
+    "dday": "D-4",
     "status": "진행중",
     "recu_idx": "540175",
     "announce_sn": null,
@@ -183,7 +133,7 @@
     "title": "진행중\n2026년도 전공약사 공개채용",
     "start_dt": "2025-12-06T09:00+09:00",
     "end_dt": null,
-    "dday": "D-10",
+    "dday": "D-9",
     "status": "진행중",
     "recu_idx": "539891",
     "announce_sn": null,
@@ -193,7 +143,7 @@
     "title": "진행중\n임상심리직(정신건강의학과/수련과정) 공개채용",
     "start_dt": "2025-12-07T09:00+09:00",
     "end_dt": null,
-    "dday": "D-11",
+    "dday": "D-10",
     "status": "진행중",
     "recu_idx": "540160",
     "announce_sn": null,
@@ -203,7 +153,7 @@
     "title": "진행중\n2026년도 서울성모병원 임상강사 초빙(공개채용) 면접전형 일정 안내",
     "start_dt": "2025-12-08T09:00+09:00",
     "end_dt": null,
-    "dday": "D-12",
+    "dday": "D-11",
     "status": "진행중",
     "recu_idx": "540161",
     "announce_sn": null,
@@ -213,7 +163,7 @@
     "title": "진행중\n2026년도 정규약사 공개채용 최종합격자 안내",
     "start_dt": "2026-02-27T09:00+09:00",
     "end_dt": null,
-    "dday": "D-93",
+    "dday": "D-92",
     "status": "진행중",
     "recu_idx": "540100",
     "announce_sn": null,
@@ -221,7 +171,7 @@
   },
   {
     "title": "진행중\n서울성모병원 간담췌외과 진료전문의 모집공고(입원전담전문의)",
-    "start_dt": "2025-11-26T09:00+09:00",
+    "start_dt": "2025-11-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -231,7 +181,7 @@
   },
   {
     "title": "진행중\n서울성모병원 응급의학과(응급의료센터) 당직의 구인공고",
-    "start_dt": "2025-11-26T09:00+09:00",
+    "start_dt": "2025-11-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -241,32 +191,32 @@
   },
   {
     "title": "진행중\n혈액내과 진료전문의 모집 공고",
-    "start_dt": "2025-11-26T09:00+09:00",
+    "start_dt": "2025-11-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
     "recu_idx": "516437",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/516437?p=3&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/516437?p=2&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n서울성모병원 흉부외과 진료전문의 모집",
-    "start_dt": "2025-11-26T09:00+09:00",
+    "start_dt": "2025-11-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
     "recu_idx": "498653",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/498653?p=3&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/498653?p=2&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n채용 서류 반환에 관한 안내",
-    "start_dt": "2025-11-26T09:00+09:00",
+    "start_dt": "2025-11-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
     "recu_idx": "466296",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/466296?p=3&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/466296?p=2&s=12&q=%7B%7D"
   }
 ]
