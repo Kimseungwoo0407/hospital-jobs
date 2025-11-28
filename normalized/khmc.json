@@ -1,86 +1,79 @@
 [
   {
+    "title": "계약직 신입직원 [한방약무팀 한약사] 공개채용 모집공고",
+    "start_dt": "2025-11-28T00:00:00+09:00",
+    "end_dt": "2025-12-07T23:59:00+09:00",
+    "dday": "D-9",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2511280004"
+  },
+  {
+    "title": "정규직 신입직원 [시설관리팀 소방기사] 공개채용 모집",
+    "start_dt": "2025-11-27T13:00:00+09:00",
+    "end_dt": "2025-12-04T16:00:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2511270007"
+  },
+  {
     "title": "계약직 신입직원 [조제팀 약무보조] 공개채용 모집공고",
     "start_dt": "2025-11-26T00:00:00+09:00",
     "end_dt": "2025-11-30T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.incruit.com/khmc/job/2511260003"
   },
   {
     "title": "계약직 신입직원 [조제팀 조무기사] 공개채용 모집공고",
     "start_dt": "2025-11-26T00:00:00+09:00",
     "end_dt": "2025-11-30T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.incruit.com/khmc/job/2511260001"
   },
   {
     "title": "계약직 신입직원 [간호본부 조무사] 공개채용 모집공고",
     "start_dt": "2025-11-24T00:00:00+09:00",
     "end_dt": "2025-12-19T23:59:00+09:00",
-    "dday": "D-22",
+    "dday": "D-21",
     "detail_url": "https://recruit.incruit.com/khmc/job/2511240015"
-  },
-  {
-    "title": "계약직 신입직원 [한방약무팀 한약사] 공개채용 모집공고",
-    "start_dt": "2025-11-21T00:00:00+09:00",
-    "end_dt": "2025-11-27T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2511210018"
   },
   {
     "title": "계약직 신입직원 [외과 혈관초음파실 방사선사] 공개채용 모집공고",
     "start_dt": "2025-11-21T00:00:00+09:00",
     "end_dt": "2025-11-30T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.incruit.com/khmc/job/2511210017"
   },
   {
     "title": "계약직 신입직원 [경희대학교병원 간호본부 외래 간호사] 공개채용 모집공고",
     "start_dt": "2025-11-21T00:00:00+09:00",
     "end_dt": "2025-12-01T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://recruit.incruit.com/khmc/job/2511210016"
-  },
-  {
-    "title": "계약직 신입직원 [원무2팀 사무직] 공개채용 모집공고",
-    "start_dt": "2025-11-21T00:00:00+09:00",
-    "end_dt": "2025-11-27T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2511210013"
   },
   {
     "title": "계약직 신입직원 [영양팀 조리원] 공개채용 모집공고",
     "start_dt": "2025-11-21T00:00:00+09:00",
     "end_dt": "2025-11-30T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.incruit.com/khmc/job/2511210012"
-  },
-  {
-    "title": "계약직 신입직원 [조제팀 주말 약사] 공개채용 모집공고",
-    "start_dt": "2025-11-21T00:00:00+09:00",
-    "end_dt": "2025-11-27T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2511210011"
   },
   {
     "title": "정규직 신입직원 [약제본부 약사] 공개채용 모집",
     "start_dt": "2025-11-21T10:00:00+09:00",
     "end_dt": "2025-11-28T16:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2511210003"
   },
   {
     "title": "계약직 신입직원 [내시경실 오전 세척 조무사] 공개채용 모집공고(연장)",
     "start_dt": "2025-11-24T00:00:00+09:00",
     "end_dt": "2025-12-05T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://recruit.incruit.com/khmc/job/2511190003"
   },
   {
     "title": "(연장)정규직 신입직원 [시설관리팀 기계기사] 공개채용 모집",
     "start_dt": "2025-11-13T15:00:00+09:00",
     "end_dt": "2025-12-01T16:00:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://recruit.incruit.com/khmc/job/2511130014"
   }
 ]
