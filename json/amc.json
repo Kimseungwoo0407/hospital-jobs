@@ -3,7 +3,7 @@
     "title": "영양팀 조리사 모집",
     "start_dt": "2025-11-18T09:00:00+09:00",
     "end_dt": "2025-11-30T23:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "recu_idx": "5020",
     "announce_sn": "20250409",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5020&announceSn=20250409"
@@ -12,7 +12,7 @@
     "title": "건진운영팀 간호사 모집",
     "start_dt": "2025-11-24T14:00:00+09:00",
     "end_dt": "2025-11-30T23:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "recu_idx": "5032",
     "announce_sn": "20250419",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5032&announceSn=20250419"
@@ -21,7 +21,7 @@
     "title": "간호부 기능직 (조무) 모집",
     "start_dt": "2025-11-24T10:00:00+09:00",
     "end_dt": "2025-11-30T23:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "recu_idx": "5029",
     "announce_sn": "20250416",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5029&announceSn=20250416"
@@ -30,7 +30,7 @@
     "title": "약제팀 기능직 모집(중량물 운반등)",
     "start_dt": "2025-11-25T17:50:00+09:00",
     "end_dt": "2025-12-01T23:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "recu_idx": "5034",
     "announce_sn": "20250421",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5034&announceSn=20250421"
@@ -48,7 +48,7 @@
     "title": "2026년 상반기 의사직(Staff) 모집",
     "start_dt": "2025-11-28T10:00:00+09:00",
     "end_dt": "2025-12-08T17:00:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "recu_idx": "5033",
     "announce_sn": "20250420",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5033&announceSn=20250420"
@@ -57,7 +57,7 @@
     "title": "의학물리지원실 특수전문학자 초빙",
     "start_dt": "2025-11-28T10:00:00+09:00",
     "end_dt": "2025-12-08T17:00:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "recu_idx": "5036",
     "announce_sn": "20250422",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5036&announceSn=20250422"
@@ -66,7 +66,7 @@
     "title": "건강의학과 건진교수 초빙",
     "start_dt": "2025-11-28T10:00:00+09:00",
     "end_dt": "2025-12-08T17:00:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "recu_idx": "5035",
     "announce_sn": "20250423",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5035&announceSn=20250423"
@@ -75,7 +75,7 @@
     "title": "서울아산병원 입원전담전문의(Hospitalist) 초빙",
     "start_dt": "2025-11-18T18:00:00+09:00",
     "end_dt": "2025-12-14T18:00:00+09:00",
-    "dday": "D-15",
+    "dday": "D-14",
     "recu_idx": "5021",
     "announce_sn": "20250406",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5021&announceSn=20250406"
@@ -84,7 +84,7 @@
     "title": "서울아산병원 진료교수 초빙",
     "start_dt": "2025-11-18T18:00:00+09:00",
     "end_dt": "2025-12-14T18:00:00+09:00",
-    "dday": "D-15",
+    "dday": "D-14",
     "recu_idx": "5022",
     "announce_sn": "20250407",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5022&announceSn=20250407"
@@ -93,7 +93,7 @@
     "title": "마취통증의학과 임상교수 초빙",
     "start_dt": "2025-10-27T18:00:00+09:00",
     "end_dt": "2025-12-28T18:00:00+09:00",
-    "dday": "D-29",
+    "dday": "D-28",
     "recu_idx": "4991",
     "announce_sn": "20250379",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4991&announceSn=20250379"
@@ -102,7 +102,7 @@
     "title": "산부인과 촉탁임상교수 초빙",
     "start_dt": "2025-10-27T18:00:00+09:00",
     "end_dt": "2025-12-28T18:00:00+09:00",
-    "dday": "D-29",
+    "dday": "D-28",
     "recu_idx": "4990",
     "announce_sn": "20250378",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4990&announceSn=20250378"
