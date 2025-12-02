@@ -1,10 +1,34 @@
 [
   {
+    "title": "[계약직] 정형외과 스포츠의학센터 건강운동관리사 채용",
+    "period_text": "2025-12-01 10:00 ~ 2025-12-10 11:01",
+    "start_dt": "2025-12-01T10:00:00+09:00",
+    "end_dt": "2025-12-10T11:01:00+09:00",
+    "status_text": "D-8",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1301"
+  },
+  {
+    "title": "[계약직] 국제교류팀 사무원(러시아어 코디네이터) 채용",
+    "period_text": "2025-12-01 11:00 ~ 2025-12-07 23:59",
+    "start_dt": "2025-12-01T11:00:00+09:00",
+    "end_dt": "2025-12-07T23:59:00+09:00",
+    "status_text": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1300"
+  },
+  {
+    "title": "[계약직] 전담간호팀(신경외과) 전담간호사 채용",
+    "period_text": "2025-12-01 10:00 ~ 2025-12-07 23:59",
+    "start_dt": "2025-12-01T10:00:00+09:00",
+    "end_dt": "2025-12-07T23:59:00+09:00",
+    "status_text": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1299"
+  },
+  {
     "title": "[계약직] 호흡기알레르기내과 결핵전담 연구간호사  채용",
     "period_text": "2025-11-27 10:00 ~ 2025-12-03 23:59",
     "start_dt": "2025-11-27T10:00:00+09:00",
     "end_dt": "2025-12-03T23:59:00+09:00",
-    "status_text": "D-2",
+    "status_text": "D-1",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1298"
   },
   {
@@ -12,7 +36,7 @@
     "period_text": "2025-11-27 08:00 ~ 2025-12-03 23:59",
     "start_dt": "2025-11-27T08:00:00+09:00",
     "end_dt": "2025-12-03T23:59:00+09:00",
-    "status_text": "D-2",
+    "status_text": "D-1",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1297"
   },
   {
@@ -20,7 +44,7 @@
     "period_text": "2025-11-26 12:00 ~ 2025-12-02 23:59",
     "start_dt": "2025-11-26T12:00:00+09:00",
     "end_dt": "2025-12-02T23:59:00+09:00",
-    "status_text": "D-1",
+    "status_text": "D-Day",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1296"
   }
 ]

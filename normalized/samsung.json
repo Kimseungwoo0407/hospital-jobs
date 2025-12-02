@@ -1,51 +1,58 @@
 [
   {
+    "title": "진단검사의학과 계약직 임상병리사 채용",
+    "start_dt": "2025-12-01T00:00:00+09:00",
+    "end_dt": "2025-12-08T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025HAC20039&cPage=1"
+  },
+  {
     "title": "간호본부 계약직 사원 채용",
     "start_dt": "2025-11-28T00:00:00+09:00",
     "end_dt": "2025-12-03T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAHF0147&cPage=1"
   },
   {
     "title": "영상간호파트 외래 계약직 간호사 채용",
     "start_dt": "2025-11-27T00:00:00+09:00",
     "end_dt": "2025-12-04T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025HAB0158&cPage=1"
   },
   {
     "title": "건강의학본부 계약직 사원 채용",
     "start_dt": "2025-11-27T00:00:00+09:00",
     "end_dt": "2025-12-04T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAHF0146&cPage=1"
   },
   {
     "title": "2026년도 상반기 레지던트 1년차 모집 안내",
     "start_dt": "2025-11-26T00:00:00+09:00",
     "end_dt": "2025-12-05T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025EB0013&cPage=1"
   },
   {
     "title": "핵의학검사실 계약직 임상병리사 채용",
     "start_dt": "2025-11-26T00:00:00+09:00",
     "end_dt": "2025-12-03T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025HAC20038&cPage=1"
   },
   {
     "title": "2026년 간호학생 인턴십",
     "start_dt": "2025-11-24T00:00:00+09:00",
     "end_dt": "2025-12-05T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAHF0140&cPage=1"
   },
   {
     "title": "마취통증의학과 전담전문의 초빙 안내",
     "start_dt": "2025-10-16T00:00:00+09:00",
     "end_dt": "2025-12-14T23:59:00+09:00",
-    "dday": "D-13",
+    "dday": "D-12",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025D0029&cPage=1"
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "title": "진행중\n서울성모병원 내과 응급실 전담 전문의 모집",
-    "start_dt": "2025-12-01T09:00+09:00",
+    "start_dt": "2025-12-02T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -11,7 +11,7 @@
   },
   {
     "title": "진행중\n혈액내과 촉탁의 모집공고",
-    "start_dt": "2025-12-01T09:00+09:00",
+    "start_dt": "2025-12-02T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -21,7 +21,7 @@
   },
   {
     "title": "진행중\n서울성모병원 순환기내과 중환자실 당직의사 모집 공고",
-    "start_dt": "2025-12-01T09:00+09:00",
+    "start_dt": "2025-12-02T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -31,7 +31,7 @@
   },
   {
     "title": "진행중\n가톨릭대학교 서울성모병원 호흡기내과 촉탁의/ 내과 중환자실 당직의 모집 공고",
-    "start_dt": "2025-12-01T09:00+09:00",
+    "start_dt": "2025-12-02T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -41,7 +41,7 @@
   },
   {
     "title": "진행중\n산부인과 계약직의사(당직의사) 모집 공고",
-    "start_dt": "2025-12-01T09:00+09:00",
+    "start_dt": "2025-12-02T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -51,7 +51,7 @@
   },
   {
     "title": "진행중\n가톨릭대학교 서울성모병원 혈액내과 당직의사 모집 공고",
-    "start_dt": "2025-12-01T09:00+09:00",
+    "start_dt": "2025-12-02T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -61,7 +61,7 @@
   },
   {
     "title": "진행중\n전진상의원 파견 진료전문의 모집 공고",
-    "start_dt": "2025-12-01T09:00+09:00",
+    "start_dt": "2025-12-02T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -83,7 +83,7 @@
     "title": "진행중\n사회사업직(사회사업팀/수련과정) 공개채용 최종합격자 안내",
     "start_dt": "2025-12-05T09:00+09:00",
     "end_dt": null,
-    "dday": "D-4",
+    "dday": "D-3",
     "status": "진행중",
     "recu_idx": "540272",
     "announce_sn": null,
@@ -93,17 +93,27 @@
     "title": "진행중\n2026년도 전공약사 공개채용",
     "start_dt": "2025-12-06T09:00+09:00",
     "end_dt": null,
-    "dday": "D-5",
+    "dday": "D-4",
     "status": "진행중",
     "recu_idx": "539891",
     "announce_sn": null,
     "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/539891?p=1&s=12&q=%7B%7D"
   },
   {
+    "title": "진행중\n물리치료직(재활의학팀/휴직대체) 공개채용",
+    "start_dt": "2025-12-07T09:00+09:00",
+    "end_dt": null,
+    "dday": "D-5",
+    "status": "진행중",
+    "recu_idx": "540321",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540321?p=1&s=12&q=%7B%7D"
+  },
+  {
     "title": "진행중\n임상심리직(정신건강의학과/수련과정) 공개채용",
     "start_dt": "2025-12-07T09:00+09:00",
     "end_dt": null,
-    "dday": "D-6",
+    "dday": "D-5",
     "status": "진행중",
     "recu_idx": "540160",
     "announce_sn": null,
@@ -113,17 +123,57 @@
     "title": "진행중\n2026년도 서울성모병원 임상강사 초빙(공개채용) 면접전형 일정 안내",
     "start_dt": "2025-12-08T09:00+09:00",
     "end_dt": null,
-    "dday": "D-7",
+    "dday": "D-6",
     "status": "진행중",
     "recu_idx": "540161",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540161?p=1&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540161?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n방사선직(평생건강증진팀/계약직) 공개채용",
+    "start_dt": "2025-12-14T09:00+09:00",
+    "end_dt": null,
+    "dday": "D-12",
+    "status": "진행중",
+    "recu_idx": "540332",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540332?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n간호직(평생건강증진팀/계약직) 공개채용",
+    "start_dt": "2025-12-14T09:00+09:00",
+    "end_dt": null,
+    "dday": "D-12",
+    "status": "진행중",
+    "recu_idx": "540331",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540331?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n기관기사직(시설팀/계약직) 공개채용",
+    "start_dt": "2025-12-14T09:00+09:00",
+    "end_dt": null,
+    "dday": "D-12",
+    "status": "진행중",
+    "recu_idx": "540329",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540329?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n간호직(외래원무팀 진료예약센터/휴직대체) 공개채용",
+    "start_dt": "2025-12-14T09:00+09:00",
+    "end_dt": null,
+    "dday": "D-12",
+    "status": "진행중",
+    "recu_idx": "540324",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540324?p=2&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n2026년도 신입 간호사 공개채용 최종 합격자 안내",
     "start_dt": "2025-12-30T09:00+09:00",
     "end_dt": null,
-    "dday": "D-29",
+    "dday": "D-28",
     "status": "진행중",
     "recu_idx": "540245",
     "announce_sn": null,
@@ -133,7 +183,7 @@
     "title": "진행중\n2026년도 정규약사 공개채용 최종합격자 안내",
     "start_dt": "2026-02-27T09:00+09:00",
     "end_dt": null,
-    "dday": "D-88",
+    "dday": "D-87",
     "status": "진행중",
     "recu_idx": "540100",
     "announce_sn": null,
@@ -141,7 +191,7 @@
   },
   {
     "title": "진행중\n서울성모병원 간담췌외과 진료전문의 모집공고(입원전담전문의)",
-    "start_dt": "2025-12-01T09:00+09:00",
+    "start_dt": "2025-12-02T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -151,7 +201,7 @@
   },
   {
     "title": "진행중\n서울성모병원 응급의학과(응급의료센터) 당직의 구인공고",
-    "start_dt": "2025-12-01T09:00+09:00",
+    "start_dt": "2025-12-02T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -161,7 +211,7 @@
   },
   {
     "title": "진행중\n혈액내과 진료전문의 모집 공고",
-    "start_dt": "2025-12-01T09:00+09:00",
+    "start_dt": "2025-12-02T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -171,7 +221,7 @@
   },
   {
     "title": "진행중\n서울성모병원 흉부외과 진료전문의 모집",
-    "start_dt": "2025-12-01T09:00+09:00",
+    "start_dt": "2025-12-02T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -181,7 +231,7 @@
   },
   {
     "title": "진행중\n채용 서류 반환에 관한 안내",
-    "start_dt": "2025-12-01T09:00+09:00",
+    "start_dt": "2025-12-02T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",

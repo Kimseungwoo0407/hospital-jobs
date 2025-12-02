@@ -1,12 +1,22 @@
 [
   {
+    "title": "[일반-신촌] 기능원(계약직:간호조무사) 간호간병통합서비스병동 25.12 모집",
+    "location": "신촌",
+    "status": "접수중",
+    "date_text": "2025.12.01(월) 00:00 ~ 2025.12.07(일) 23:59",
+    "start_dt": "2025-12-01T00:00:00+09:00",
+    "end_dt": "2025-12-07T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235703"
+  },
+  {
     "title": "[일반-신촌]사무원(정규직전환조건) 제중원보건개발원 행정팀 25.12 모집",
     "location": "신촌",
     "status": "접수중",
     "date_text": "2025.12.01(월) 00:00 ~ 2025.12.10(수) 23:59",
     "start_dt": "2025-12-01T00:00:00+09:00",
     "end_dt": "2025-12-10T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235385"
   },
   {
@@ -16,7 +26,7 @@
     "date_text": "2025.11.27(목) 00:00 ~ 2025.12.03(수) 23:59",
     "start_dt": "2025-11-27T00:00:00+09:00",
     "end_dt": "2025-12-03T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235437"
   },
   {
@@ -26,7 +36,17 @@
     "date_text": "2025.11.26(수) 00:00 ~ 2025.12.05(금) 23:59",
     "start_dt": "2025-11-26T00:00:00+09:00",
     "end_dt": "2025-12-05T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235115"
+  },
+  {
+    "title": "[일반-신촌] 임상병리사(계약직) 세브)병리팀 25.11 모집",
+    "location": "신촌",
+    "status": "접수중",
+    "date_text": "2025.11.26(수) 00:00 ~ 2025.12.05(금) 23:59",
+    "start_dt": "2025-11-26T00:00:00+09:00",
+    "end_dt": "2025-12-05T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234904"
   }
 ]

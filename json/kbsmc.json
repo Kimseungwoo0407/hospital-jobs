@@ -1,1 +1,11 @@
-[]
+[
+  {
+    "title": "치과 치과위생사 모집",
+    "job_type": "의료 기사직",
+    "period_text": "2025.12.02 ~ 2025.12.09",
+    "start_dt": "2025-12-02T00:00:00+09:00",
+    "end_dt": "2025-12-09T23:59:00+09:00",
+    "status_text": "NEW",
+    "detail_url": "javascript:viewRecruit(2703);"
+  }
+]
