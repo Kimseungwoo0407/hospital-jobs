@@ -4,7 +4,7 @@
     "period_text": "2025-12-03 ~ 2025-12-05",
     "start_dt": "2025-12-03T00:00:00+09:00",
     "end_dt": "2025-12-05T23:59:00+09:00",
-    "status": "접수준비중",
+    "status": "접수중",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25163"
   },
   {
@@ -12,8 +12,16 @@
     "period_text": "2025-12-03 ~ 2025-12-05",
     "start_dt": "2025-12-03T00:00:00+09:00",
     "end_dt": "2025-12-05T23:59:00+09:00",
-    "status": "접수준비중",
+    "status": "접수중",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25164"
+  },
+  {
+    "title": "2026년도 연수의사 등 실무면접 합격자 발표 및 최종면접 안내",
+    "period_text": "2025-12-02 ~ 2025-12-05",
+    "start_dt": "2025-12-02T00:00:00+09:00",
+    "end_dt": "2025-12-05T23:59:00+09:00",
+    "status": "공고",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25165"
   },
   {
     "title": "2025년도 서울대학교병원 사무직(변호사) 직원 채용 공고 (장애인 특별우대)",
@@ -30,13 +38,5 @@
     "end_dt": "2025-12-03T23:59:00+09:00",
     "status": "접수중(마이다스인)",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25161"
-  },
-  {
-    "title": "2025년도 9월 장애인(무기계약직) 직원채용 최종면접 합격자 발표 및 신체검사 일정 공고",
-    "period_text": "2025-11-18 ~ 2025-12-02",
-    "start_dt": "2025-11-18T00:00:00+09:00",
-    "end_dt": "2025-12-02T23:59:00+09:00",
-    "status": "공고",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25158"
   }
 ]
