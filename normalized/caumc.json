@@ -1,65 +1,58 @@
 [
   {
+    "title": "중앙대학교의료원(광명병원) 약제팀 정규약사 모집 (2025.12)",
+    "start_dt": "2025-12-03T17:00:00+09:00",
+    "end_dt": "2025-12-09T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236040"
+  },
+  {
+    "title": "중앙대학교의료원(서울병원) 시설팀(기관실) 기능사(계약직) 모집(2025.12)",
+    "start_dt": "2025-12-03T10:00:00+09:00",
+    "end_dt": "2025-12-09T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236002"
+  },
+  {
     "title": "중앙대학교의료원(서울병원) 사회사업팀 사회복지사(수련직) 모집 (2025.12)",
     "start_dt": "2025-12-01T10:00:00+09:00",
     "end_dt": "2025-12-10T10:00:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235782"
   },
   {
     "title": "중앙대학교의료원(광명병원) 연구윤리팀 행정직 (휴직대체) 모집 (2025.11-1)",
     "start_dt": "2025-11-28T17:00:00+09:00",
     "end_dt": "2025-12-07T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235609"
   },
   {
     "title": "중앙대학교의료원(광명병원) 영상의학과 방사선사 (휴직대체) 모집 (2025.11-1)",
     "start_dt": "2025-11-28T17:00:00+09:00",
     "end_dt": "2025-12-07T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235592"
-  },
-  {
-    "title": "중앙대학교의료원(서울병원) 건진센터(증진) 임상병리사(계약직) 모집 (2025.11)",
-    "start_dt": "2025-11-27T10:00:00+09:00",
-    "end_dt": "2025-12-03T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235391"
-  },
-  {
-    "title": "중앙대학교의료원 전산정보팀 행정(계약직) 모집 (2025.11)",
-    "start_dt": "2025-11-27T10:00:00+09:00",
-    "end_dt": "2025-12-03T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235316"
-  },
-  {
-    "title": "중앙대학교의료원(서울병원) 물류관리팀(물류공급파트) 사무직(계약직) 모집 (2025.11)",
-    "start_dt": "2025-11-27T10:00:00+09:00",
-    "end_dt": "2025-12-03T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235312"
   },
   {
     "title": "중앙대학교광명병원 2026학년도 상반기 전공의(레지던트 1년차) 모집 공고",
     "start_dt": "2025-11-26T17:00:00+09:00",
     "end_dt": "2025-12-31T23:59:00+09:00",
-    "dday": "D-28",
+    "dday": "D-27",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235299"
   },
   {
     "title": "중앙대학교의료원(서울병원) 진단검사의학과 임상병리사(계약직) 모집 (2025.11)",
     "start_dt": "2025-11-26T10:00:00+09:00",
     "end_dt": "2025-12-05T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235191"
   },
   {
     "title": "FAQ 게시판 운영 안내",
     "start_dt": "2022-06-13T16:00:00+09:00",
     "end_dt": "2040-01-01T00:01:00+09:00",
-    "dday": "D-5142",
+    "dday": "D-5141",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=74639"
   }
 ]

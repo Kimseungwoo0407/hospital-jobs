@@ -1,44 +1,37 @@
 [
   {
+    "title": "[계약직] 간호간병통합서비스병동 간호조무사 채용",
+    "start_dt": "2025-12-03T09:00:00+09:00",
+    "end_dt": "2025-12-09T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1303"
+  },
+  {
     "title": "[계약직] 전담간호팀(산부인과 분만실) 전담간호사 채용",
     "start_dt": "2025-12-02T13:00:00+09:00",
     "end_dt": "2025-12-08T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1302"
   },
   {
     "title": "[계약직] 정형외과 스포츠의학센터 건강운동관리사 채용",
     "start_dt": "2025-12-01T10:00:00+09:00",
     "end_dt": "2025-12-10T11:01:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1301"
   },
   {
     "title": "[계약직] 국제교류팀 사무원(러시아어 코디네이터) 채용",
     "start_dt": "2025-12-01T11:00:00+09:00",
     "end_dt": "2025-12-07T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1300"
   },
   {
     "title": "[계약직] 전담간호팀(신경외과) 전담간호사 채용",
     "start_dt": "2025-12-01T10:00:00+09:00",
     "end_dt": "2025-12-07T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1299"
-  },
-  {
-    "title": "[계약직] 호흡기알레르기내과 결핵전담 연구간호사  채용",
-    "start_dt": "2025-11-27T10:00:00+09:00",
-    "end_dt": "2025-12-03T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1298"
-  },
-  {
-    "title": "[계약직] 영상의학팀 방사선사 채용",
-    "start_dt": "2025-11-27T08:00:00+09:00",
-    "end_dt": "2025-12-03T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1297"
   }
 ]

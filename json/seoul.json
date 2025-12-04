@@ -1,5 +1,13 @@
 [
   {
+    "title": "2026년도 레지던트 모집 지원현황(1일차)",
+    "period_text": "2025-12-03 ~ 2025-12-05",
+    "start_dt": "2025-12-03T00:00:00+09:00",
+    "end_dt": "2025-12-05T23:59:00+09:00",
+    "status": "공고",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25166"
+  },
+  {
     "title": "2026년도 레지던트 모집공고",
     "period_text": "2025-12-03 ~ 2025-12-05",
     "start_dt": "2025-12-03T00:00:00+09:00",
@@ -30,13 +38,5 @@
     "end_dt": "2025-12-12T23:59:00+09:00",
     "status": "접수중",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25162"
-  },
-  {
-    "title": "서울대학교병원 블라인드 직원채용 (대체근로자) 공고 (장애인 특별우대)",
-    "period_text": "2025-11-26 ~ 2025-12-03",
-    "start_dt": "2025-11-26T00:00:00+09:00",
-    "end_dt": "2025-12-03T23:59:00+09:00",
-    "status": "접수중(마이다스인)",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25161"
   }
 ]
