@@ -6,7 +6,7 @@
     "date_text": "2025.12.03(수) 00:00 ~ 2025.12.12(금) 23:59",
     "start_dt": "2025-12-03T00:00:00+09:00",
     "end_dt": "2025-12-12T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236063"
   },
   {
@@ -16,7 +16,7 @@
     "date_text": "2025.12.03(수) 00:00 ~ 2025.12.12(금) 23:59",
     "start_dt": "2025-12-03T00:00:00+09:00",
     "end_dt": "2025-12-12T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236050"
   },
   {
@@ -26,7 +26,7 @@
     "date_text": "2025.12.02(화) 00:00 ~ 2025.12.09(화) 23:59",
     "start_dt": "2025-12-02T00:00:00+09:00",
     "end_dt": "2025-12-09T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235914"
   },
   {
@@ -36,7 +36,7 @@
     "date_text": "2025.12.02(화) 00:00 ~ 2025.12.11(목) 23:59",
     "start_dt": "2025-12-02T00:00:00+09:00",
     "end_dt": "2025-12-11T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235873"
   },
   {
@@ -46,7 +46,7 @@
     "date_text": "2025.12.02(화) 00:00 ~ 2025.12.11(목) 00:00",
     "start_dt": "2025-12-02T00:00:00+09:00",
     "end_dt": "2025-12-11T00:00:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235837"
   },
   {
@@ -56,7 +56,7 @@
     "date_text": "2025.12.01(월) 00:00 ~ 2025.12.07(일) 23:59",
     "start_dt": "2025-12-01T00:00:00+09:00",
     "end_dt": "2025-12-07T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235703"
   },
   {
@@ -66,7 +66,7 @@
     "date_text": "2025.12.01(월) 00:00 ~ 2025.12.10(수) 23:59",
     "start_dt": "2025-12-01T00:00:00+09:00",
     "end_dt": "2025-12-10T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235385"
   },
   {
@@ -76,7 +76,17 @@
     "date_text": "2025.11.26(수) 00:00 ~ 2025.12.05(금) 23:59",
     "start_dt": "2025-11-26T00:00:00+09:00",
     "end_dt": "2025-12-05T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235115"
+  },
+  {
+    "title": "[일반-신촌] 임상병리사(계약직) 세브)병리팀 25.11 모집",
+    "location": "신촌",
+    "status": "접수중",
+    "date_text": "2025.11.26(수) 00:00 ~ 2025.12.05(금) 23:59",
+    "start_dt": "2025-11-26T00:00:00+09:00",
+    "end_dt": "2025-12-05T23:59:00+09:00",
+    "dday": "D-0",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234904"
   }
 ]
