@@ -1,12 +1,42 @@
 [
   {
+    "title": "[일반-강남] 임상심리사(인턴직) 신경과 25.12 모집",
+    "location": "강남",
+    "status": "접수중",
+    "date_text": "2025.12.05(금) 00:00 ~ 2025.12.11(목) 23:59",
+    "start_dt": "2025-12-05T00:00:00+09:00",
+    "end_dt": "2025-12-11T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236341"
+  },
+  {
+    "title": "[일반-강남] 기능원(계약직) 영상의학팀 25.12 모집",
+    "location": "강남",
+    "status": "접수중",
+    "date_text": "2025.12.05(금) 00:00 ~ 2025.12.11(목) 23:59",
+    "start_dt": "2025-12-05T00:00:00+09:00",
+    "end_dt": "2025-12-11T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236321"
+  },
+  {
+    "title": "[일반-신촌] 연세의료원 외래간호사(계약직) 25.12 모집",
+    "location": "신촌",
+    "status": "접수중",
+    "date_text": "2025.12.05(금) 00:00 ~ 2025.12.14(일) 00:00",
+    "start_dt": "2025-12-05T00:00:00+09:00",
+    "end_dt": "2025-12-14T00:00:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236302"
+  },
+  {
     "title": "[일반-신촌] 조리사(계약직) 세브)영양팀 25.12 모집(공고수정)",
     "location": "신촌",
     "status": "접수중",
     "date_text": "2025.12.03(수) 00:00 ~ 2025.12.12(금) 23:59",
     "start_dt": "2025-12-03T00:00:00+09:00",
     "end_dt": "2025-12-12T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236063"
   },
   {
@@ -16,7 +46,7 @@
     "date_text": "2025.12.03(수) 00:00 ~ 2025.12.12(금) 23:59",
     "start_dt": "2025-12-03T00:00:00+09:00",
     "end_dt": "2025-12-12T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236050"
   },
   {
@@ -26,7 +56,7 @@
     "date_text": "2025.12.02(화) 00:00 ~ 2025.12.09(화) 23:59",
     "start_dt": "2025-12-02T00:00:00+09:00",
     "end_dt": "2025-12-09T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235914"
   },
   {
@@ -36,7 +66,7 @@
     "date_text": "2025.12.02(화) 00:00 ~ 2025.12.11(목) 23:59",
     "start_dt": "2025-12-02T00:00:00+09:00",
     "end_dt": "2025-12-11T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235873"
   },
   {
@@ -46,47 +76,7 @@
     "date_text": "2025.12.02(화) 00:00 ~ 2025.12.11(목) 00:00",
     "start_dt": "2025-12-02T00:00:00+09:00",
     "end_dt": "2025-12-11T00:00:00+09:00",
-    "dday": "D-6",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235837"
-  },
-  {
-    "title": "[일반-신촌] 기능원(계약직:간호조무사) 간호간병통합서비스병동 25.12 모집",
-    "location": "신촌",
-    "status": "접수중",
-    "date_text": "2025.12.01(월) 00:00 ~ 2025.12.07(일) 23:59",
-    "start_dt": "2025-12-01T00:00:00+09:00",
-    "end_dt": "2025-12-07T23:59:00+09:00",
-    "dday": "D-2",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235703"
-  },
-  {
-    "title": "[일반-신촌]사무원(정규직전환조건) 제중원보건개발원 행정팀 25.12 모집",
-    "location": "신촌",
-    "status": "접수중",
-    "date_text": "2025.12.01(월) 00:00 ~ 2025.12.10(수) 23:59",
-    "start_dt": "2025-12-01T00:00:00+09:00",
-    "end_dt": "2025-12-10T23:59:00+09:00",
     "dday": "D-5",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235385"
-  },
-  {
-    "title": "2026년도 세브란스병원(신촌) 신규간호사 모집",
-    "location": "신촌",
-    "status": "접수중",
-    "date_text": "2025.11.26(수) 00:00 ~ 2025.12.05(금) 23:59",
-    "start_dt": "2025-11-26T00:00:00+09:00",
-    "end_dt": "2025-12-05T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235115"
-  },
-  {
-    "title": "[일반-신촌] 임상병리사(계약직) 세브)병리팀 25.11 모집",
-    "location": "신촌",
-    "status": "접수중",
-    "date_text": "2025.11.26(수) 00:00 ~ 2025.12.05(금) 23:59",
-    "start_dt": "2025-11-26T00:00:00+09:00",
-    "end_dt": "2025-12-05T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=234904"
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235837"
   }
 ]
