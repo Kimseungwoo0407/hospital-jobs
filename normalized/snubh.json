@@ -1,37 +1,51 @@
 [
   {
+    "title": "신입(사무직) 직원 채용공고",
+    "start_dt": "2025-12-09T12:00:00+09:00",
+    "end_dt": "2025-12-18T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236551"
+  },
+  {
+    "title": "경력(보건직) 직원 채용공고",
+    "start_dt": "2025-12-09T12:00:00+09:00",
+    "end_dt": "2025-12-18T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236542"
+  },
+  {
     "title": "25년 12월 신입(업무지원직) 직원 채용 공고",
     "start_dt": "2025-12-09T09:00:00+09:00",
     "end_dt": "2025-12-18T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235849"
   },
   {
     "title": "진료전문의(외과), 진료일반의(마취통증의학과) 채용 공고",
     "start_dt": "2025-12-02T10:00:00+09:00",
     "end_dt": "2025-12-11T17:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235612"
   },
   {
     "title": "진료교수요원(공공부문, 입원전담진료센터, 안과) 채용 공고",
     "start_dt": "2025-12-02T10:00:00+09:00",
     "end_dt": "2025-12-11T17:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235588"
   },
   {
     "title": "[상시채용] 진료전문의(소아청소년과) 채용공고",
     "start_dt": "2025-08-04T10:00:00+09:00",
     "end_dt": "2025-12-31T23:54:00+09:00",
-    "dday": "D-22",
+    "dday": "D-21",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=223784"
   },
   {
     "title": "[상시채용] 진료의(권역응급의료센터, 응급의학과, 내과) 채용공고",
     "start_dt": "2025-02-12T09:00:00+09:00",
     "end_dt": "2025-12-31T23:59:00+09:00",
-    "dday": "D-22",
+    "dday": "D-21",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=207398"
   }
 ]
