@@ -1,16 +1,23 @@
 [
   {
+    "title": "2025년도 12월 대체근로자 채용 서류전형 합격자 발표 및 면접전형 일정공고",
+    "start_dt": "2025-12-10T00:00:00+09:00",
+    "end_dt": "2025-12-17T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25170"
+  },
+  {
     "title": "진료교수요원 및 진료의 공개채용",
     "start_dt": "2025-12-09T00:00:00+09:00",
     "end_dt": "2025-12-16T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25167"
   },
   {
     "title": "2025년도 서울대학교병원 사무직(변호사) 직원 채용 공고 (장애인 특별우대)",
     "start_dt": "2025-11-28T00:00:00+09:00",
     "end_dt": "2025-12-12T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25162"
   }
 ]
