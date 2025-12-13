@@ -1,44 +1,37 @@
 [
   {
-    "title": "D-3[이화의료원] 국제의료사업팀 계약직 코디네이터(러시아어) 공개채용 공고",
+    "title": "D-2[이화의료원] 국제의료사업팀 계약직 코디네이터(러시아어) 공개채용 공고",
     "start_dt": "2025-12-09T00:00:00+09:00",
     "end_dt": "2025-12-15T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=29328&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-50[서울병원] 간호부 계약직 기능원 공개채용 공고",
+    "title": "D-49[서울병원] 간호부 계약직 기능원 공개채용 공고",
     "start_dt": "2025-12-08T00:00:00+09:00",
     "end_dt": "2026-01-31T23:59:00+09:00",
-    "dday": "D-50",
+    "dday": "D-49",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=29315&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-0[서울병원] 2026년도 치과 전공의(레지던트1년차) 모집 합격자 공고",
-    "start_dt": "2025-12-05T00:00:00+09:00",
-    "end_dt": "2025-12-12T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=29311&pageIndex=1&searchWord=&bid_status=I"
-  },
-  {
-    "title": "D-77[서울병원] 간호부 계약직 간호사(외래) 공개채용 공고",
+    "title": "D-76[서울병원] 간호부 계약직 간호사(외래) 공개채용 공고",
     "start_dt": "2025-11-27T00:00:00+09:00",
     "end_dt": "2026-02-27T23:59:00+09:00",
-    "dday": "D-77",
+    "dday": "D-76",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=29220&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-0[이화의료원] 2026년 상반기 이화여자대학교 의료원 비전임교원 초빙 연장공고",
+    "title": "D-18[이화의료원] 2026년 상반기 이화여자대학교 의료원 비전임교원 초빙 연장공고",
     "start_dt": "2025-11-21T00:00:00+09:00",
-    "end_dt": "2025-12-12T23:59:00+09:00",
-    "dday": "D-0",
+    "end_dt": "2025-12-31T23:59:00+09:00",
+    "dday": "D-18",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=29185&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-3[서울병원] 총무팀 계약직 환자이송원 공개채용 공고",
+    "title": "D-2[서울병원] 총무팀 계약직 환자이송원 공개채용 공고",
     "start_dt": "2025-09-08T00:00:00+09:00",
     "end_dt": "2025-12-15T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=28462&pageIndex=1&searchWord=&bid_status=I"
   }
 ]
