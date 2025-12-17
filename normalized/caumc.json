@@ -1,58 +1,51 @@
 [
   {
+    "title": "중앙대학교의료원(서울병원) 간호본부(외래간호팀) 간호사(계약직) 모집 (2025.12)",
+    "start_dt": "2025-12-16T10:00:00+09:00",
+    "end_dt": "2025-12-22T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237191"
+  },
+  {
     "title": "중앙대학교광명병원 치과 직원 모집(2025.12)",
     "start_dt": "2025-12-15T15:00:00+09:00",
     "end_dt": "2026-01-31T23:59:00+09:00",
-    "dday": "D-46",
+    "dday": "D-45",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237135"
   },
   {
     "title": "중앙대학교의료원(서울병원) 영상의학과 방사선사(시간제) 모집 (2025.12)",
     "start_dt": "2025-12-12T10:00:00+09:00",
     "end_dt": "2025-12-18T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236934"
   },
   {
     "title": "중앙대학교의료원(서울병원) 물리치료실 물리치료사(계약직) 모집 (2025.12)",
     "start_dt": "2025-12-12T10:00:00+09:00",
     "end_dt": "2025-12-18T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236930"
   },
   {
     "title": "중앙대학교의료원(광명병원) 간호본부 산부인과 전담간호사 (정규직) 모집 (2025.12)",
     "start_dt": "2025-12-11T17:30:00+09:00",
     "end_dt": "2025-12-17T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236914"
   },
   {
     "title": "중앙대학교의료원(광명병원) 안전보건관리팀 안전관리자 (계약직) 모집 (2025.12)",
     "start_dt": "2025-12-11T14:00:00+09:00",
     "end_dt": "2025-12-17T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236859"
-  },
-  {
-    "title": "중앙대학교의료원(광명병원) 영양관리팀 영양사 (계약직) 모집 (2025.12)",
-    "start_dt": "2025-12-10T17:30:00+09:00",
-    "end_dt": "2025-12-16T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236754"
-  },
-  {
-    "title": "중앙대학교의료원(서울병원) 감염내과 간호사(계약직) 모집 (2025.12)",
-    "start_dt": "2025-12-10T10:00:00+09:00",
-    "end_dt": "2025-12-16T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236548"
   },
   {
     "title": "FAQ 게시판 운영 안내",
     "start_dt": "2022-06-13T16:00:00+09:00",
     "end_dt": "2040-01-01T00:01:00+09:00",
-    "dday": "D-5129",
+    "dday": "D-5128",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=74639"
   }
 ]

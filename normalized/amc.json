@@ -1,58 +1,44 @@
 [
   {
-    "title": "2026년 의학물리연수자(고급) 모집",
-    "start_dt": "2025-12-10T09:00:00+09:00",
-    "end_dt": "2025-12-16T17:00:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5056&announceSn=20250436"
-  },
-  {
-    "title": "2026년 의학물리연수자(기본) 모집",
-    "start_dt": "2025-12-10T09:00:00+09:00",
-    "end_dt": "2025-12-16T17:00:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5055&announceSn=20250435"
-  },
-  {
-    "title": "영양팀 영양사 모집",
-    "start_dt": "2025-12-10T12:00:00+09:00",
-    "end_dt": "2025-12-16T23:00:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5057&announceSn=20250444"
-  },
-  {
     "title": "2026년도 동계 서브인턴 프로그램 모집",
     "start_dt": "2025-12-08T08:00:00+09:00",
     "end_dt": "2025-12-17T17:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-0",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5047&announceSn=20250434"
   },
   {
     "title": "통합돌봄지원팀 정규직 사회복지사 공채",
     "start_dt": "2025-12-08T10:00:00+09:00",
     "end_dt": "2025-12-17T23:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-0",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5045&announceSn=20250432"
   },
   {
     "title": "재활의학팀 임상심리사 모집",
     "start_dt": "2025-12-11T16:00:00+09:00",
     "end_dt": "2025-12-18T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-1",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5058&announceSn=20250445"
+  },
+  {
+    "title": "건강의학과 건진교수 초빙",
+    "start_dt": "2025-12-15T12:00:00+09:00",
+    "end_dt": "2025-12-22T17:00:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5059&announceSn=20250446"
   },
   {
     "title": "마취통증의학과 임상교수 초빙",
     "start_dt": "2025-10-27T18:00:00+09:00",
     "end_dt": "2025-12-28T18:00:00+09:00",
-    "dday": "D-13",
+    "dday": "D-11",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4991&announceSn=20250379"
   },
   {
     "title": "산부인과 촉탁임상교수 초빙",
     "start_dt": "2025-10-27T18:00:00+09:00",
     "end_dt": "2025-12-28T18:00:00+09:00",
-    "dday": "D-13",
+    "dday": "D-11",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=4990&announceSn=20250378"
   }
 ]
