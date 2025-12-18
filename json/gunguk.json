@@ -1,10 +1,26 @@
 [
   {
+    "title": "[정규직] 2026년도 경력직 건축시설팀 시설관리직 채용",
+    "period_text": "2025-12-17 12:00 ~ 2025-12-23 11:01",
+    "start_dt": "2025-12-17T12:00:00+09:00",
+    "end_dt": "2025-12-23T11:01:00+09:00",
+    "status_text": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1311"
+  },
+  {
+    "title": "[계약직] 영상의학팀 방사선사 채용(인터벤션실)",
+    "period_text": "2025-12-17 12:00 ~ 2025-12-22 11:00",
+    "start_dt": "2025-12-17T12:00:00+09:00",
+    "end_dt": "2025-12-22T11:00:00+09:00",
+    "status_text": "D-4",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1310"
+  },
+  {
     "title": "[계약직] 전담간호팀(신경외과) 전담간호사 채용",
     "period_text": "2025-12-16 13:00 ~ 2025-12-22 13:01",
     "start_dt": "2025-12-16T13:00:00+09:00",
     "end_dt": "2025-12-22T13:01:00+09:00",
-    "status_text": "D-5",
+    "status_text": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1309"
   },
   {
@@ -12,7 +28,7 @@
     "period_text": "2025-12-12 08:00 ~ 2026-01-31 23:59",
     "start_dt": "2025-12-12T08:00:00+09:00",
     "end_dt": "2026-01-31T23:59:00+09:00",
-    "status_text": "D-45",
+    "status_text": "D-44",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1308"
   }
 ]
