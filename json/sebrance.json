@@ -1,12 +1,22 @@
 [
   {
+    "title": "[일반-신촌] 보건의료정보관리사(계약직) 세브)의무기록팀 25.12 모집",
+    "location": "신촌",
+    "status": "접수중",
+    "date_text": "2025.12.18(목) 00:00 ~ 2025.12.27(토) 23:59",
+    "start_dt": "2025-12-18T00:00:00+09:00",
+    "end_dt": "2025-12-27T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237404"
+  },
+  {
     "title": "[일반-신촌] 간호사(계약직) 세브)소화기병센터(내시경검사실) 25.12 모집",
     "location": "신촌",
     "status": "접수중",
     "date_text": "2025.12.16(화) 00:00 ~ 2025.12.28(일) 23:59",
     "start_dt": "2025-12-16T00:00:00+09:00",
     "end_dt": "2025-12-28T23:59:00+09:00",
-    "dday": "D-10",
+    "dday": "D-9",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237331"
   },
   {
@@ -16,7 +26,7 @@
     "date_text": "2025.12.15(월) 00:00 ~ 2025.12.21(일) 23:59",
     "start_dt": "2025-12-15T00:00:00+09:00",
     "end_dt": "2025-12-21T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237077"
   },
   {
@@ -26,27 +36,7 @@
     "date_text": "2025.12.12(금) 00:00 ~ 2025.12.21(일) 23:59",
     "start_dt": "2025-12-12T00:00:00+09:00",
     "end_dt": "2025-12-21T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237002"
-  },
-  {
-    "title": "[일반-신촌] 간호사(계약직) 체크업)검진팀 25.12 모집",
-    "location": "신촌",
-    "status": "접수중",
-    "date_text": "2025.12.12(금) 00:00 ~ 2025.12.18(목) 23:59",
-    "start_dt": "2025-12-12T00:00:00+09:00",
-    "end_dt": "2025-12-18T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236940"
-  },
-  {
-    "title": "[일반-신촌] 사무원(계약직) 세브란스병원 직업환경의학과 25.12 모집",
-    "location": "신촌",
-    "status": "접수중",
-    "date_text": "2025.12.12(금) 00:00 ~ 2025.12.18(목) 23:59",
-    "start_dt": "2025-12-12T00:00:00+09:00",
-    "end_dt": "2025-12-18T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236935"
   }
 ]
