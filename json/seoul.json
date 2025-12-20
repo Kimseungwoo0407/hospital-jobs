@@ -1,5 +1,13 @@
 [
   {
+    "title": "2025년도 사무직(변호사) 직원 채용 1차 서류전형 합격자 발표 및 2차 실무면접 일정 공고",
+    "period_text": "2025-12-19 ~ 2025-12-26",
+    "start_dt": "2025-12-19T00:00:00+09:00",
+    "end_dt": "2025-12-26T23:59:00+09:00",
+    "status": "공고",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25174"
+  },
+  {
     "title": "2026년도(동계)심장혈관흉부외과 학생 서브인턴 모집 공고",
     "period_text": "2025-12-12 ~ 2026-12-19",
     "start_dt": "2025-12-12T00:00:00+09:00",
@@ -14,13 +22,5 @@
     "end_dt": "2025-12-26T23:59:00+09:00",
     "status": "공고",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25168"
-  },
-  {
-    "title": "2026년도 연수의사 등 선발 최종면접 합격자 발표 및 등록 안내",
-    "period_text": "2025-12-11 ~ 2025-12-19",
-    "start_dt": "2025-12-11T00:00:00+09:00",
-    "end_dt": "2025-12-19T23:59:00+09:00",
-    "status": "공고",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25172"
   }
 ]
