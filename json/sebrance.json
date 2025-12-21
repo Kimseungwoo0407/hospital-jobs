@@ -6,7 +6,7 @@
     "date_text": "2025.12.19(금) 00:00 ~ 2025.12.25(목) 23:59",
     "start_dt": "2025-12-19T00:00:00+09:00",
     "end_dt": "2025-12-25T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237628"
   },
   {
@@ -16,7 +16,7 @@
     "date_text": "2025.12.18(목) 00:00 ~ 2025.12.27(토) 23:59",
     "start_dt": "2025-12-18T00:00:00+09:00",
     "end_dt": "2025-12-27T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237404"
   },
   {
@@ -26,7 +26,7 @@
     "date_text": "2025.12.16(화) 00:00 ~ 2025.12.28(일) 23:59",
     "start_dt": "2025-12-16T00:00:00+09:00",
     "end_dt": "2025-12-28T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237331"
   },
   {
@@ -36,7 +36,7 @@
     "date_text": "2025.12.15(월) 00:00 ~ 2025.12.21(일) 23:59",
     "start_dt": "2025-12-15T00:00:00+09:00",
     "end_dt": "2025-12-21T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237077"
   },
   {
@@ -46,7 +46,7 @@
     "date_text": "2025.12.12(금) 00:00 ~ 2025.12.21(일) 23:59",
     "start_dt": "2025-12-12T00:00:00+09:00",
     "end_dt": "2025-12-21T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237002"
   }
 ]
