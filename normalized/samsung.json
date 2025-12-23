@@ -1,51 +1,79 @@
 [
   {
+    "title": "간호본부 계약직 3교대 간호조무사 / 3교대 보조원 채용(12월 4차)",
+    "start_dt": "2025-12-23T00:00:00+09:00",
+    "end_dt": "2025-12-29T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAHF0161&cPage=1"
+  },
+  {
+    "title": "약제부 계약직 야간전담 사원 채용",
+    "start_dt": "2025-12-23T00:00:00+09:00",
+    "end_dt": "2025-12-30T23:59:00+09:00",
+    "dday": "D-7",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAHF0160&cPage=1"
+  },
+  {
+    "title": "약제부 계약직 사원 채용",
+    "start_dt": "2025-12-23T00:00:00+09:00",
+    "end_dt": "2025-12-30T23:59:00+09:00",
+    "dday": "D-7",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAHF0159&cPage=1"
+  },
+  {
+    "title": "마취간호팀 계약직 전산사원 채용",
+    "start_dt": "2025-12-22T00:00:00+09:00",
+    "end_dt": "2025-12-29T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAHF0158&cPage=1"
+  },
+  {
     "title": "치과지원실 계약직 보조원 채용",
     "start_dt": "2025-12-22T00:00:00+09:00",
     "end_dt": "2025-12-29T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAHF0157&cPage=1"
   },
   {
     "title": "의료정보팀 계약직 사무직 채용(장애인 채용)",
     "start_dt": "2025-12-19T00:00:00+09:00",
     "end_dt": "2025-12-31T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAH0076&cPage=1"
   },
   {
     "title": "SMC파트너즈센터 계약직 간호사 채용",
     "start_dt": "2025-12-17T00:00:00+09:00",
     "end_dt": "2025-12-24T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025HAB0168&cPage=1"
   },
   {
     "title": "소아청소년과 계약직 사무직 채용",
     "start_dt": "2025-12-17T00:00:00+09:00",
     "end_dt": "2025-12-24T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAH0075&cPage=1"
   },
   {
     "title": "(주말전담) 약제부 계약직 약사 채용",
     "start_dt": "2025-12-16T00:00:00+09:00",
     "end_dt": "2025-12-24T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025HAD10025&cPage=1"
   },
   {
     "title": "마취간호팀 계약직 교대 보조원 채용(연장)",
     "start_dt": "2025-12-15T00:00:00+09:00",
     "end_dt": "2025-12-26T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025AAHF0153&cPage=1"
   },
   {
     "title": "2026년도 임상강사(Fellow) 추가 초빙 안내",
     "start_dt": "2025-12-15T00:00:00+09:00",
     "end_dt": "2026-01-16T23:59:00+09:00",
-    "dday": "D-25",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025D0036&cPage=1"
+    "dday": "D-24",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2025D0036&cPage=2"
   }
 ]
