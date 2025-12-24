@@ -9,6 +9,15 @@
     "detail_url": "javascript:viewRecruit(2736);"
   },
   {
+    "title": "병리과 임상병리사 모집",
+    "job_type": "의료 기사직",
+    "period_text": "2025.12.23 ~ 2025.12.28",
+    "start_dt": "2025-12-23T00:00:00+09:00",
+    "end_dt": "2025-12-28T23:59:00+09:00",
+    "status_text": "NEW",
+    "detail_url": "javascript:viewRecruit(2737);"
+  },
+  {
     "title": "산부인과 방사선사(휴직대체) 모집",
     "job_type": "의료 기사직",
     "period_text": "2025.12.19 ~ 2025.12.25",

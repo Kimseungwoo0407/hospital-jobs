@@ -1,44 +1,37 @@
 [
   {
+    "title": "중앙대학교의료원(서울병원) 영상의학과 간호사(휴직대체) 모집 (2025.12)",
+    "start_dt": "2025-12-23T10:00:00+09:00",
+    "end_dt": "2025-12-29T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237816"
+  },
+  {
     "title": "중앙대학교의료원(서울병원) 수술실 로봇수술 SA(경력/정규직) 모집 (2025.12)",
     "start_dt": "2025-12-22T10:00:00+09:00",
     "end_dt": "2025-12-28T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237718"
   },
   {
     "title": "중앙대학교의료원(서울병원) 시설팀(기관실) 기능사(계약직) 모집(2025.12-2)",
     "start_dt": "2025-12-18T10:00:00+09:00",
     "end_dt": "2025-12-24T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237508"
-  },
-  {
-    "title": "중앙대학교의료원(광명병원) 약제팀 정규약사 모집 (2025.12-1)",
-    "start_dt": "2025-12-17T17:00:00+09:00",
-    "end_dt": "2025-12-23T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237410"
-  },
-  {
-    "title": "중앙대학교의료원(광명병원) 간호본부 마취통증의학과 전담간호사 (정규직) 모집 (2025.12)",
-    "start_dt": "2025-12-17T11:30:00+09:00",
-    "end_dt": "2025-12-23T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237378"
   },
   {
     "title": "중앙대학교광명병원 치과 직원 모집(2025.12)",
     "start_dt": "2025-12-15T15:00:00+09:00",
     "end_dt": "2026-01-31T23:59:00+09:00",
-    "dday": "D-39",
+    "dday": "D-38",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237135"
   },
   {
     "title": "FAQ 게시판 운영 안내",
     "start_dt": "2022-06-13T16:00:00+09:00",
     "end_dt": "2040-01-01T00:01:00+09:00",
-    "dday": "D-5122",
+    "dday": "D-5121",
     "detail_url": "https://caumc.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=74639"
   }
 ]
