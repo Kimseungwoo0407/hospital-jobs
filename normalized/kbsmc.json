@@ -3,14 +3,14 @@
     "title": "심장검사실 임상병리사 모집",
     "start_dt": "2025-12-22T00:00:00+09:00",
     "end_dt": "2025-12-29T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "javascript:viewRecruit(2736);"
   },
   {
     "title": "병리과 임상병리사 모집",
     "start_dt": "2025-12-23T00:00:00+09:00",
     "end_dt": "2025-12-28T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "javascript:viewRecruit(2737);"
   }
 ]
