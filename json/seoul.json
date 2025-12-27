@@ -1,5 +1,13 @@
 [
   {
+    "title": "2026년도 레지던트 합격자 등록 안내",
+    "period_text": "2026-12-26 ~ 2026-12-26",
+    "start_dt": "2026-12-26T00:00:00+09:00",
+    "end_dt": "2026-12-26T23:59:00+09:00",
+    "status": "접수준비중",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25177"
+  },
+  {
     "title": "2025년도 12월 대체근로자 채용 면접전형 합격자 발표 및 신체검사 일정공고",
     "period_text": "2025-12-22 ~ 2025-12-29",
     "start_dt": "2025-12-22T00:00:00+09:00",
@@ -8,27 +16,11 @@
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25176"
   },
   {
-    "title": "2025년도 사무직(변호사) 직원 채용 1차 서류전형 합격자 발표 및 2차 실무면접 일정 공고",
-    "period_text": "2025-12-19 ~ 2025-12-26",
-    "start_dt": "2025-12-19T00:00:00+09:00",
-    "end_dt": "2025-12-26T23:59:00+09:00",
-    "status": "공고",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25174"
-  },
-  {
     "title": "2026년도(동계)심장혈관흉부외과 학생 서브인턴 모집 공고",
     "period_text": "2025-12-12 ~ 2026-12-19",
     "start_dt": "2025-12-12T00:00:00+09:00",
     "end_dt": "2026-12-19T23:59:00+09:00",
     "status": "접수중",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25173"
-  },
-  {
-    "title": "임상교수요원 공개채용",
-    "period_text": "2025-12-12 ~ 2025-12-26",
-    "start_dt": "2025-12-12T00:00:00+09:00",
-    "end_dt": "2025-12-26T23:59:00+09:00",
-    "status": "공고",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25168"
   }
 ]
