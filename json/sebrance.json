@@ -6,7 +6,7 @@
     "date_text": "2025.12.26(금) 00:00 ~ 2026.01.04(일) 23:59",
     "start_dt": "2025-12-26T00:00:00+09:00",
     "end_dt": "2026-01-04T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238219"
   },
   {
@@ -16,7 +16,7 @@
     "date_text": "2025.12.23(화) 00:00 ~ 2025.12.29(월) 23:59",
     "start_dt": "2025-12-23T00:00:00+09:00",
     "end_dt": "2025-12-29T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237929"
   },
   {
@@ -26,7 +26,7 @@
     "date_text": "2025.12.23(화) 00:00 ~ 2025.12.29(월) 23:59",
     "start_dt": "2025-12-23T00:00:00+09:00",
     "end_dt": "2025-12-29T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237885"
   },
   {
@@ -36,7 +36,7 @@
     "date_text": "2025.12.22(월) 00:00 ~ 2025.12.28(일) 23:59",
     "start_dt": "2025-12-22T00:00:00+09:00",
     "end_dt": "2025-12-28T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237751"
   },
   {
@@ -46,18 +46,8 @@
     "date_text": "2025.12.19(금) 00:00 ~ 2025.12.28(일) 23:59",
     "start_dt": "2025-12-19T00:00:00+09:00",
     "end_dt": "2025-12-28T23:59:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237628"
-  },
-  {
-    "title": "[일반-신촌] 보건의료정보관리사(계약직) 세브)의무기록팀 25.12 모집",
-    "location": "신촌",
-    "status": "접수중",
-    "date_text": "2025.12.18(목) 00:00 ~ 2025.12.27(토) 23:59",
-    "start_dt": "2025-12-18T00:00:00+09:00",
-    "end_dt": "2025-12-27T23:59:00+09:00",
     "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237404"
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237628"
   },
   {
     "title": "[일반-신촌] 간호사(계약직) 세브)소화기병센터(내시경검사실) 25.12 모집",
@@ -66,7 +56,7 @@
     "date_text": "2025.12.16(화) 00:00 ~ 2025.12.28(일) 23:59",
     "start_dt": "2025-12-16T00:00:00+09:00",
     "end_dt": "2025-12-28T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237331"
   },
   {
@@ -76,7 +66,7 @@
     "date_text": "2025.12.23(화) 00:00 ~ 2026.01.01(목) 23:59",
     "start_dt": "2025-12-23T00:00:00+09:00",
     "end_dt": "2026-01-01T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=237193"
   },
   {
@@ -86,7 +76,7 @@
     "date_text": "2025.12.02(화) 00:00 ~ 2025.12.31(수) 23:59",
     "start_dt": "2025-12-02T00:00:00+09:00",
     "end_dt": "2025-12-31T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=235914"
   }
 ]
