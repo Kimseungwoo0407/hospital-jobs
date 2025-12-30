@@ -3,14 +3,7 @@
     "title": "수원지역 부속의원 임상병리사 모집",
     "start_dt": "2025-12-29T00:00:00+09:00",
     "end_dt": "2026-01-04T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "javascript:viewRecruit(2746);"
-  },
-  {
-    "title": "진단검사의학과 임상병리사(휴직대체) 모집",
-    "start_dt": "2025-12-26T00:00:00+09:00",
-    "end_dt": "2026-01-01T23:59:00+09:00",
-    "dday": "D-3",
-    "detail_url": "javascript:viewRecruit(2741);"
   }
 ]
