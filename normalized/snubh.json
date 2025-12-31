@@ -3,63 +3,77 @@
     "title": "단시간일반직(선임급연구원) 채용공고",
     "start_dt": "2025-12-29T17:00:00+09:00",
     "end_dt": "2026-01-07T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238270"
   },
   {
     "title": "단시간일반직_간호직(고위험산모신생아통합치료센터, 내과, 의료기기연구개발센터, 재활의학과) 채용공고",
     "start_dt": "2025-12-29T17:00:00+09:00",
     "end_dt": "2026-01-07T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238267"
   },
   {
     "title": "단시간일반직(인권센터) 채용공고",
     "start_dt": "2025-12-29T17:00:00+09:00",
     "end_dt": "2026-01-07T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238265"
   },
   {
     "title": "직원(계약업무지원직) 채용공고",
     "start_dt": "2025-12-29T17:00:00+09:00",
     "end_dt": "2026-01-07T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238262"
   },
   {
     "title": "직원(계약간호직, 계약보건직_신입) 채용공고",
     "start_dt": "2025-12-29T17:00:00+09:00",
     "end_dt": "2026-01-07T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238260"
   },
   {
     "title": "직원(계약간호직, 계약보건직_경력) 채용공고",
     "start_dt": "2025-12-29T17:00:00+09:00",
     "end_dt": "2026-01-07T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238254"
   },
   {
     "title": "직원(계약별정전문직_경력) 채용공고",
     "start_dt": "2025-12-29T17:00:00+09:00",
     "end_dt": "2026-01-07T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238251"
+  },
+  {
+    "title": "2026년도 분당서울대학교병원 임상강사(Fellow) 1차 추가초빙",
+    "start_dt": "2025-12-30T10:00:00+09:00",
+    "end_dt": "2026-01-12T15:00:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238197"
+  },
+  {
+    "title": "2026년도 분당서울대학교병원 연구임상강사(Research Fellow) 초빙",
+    "start_dt": "2025-12-30T10:00:00+09:00",
+    "end_dt": "2026-01-12T15:00:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238189"
   },
   {
     "title": "[상시채용] 진료전문의(소아청소년과) 채용공고",
     "start_dt": "2025-08-04T10:00:00+09:00",
     "end_dt": "2025-12-31T23:54:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=223784"
   },
   {
     "title": "[상시채용] 진료의(권역응급의료센터, 응급의학과, 내과) 채용공고",
     "start_dt": "2025-02-12T09:00:00+09:00",
     "end_dt": "2025-12-31T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=207398"
   }
 ]
