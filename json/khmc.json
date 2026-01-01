@@ -54,5 +54,13 @@
     "end_dt": "2026-01-01T23:59:00+09:00",
     "status": "모집중",
     "detail_url": "https://recruit.incruit.com/khmc/job/2512260006"
+  },
+  {
+    "title": "계약직 신입직원 [영양팀 임상영양사] 공개채용 모집공고 (연장)",
+    "period_text": "2025.12.19 00:00~2026.01.09 08:30",
+    "start_dt": "2025-12-19T00:00:00+09:00",
+    "end_dt": "2026-01-09T08:30:00+09:00",
+    "status": "모집중",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2512190001"
   }
 ]

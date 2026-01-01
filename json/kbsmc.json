@@ -25,14 +25,5 @@
     "end_dt": "2026-01-11T23:59:00+09:00",
     "status_text": "NEW",
     "detail_url": "javascript:viewRecruit(2748);"
-  },
-  {
-    "title": "수원지역 부속의원 임상병리사 모집",
-    "job_type": "의료 기사직",
-    "period_text": "2025.12.29 ~ 2026.01.04",
-    "start_dt": "2025-12-29T00:00:00+09:00",
-    "end_dt": "2026-01-04T23:59:00+09:00",
-    "status_text": "NEW",
-    "detail_url": "javascript:viewRecruit(2746);"
   }
 ]
