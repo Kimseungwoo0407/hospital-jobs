@@ -6,7 +6,7 @@
     "date_text": "2025.12.31(수) 00:00 ~ 2026.01.09(금) 23:59",
     "start_dt": "2025-12-31T00:00:00+09:00",
     "end_dt": "2026-01-09T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238556"
   },
   {
@@ -16,7 +16,7 @@
     "date_text": "2025.12.31(수) 00:00 ~ 2026.01.09(금) 23:59",
     "start_dt": "2025-12-31T00:00:00+09:00",
     "end_dt": "2026-01-09T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=236709"
   },
   {
@@ -26,7 +26,7 @@
     "date_text": "2025.12.30(화) 00:00 ~ 2026.01.05(월) 23:59",
     "start_dt": "2025-12-30T00:00:00+09:00",
     "end_dt": "2026-01-05T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238389"
   },
   {
@@ -36,7 +36,7 @@
     "date_text": "2025.12.31(수) 00:00 ~ 2026.01.09(금) 23:59",
     "start_dt": "2025-12-31T00:00:00+09:00",
     "end_dt": "2026-01-09T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238387"
   },
   {
@@ -46,7 +46,7 @@
     "date_text": "2025.12.30(화) 00:00 ~ 2026.01.05(월) 23:59",
     "start_dt": "2025-12-30T00:00:00+09:00",
     "end_dt": "2026-01-05T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238370"
   },
   {
@@ -56,7 +56,7 @@
     "date_text": "2025.12.31(수) 00:00 ~ 2026.01.06(화) 23:59",
     "start_dt": "2025-12-31T00:00:00+09:00",
     "end_dt": "2026-01-06T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238348"
   },
   {
@@ -66,17 +66,7 @@
     "date_text": "2025.12.26(금) 00:00 ~ 2026.01.04(일) 23:59",
     "start_dt": "2025-12-26T00:00:00+09:00",
     "end_dt": "2026-01-04T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238219"
-  },
-  {
-    "title": "[일반-신촌] 연세의료원 외래간호사(계약직) 25.12-2 모집",
-    "location": "신촌",
-    "status": "접수중",
-    "date_text": "2025.12.29(월) 00:00 ~ 2026.01.04(일) 23:59",
-    "start_dt": "2025-12-29T00:00:00+09:00",
-    "end_dt": "2026-01-04T23:59:00+09:00",
-    "dday": "D-3",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238209"
   }
 ]
