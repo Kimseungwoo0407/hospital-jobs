@@ -3,21 +3,21 @@
     "title": "핵의학과 방사선사 모집",
     "start_dt": "2025-12-31T00:00:00+09:00",
     "end_dt": "2026-01-11T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "javascript:viewRecruit(2751);"
   },
   {
     "title": "영상의학과 방사선사 모집",
     "start_dt": "2025-12-31T00:00:00+09:00",
     "end_dt": "2026-01-11T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "javascript:viewRecruit(2753);"
   },
   {
     "title": "산부인과 방사선사(휴직대체) 모집",
     "start_dt": "2025-12-30T00:00:00+09:00",
     "end_dt": "2026-01-11T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "javascript:viewRecruit(2748);"
   }
 ]
