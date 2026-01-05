@@ -1,51 +1,37 @@
 [
   {
+    "title": "계약직 신입직원 [영양팀 조리원] 공개채용 모집공고",
+    "start_dt": "2026-01-05T00:00:00+09:00",
+    "end_dt": "2026-01-11T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2601050001"
+  },
+  {
     "title": "계약직 신입직원 [조제팀 야간약사] 공개채용 모집공고",
     "start_dt": "2025-12-30T00:00:00+09:00",
     "end_dt": "2026-01-05T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2512300001"
   },
   {
-    "title": "계약직 신입직원 [한방조제팀 조무기사] 공개채용 모집공고",
-    "start_dt": "2025-12-29T00:00:00+09:00",
-    "end_dt": "2026-01-04T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2512290026"
-  },
-  {
-    "title": "계약직 신입직원 [임플란트센터 치과위생사] 공개채용 모집공고",
-    "start_dt": "2025-12-29T00:00:00+09:00",
-    "end_dt": "2026-01-04T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2512290025"
-  },
-  {
-    "title": "계약직 신입직원 [조제팀 조무기사] 공개채용 모집공고",
-    "start_dt": "2025-12-29T00:00:00+09:00",
-    "end_dt": "2026-01-04T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2512290024"
-  },
-  {
-    "title": "계약직 신입직원 [영양팀 조리원] 공개채용 모집공고",
-    "start_dt": "2025-12-29T00:00:00+09:00",
-    "end_dt": "2026-01-04T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2512290016"
+    "title": "2026학년도 경희대학교치과병원 임상교수 채용",
+    "start_dt": "2026-01-05T00:00:00+09:00",
+    "end_dt": "2026-01-09T17:00:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2512290028"
   },
   {
     "title": "계약직 신입직원 [간호본부 조무사] 공개채용 모집공고",
     "start_dt": "2025-12-26T00:00:00+09:00",
     "end_dt": "2026-01-16T23:59:00+09:00",
-    "dday": "D-12",
+    "dday": "D-11",
     "detail_url": "https://recruit.incruit.com/khmc/job/2512260010"
   },
   {
     "title": "계약직 신입직원 [영양팀 임상영양사] 공개채용 모집공고 (연장)",
     "start_dt": "2025-12-19T00:00:00+09:00",
     "end_dt": "2026-01-09T08:30:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.incruit.com/khmc/job/2512190001"
   }
 ]

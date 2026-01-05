@@ -1,81 +1,9 @@
 [
   {
-    "title": "건강의학과(소화기내과, 소화기내과 파트타임) 건진교수 초빙",
-    "start_dt": "2025-12-24T18:00:00+09:00",
-    "end_dt": "2026-01-04T18:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5073",
-    "announce_sn": "20250459",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5073&announceSn=20250459"
-  },
-  {
-    "title": "보안관리팀 단시간(약 5개월) 근무가능자 모집",
-    "start_dt": "2025-12-30T14:30:00+09:00",
-    "end_dt": "2026-01-04T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5085",
-    "announce_sn": "20250471",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5085&announceSn=20250471"
-  },
-  {
-    "title": "외래간호팀 간호사 모집",
-    "start_dt": "2025-12-29T17:00:00+09:00",
-    "end_dt": "2026-01-04T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5082",
-    "announce_sn": "20250468",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5082&announceSn=20250468"
-  },
-  {
-    "title": "간호부 기능직 (기간직) 모집",
-    "start_dt": "2025-12-29T16:00:00+09:00",
-    "end_dt": "2026-01-04T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5081",
-    "announce_sn": "20250467",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5081&announceSn=20250467"
-  },
-  {
-    "title": "국제교류팀 간호사 모집",
-    "start_dt": "2025-12-29T11:00:00+09:00",
-    "end_dt": "2026-01-04T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5079",
-    "announce_sn": "20250465",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5079&announceSn=20250465"
-  },
-  {
-    "title": "진료협력팀 간호사 모집",
-    "start_dt": "2025-12-29T11:00:00+09:00",
-    "end_dt": "2026-01-04T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5078",
-    "announce_sn": "20250464",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5078&announceSn=20250464"
-  },
-  {
-    "title": "아카데미운영팀 기간직(사무) 모집",
-    "start_dt": "2025-12-24T15:00:00+09:00",
-    "end_dt": "2026-01-04T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5077",
-    "announce_sn": "20250463",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5077&announceSn=20250463"
-  },
-  {
-    "title": "응급의학과 응급구조사 모집",
-    "start_dt": "2025-12-24T14:00:00+09:00",
-    "end_dt": "2026-01-04T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5075",
-    "announce_sn": "20250461",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5075&announceSn=20250461"
-  },
-  {
     "title": "정신건강의학과 의국사무원(기간직) 모집",
     "start_dt": "2025-12-29T16:00:00+09:00",
     "end_dt": "2026-01-05T23:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "recu_idx": "5083",
     "announce_sn": "20250469",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5083&announceSn=20250469"
@@ -84,7 +12,7 @@
     "title": "임상시험센터 기능직(CTA) 모집",
     "start_dt": "2025-12-29T17:00:00+09:00",
     "end_dt": "2026-01-06T23:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "recu_idx": "5084",
     "announce_sn": "20250470",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5084&announceSn=20250470"
@@ -93,7 +21,7 @@
     "title": "보안관리팀 보안원 기간직 공채",
     "start_dt": "2025-12-29T15:00:00+09:00",
     "end_dt": "2026-01-08T23:00:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "recu_idx": "5080",
     "announce_sn": "20250466",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5080&announceSn=20250466"
@@ -102,7 +30,7 @@
     "title": "서울아산병원 진료교수 초빙",
     "start_dt": "2025-12-17T18:00:00+09:00",
     "end_dt": "2026-01-18T18:00:00+09:00",
-    "dday": "D-14",
+    "dday": "D-13",
     "recu_idx": "5061",
     "announce_sn": "20250448",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5061&announceSn=20250448"
@@ -111,7 +39,7 @@
     "title": "서울아산병원 입원전담전문의(Hospitalist) 초빙",
     "start_dt": "2025-12-17T18:00:00+09:00",
     "end_dt": "2026-01-18T18:00:00+09:00",
-    "dday": "D-14",
+    "dday": "D-13",
     "recu_idx": "5060",
     "announce_sn": "20250447",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5060&announceSn=20250447"
