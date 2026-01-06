@@ -1,37 +1,44 @@
 [
   {
-    "title": "D-3[이화의료원] 이화의료아카데미 계약직 연구원 공개채용 공고",
+    "title": "D-53[서울병원] 간호부 계약직 기능원 공개채용 공고",
+    "start_dt": "2026-01-05T00:00:00+09:00",
+    "end_dt": "2026-02-28T23:59:00+09:00",
+    "dday": "D-53",
+    "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=29524&pageIndex=1&searchWord=&bid_status=I"
+  },
+  {
+    "title": "D-2[이화의료원] 이화의료아카데미 계약직 연구원 공개채용 공고",
     "start_dt": "2025-12-30T00:00:00+09:00",
     "end_dt": "2026-01-08T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=29470&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-0[서울병원] 약제팀 계약직 주간 약사 공개채용 공고",
+    "title": "D-6[서울병원] 약제팀 계약직 주간 약사 공개채용 공고",
     "start_dt": "2025-12-22T00:00:00+09:00",
-    "end_dt": "2026-01-05T23:59:00+09:00",
-    "dday": "D-0",
+    "end_dt": "2026-01-12T23:59:00+09:00",
+    "dday": "D-6",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=29421&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-13[서울병원] 핵의학과 계약직 약사 공개채용 공고",
+    "title": "D-12[서울병원] 핵의학과 계약직 약사 공개채용 공고",
     "start_dt": "2025-12-19T00:00:00+09:00",
     "end_dt": "2026-01-18T23:59:00+09:00",
-    "dday": "D-13",
+    "dday": "D-12",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=29417&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-53[서울병원] 간호부 계약직 간호사(외래) 공개채용 공고",
+    "title": "D-52[서울병원] 간호부 계약직 간호사(외래) 공개채용 공고",
     "start_dt": "2025-11-27T00:00:00+09:00",
     "end_dt": "2026-02-27T23:59:00+09:00",
-    "dday": "D-53",
+    "dday": "D-52",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=29220&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-11[이화의료원] 2026년 상반기 이화여자대학교 의료원 비전임교원 초빙 연장공고",
+    "title": "D-10[이화의료원] 2026년 상반기 이화여자대학교 의료원 비전임교원 초빙 연장공고",
     "start_dt": "2025-11-21T00:00:00+09:00",
     "end_dt": "2026-01-16T23:59:00+09:00",
-    "dday": "D-11",
+    "dday": "D-10",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=29185&pageIndex=1&searchWord=&bid_status=I"
   }
 ]
