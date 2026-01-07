@@ -4,7 +4,7 @@
     "period_text": "2026-01-06 08:00 ~ 2026-01-12 12:31",
     "start_dt": "2026-01-06T08:00:00+09:00",
     "end_dt": "2026-01-12T12:31:00+09:00",
-    "status_text": "D-6",
+    "status_text": "D-5",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1321"
   },
   {
@@ -12,7 +12,7 @@
     "period_text": "2026-01-05 12:00 ~ 2026-01-11 23:59",
     "start_dt": "2026-01-05T12:00:00+09:00",
     "end_dt": "2026-01-11T23:59:00+09:00",
-    "status_text": "D-5",
+    "status_text": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1320"
   },
   {
@@ -20,23 +20,7 @@
     "period_text": "2026-01-05 12:00 ~ 2026-01-11 23:59",
     "start_dt": "2026-01-05T12:00:00+09:00",
     "end_dt": "2026-01-11T23:59:00+09:00",
-    "status_text": "D-5",
+    "status_text": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1319"
-  },
-  {
-    "title": "[계약직] 영양팀 급식관리담당자 채용(영양사 및 조리사)",
-    "period_text": "2025-12-31 14:00 ~ 2026-01-06 23:59",
-    "start_dt": "2025-12-31T14:00:00+09:00",
-    "end_dt": "2026-01-06T23:59:00+09:00",
-    "status_text": "D-Day",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1318"
-  },
-  {
-    "title": "[계약직] 간호간병통합서비스병동 간호조무사 채용",
-    "period_text": "2025-12-31 12:00 ~ 2026-01-06 12:31",
-    "start_dt": "2025-12-31T12:00:00+09:00",
-    "end_dt": "2026-01-06T12:31:00+09:00",
-    "status_text": "D-Day",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1317"
   }
 ]

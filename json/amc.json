@@ -1,18 +1,9 @@
 [
   {
-    "title": "임상시험센터 기능직(CTA) 모집",
-    "start_dt": "2025-12-29T17:00:00+09:00",
-    "end_dt": "2026-01-06T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5084",
-    "announce_sn": "20250470",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5084&announceSn=20250470"
-  },
-  {
     "title": "보안관리팀 보안원 기간직 공채",
     "start_dt": "2025-12-29T15:00:00+09:00",
     "end_dt": "2026-01-08T23:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "recu_idx": "5080",
     "announce_sn": "20250466",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5080&announceSn=20250466"
@@ -21,7 +12,7 @@
     "title": "간호부 기능직(조무) 모집",
     "start_dt": "2026-01-05T16:00:00+09:00",
     "end_dt": "2026-01-11T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "recu_idx": "5093",
     "announce_sn": "20260008",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5093&announceSn=20260008"
@@ -30,7 +21,7 @@
     "title": "진단검사의학팀 임상병리사 모집",
     "start_dt": "2026-01-05T15:00:00+09:00",
     "end_dt": "2026-01-11T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "recu_idx": "5092",
     "announce_sn": "20260007",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5092&announceSn=20260007"
@@ -39,7 +30,7 @@
     "title": "특수검사팀 임상병리사 모집",
     "start_dt": "2026-01-05T14:00:00+09:00",
     "end_dt": "2026-01-11T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "recu_idx": "5090",
     "announce_sn": "20260005",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5090&announceSn=20260005"
@@ -48,7 +39,7 @@
     "title": "특수검사팀 치과기공사 모집",
     "start_dt": "2026-01-05T14:00:00+09:00",
     "end_dt": "2026-01-11T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "recu_idx": "5089",
     "announce_sn": "20260004",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5089&announceSn=20260004"
@@ -57,7 +48,7 @@
     "title": "특수검사팀 치과위생사 모집",
     "start_dt": "2026-01-05T14:00:00+09:00",
     "end_dt": "2026-01-11T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "recu_idx": "5088",
     "announce_sn": "20260003",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5088&announceSn=20260003"
@@ -66,7 +57,7 @@
     "title": "특수검사팀(뇌신경검사실) 간호사 모집",
     "start_dt": "2026-01-05T13:00:00+09:00",
     "end_dt": "2026-01-11T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "recu_idx": "5087",
     "announce_sn": "20260002",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5087&announceSn=20260002"
@@ -75,7 +66,7 @@
     "title": "특수검사팀(의학유전학센터) 간호사 모집",
     "start_dt": "2026-01-05T12:00:00+09:00",
     "end_dt": "2026-01-11T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "recu_idx": "5086",
     "announce_sn": "20260001",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5086&announceSn=20260001"
@@ -84,7 +75,7 @@
     "title": "진단검사의학팀 임상병리사 모집",
     "start_dt": "2026-01-05T14:00:00+09:00",
     "end_dt": "2026-01-12T23:00:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "recu_idx": "5091",
     "announce_sn": "20260006",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5091&announceSn=20260006"
@@ -93,7 +84,7 @@
     "title": "서울아산병원 진료교수 초빙",
     "start_dt": "2025-12-17T18:00:00+09:00",
     "end_dt": "2026-01-18T18:00:00+09:00",
-    "dday": "D-12",
+    "dday": "D-11",
     "recu_idx": "5061",
     "announce_sn": "20250448",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5061&announceSn=20250448"
@@ -102,7 +93,7 @@
     "title": "서울아산병원 입원전담전문의(Hospitalist) 초빙",
     "start_dt": "2025-12-17T18:00:00+09:00",
     "end_dt": "2026-01-18T18:00:00+09:00",
-    "dday": "D-12",
+    "dday": "D-11",
     "recu_idx": "5060",
     "announce_sn": "20250447",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5060&announceSn=20250447"

@@ -3,42 +3,49 @@
     "title": "2026년도 레지던트 합격자 등록 안내",
     "start_dt": "2026-12-26T00:00:00+09:00",
     "end_dt": "2026-12-26T23:59:00+09:00",
-    "dday": "D-354",
+    "dday": "D-353",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25177"
+  },
+  {
+    "title": "2026년 상반기 서울대학교병원 전공의(인턴) 선발 공고",
+    "start_dt": "2026-01-22T00:00:00+09:00",
+    "end_dt": "2026-01-23T23:59:00+09:00",
+    "dday": "D-15",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26003"
   },
   {
     "title": "연구교수 공개채용",
     "start_dt": "2026-01-05T00:00:00+09:00",
     "end_dt": "2026-01-12T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25178"
   },
   {
     "title": "공공임상교수요원 공개채용",
     "start_dt": "2026-01-02T00:00:00+09:00",
     "end_dt": "2026-01-09T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25182"
   },
   {
     "title": "2025년도 서울대학교병원 사무직(변호사) 직원 채용 2차 실무면접 합격자 발표 및 3차 최종면접 일정 공고",
     "start_dt": "2025-12-31T00:00:00+09:00",
     "end_dt": "2026-01-07T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25181"
   },
   {
     "title": "서울대학교병원 블라인드 직원채용 (대체근로자) 공고 (장애인 특별우대)",
     "start_dt": "2025-12-31T00:00:00+09:00",
     "end_dt": "2026-01-07T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25180"
   },
   {
     "title": "2026년도(동계)심장혈관흉부외과 학생 서브인턴 모집 공고",
     "start_dt": "2025-12-12T00:00:00+09:00",
     "end_dt": "2026-12-19T23:59:00+09:00",
-    "dday": "D-347",
+    "dday": "D-346",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25173"
   }
 ]
