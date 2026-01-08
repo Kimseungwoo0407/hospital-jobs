@@ -1,27 +1,34 @@
 [
   {
-    "title": "D-52[서울병원] 간호부 계약직 기능원 공개채용 공고",
+    "title": "D-50[서울병원] 간호부 계약직 간호사(외래) 공개채용 공고",
+    "period_text": "2026-01-07 09:00:00 ~ 2026-02-27 17:00:00",
+    "start_dt": "2026-01-07T00:00:00+09:00",
+    "end_dt": "2026-02-27T23:59:00+09:00",
+    "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=29543&pageIndex=1&searchWord=&bid_status=I"
+  },
+  {
+    "title": "D-51[서울병원] 간호부 계약직 기능원 공개채용 공고",
     "period_text": "2026-01-05 09:00:00 ~ 2026-02-28 17:05:00",
     "start_dt": "2026-01-05T00:00:00+09:00",
     "end_dt": "2026-02-28T23:59:00+09:00",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=29524&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-1[이화의료원] 이화의료아카데미 계약직 연구원 공개채용 공고",
+    "title": "D-0[이화의료원] 이화의료아카데미 계약직 연구원 공개채용 공고",
     "period_text": "2025-12-30 09:00:00 ~ 2026-01-08 17:00:00",
     "start_dt": "2025-12-30T00:00:00+09:00",
     "end_dt": "2026-01-08T23:59:00+09:00",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=29470&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-11[서울병원] 핵의학과 계약직 약사 공개채용 공고",
+    "title": "D-10[서울병원] 핵의학과 계약직 약사 공개채용 공고",
     "period_text": "2025-12-19 09:00:00 ~ 2026-01-18 23:59:00",
     "start_dt": "2025-12-19T00:00:00+09:00",
     "end_dt": "2026-01-18T23:59:00+09:00",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=29417&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-9[이화의료원] 2026년 상반기 이화여자대학교 의료원 비전임교원 초빙 연장공고",
+    "title": "D-8[이화의료원] 2026년 상반기 이화여자대학교 의료원 비전임교원 초빙 연장공고",
     "period_text": "2025-11-21 13:00:00 ~ 2026-01-16 17:00:00",
     "start_dt": "2025-11-21T00:00:00+09:00",
     "end_dt": "2026-01-16T23:59:00+09:00",
