@@ -3,14 +3,14 @@
     "title": "핵의학과 방사선사 모집",
     "start_dt": "2025-12-31T00:00:00+09:00",
     "end_dt": "2026-01-11T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "javascript:viewRecruit(2751);"
   },
   {
     "title": "영상의학과 방사선사 모집",
     "start_dt": "2025-12-31T00:00:00+09:00",
     "end_dt": "2026-01-11T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "javascript:viewRecruit(2753);"
   }
 ]
