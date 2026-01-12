@@ -1,72 +1,9 @@
 [
   {
-    "title": "간호부 기능직(조무) 모집",
-    "start_dt": "2026-01-05T16:00:00+09:00",
-    "end_dt": "2026-01-11T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5093",
-    "announce_sn": "20260008",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5093&announceSn=20260008"
-  },
-  {
-    "title": "진단검사의학팀 임상병리사 모집",
-    "start_dt": "2026-01-05T15:00:00+09:00",
-    "end_dt": "2026-01-11T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5092",
-    "announce_sn": "20260007",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5092&announceSn=20260007"
-  },
-  {
-    "title": "특수검사팀 임상병리사 모집",
-    "start_dt": "2026-01-05T14:00:00+09:00",
-    "end_dt": "2026-01-11T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5090",
-    "announce_sn": "20260005",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5090&announceSn=20260005"
-  },
-  {
-    "title": "특수검사팀 치과기공사 모집",
-    "start_dt": "2026-01-05T14:00:00+09:00",
-    "end_dt": "2026-01-11T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5089",
-    "announce_sn": "20260004",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5089&announceSn=20260004"
-  },
-  {
-    "title": "특수검사팀 치과위생사 모집",
-    "start_dt": "2026-01-05T14:00:00+09:00",
-    "end_dt": "2026-01-11T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5088",
-    "announce_sn": "20260003",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5088&announceSn=20260003"
-  },
-  {
-    "title": "특수검사팀(뇌신경검사실) 간호사 모집",
-    "start_dt": "2026-01-05T13:00:00+09:00",
-    "end_dt": "2026-01-11T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5087",
-    "announce_sn": "20260002",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5087&announceSn=20260002"
-  },
-  {
-    "title": "특수검사팀(의학유전학센터) 간호사 모집",
-    "start_dt": "2026-01-05T12:00:00+09:00",
-    "end_dt": "2026-01-11T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5086",
-    "announce_sn": "20260001",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5086&announceSn=20260001"
-  },
-  {
     "title": "재활의학팀 물리치료사 모집",
     "start_dt": "2026-01-08T17:00:00+09:00",
     "end_dt": "2026-01-12T23:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "recu_idx": "5100",
     "announce_sn": "20260015",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5100&announceSn=20260015"
@@ -75,7 +12,7 @@
     "title": "간호부 기능직(기간직) 모집",
     "start_dt": "2026-01-07T18:00:00+09:00",
     "end_dt": "2026-01-12T23:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "recu_idx": "5099",
     "announce_sn": "20260014",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5099&announceSn=20260014"
@@ -84,7 +21,7 @@
     "title": "진단검사의학팀 임상병리사 모집",
     "start_dt": "2026-01-05T14:00:00+09:00",
     "end_dt": "2026-01-12T23:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "recu_idx": "5091",
     "announce_sn": "20260006",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5091&announceSn=20260006"
@@ -93,7 +30,7 @@
     "title": "영상의학팀 방사선사 모집",
     "start_dt": "2026-01-07T11:00:00+09:00",
     "end_dt": "2026-01-13T23:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "recu_idx": "5095",
     "announce_sn": "20260011",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5095&announceSn=20260011"
@@ -102,7 +39,7 @@
     "title": "건진운영팀 임상병리사 모집",
     "start_dt": "2026-01-07T11:00:00+09:00",
     "end_dt": "2026-01-13T23:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "recu_idx": "5094",
     "announce_sn": "20260010",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5094&announceSn=20260010"
@@ -111,7 +48,7 @@
     "title": "임상시험센터 임상병리사 모집",
     "start_dt": "2026-01-07T12:00:00+09:00",
     "end_dt": "2026-01-14T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5096",
     "announce_sn": "20260013",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5096&announceSn=20260013"
@@ -120,7 +57,7 @@
     "title": "임상시험센터 연구코디네이터 ARO(CRA) 모집",
     "start_dt": "2026-01-09T16:00:00+09:00",
     "end_dt": "2026-01-15T23:00:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "recu_idx": "5101",
     "announce_sn": "20260016",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5101&announceSn=20260016"
@@ -129,7 +66,7 @@
     "title": "서울아산병원 진료교수 초빙",
     "start_dt": "2025-12-17T18:00:00+09:00",
     "end_dt": "2026-01-18T18:00:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "recu_idx": "5061",
     "announce_sn": "20250448",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5061&announceSn=20250448"
@@ -138,7 +75,7 @@
     "title": "서울아산병원 입원전담전문의(Hospitalist) 초빙",
     "start_dt": "2025-12-17T18:00:00+09:00",
     "end_dt": "2026-01-18T18:00:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "recu_idx": "5060",
     "announce_sn": "20250447",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5060&announceSn=20250447"
@@ -147,7 +84,7 @@
     "title": "법무팀 변호사 모집",
     "start_dt": "2026-01-07T17:00:00+09:00",
     "end_dt": "2026-01-18T23:00:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "recu_idx": "5098",
     "announce_sn": "20260009",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5098&announceSn=20260009"
@@ -165,7 +102,7 @@
     "title": "내과 당직전담(촉탁의사) 초빙",
     "start_dt": "2026-01-09T18:00:00+09:00",
     "end_dt": "2026-01-25T18:00:00+09:00",
-    "dday": "D-14",
+    "dday": "D-13",
     "recu_idx": "5102",
     "announce_sn": "20260017",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5102&announceSn=20260017"
