@@ -3,14 +3,14 @@
     "title": "2026년도 레지던트 합격자 등록 안내",
     "start_dt": "2026-12-26T00:00:00+09:00",
     "end_dt": "2026-12-26T23:59:00+09:00",
-    "dday": "D-348",
+    "dday": "D-347",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25177"
   },
   {
     "title": "2026년 상반기 서울대학교병원 전공의(인턴) 선발 공고",
     "start_dt": "2026-01-22T00:00:00+09:00",
     "end_dt": "2026-01-23T23:59:00+09:00",
-    "dday": "D-10",
+    "dday": "D-9",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26003"
   },
   {
@@ -24,42 +24,35 @@
     "title": "2026년도 임상강사(Fellow) 2차 선발 공고",
     "start_dt": "2026-01-09T00:00:00+09:00",
     "end_dt": "2026-01-23T23:59:00+09:00",
-    "dday": "D-11",
+    "dday": "D-10",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26004"
   },
   {
     "title": "2026년도 연구임상강사 선발 공고",
     "start_dt": "2026-01-09T00:00:00+09:00",
     "end_dt": "2026-01-23T23:59:00+09:00",
-    "dday": "D-11",
+    "dday": "D-10",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26005"
   },
   {
     "title": "국립소방병원 진료교수요원 공개채용",
     "start_dt": "2026-01-08T00:00:00+09:00",
     "end_dt": "2026-01-15T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26002"
   },
   {
     "title": "진료교수요원 공개채용",
     "start_dt": "2026-01-08T00:00:00+09:00",
     "end_dt": "2026-01-15T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26001"
-  },
-  {
-    "title": "연구교수 공개채용",
-    "start_dt": "2026-01-05T00:00:00+09:00",
-    "end_dt": "2026-01-12T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25178"
   },
   {
     "title": "2026년도(동계)심장혈관흉부외과 학생 서브인턴 모집 공고",
     "start_dt": "2025-12-12T00:00:00+09:00",
     "end_dt": "2026-12-19T23:59:00+09:00",
-    "dday": "D-341",
+    "dday": "D-340",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25173"
   }
 ]

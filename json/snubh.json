@@ -1,29 +1,38 @@
 [
   {
+    "title": "2026년도 상반기 레지던트 1년차 추가모집",
+    "start_dt": "2026-01-13T09:00:00+09:00",
+    "end_dt": "2026-01-14T17:00:00+09:00",
+    "dday": "D-1",
+    "recu_idx": "",
+    "announce_sn": "239972",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=239972"
+  },
+  {
+    "title": "2026년도 진료전문의 및 진료일반의 정기채용",
+    "start_dt": "2026-01-12T10:00:00+09:00",
+    "end_dt": "2026-01-21T17:00:00+09:00",
+    "dday": "D-8",
+    "recu_idx": "",
+    "announce_sn": "239836",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=239836"
+  },
+  {
+    "title": "2026년도 진료교수요원 정기채용",
+    "start_dt": "2026-01-12T10:00:00+09:00",
+    "end_dt": "2026-01-21T17:00:00+09:00",
+    "dday": "D-8",
+    "recu_idx": "",
+    "announce_sn": "239826",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=239826"
+  },
+  {
     "title": "진료교수요원(공공부문, 입원전담진료센터) 채용공고",
     "start_dt": "2026-01-05T10:00:00+09:00",
     "end_dt": "2026-01-14T12:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "recu_idx": "",
     "announce_sn": "238543",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238543"
-  },
-  {
-    "title": "2026년도 분당서울대학교병원 임상강사(Fellow) 1차 추가초빙",
-    "start_dt": "2025-12-30T10:00:00+09:00",
-    "end_dt": "2026-01-12T15:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "",
-    "announce_sn": "238197",
-    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238197"
-  },
-  {
-    "title": "2026년도 분당서울대학교병원 연구임상강사(Research Fellow) 초빙",
-    "start_dt": "2025-12-30T10:00:00+09:00",
-    "end_dt": "2026-01-12T15:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "",
-    "announce_sn": "238189",
-    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=238189"
   }
 ]

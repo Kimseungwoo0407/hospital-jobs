@@ -20,7 +20,7 @@
     "period_text": "2026-01-13 ~ 2026-01-14",
     "start_dt": "2026-01-13T00:00:00+09:00",
     "end_dt": "2026-01-14T23:59:00+09:00",
-    "status": "접수준비중",
+    "status": "접수중",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26006"
   },
   {
@@ -54,14 +54,6 @@
     "end_dt": "2026-01-15T23:59:00+09:00",
     "status": "공고",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26001"
-  },
-  {
-    "title": "연구교수 공개채용",
-    "period_text": "2026-01-05 ~ 2026-01-12",
-    "start_dt": "2026-01-05T00:00:00+09:00",
-    "end_dt": "2026-01-12T23:59:00+09:00",
-    "status": "공고",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25178"
   },
   {
     "title": "2026년도(동계)심장혈관흉부외과 학생 서브인턴 모집 공고",
