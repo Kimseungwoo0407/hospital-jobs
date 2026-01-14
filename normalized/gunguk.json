@@ -1,9 +1,23 @@
 [
   {
+    "title": "[연구계약직] <국가 통합 바이오 빅데이터 구축사업> 시간제 연구원 채용",
+    "start_dt": "2026-01-13T09:00:00+09:00",
+    "end_dt": "2026-01-28T23:59:00+09:00",
+    "dday": "D-14",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1324"
+  },
+  {
+    "title": "[연구계약직] <국가 통합 바이오 빅데이터 구축사업-채혈> 시간제 연구원 채용",
+    "start_dt": "2026-01-13T09:00:00+09:00",
+    "end_dt": "2026-01-28T23:59:00+09:00",
+    "dday": "D-14",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1323"
+  },
+  {
     "title": "[계약직] 진단검사의학팀 임상병리사 채용(야간전담)",
     "start_dt": "2026-01-08T13:00:00+09:00",
     "end_dt": "2026-01-14T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1322"
   }
 ]
