@@ -1,10 +1,18 @@
 [
   {
+    "title": "[계약직] 외래간호팀(내과) 간호사 채용",
+    "period_text": "2026-01-14 09:00 ~ 2026-01-20 23:59",
+    "start_dt": "2026-01-14T09:00:00+09:00",
+    "end_dt": "2026-01-20T23:59:00+09:00",
+    "status_text": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1325"
+  },
+  {
     "title": "[연구계약직] <국가 통합 바이오 빅데이터 구축사업> 시간제 연구원 채용",
     "period_text": "2026-01-13 09:00 ~ 2026-01-28 23:59",
     "start_dt": "2026-01-13T09:00:00+09:00",
     "end_dt": "2026-01-28T23:59:00+09:00",
-    "status_text": "D-14",
+    "status_text": "D-13",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1324"
   },
   {
@@ -12,15 +20,7 @@
     "period_text": "2026-01-13 09:00 ~ 2026-01-28 23:59",
     "start_dt": "2026-01-13T09:00:00+09:00",
     "end_dt": "2026-01-28T23:59:00+09:00",
-    "status_text": "D-14",
+    "status_text": "D-13",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1323"
-  },
-  {
-    "title": "[계약직] 진단검사의학팀 임상병리사 채용(야간전담)",
-    "period_text": "2026-01-08 13:00 ~ 2026-01-14 23:59",
-    "start_dt": "2026-01-08T13:00:00+09:00",
-    "end_dt": "2026-01-14T23:59:00+09:00",
-    "status_text": "D-Day",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1322"
   }
 ]
