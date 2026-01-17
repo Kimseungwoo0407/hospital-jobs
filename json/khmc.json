@@ -64,14 +64,6 @@
     "detail_url": "https://recruit.incruit.com/khmc/job/2601130001"
   },
   {
-    "title": "계약직 신입직원 [임상간호교육센터 사무직] 공개채용 모집공고",
-    "period_text": "2026.01.12 00:00~2026.01.16 10:00",
-    "start_dt": "2026-01-12T00:00:00+09:00",
-    "end_dt": "2026-01-16T10:00:00+09:00",
-    "status": "모집중",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2601120023"
-  },
-  {
     "title": "계약직 신입직원 [경희대학교한방병원 한방간호팀 외래 간호사] 공개채용 모집공고",
     "period_text": "2026.01.12 00:00~2026.01.25 23:59",
     "start_dt": "2026-01-12T00:00:00+09:00",
@@ -110,13 +102,5 @@
     "end_dt": "2026-01-18T23:59:00+09:00",
     "status": "모집중",
     "detail_url": "https://recruit.incruit.com/khmc/job/2601120003"
-  },
-  {
-    "title": "계약직 신입직원 [간호본부 조무사] 공개채용 모집공고",
-    "period_text": "2025.12.26 00:00~2026.01.16 23:59",
-    "start_dt": "2025-12-26T00:00:00+09:00",
-    "end_dt": "2026-01-16T23:59:00+09:00",
-    "status": "모집중",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2512260010"
   }
 ]
