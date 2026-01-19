@@ -4,7 +4,7 @@
     "period_text": "2026-01-14 09:00 ~ 2026-01-20 23:59",
     "start_dt": "2026-01-14T09:00:00+09:00",
     "end_dt": "2026-01-20T23:59:00+09:00",
-    "status_text": "D-2",
+    "status_text": "D-1",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1325"
   },
   {
@@ -12,7 +12,7 @@
     "period_text": "2026-01-13 09:00 ~ 2026-01-28 23:59",
     "start_dt": "2026-01-13T09:00:00+09:00",
     "end_dt": "2026-01-28T23:59:00+09:00",
-    "status_text": "D-10",
+    "status_text": "D-9",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1324"
   },
   {
@@ -20,7 +20,7 @@
     "period_text": "2026-01-13 09:00 ~ 2026-01-28 23:59",
     "start_dt": "2026-01-13T09:00:00+09:00",
     "end_dt": "2026-01-28T23:59:00+09:00",
-    "status_text": "D-10",
+    "status_text": "D-9",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1323"
   }
 ]
