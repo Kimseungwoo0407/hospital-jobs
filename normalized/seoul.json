@@ -3,56 +3,63 @@
     "title": "2026년도 레지던트 합격자 등록 안내",
     "start_dt": "2026-12-26T00:00:00+09:00",
     "end_dt": "2026-12-26T23:59:00+09:00",
-    "dday": "D-341",
+    "dday": "D-340",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25177"
   },
   {
     "title": "2026년 상반기 서울대학교병원 전공의(인턴) 선발 수정 공고",
     "start_dt": "2026-01-22T00:00:00+09:00",
     "end_dt": "2026-01-23T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26003"
+  },
+  {
+    "title": "2026년도 레지던트 1년차 추가모집 진료과별 면접·실기시험 장소 및 시간 안내",
+    "start_dt": "2026-01-20T00:00:00+09:00",
+    "end_dt": "2026-01-20T23:59:00+09:00",
+    "dday": "D-0",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26011"
   },
   {
     "title": "2025년도 서울대학교병원 사무직(변호사) 직원 채용 3차 최종면접 합격자 발표 및 4차 신체검사 일정 공고",
     "start_dt": "2026-01-16T00:00:00+09:00",
     "end_dt": "2026-01-23T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26010"
   },
   {
     "title": "2026년도 상반기 레지던트 상급년차 모집 공고",
     "start_dt": "2026-01-15T00:00:00+09:00",
     "end_dt": "2026-01-28T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26009"
   },
   {
     "title": "2026년도 1월 대체근로자 채용 서류전형 합격자 발표 및 면접전형 일정공고",
     "start_dt": "2026-01-13T00:00:00+09:00",
     "end_dt": "2026-01-20T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26007"
   },
   {
     "title": "2026년도 임상강사(Fellow) 2차 선발 공고",
     "start_dt": "2026-01-09T00:00:00+09:00",
     "end_dt": "2026-01-23T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26004"
   },
   {
     "title": "2026년도 연구임상강사 선발 공고",
     "start_dt": "2026-01-09T00:00:00+09:00",
     "end_dt": "2026-01-23T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26005"
   },
   {
     "title": "2026년도(동계)심장혈관흉부외과 학생 서브인턴 모집 공고",
     "start_dt": "2025-12-12T00:00:00+09:00",
     "end_dt": "2026-12-19T23:59:00+09:00",
-    "dday": "D-334",
+    "dday": "D-333",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=25173"
   }
 ]

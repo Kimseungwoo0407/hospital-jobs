@@ -1,23 +1,33 @@
 [
   {
+    "title": "[일반-신촌]사무원(계약직) 의과대학 행정팀 26.1 모집",
+    "location": "신촌",
+    "status": "접수중",
+    "date_text": "2026.01.19(월) 00:00 ~ 2026.01.25(일) 23:59",
+    "start_dt": "2026-01-19T00:00:00+09:00",
+    "end_dt": "2026-01-25T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=240639"
+  },
+  {
     "title": "[일반-신촌] 기능원(계약직:간호조무사) 간호간병통합서비스병동 26.01-2 모집",
     "location": "신촌",
     "status": "접수중",
     "date_text": "2026.01.16(금) 00:00 ~ 2026.01.20(화) 23:59",
     "start_dt": "2026-01-16T00:00:00+09:00",
     "end_dt": "2026-01-20T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=240732"
   },
   {
-    "title": "[일반-신촌] 치과위생사(계약직) 치과)소아치과 26.01 모집",
+    "title": "[일반-신촌] 치과위생사(계약직) 치과)통합치의학과 26.01 모집",
     "location": "신촌",
     "status": "접수중",
-    "date_text": "2026.01.15(목) 00:00 ~ 2026.01.19(월) 23:59",
-    "start_dt": "2026-01-15T00:00:00+09:00",
-    "end_dt": "2026-01-19T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=240536"
+    "date_text": "2026.01.19(월) 00:00 ~ 2026.01.25(일) 23:59",
+    "start_dt": "2026-01-19T00:00:00+09:00",
+    "end_dt": "2026-01-25T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=240498"
   },
   {
     "title": "[일반-신촌] 치과위생사(계약직) 치과)구강내과 26.01 모집",
@@ -26,7 +36,7 @@
     "date_text": "2026.01.16(금) 00:00 ~ 2026.01.22(목) 23:59",
     "start_dt": "2026-01-16T00:00:00+09:00",
     "end_dt": "2026-01-22T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=240494"
   },
   {
@@ -36,17 +46,7 @@
     "date_text": "2026.01.14(수) 00:00 ~ 2026.01.22(목) 23:59",
     "start_dt": "2026-01-14T00:00:00+09:00",
     "end_dt": "2026-01-22T23:59:00+09:00",
-    "dday": "D-3",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=240383"
-  },
-  {
-    "title": "[일반-신촌] 임상병리사(계약직) 세브)신경과 26.01 모집",
-    "location": "신촌",
-    "status": "접수중",
-    "date_text": "2026.01.15(목) 00:00 ~ 2026.01.21(수) 23:59",
-    "start_dt": "2026-01-15T00:00:00+09:00",
-    "end_dt": "2026-01-21T23:59:00+09:00",
     "dday": "D-2",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=240294"
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=240383"
   }
 ]
