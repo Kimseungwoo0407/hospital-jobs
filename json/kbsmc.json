@@ -16,5 +16,23 @@
     "end_dt": null,
     "status_text": "",
     "detail_url": "javascript:viewRecruit(2762);"
+  },
+  {
+    "title": "핵의학과 방사선사 모집",
+    "job_type": "의료 기사직",
+    "period_text": "2026.01.21 ~ 2026.02.04",
+    "start_dt": "2026-01-21T00:00:00+09:00",
+    "end_dt": "2026-02-04T23:59:00+09:00",
+    "status_text": "NEW",
+    "detail_url": "javascript:viewRecruit(2780);"
+  },
+  {
+    "title": "이비인후과검사실 언어재활사(휴직대체) 모집",
+    "job_type": "의료 기사직",
+    "period_text": "2026.01.21 ~ 2026.01.28",
+    "start_dt": "2026-01-21T00:00:00+09:00",
+    "end_dt": "2026-01-28T23:59:00+09:00",
+    "status_text": "NEW",
+    "detail_url": "javascript:viewRecruit(2781);"
   }
 ]
