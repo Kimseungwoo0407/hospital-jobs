@@ -1,44 +1,30 @@
 [
   {
+    "title": "[일반-신촌] 기능원(계약직:간호조무사) 간호간병통합서비스병동 26.01-3 모집",
+    "start_dt": "2026-01-23T00:00:00+09:00",
+    "end_dt": "2026-01-27T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=241710"
+  },
+  {
     "title": "[일반-신촌] 간호사(계약직) 세브)소화기내과 26.01 모집",
     "start_dt": "2026-01-23T00:00:00+09:00",
     "end_dt": "2026-02-01T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=241430"
   },
   {
     "title": "[일반-신촌] 치과위생사(단기계약직) 치과)기획경영팀 26.01 모집",
     "start_dt": "2026-01-22T00:00:00+09:00",
     "end_dt": "2026-01-31T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=241269"
   },
   {
     "title": "[일반-신촌] 임상병리사(계약직) 세브)진단검사의학팀 26.01 모집",
     "start_dt": "2026-01-21T00:00:00+09:00",
     "end_dt": "2026-01-27T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=241170"
-  },
-  {
-    "title": "[일반-신촌]방사선사(정규직전환조건) 세브)핵의학팀 26.01 모집",
-    "start_dt": "2026-01-20T00:00:00+09:00",
-    "end_dt": "2026-01-29T23:59:00+09:00",
-    "dday": "D-6",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=240225"
-  },
-  {
-    "title": "[일반-강남] 약사(정규직) 약제팀 26.01 모집",
-    "start_dt": "2026-01-22T00:00:00+09:00",
-    "end_dt": "2026-01-28T23:59:00+09:00",
-    "dday": "D-5",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=239420"
-  },
-  {
-    "title": "[일반-강남] 간호조무사(계약직) 입원간호팀 26.01 모집",
-    "start_dt": "2026-01-21T00:00:00+09:00",
-    "end_dt": "2026-01-27T23:59:00+09:00",
-    "dday": "D-4",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=241359"
   }
 ]
