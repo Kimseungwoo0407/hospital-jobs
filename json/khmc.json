@@ -32,22 +32,6 @@
     "detail_url": "https://recruit.incruit.com/khmc/job/2601210004"
   },
   {
-    "title": "계약직 신입직원 [건강증진센터 간호사] 공개채용 모집공고",
-    "period_text": "2026.01.20 00:00~2026.01.25 23:59",
-    "start_dt": "2026-01-20T00:00:00+09:00",
-    "end_dt": "2026-01-25T23:59:00+09:00",
-    "status": "모집중",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2601210003"
-  },
-  {
-    "title": "계약직 신입직원 [원무1팀 사무직] 공개채용 모집공고",
-    "period_text": "2026.01.21 00:00~2026.01.25 23:59",
-    "start_dt": "2026-01-21T00:00:00+09:00",
-    "end_dt": "2026-01-25T23:59:00+09:00",
-    "status": "모집중",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2601210002"
-  },
-  {
     "title": "계약직 신입직원 [직업환경의학과 반일제 임상병리사] 공개채용 모집공고",
     "period_text": "2026.01.20 00:00~2026.01.26 23:59",
     "start_dt": "2026-01-20T00:00:00+09:00",
@@ -96,35 +80,11 @@
     "detail_url": "https://recruit.incruit.com/khmc/job/2601200003"
   },
   {
-    "title": "계약직 신입직원 [조제팀 야간약사] 공개채용 모집공고",
-    "period_text": "2026.01.19 00:00~2026.01.25 23:59",
-    "start_dt": "2026-01-19T00:00:00+09:00",
-    "end_dt": "2026-01-25T23:59:00+09:00",
-    "status": "모집중",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2601190024"
-  },
-  {
-    "title": "계약직 신입직원 [병리과 보건의료정보관리사] 공개채용 모집공고",
-    "period_text": "2026.01.19 00:00~2026.01.25 23:59",
-    "start_dt": "2026-01-19T00:00:00+09:00",
-    "end_dt": "2026-01-25T23:59:00+09:00",
-    "status": "모집중",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2601190003"
-  },
-  {
     "title": "2026학년도 경희대학교병원 상급년차 전공의 전형 공고",
     "period_text": "2026.01.15 00:00~2026.01.28 17:00",
     "start_dt": "2026-01-15T00:00:00+09:00",
     "end_dt": "2026-01-28T17:00:00+09:00",
     "status": "모집중",
     "detail_url": "https://recruit.incruit.com/khmc/job/2601130001"
-  },
-  {
-    "title": "계약직 신입직원 [경희대학교한방병원 한방간호팀 외래 간호사] 공개채용 모집공고",
-    "period_text": "2026.01.12 00:00~2026.01.25 23:59",
-    "start_dt": "2026-01-12T00:00:00+09:00",
-    "end_dt": "2026-01-25T23:59:00+09:00",
-    "status": "모집중",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2601120022"
   }
 ]
