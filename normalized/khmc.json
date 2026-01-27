@@ -1,79 +1,65 @@
 [
   {
+    "title": "계약직 신입직원 [원무1팀 사무직] 공개채용 모집공고",
+    "start_dt": "2026-01-27T08:00:00+09:00",
+    "end_dt": "2026-02-01T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2601260003"
+  },
+  {
+    "title": "계약직 신입직원 [한방조제팀 한약사] 공개채용 모집공고",
+    "start_dt": "2026-01-27T00:00:00+09:00",
+    "end_dt": "2026-02-02T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2601270001"
+  },
+  {
+    "title": "정규직 신입직원 [약제본부 약사] 공개채용 모집",
+    "start_dt": "2026-01-26T14:00:00+09:00",
+    "end_dt": "2026-02-02T16:00:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2601260008"
+  },
+  {
+    "title": "계약직 신입직원 [Car-T 세포치료센터 박사급 연구원] 공개채용 모집공고",
+    "start_dt": "2026-01-26T00:00:00+09:00",
+    "end_dt": "2026-02-02T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2601260006"
+  },
+  {
     "title": "계약직 신입직원 [한방조제팀 조무기사] 공개채용 모집공고",
     "start_dt": "2026-01-23T00:00:00+09:00",
     "end_dt": "2026-01-28T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://recruit.incruit.com/khmc/job/2601230003"
   },
   {
     "title": "정규직 신입직원 [연구지원팀(통계지원실) 연구직] 공개채용 모집",
     "start_dt": "2026-01-22T15:00:00+09:00",
     "end_dt": "2026-01-29T16:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.incruit.com/khmc/job/2601220039"
   },
   {
     "title": "정규직 신입직원 [신장내과전담 간호사] 공개채용 모집",
     "start_dt": "2026-01-22T15:00:00+09:00",
     "end_dt": "2026-01-29T16:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.incruit.com/khmc/job/2601220038"
   },
   {
     "title": "계약직 신입직원 [경희대학교병원 간호본부 외래 간호사] 공개채용 모집공고",
     "start_dt": "2026-01-21T00:00:00+09:00",
     "end_dt": "2026-01-28T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://recruit.incruit.com/khmc/job/2601210004"
-  },
-  {
-    "title": "계약직 신입직원 [직업환경의학과 반일제 임상병리사] 공개채용 모집공고",
-    "start_dt": "2026-01-20T00:00:00+09:00",
-    "end_dt": "2026-01-26T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2601200020"
-  },
-  {
-    "title": "계약직 신입직원 [한방조제팀 한약사] 공개채용 모집공고",
-    "start_dt": "2026-01-20T00:00:00+09:00",
-    "end_dt": "2026-01-26T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2601200019"
-  },
-  {
-    "title": "계약직 신입직원 [신경과 뇌신경검사실 임상병리사] 공개채용 모집공고",
-    "start_dt": "2026-01-20T00:00:00+09:00",
-    "end_dt": "2026-01-26T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2601200018"
-  },
-  {
-    "title": "계약직 신입직원 [진단검사의학과 임상병리사] 공개채용 모집공고",
-    "start_dt": "2026-01-20T00:00:00+09:00",
-    "end_dt": "2026-01-26T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2601200009"
-  },
-  {
-    "title": "계약직 신입직원[총무팀(보안서비스반) 보안요원] 공개채용 모집",
-    "start_dt": "2026-01-20T00:00:00+09:00",
-    "end_dt": "2026-01-26T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2601200008"
-  },
-  {
-    "title": "계약직 신입직원 [한방예제팀 한방조무기사] 공개채용 모집공고",
-    "start_dt": "2026-01-20T00:00:00+09:00",
-    "end_dt": "2026-01-26T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2601200003"
   },
   {
     "title": "2026학년도 경희대학교병원 상급년차 전공의 전형 공고",
     "start_dt": "2026-01-15T00:00:00+09:00",
     "end_dt": "2026-01-28T17:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://recruit.incruit.com/khmc/job/2601130001"
   }
 ]
