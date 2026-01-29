@@ -1,10 +1,26 @@
 [
   {
+    "title": "[정규직] 2026년도 조산사 보유 야간전담 간호사 채용",
+    "period_text": "2026-01-28 13:00 ~ 2026-02-04 09:01",
+    "start_dt": "2026-01-28T13:00:00+09:00",
+    "end_dt": "2026-02-04T09:01:00+09:00",
+    "status_text": "D-6",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1338"
+  },
+  {
+    "title": "[계약직] 외래간호팀(내과) 간호사 채용",
+    "period_text": "2026-01-28 09:00 ~ 2026-02-03 23:59",
+    "start_dt": "2026-01-28T09:00:00+09:00",
+    "end_dt": "2026-02-03T23:59:00+09:00",
+    "status_text": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1337"
+  },
+  {
     "title": "[계약직] 외래간호팀 플로팅 간호사 채용",
     "period_text": "2026-01-26 13:00 ~ 2026-02-01 23:59",
     "start_dt": "2026-01-26T13:00:00+09:00",
     "end_dt": "2026-02-01T23:59:00+09:00",
-    "status_text": "D-4",
+    "status_text": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1336"
   },
   {
@@ -12,7 +28,7 @@
     "period_text": "2026-01-26 13:00 ~ 2026-01-29 23:59",
     "start_dt": "2026-01-26T13:00:00+09:00",
     "end_dt": "2026-01-29T23:59:00+09:00",
-    "status_text": "D-1",
+    "status_text": "D-Day",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1335"
   },
   {
@@ -20,7 +36,7 @@
     "period_text": "2026-01-26 08:00 ~ 2026-02-01 23:59",
     "start_dt": "2026-01-26T08:00:00+09:00",
     "end_dt": "2026-02-01T23:59:00+09:00",
-    "status_text": "D-4",
+    "status_text": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1334"
   },
   {
@@ -28,7 +44,7 @@
     "period_text": "2026-01-26 08:00 ~ 2026-02-01 23:59",
     "start_dt": "2026-01-26T08:00:00+09:00",
     "end_dt": "2026-02-01T23:59:00+09:00",
-    "status_text": "D-4",
+    "status_text": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1333"
   },
   {
@@ -36,7 +52,7 @@
     "period_text": "2026-01-26 08:00 ~ 2026-02-01 23:59",
     "start_dt": "2026-01-26T08:00:00+09:00",
     "end_dt": "2026-02-01T23:59:00+09:00",
-    "status_text": "D-4",
+    "status_text": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1332"
   },
   {
@@ -44,7 +60,7 @@
     "period_text": "2026-01-22 15:00 ~ 2026-02-02 23:59",
     "start_dt": "2026-01-22T15:00:00+09:00",
     "end_dt": "2026-02-02T23:59:00+09:00",
-    "status_text": "D-5",
+    "status_text": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1331"
   }
 ]
