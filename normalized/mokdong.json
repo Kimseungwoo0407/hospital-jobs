@@ -1,23 +1,9 @@
 [
   {
-    "title": "[목동병원] 2026년도 상반기 전공의(인턴) 합격자 공고",
-    "start_dt": "2026-01-28T12:00:00+09:00",
-    "end_dt": "2026-01-29T17:00:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29695&pageIndex=1&searchWord=&bid_status=I"
-  },
-  {
     "title": "[목동병원] 진료부 치과 계약직 치위생사 공개채용 공고",
     "start_dt": "2026-01-26T00:00:00+09:00",
     "end_dt": "2026-02-01T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29680&pageIndex=1&searchWord=&bid_status=I"
-  },
-  {
-    "title": "[이화의료원] 이화의료데이터사업단 계약직 연구간호사 공개채용 공고",
-    "start_dt": "2026-01-23T09:00:00+09:00",
-    "end_dt": "2026-01-29T17:00:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29676&pageIndex=1&searchWord=&bid_status=I"
   }
 ]

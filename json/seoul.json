@@ -12,8 +12,16 @@
     "period_text": "2026-01-30 ~ 2026-02-06",
     "start_dt": "2026-01-30T00:00:00+09:00",
     "end_dt": "2026-02-06T23:59:00+09:00",
-    "status": "접수준비중",
+    "status": "공고",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26016"
+  },
+  {
+    "title": "서울대학교병원 블라인드 직원채용 (대체근로자) 공고 (장애인 특별우대)",
+    "period_text": "2026-01-29 ~ 2026-02-05",
+    "start_dt": "2026-01-29T00:00:00+09:00",
+    "end_dt": "2026-02-05T23:59:00+09:00",
+    "status": "접수중",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26018"
   },
   {
     "title": "2026년 상반기 서울대학교병원 인턴 최종합격자 공고",

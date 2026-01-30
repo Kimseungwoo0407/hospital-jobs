@@ -14,17 +14,10 @@
     "detail_url": "javascript:viewRecruit(2762);"
   },
   {
-    "title": "서초지역 부속의원 방사선사(휴직 대체) 모집",
-    "start_dt": "2026-01-28T00:00:00+09:00",
-    "end_dt": "2026-02-04T23:59:00+09:00",
-    "dday": "D-6",
-    "detail_url": "javascript:viewRecruit(2798);"
-  },
-  {
-    "title": "핵의학과 방사선사 모집",
-    "start_dt": "2026-01-21T00:00:00+09:00",
-    "end_dt": "2026-02-04T23:59:00+09:00",
-    "dday": "D-6",
-    "detail_url": "javascript:viewRecruit(2780);"
+    "title": "수원종합건진센터 심장초음파기사 모집",
+    "start_dt": "2026-01-29T00:00:00+09:00",
+    "end_dt": "2026-02-08T23:59:00+09:00",
+    "dday": "D-9",
+    "detail_url": "javascript:viewRecruit(2794);"
   }
 ]
