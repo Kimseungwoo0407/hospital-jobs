@@ -4,23 +4,7 @@
     "period_text": "2026-02-03 09:00 ~ 2026-02-09 23:59",
     "start_dt": "2026-02-03T09:00:00+09:00",
     "end_dt": "2026-02-09T23:59:00+09:00",
-    "status_text": "D-5",
+    "status_text": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1340"
-  },
-  {
-    "title": "[계약직] 전담간호팀(호흡기알레르기내과) 전담간호사 채용",
-    "period_text": "2026-01-29 09:00 ~ 2026-02-04 23:59",
-    "start_dt": "2026-01-29T09:00:00+09:00",
-    "end_dt": "2026-02-04T23:59:00+09:00",
-    "status_text": "D-Day",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1339"
-  },
-  {
-    "title": "[정규직] 2026년도 조산사 보유 야간전담 간호사 채용",
-    "period_text": "2026-01-28 13:00 ~ 2026-02-04 09:01",
-    "start_dt": "2026-01-28T13:00:00+09:00",
-    "end_dt": "2026-02-04T09:01:00+09:00",
-    "status_text": "D-Day",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1338"
   }
 ]
