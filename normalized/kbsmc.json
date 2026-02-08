@@ -10,14 +10,14 @@
     "title": "서초지역 부속의원 물리치료사 모집",
     "start_dt": "2026-02-06T00:00:00+09:00",
     "end_dt": "2026-02-12T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "javascript:viewRecruit(2816);"
   },
   {
     "title": "수원지역 부속의원 물리치료사 모집",
     "start_dt": "2026-02-04T00:00:00+09:00",
     "end_dt": "2026-02-11T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "javascript:viewRecruit(2812);"
   }
 ]
