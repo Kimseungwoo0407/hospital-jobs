@@ -1,37 +1,65 @@
 [
   {
+    "title": "계약직 신입직원 [외과 진료지원간호사] 공개채용 모집공고",
+    "start_dt": "2026-02-10T00:00:00+09:00",
+    "end_dt": "2026-02-18T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2602100003"
+  },
+  {
+    "title": "계약직 신입직원 [건강증진센터 간호사] 공개채용 모집공고",
+    "start_dt": "2026-02-10T00:00:00+09:00",
+    "end_dt": "2026-02-18T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2602100002"
+  },
+  {
+    "title": "계약직 신입직원 [한방조제팀 한약사] 공개채용 모집공고",
+    "start_dt": "2026-02-09T00:00:00+09:00",
+    "end_dt": "2026-02-18T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2602090012"
+  },
+  {
+    "title": "계약직 신입직원 [외과 혈관초음파실 방사선사] 공개채용 모집공고",
+    "start_dt": "2026-02-09T00:00:00+09:00",
+    "end_dt": "2026-02-18T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2602090009"
+  },
+  {
+    "title": "계약직 신입직원 [진단검사의학과 임상병리사] 공개채용 모집공고",
+    "start_dt": "2026-02-09T00:00:00+09:00",
+    "end_dt": "2026-02-18T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2602090006"
+  },
+  {
     "title": "계약직 신입직원 [간호본부 조무사] 공개채용 모집공고",
     "start_dt": "2026-02-05T00:00:00+09:00",
     "end_dt": "2026-02-22T23:59:00+09:00",
-    "dday": "D-13",
+    "dday": "D-12",
     "detail_url": "https://recruit.incruit.com/khmc/job/2602050009"
   },
   {
     "title": "계약직 신입직원 [심장내과(심혈관조영실) 방사선사] 공개채용 모집공고",
     "start_dt": "2026-02-04T00:00:00+09:00",
     "end_dt": "2026-02-10T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2602040006"
   },
   {
     "title": "계약직 신입직원 [중앙공급실(치과) 조무기사] 공개채용 모집공고",
     "start_dt": "2026-02-04T00:00:00+09:00",
     "end_dt": "2026-02-10T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2602040003"
   },
   {
     "title": "계약직 신입직원 [조제팀 주말약사] 공개채용 모집공고",
     "start_dt": "2026-02-04T00:00:00+09:00",
     "end_dt": "2026-02-10T23:59:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2602040001"
-  },
-  {
-    "title": "계약직 신입직원 [Car-T 세포치료센터 연구원] 공개채용 모집공고",
-    "start_dt": "2026-02-03T00:00:00+09:00",
-    "end_dt": "2026-02-09T23:59:00+09:00",
     "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2602030001"
+    "detail_url": "https://recruit.incruit.com/khmc/job/2602040001"
   }
 ]
