@@ -1,5 +1,13 @@
 [
   {
+    "title": "2026년도 2월 대체근로자 채용 서류전형 합격자 발표 및 면접전형 일정공고",
+    "period_text": "2026-02-13 ~ 2026-03-20",
+    "start_dt": "2026-02-13T00:00:00+09:00",
+    "end_dt": "2026-03-20T23:59:00+09:00",
+    "status": "공고",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26027"
+  },
+  {
     "title": "2026년도 서울대학교병원 간호직 경력 직원 채용 공고 (장애인 특별우대)",
     "period_text": "2026-02-12 ~ 2026-02-26",
     "start_dt": "2026-02-12T00:00:00+09:00",
@@ -30,13 +38,5 @@
     "end_dt": "2026-02-28T23:59:00+09:00",
     "status": "공고",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26022"
-  },
-  {
-    "title": "서울대학교병원 친인척 채용인원 공개 (2025년 4분기)",
-    "period_text": "2026-01-31 ~ 2026-02-13",
-    "start_dt": "2026-01-31T00:00:00+09:00",
-    "end_dt": "2026-02-13T23:59:00+09:00",
-    "status": "공고",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26020"
   }
 ]
