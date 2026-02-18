@@ -6,7 +6,7 @@
     "date_text": "2026.02.12(목) 00:00 ~ 2026.02.18(수) 23:59",
     "start_dt": "2026-02-12T00:00:00+09:00",
     "end_dt": "2026-02-18T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=244523"
   },
   {
@@ -16,7 +16,7 @@
     "date_text": "2026.02.12(목) 00:00 ~ 2026.02.21(토) 23:59",
     "start_dt": "2026-02-12T00:00:00+09:00",
     "end_dt": "2026-02-21T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=244490"
   },
   {
@@ -26,7 +26,7 @@
     "date_text": "2026.02.12(목) 00:00 ~ 2026.02.21(토) 23:59",
     "start_dt": "2026-02-12T00:00:00+09:00",
     "end_dt": "2026-02-21T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=244445"
   },
   {
@@ -36,7 +36,7 @@
     "date_text": "2026.02.10(화) 00:00 ~ 2026.02.19(목) 23:59",
     "start_dt": "2026-02-10T00:00:00+09:00",
     "end_dt": "2026-02-19T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=244053"
   },
   {
@@ -46,7 +46,7 @@
     "date_text": "2026.02.09(월) 00:00 ~ 2026.02.18(수) 23:59",
     "start_dt": "2026-02-09T00:00:00+09:00",
     "end_dt": "2026-02-18T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=243552"
   },
   {
@@ -56,7 +56,7 @@
     "date_text": "2026.02.09(월) 00:00 ~ 2026.02.18(수) 23:59",
     "start_dt": "2026-02-09T00:00:00+09:00",
     "end_dt": "2026-02-18T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=243535"
   },
   {
@@ -66,7 +66,7 @@
     "date_text": "2026.02.09(월) 00:00 ~ 2026.02.18(수) 23:59",
     "start_dt": "2026-02-09T00:00:00+09:00",
     "end_dt": "2026-02-18T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=243524"
   },
   {
@@ -76,7 +76,7 @@
     "date_text": "2026.02.09(월) 00:00 ~ 2026.02.18(수) 23:59",
     "start_dt": "2026-02-09T00:00:00+09:00",
     "end_dt": "2026-02-18T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=243396"
   }
 ]
