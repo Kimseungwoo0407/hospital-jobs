@@ -3,63 +3,21 @@
     "title": "[계약직] 영양팀 조리사 채용",
     "start_dt": "2026-02-12T13:00:00+09:00",
     "end_dt": "2026-02-19T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1351"
   },
   {
     "title": "[계약직] 영양팀 급식관리담당자 채용(영양사 및 조리사)",
     "start_dt": "2026-02-12T13:00:00+09:00",
     "end_dt": "2026-02-19T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1350"
   },
   {
     "title": "[계약직] 재활의학팀 작업치료사 채용",
     "start_dt": "2026-02-11T15:00:00+09:00",
     "end_dt": "2026-02-25T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1348"
-  },
-  {
-    "title": "[계약직] 헬스케어센터 간호사 채용",
-    "start_dt": "2026-02-10T11:00:00+09:00",
-    "end_dt": "2026-02-18T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1347"
-  },
-  {
-    "title": "[연구계약직] <국가 통합 바이오 빅데이터 구축사업> 연구원 채용",
-    "start_dt": "2026-02-10T08:00:00+09:00",
-    "end_dt": "2026-02-23T23:59:00+09:00",
-    "dday": "D-5",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1346"
-  },
-  {
-    "title": "[연구계약직] <국가 통합 바이오 빅데이터 구축사업> 시간제 연구원 채용(동의구득)",
-    "start_dt": "2026-02-10T08:00:00+09:00",
-    "end_dt": "2026-02-23T23:59:00+09:00",
-    "dday": "D-5",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1345"
-  },
-  {
-    "title": "[연구계약직] <국가 통합 바이오 빅데이터 구축사업> 시간제 연구원 채용(안내)",
-    "start_dt": "2026-02-10T08:00:00+09:00",
-    "end_dt": "2026-02-20T23:59:00+09:00",
-    "dday": "D-2",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1344"
-  },
-  {
-    "title": "[계약직] 외래간호팀(외래주사실) 간호사 채용",
-    "start_dt": "2026-02-09T09:00:00+09:00",
-    "end_dt": "2026-02-18T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1343"
-  },
-  {
-    "title": "[정규직] 2026년도 조산사 보유 야간전담 간호사 채용",
-    "start_dt": "2026-02-05T09:00:00+09:00",
-    "end_dt": "2026-02-19T09:01:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1341"
   }
 ]

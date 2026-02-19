@@ -7,10 +7,17 @@
     "detail_url": "javascript:viewRecruit(2761);"
   },
   {
+    "title": "서초지역 부속의원 방사선사(휴직 대체) 모집",
+    "start_dt": "2026-02-19T00:00:00+09:00",
+    "end_dt": "2026-03-02T23:59:00+09:00",
+    "dday": "D-11",
+    "detail_url": "javascript:viewRecruit(2819);"
+  },
+  {
     "title": "예방건진센터 방사선사(휴직 대체) 모집",
     "start_dt": "2026-02-14T00:00:00+09:00",
     "end_dt": "2026-02-22T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "javascript:viewRecruit(2829);"
   }
 ]
