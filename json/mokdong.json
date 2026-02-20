@@ -3,10 +3,10 @@
     "title": "[이화의료원] 홍보전략팀 계약직 사무원(영상분야) 공개채용 공고",
     "start_dt": "2026-02-19T09:00:00+09:00",
     "end_dt": "2026-02-26T17:00:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29829&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-7",
+      "D-6",
       "[이화의료원] 홍보전략팀 계약직 사무원(영상분야) 공개채용 공고",
       "2026-02-19 09:00:00 ~ 2026-02-26 17:00:00"
     ]
@@ -15,24 +15,12 @@
     "title": "[목동병원] 약제팀 계약직 야간약사 공개채용 공고",
     "start_dt": "2026-02-10T00:00:00+09:00",
     "end_dt": "2026-03-09T23:59:00+09:00",
-    "dday": "D-18",
+    "dday": "D-17",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29761&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-18",
+      "D-17",
       "[목동병원] 약제팀 계약직 야간약사 공개채용 공고",
       "2026-02-10 00:00:00 ~ 2026-03-09 23:59:00"
-    ]
-  },
-  {
-    "title": "[목동병원] 2026년도 이대목동병원 전임의사(fellow) 초빙 공고",
-    "start_dt": "2026-02-02T09:00:00+09:00",
-    "end_dt": "2026-02-19T17:00:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29730&pageIndex=1&searchWord=&bid_status=I",
-    "raw_lines": [
-      "D-0",
-      "[목동병원] 2026년도 이대목동병원 전임의사(fellow) 초빙 공고",
-      "2026-02-02 09:00:00 ~ 2026-02-19 17:00:00"
     ]
   }
 ]
