@@ -10,21 +10,21 @@
     "title": "영상의학과 방사선사 모집",
     "start_dt": "2026-02-20T00:00:00+09:00",
     "end_dt": "2026-03-02T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "javascript:viewRecruit(2835);"
   },
   {
     "title": "서초지역 부속의원 방사선사(휴직 대체) 모집",
     "start_dt": "2026-02-19T00:00:00+09:00",
     "end_dt": "2026-03-02T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "javascript:viewRecruit(2819);"
   },
   {
     "title": "수원종합건진센터 방사선사 모집",
     "start_dt": "2026-02-19T00:00:00+09:00",
     "end_dt": "2026-02-25T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "javascript:viewRecruit(2833);"
   }
 ]
