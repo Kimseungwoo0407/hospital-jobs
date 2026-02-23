@@ -1,29 +1,11 @@
 [
   {
-    "title": "응급의학과 전원회송 코디네이터 (임시직)",
-    "start_dt": "2026-02-13T00:00+09:00",
-    "end_dt": "2026-02-26T23:59+09:00",
-    "dday": "D-4",
-    "dday_to_start": "D+9",
-    "dday_to_end": "D-4",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "100361",
-    "announce_sn": "100361",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/100361",
-    "tags": [
-      "임시직",
-      "일반채용",
-      "신입"
-    ]
-  },
-  {
     "title": "신속대응센터 간호사 (임시직)",
     "start_dt": "2026-02-13T00:00+09:00",
     "end_dt": "2026-02-26T23:59+09:00",
-    "dday": "D-4",
-    "dday_to_start": "D+9",
-    "dday_to_end": "D-4",
+    "dday": "D-3",
+    "dday_to_start": "D+10",
+    "dday_to_end": "D-3",
     "phase": "open",
     "status": "접수중",
     "recu_idx": "100355",
@@ -36,12 +18,48 @@
     ]
   },
   {
-    "title": "간호국 간호사 (정신건강의학과 외래) (임시직)",
-    "start_dt": "2026-02-12T00:00+09:00",
-    "end_dt": "2026-02-25T23:59+09:00",
+    "title": "응급의학과 전원회송 코디네이터 (임시직)",
+    "start_dt": "2026-02-13T00:00+09:00",
+    "end_dt": "2026-02-26T23:59+09:00",
     "dday": "D-3",
     "dday_to_start": "D+10",
     "dday_to_end": "D-3",
+    "phase": "open",
+    "status": "접수중",
+    "recu_idx": "100361",
+    "announce_sn": "100361",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/100361",
+    "tags": [
+      "임시직",
+      "일반채용",
+      "신입"
+    ]
+  },
+  {
+    "title": "마취통증의학과 경력 전담간호사 (정규직)",
+    "start_dt": "2026-02-13T00:00+09:00",
+    "end_dt": "2026-02-26T23:59+09:00",
+    "dday": "D-3",
+    "dday_to_start": "D+10",
+    "dday_to_end": "D-3",
+    "phase": "open",
+    "status": "접수중",
+    "recu_idx": "100387",
+    "announce_sn": "100387",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/100387",
+    "tags": [
+      "정규직",
+      "일반채용",
+      "경력"
+    ]
+  },
+  {
+    "title": "간호국 간호사 (정신건강의학과 외래) (임시직)",
+    "start_dt": "2026-02-12T00:00+09:00",
+    "end_dt": "2026-02-25T23:59+09:00",
+    "dday": "D-2",
+    "dday_to_start": "D+11",
+    "dday_to_end": "D-2",
     "phase": "open",
     "status": "접수중",
     "recu_idx": "100123",
@@ -57,9 +75,9 @@
     "title": "영양팀 기능원 (정규직)",
     "start_dt": "2026-02-11T00:00+09:00",
     "end_dt": "2026-02-24T23:59+09:00",
-    "dday": "D-2",
-    "dday_to_start": "D+11",
-    "dday_to_end": "D-2",
+    "dday": "D-1",
+    "dday_to_start": "D+12",
+    "dday_to_end": "D-1",
     "phase": "open",
     "status": "접수중",
     "recu_idx": "100059",
@@ -67,24 +85,6 @@
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/100059",
     "tags": [
       "정규직",
-      "일반채용",
-      "신입"
-    ]
-  },
-  {
-    "title": "권역응급의료센터 응급의료정보(NEDIS) 코디네이터 (임시직)",
-    "start_dt": "2026-02-09T00:00+09:00",
-    "end_dt": "2026-02-22T23:59+09:00",
-    "dday": "D-0",
-    "dday_to_start": "D+13",
-    "dday_to_end": "D-0",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "99652",
-    "announce_sn": "99652",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/99652",
-    "tags": [
-      "임시직",
       "일반채용",
       "신입"
     ]
