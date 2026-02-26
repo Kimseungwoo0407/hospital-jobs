@@ -1,16 +1,51 @@
 [
   {
-    "title": "경력(간호직) 직원 채용공고",
-    "start_dt": "2026-02-13T09:00:00+09:00",
-    "end_dt": "2026-02-24T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=244590"
+    "title": "단시간일반직(선임급연구원) 채용공고",
+    "start_dt": "2026-02-25T15:00:00+09:00",
+    "end_dt": "2026-03-06T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=245600"
   },
   {
-    "title": "26년 2월 신입(업무지원직) 직원 채용 공고",
-    "start_dt": "2026-02-13T09:00:00+09:00",
-    "end_dt": "2026-02-24T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=243498"
+    "title": "단시간일반직_간호직(내과, 신장내과, 상처장루관리센터) 채용공고",
+    "start_dt": "2026-02-25T15:00:00+09:00",
+    "end_dt": "2026-03-06T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=245589"
+  },
+  {
+    "title": "단시간일반직(약제부) 채용공고(장애인우대)",
+    "start_dt": "2026-02-25T15:00:00+09:00",
+    "end_dt": "2026-03-06T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=245586"
+  },
+  {
+    "title": "직원(계약업무지원직_응급구조사,시설(통신)) 채용공고",
+    "start_dt": "2026-02-25T15:00:00+09:00",
+    "end_dt": "2026-03-06T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=245584"
+  },
+  {
+    "title": "직원(계약업무지원직) 채용공고",
+    "start_dt": "2026-02-25T15:00:00+09:00",
+    "end_dt": "2026-03-06T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=245581"
+  },
+  {
+    "title": "직원(계약보건직_신입) 채용공고",
+    "start_dt": "2026-02-25T15:00:00+09:00",
+    "end_dt": "2026-03-06T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=245578"
+  },
+  {
+    "title": "직원(계약보건직_경력) 채용공고",
+    "start_dt": "2026-02-25T15:00:00+09:00",
+    "end_dt": "2026-03-06T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=245572"
   }
 ]
