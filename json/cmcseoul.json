@@ -1,7 +1,7 @@
 [
   {
     "title": "진행중\n내과 중환자실 전담전문의(촉탁의) 모집",
-    "start_dt": "2026-02-26T09:00+09:00",
+    "start_dt": "2026-02-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -11,7 +11,7 @@
   },
   {
     "title": "진행중\n내과 응급실 전담 전문의(촉탁의) 모집",
-    "start_dt": "2026-02-26T09:00+09:00",
+    "start_dt": "2026-02-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -21,7 +21,7 @@
   },
   {
     "title": "진행중\n서울성모병원 간담췌외과 진료전문의 모집공고(입원전담전문의)",
-    "start_dt": "2026-02-26T09:00+09:00",
+    "start_dt": "2026-02-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -31,7 +31,7 @@
   },
   {
     "title": "진행중\n서울성모병원 순환기내과 중환자실 당직 전문의(촉탁의) 모집 공고",
-    "start_dt": "2026-02-26T09:00+09:00",
+    "start_dt": "2026-02-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -41,7 +41,7 @@
   },
   {
     "title": "진행중\n전진상의원 파견 진료전문의 모집 공고",
-    "start_dt": "2026-02-26T09:00+09:00",
+    "start_dt": "2026-02-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -50,143 +50,63 @@
     "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/525034?p=1&s=12&q=%7B%7D"
   },
   {
-    "title": "진행중\n병원지원직(수술간호팀/계약직) 공개채용 최종합격자 안내",
-    "start_dt": "2026-02-25T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "542613",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/542613?p=1&s=12&q=%7B%7D"
-  },
-  {
-    "title": "진행중\n[상시모집] 병원지원직(간호행정교육팀/계약직) 공개채용 최종합격자 안내",
-    "start_dt": "2026-02-25T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "542612",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/542612?p=1&s=12&q=%7B%7D"
-  },
-  {
-    "title": "진행중\n[상시모집] 외래간호직(간호행정교육팀/계약직) 공개채용 최종합격자 안내",
-    "start_dt": "2026-02-25T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "542611",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/542611?p=1&s=12&q=%7B%7D"
-  },
-  {
-    "title": "진행중\n임상병리직(이비인후과) 공개채용 최종합격자 안내",
-    "start_dt": "2026-02-25T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "542601",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/542601?p=1&s=12&q=%7B%7D"
-  },
-  {
-    "title": "진행중\n사회사업직(사회사업팀/계약직) 공개채용 최종합격자 안내",
-    "start_dt": "2026-02-25T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "542599",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/542599?p=1&s=12&q=%7B%7D"
-  },
-  {
-    "title": "진행중\n사무직(적정진료관리팀/휴직대체) 공개채용 최종합격자 안내",
-    "start_dt": "2026-02-25T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "542593",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/542593?p=1&s=12&q=%7B%7D"
-  },
-  {
-    "title": "진행중\n영양직(영양팀/휴직대체) 공개채용 최종합격자 안내",
-    "start_dt": "2026-02-25T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "542592",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/542592?p=1&s=12&q=%7B%7D"
-  },
-  {
-    "title": "진행중\n의료지원직(약제부/계약직) 공개채용 최종합격자 안내",
-    "start_dt": "2026-02-25T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "542591",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/542591?p=2&s=12&q=%7B%7D"
-  },
-  {
     "title": "진행중\n2026년도 서울성모병원 임상강사 2차 추가채용 최종 합격자 안내",
     "start_dt": "2026-02-27T09:00+09:00",
     "end_dt": null,
-    "dday": "D-1",
+    "dday": null,
     "status": "진행중",
     "recu_idx": "542632",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/542632?p=2&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/542632?p=1&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n2026년도 서울성모병원 임상강사(Fellow) 추가채용 최종 합격자 안내",
     "start_dt": "2026-02-27T09:00+09:00",
     "end_dt": null,
-    "dday": "D-1",
+    "dday": null,
     "status": "진행중",
     "recu_idx": "542219",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/542219?p=2&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/542219?p=1&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n임상심리직(정신건강의학과/수련과정) 공개채용 최종합격자 안내",
     "start_dt": "2026-02-27T09:00+09:00",
     "end_dt": null,
-    "dday": "D-1",
+    "dday": null,
     "status": "진행중",
     "recu_idx": "540806",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540806?p=2&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540806?p=1&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n2026년도 서울성모병원 임상강사(Fellow) 공개채용 최종 합격자 안내",
     "start_dt": "2026-02-27T09:00+09:00",
     "end_dt": null,
-    "dday": "D-1",
+    "dday": null,
     "status": "진행중",
     "recu_idx": "540765",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540765?p=2&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540765?p=1&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n2026년도 정규약사 공개채용 최종합격자 안내",
     "start_dt": "2026-02-27T09:00+09:00",
     "end_dt": null,
-    "dday": "D-1",
+    "dday": null,
     "status": "진행중",
     "recu_idx": "540100",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540100?p=2&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/540100?p=1&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n채용 서류 반환에 관한 안내",
-    "start_dt": "2026-02-26T09:00+09:00",
+    "start_dt": "2026-02-27T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
     "recu_idx": "466296",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/466296?p=2&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/466296?p=1&s=12&q=%7B%7D"
   }
 ]
