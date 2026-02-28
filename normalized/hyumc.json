@@ -1,9 +1,58 @@
 [
   {
+    "title": "의무기록팀 보건의료정보관리사 (정규직)",
+    "start_dt": "2026-02-27T00:00:00+09:00",
+    "end_dt": "2026-03-12T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/102021"
+  },
+  {
+    "title": "직업환경의학과 임상병리사 (정규직)",
+    "start_dt": "2026-02-27T00:00:00+09:00",
+    "end_dt": "2026-03-12T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/102023"
+  },
+  {
+    "title": "2026년 상반기 사무원 (정규직)",
+    "start_dt": "2026-02-27T00:00:00+09:00",
+    "end_dt": "2026-03-12T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/102040"
+  },
+  {
+    "title": "의료원의료정보팀 사무원 (정규직)",
+    "start_dt": "2026-02-27T00:00:00+09:00",
+    "end_dt": "2026-03-12T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/102036"
+  },
+  {
+    "title": "시설팀 영선기사 (정규직)",
+    "start_dt": "2026-02-27T00:00:00+09:00",
+    "end_dt": "2026-03-12T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/102032"
+  },
+  {
+    "title": "의공팀 의공기사 (정규직)",
+    "start_dt": "2026-02-27T00:00:00+09:00",
+    "end_dt": "2026-03-12T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/102028"
+  },
+  {
+    "title": "간호국 간호조무사 (일반병동) (정규직)",
+    "start_dt": "2026-02-27T00:00:00+09:00",
+    "end_dt": "2026-03-12T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/102042"
+  },
+  {
     "title": "간호국 간호사 (임시직)",
     "start_dt": "2026-02-24T00:00:00+09:00",
     "end_dt": "2026-03-09T23:59:00+09:00",
-    "dday": "D-10",
+    "dday": "D-9",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/101399"
   }
 ]
