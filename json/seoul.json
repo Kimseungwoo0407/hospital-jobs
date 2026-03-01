@@ -14,21 +14,5 @@
     "end_dt": "2026-03-04T23:59:00+09:00",
     "status": "공고",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26029"
-  },
-  {
-    "title": "2026년도 연구임상강사 합격자 공고",
-    "period_text": "2026-02-06 ~ 2026-02-28",
-    "start_dt": "2026-02-06T00:00:00+09:00",
-    "end_dt": "2026-02-28T23:59:00+09:00",
-    "status": "공고",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26023"
-  },
-  {
-    "title": "2026년도 임상강사(Fellow) 2차 합격자 공고",
-    "period_text": "2026-02-06 ~ 2026-02-28",
-    "start_dt": "2026-02-06T00:00:00+09:00",
-    "end_dt": "2026-02-28T23:59:00+09:00",
-    "status": "공고",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26022"
   }
 ]
