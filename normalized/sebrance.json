@@ -1,51 +1,58 @@
 [
   {
+    "title": "[일반-강남] 방사선사(계약직) 영상의학팀 26.03 모집",
+    "start_dt": "2026-03-03T00:00:00+09:00",
+    "end_dt": "2026-03-09T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246474"
+  },
+  {
+    "title": "[일반-강남] 사회복지사(계약직) 사회사업팀 26.03 모집",
+    "start_dt": "2026-03-03T00:00:00+09:00",
+    "end_dt": "2026-03-09T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246473"
+  },
+  {
+    "title": "[일반-강남] 임상병리사(계약직;단시간) 헬스체크업 26.03 모집",
+    "start_dt": "2026-03-03T00:00:00+09:00",
+    "end_dt": "2026-03-09T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246472"
+  },
+  {
+    "title": "[일반-신촌] 임상병리사(계약직) 세브)진단검사의학팀 26.03 모집",
+    "start_dt": "2026-03-03T00:00:00+09:00",
+    "end_dt": "2026-03-12T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246450"
+  },
+  {
     "title": "[일반-신촌]운전사(계약직) 사무처)총무팀 26.2 모집 (재공고)",
     "start_dt": "2026-02-27T00:00:00+09:00",
     "end_dt": "2026-03-05T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246301"
   },
   {
     "title": "[일반-강남] 간호사(계약직) 외래간호팀 26.02-1 모집",
     "start_dt": "2026-02-27T00:00:00+09:00",
     "end_dt": "2026-03-05T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246297"
   },
   {
     "title": "[일반-강남] 물리치료사(계약직) 재활의학팀 26.02 모집",
     "start_dt": "2026-02-27T00:00:00+09:00",
     "end_dt": "2026-03-05T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246296"
   },
   {
     "title": "[일반-강남] 임상병리사(계약직) 병리팀 26.02 모집",
     "start_dt": "2026-02-27T00:00:00+09:00",
     "end_dt": "2026-03-05T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246291"
-  },
-  {
-    "title": "[일반-강남] 약사(계약직;야간전담) 약제팀 26.02-1 모집",
-    "start_dt": "2026-02-27T00:00:00+09:00",
-    "end_dt": "2026-03-05T23:59:00+09:00",
-    "dday": "D-2",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246203"
-  },
-  {
-    "title": "[일반-신촌] 의지보조기기사(계약직) 재활)재활2팀 26.02 모집",
-    "start_dt": "2026-02-24T00:00:00+09:00",
-    "end_dt": "2026-03-05T23:59:00+09:00",
-    "dday": "D-2",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=245326"
-  },
-  {
-    "title": "[일반-강남] 조리사(계약직) 영양팀 26.02 모집",
-    "start_dt": "2026-02-12T00:00:00+09:00",
-    "end_dt": "2026-03-05T23:59:00+09:00",
-    "dday": "D-2",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=244523"
   }
 ]
