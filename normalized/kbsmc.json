@@ -10,21 +10,7 @@
     "title": "예방건진센터 방사선사(휴직 대체) 모집",
     "start_dt": "2026-02-28T00:00:00+09:00",
     "end_dt": "2026-03-08T23:59:00+09:00",
-    "dday": "D-4",
-    "detail_url": "javascript:viewRecruit(2849);"
-  },
-  {
-    "title": "예방건진센터 기업건진파트 임상병리사 모집(2026년 졸업예정자 지원 가능, 채용 시 마감)",
-    "start_dt": null,
-    "end_dt": null,
-    "dday": null,
-    "detail_url": "javascript:viewRecruit(2761);"
-  },
-  {
-    "title": "예방건진센터 방사선사(휴직 대체) 모집",
-    "start_dt": "2026-02-28T00:00:00+09:00",
-    "end_dt": "2026-03-08T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "javascript:viewRecruit(2849);"
   }
 ]
