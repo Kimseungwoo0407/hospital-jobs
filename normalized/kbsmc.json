@@ -10,7 +10,14 @@
     "title": "바이오뱅크 임상병리사 모집",
     "start_dt": "2026-03-06T00:00:00+09:00",
     "end_dt": "2026-03-15T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "javascript:viewRecruit(2860);"
+  },
+  {
+    "title": "서울종합건진센터 임상병리사(기초병리) 모집",
+    "start_dt": "2026-03-06T00:00:00+09:00",
+    "end_dt": "2026-03-15T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "javascript:viewRecruit(2863);"
   }
 ]

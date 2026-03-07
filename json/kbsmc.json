@@ -16,5 +16,14 @@
     "end_dt": "2026-03-15T23:59:00+09:00",
     "status_text": "NEW",
     "detail_url": "javascript:viewRecruit(2860);"
+  },
+  {
+    "title": "서울종합건진센터 임상병리사(기초병리) 모집",
+    "job_type": "의료 기사직",
+    "period_text": "2026.03.06 ~ 2026.03.15",
+    "start_dt": "2026-03-06T00:00:00+09:00",
+    "end_dt": "2026-03-15T23:59:00+09:00",
+    "status_text": "NEW",
+    "detail_url": "javascript:viewRecruit(2863);"
   }
 ]
