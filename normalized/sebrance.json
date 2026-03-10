@@ -1,44 +1,51 @@
 [
   {
+    "title": "[일반-강남] 간호사(계약직) 외래간호팀 26.03 모집",
+    "start_dt": "2026-03-09T00:00:00+09:00",
+    "end_dt": "2026-03-15T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=247122"
+  },
+  {
+    "title": "[일반-강남] 치과위생사(계약직) 치과병원 26.03 모집",
+    "start_dt": "2026-03-09T00:00:00+09:00",
+    "end_dt": "2026-03-15T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=247121"
+  },
+  {
     "title": "[일반-신촌] 사무원(계약직) 세브)약무팀 26.03 모집",
     "start_dt": "2026-03-09T00:00:00+09:00",
     "end_dt": "2026-03-18T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246788"
   },
   {
     "title": "[일반-신촌] 임상병리사(계약직,주25시간 근무) 체크업)검진팀 26.03 모집",
     "start_dt": "2026-03-09T00:00:00+09:00",
     "end_dt": "2026-03-15T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246638"
   },
   {
     "title": "[일반-신촌]기능원(계약직) 세브)영상의학팀 26.03 모집",
     "start_dt": "2026-03-06T00:00:00+09:00",
     "end_dt": "2026-03-15T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246943"
   },
   {
-    "title": "[일반-강남] 기능원(계약직) 수술간호팀 26.03 모집",
-    "start_dt": "2026-03-03T00:00:00+09:00",
-    "end_dt": "2026-03-09T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246920"
+    "title": "[일반-신촌] 사무원(계약직) 대외협력처)발전기금팀 26.03 모집",
+    "start_dt": "2026-03-09T00:00:00+09:00",
+    "end_dt": "2026-03-18T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246931"
   },
   {
-    "title": "[일반-신촌] 치과위생사(계약직) 치과)구강악안면외과 26.03 모집",
-    "start_dt": "2026-03-06T00:00:00+09:00",
-    "end_dt": "2026-03-15T23:59:00+09:00",
-    "dday": "D-6",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246830"
-  },
-  {
-    "title": "[일반-신촌] 치과위생사(계약직) 치과)소아치과 26.03 모집",
-    "start_dt": "2026-03-06T00:00:00+09:00",
-    "end_dt": "2026-03-12T23:59:00+09:00",
-    "dday": "D-3",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246823"
+    "title": "[일반-신촌] 사회복지사(단기계약직) 세브)사회사업팀 26.03 모집",
+    "start_dt": "2026-03-09T00:00:00+09:00",
+    "end_dt": "2026-03-18T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246926"
   }
 ]

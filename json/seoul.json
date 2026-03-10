@@ -8,6 +8,38 @@
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26032"
   },
   {
+    "title": "진료교수요원 공개채용",
+    "period_text": "2026-03-10 ~ 2026-03-17",
+    "start_dt": "2026-03-10T00:00:00+09:00",
+    "end_dt": "2026-03-17T23:59:00+09:00",
+    "status": "공고",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26034"
+  },
+  {
+    "title": "국립소방병원 진료교수요원 공개채용",
+    "period_text": "2026-03-10 ~ 2026-03-17",
+    "start_dt": "2026-03-10T00:00:00+09:00",
+    "end_dt": "2026-03-17T23:59:00+09:00",
+    "status": "공고",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26035"
+  },
+  {
+    "title": "2026년도 2월 2차 대체근로자 채용 면접전형 합격자 발표 및 신체검사 일정공고",
+    "period_text": "2026-03-09 ~ 2026-03-17",
+    "start_dt": "2026-03-09T00:00:00+09:00",
+    "end_dt": "2026-03-17T23:59:00+09:00",
+    "status": "공고",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26036"
+  },
+  {
+    "title": "서울대학교병원 블라인드 직원채용 (대체근로자) 공고 (장애인 특별우대)",
+    "period_text": "2026-03-09 ~ 2026-03-16",
+    "start_dt": "2026-03-09T00:00:00+09:00",
+    "end_dt": "2026-03-16T23:59:00+09:00",
+    "status": "접수중(인크루트)",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26037"
+  },
+  {
     "title": "연구교수 공개채용",
     "period_text": "2026-03-06 ~ 2026-03-13",
     "start_dt": "2026-03-06T00:00:00+09:00",
