@@ -1,58 +1,58 @@
 [
   {
+    "title": "[계약직] 임상시험센터 간호사 채용",
+    "start_dt": "2026-03-12T09:00:00+09:00",
+    "end_dt": "2026-03-18T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1370"
+  },
+  {
     "title": "[정규직] 2026년 영상의학팀 신입 방사선사 채용",
     "start_dt": "2026-03-11T11:00:00+09:00",
     "end_dt": "2026-03-20T11:01:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1369"
   },
   {
     "title": "[계약직] 간호간병통합서비스병동 간호조무사 채용",
     "start_dt": "2026-03-11T11:00:00+09:00",
     "end_dt": "2026-03-17T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1368"
   },
   {
     "title": "[계약직] 전담간호팀(산부인과) 야간전담간호사 채용",
     "start_dt": "2026-03-11T11:00:00+09:00",
     "end_dt": "2026-03-17T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1367"
   },
   {
     "title": "[계약직] 전담간호팀(소아청소년과) 전담간호사 채용",
     "start_dt": "2026-03-10T11:00:00+09:00",
     "end_dt": "2026-03-16T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1366"
   },
   {
     "title": "[계약직] 전담간호팀(종양혈액내과) 전담간호사 채용",
     "start_dt": "2026-03-10T08:00:00+09:00",
     "end_dt": "2026-03-16T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1365"
   },
   {
     "title": "[계약직] 영양팀 영양사 채용",
     "start_dt": "2026-03-09T10:00:00+09:00",
     "end_dt": "2026-03-15T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1364"
   },
   {
     "title": "[계약직] 영양팀 급식관리담당자 채용(영양사 및 조리사)",
     "start_dt": "2026-03-09T08:00:00+09:00",
     "end_dt": "2026-03-15T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1363"
-  },
-  {
-    "title": "[계약직] 진단검사의학팀 임상병리사 채용",
-    "start_dt": "2026-03-09T08:00:00+09:00",
-    "end_dt": "2026-03-12T09:00:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1362"
   }
 ]
