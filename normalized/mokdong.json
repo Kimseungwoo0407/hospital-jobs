@@ -1,23 +1,37 @@
 [
   {
+    "title": "[목동병원] 이대목동병원 안과 계약직 간호사 공개채용 공고",
+    "start_dt": "2026-03-19T00:00:00+09:00",
+    "end_dt": "2026-03-25T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30005&pageIndex=1&searchWord=&bid_status=I"
+  },
+  {
+    "title": "[이화의료원] 의료원 전산정보팀 정규직 사무원 공개채용 공고",
+    "start_dt": "2026-03-19T00:00:00+09:00",
+    "end_dt": "2026-03-25T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29997&pageIndex=1&searchWord=&bid_status=I"
+  },
+  {
     "title": "[이화의료아카데미] 가상병원·가상환자 의료기술개발 사업 계약직 전담인력 공개채용 공고",
     "start_dt": "2026-03-16T09:00:00+09:00",
     "end_dt": "2026-03-22T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29986&pageIndex=1&searchWord=&bid_status=I"
   },
   {
     "title": "[이화의료원] 전산정보팀 계약직 사무원 공개채용 공고",
     "start_dt": "2026-03-16T09:00:00+09:00",
     "end_dt": "2026-03-22T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29985&pageIndex=1&searchWord=&bid_status=I"
   },
   {
     "title": "[목동병원] 약제팀 계약직 야간/주말 약사 공개채용 공고",
     "start_dt": "2026-02-10T00:00:00+09:00",
     "end_dt": "2026-03-21T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=29761&pageIndex=1&searchWord=&bid_status=I"
   }
 ]
