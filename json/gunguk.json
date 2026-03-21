@@ -4,7 +4,7 @@
     "period_text": "2026-03-18 15:00 ~ 2026-03-29 23:59",
     "start_dt": "2026-03-18T15:00:00+09:00",
     "end_dt": "2026-03-29T23:59:00+09:00",
-    "status_text": "D-9",
+    "status_text": "D-8",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1373"
   },
   {
@@ -12,15 +12,7 @@
     "period_text": "2026-03-17 13:00 ~ 2026-03-23 23:59",
     "start_dt": "2026-03-17T13:00:00+09:00",
     "end_dt": "2026-03-23T23:59:00+09:00",
-    "status_text": "D-3",
+    "status_text": "D-2",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1372"
-  },
-  {
-    "title": "야간약사 채용",
-    "period_text": "2026-03-17 09:00 ~ 2026-12-31 23:59",
-    "start_dt": "2026-03-17T09:00:00+09:00",
-    "end_dt": "2026-12-31T23:59:00+09:00",
-    "status_text": "D-286",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1371"
   }
 ]
