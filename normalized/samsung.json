@@ -1,65 +1,79 @@
 [
   {
+    "title": "신경검사실 계약직 임상병리사 채용",
+    "start_dt": "2026-03-23T00:00:00+09:00",
+    "end_dt": "2026-03-30T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAC20009&cPage=1"
+  },
+  {
+    "title": "신경검사실 계약직 임상병리사 채용(기간한정)",
+    "start_dt": "2026-03-23T00:00:00+09:00",
+    "end_dt": "2026-03-30T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAC20008&cPage=1"
+  },
+  {
+    "title": "간호본부 외래 계약직 전담간호사(외래기록) 채용",
+    "start_dt": "2026-03-23T00:00:00+09:00",
+    "end_dt": "2026-03-30T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0037&cPage=1"
+  },
+  {
     "title": "간호본부 외래 계약직 간호사 3월 정기채용",
     "start_dt": "2026-03-20T00:00:00+09:00",
     "end_dt": "2026-03-27T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0036&cPage=1"
   },
   {
     "title": "진단검사의학과 계약직 임상병리사 채용",
     "start_dt": "2026-03-20T00:00:00+09:00",
     "end_dt": "2026-03-26T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAC20007&cPage=1"
   },
   {
     "title": "핵의학과 계약직 임상병리사 채용",
     "start_dt": "2026-03-19T00:00:00+09:00",
     "end_dt": "2026-03-26T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAC20006&cPage=1"
   },
   {
     "title": "재활의학과 계약직 임상전담간호사 채용",
     "start_dt": "2026-03-19T00:00:00+09:00",
     "end_dt": "2026-03-26T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0035&cPage=1"
   },
   {
     "title": "2026년 외과(위장관외과분과) 입원전담전문의 초빙 안내",
     "start_dt": "2026-03-19T00:00:00+09:00",
     "end_dt": "2026-04-03T23:59:00+09:00",
-    "dday": "D-11",
+    "dday": "D-10",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026D0017&cPage=1"
   },
   {
     "title": "인프라클라우드파트 계약직 야간전담 IT운영직원 채용",
     "start_dt": "2026-03-18T00:00:00+09:00",
     "end_dt": "2026-03-25T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAHF0045&cPage=1"
   },
   {
     "title": "산부인과 계약직 전담간호사(수술) 채용",
     "start_dt": "2026-03-18T00:00:00+09:00",
     "end_dt": "2026-03-25T23:59:00+09:00",
-    "dday": "D-2",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0034&cPage=1"
-  },
-  {
-    "title": "마취간호팀 계약직 교대 보조원 채용",
-    "start_dt": "2026-03-17T00:00:00+09:00",
-    "end_dt": "2026-03-24T23:59:00+09:00",
     "dday": "D-1",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAHF0044&cPage=1"
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0034&cPage=1"
   },
   {
     "title": "CAR-T 세포치료센터 간호사(코디네이터) 경력직 채용",
     "start_dt": "2026-03-17T00:00:00+09:00",
     "end_dt": "2026-03-24T23:59:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0032&cPage=1"
+    "dday": "D-0",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0032&cPage=2"
   }
 ]
