@@ -1,37 +1,58 @@
 [
   {
-    "title": "건진운영팀 기능직(조무) 모집",
-    "start_dt": "2026-03-17T14:00:00+09:00",
-    "end_dt": "2026-03-24T23:00:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5216&announceSn=20260122"
-  },
-  {
     "title": "내과 당직전담(촉탁의사) 초빙",
     "start_dt": "2026-03-09T18:00:00+09:00",
     "end_dt": "2026-03-29T18:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5200&announceSn=20260105"
   },
   {
     "title": "서울아산병원 진료교수 초빙",
     "start_dt": "2026-03-09T18:00:00+09:00",
     "end_dt": "2026-03-29T18:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5199&announceSn=20260104"
   },
   {
     "title": "서울아산병원 입원전담전문의(Hospitalist) 초빙",
     "start_dt": "2026-03-09T18:00:00+09:00",
     "end_dt": "2026-03-29T18:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5198&announceSn=20260103"
+  },
+  {
+    "title": "특수검사팀 임상병리사 모집",
+    "start_dt": "2026-03-24T14:00:00+09:00",
+    "end_dt": "2026-03-29T23:00:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5220&announceSn=20260126"
+  },
+  {
+    "title": "원무팀 사무직 모집",
+    "start_dt": "2026-03-24T12:00:00+09:00",
+    "end_dt": "2026-03-29T23:00:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5219&announceSn=20260125"
   },
   {
     "title": "[모집연장] 시설팀 기술직(자동화/통신) 모집",
     "start_dt": "2026-03-09T15:00:00+09:00",
     "end_dt": "2026-03-29T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5203&announceSn=20260109"
+  },
+  {
+    "title": "보안관리팀 보안원(기능) 모집",
+    "start_dt": "2026-03-24T14:00:00+09:00",
+    "end_dt": "2026-03-31T23:00:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5222&announceSn=20260128"
+  },
+  {
+    "title": "임상시험센터 기능직(CTA) 모집",
+    "start_dt": "2026-03-24T13:00:00+09:00",
+    "end_dt": "2026-03-31T23:00:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5221&announceSn=20260127"
   }
 ]
