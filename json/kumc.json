@@ -1,25 +1,9 @@
 [
   {
-    "title": "[안암병원 26-13]심사평가팀 계약직 직원 모집(대체인력)",
-    "start_dt": "2026-03-19T00:00+09:00",
-    "end_dt": "2026-03-25T15:00+09:00",
-    "dday": "D-0",
-    "status": "접수중",
-    "recu_idx": "104178",
-    "announce_sn": "104178",
-    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/104178",
-    "tags": [
-      "안암병원",
-      "일반채용",
-      "신입"
-    ],
-    "hospital": "안암병원"
-  },
-  {
     "title": "[안암병원 26-15]약제팀 시간제 주말약사 모집",
     "start_dt": "2026-03-20T00:00+09:00",
     "end_dt": "2026-03-26T15:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "status": "접수중",
     "recu_idx": "104326",
     "announce_sn": "104326",
@@ -35,7 +19,7 @@
     "title": "[구로병원]호흡기내과(결핵관리실)계약직간호사 모집",
     "start_dt": "2026-03-20T00:00+09:00",
     "end_dt": "2026-03-29T00:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "status": "접수중",
     "recu_idx": "104195",
     "announce_sn": "104195",
@@ -48,10 +32,106 @@
     "hospital": "구로병원"
   },
   {
+    "title": "[안암병원 26-16]의료사회사업팀 계약직 직원 모집(소아청소년 완화치료)",
+    "start_dt": "2026-03-25T00:00+09:00",
+    "end_dt": "2026-03-31T15:00+09:00",
+    "dday": "D-5",
+    "status": "접수중",
+    "recu_idx": "104771",
+    "announce_sn": "104771",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/104771",
+    "tags": [
+      "안암병원",
+      "일반채용",
+      "신입"
+    ],
+    "hospital": "안암병원"
+  },
+  {
+    "title": "[구로병원] 영양팀 계약직일반업무원 모집(기간연장)",
+    "start_dt": "2026-03-11T00:00+09:00",
+    "end_dt": "2026-03-31T23:59+09:00",
+    "dday": "D-5",
+    "status": "접수중",
+    "recu_idx": "103140",
+    "announce_sn": "103140",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/103140",
+    "tags": [
+      "구로병원",
+      "일반채용",
+      "신입"
+    ],
+    "hospital": "구로병원"
+  },
+  {
+    "title": "[구로병원] 약제팀 계약직일반업무원 모집(대체인력)",
+    "start_dt": "2026-03-25T00:00+09:00",
+    "end_dt": "2026-03-31T23:59+09:00",
+    "dday": "D-5",
+    "status": "접수중",
+    "recu_idx": "104849",
+    "announce_sn": "104849",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/104849",
+    "tags": [
+      "구로병원",
+      "일반채용",
+      "신입"
+    ],
+    "hospital": "구로병원"
+  },
+  {
+    "title": "[구로병원]임상시험지원팀 계약직간호사 모집",
+    "start_dt": "2026-03-25T00:00+09:00",
+    "end_dt": "2026-03-31T23:59+09:00",
+    "dday": "D-5",
+    "status": "접수중",
+    "recu_idx": "104850",
+    "announce_sn": "104850",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/104850",
+    "tags": [
+      "구로병원",
+      "일반채용",
+      "신입"
+    ],
+    "hospital": "구로병원"
+  },
+  {
+    "title": "[구로병원]간호간병통합서비스병동 계약직 간호조무사 모집",
+    "start_dt": "2026-03-25T00:00+09:00",
+    "end_dt": "2026-03-31T23:59+09:00",
+    "dday": "D-5",
+    "status": "접수중",
+    "recu_idx": "104855",
+    "announce_sn": "104855",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/104855",
+    "tags": [
+      "구로병원",
+      "일반채용",
+      "신입"
+    ],
+    "hospital": "구로병원"
+  },
+  {
+    "title": "[구로병원]간호부 PRN 계약직일반업무원 모집",
+    "start_dt": "2026-03-25T00:00+09:00",
+    "end_dt": "2026-03-31T23:59+09:00",
+    "dday": "D-5",
+    "status": "접수중",
+    "recu_idx": "104859",
+    "announce_sn": "104859",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/104859",
+    "tags": [
+      "구로병원",
+      "일반채용",
+      "신입"
+    ],
+    "hospital": "구로병원"
+  },
+  {
     "title": "[안암병원 26-14]영양팀 계약직 일반업무원 모집",
     "start_dt": "2026-03-20T00:00+09:00",
     "end_dt": "2026-04-02T15:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "status": "접수중",
     "recu_idx": "104233",
     "announce_sn": "104233",
@@ -67,7 +147,7 @@
     "title": "2026년도 고려대학교안암병원 소아청소년과 임상강사 모집",
     "start_dt": "2025-09-05T00:00+09:00",
     "end_dt": "2026-04-30T23:59+09:00",
-    "dday": "D-36",
+    "dday": "D-35",
     "status": "접수중",
     "recu_idx": "82901",
     "announce_sn": "82901",

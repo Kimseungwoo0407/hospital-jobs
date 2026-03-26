@@ -9,6 +9,15 @@
     "detail_url": "javascript:viewRecruit(2761);"
   },
   {
+    "title": "예방건진센터 방사선사(휴직 대체) 모집",
+    "job_type": "의료 기사직",
+    "period_text": "2026.03.25 ~ 2026.04.01",
+    "start_dt": "2026-03-25T00:00:00+09:00",
+    "end_dt": "2026-04-01T23:59:00+09:00",
+    "status_text": "NEW",
+    "detail_url": "javascript:viewRecruit(2892);"
+  },
+  {
     "title": "진단검사의학과 임상병리사(휴직대체) 모집",
     "job_type": "의료 기사직",
     "period_text": "2026.03.23 ~ 2026.03.29",
@@ -23,7 +32,7 @@
     "period_text": "2026.03.19 ~ 2026.03.26",
     "start_dt": "2026-03-19T00:00:00+09:00",
     "end_dt": "2026-03-26T23:59:00+09:00",
-    "status_text": "NEW",
+    "status_text": "",
     "detail_url": "javascript:viewRecruit(2888);"
   }
 ]

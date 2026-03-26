@@ -7,17 +7,24 @@
     "detail_url": "javascript:viewRecruit(2761);"
   },
   {
+    "title": "예방건진센터 방사선사(휴직 대체) 모집",
+    "start_dt": "2026-03-25T00:00:00+09:00",
+    "end_dt": "2026-04-01T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "javascript:viewRecruit(2892);"
+  },
+  {
     "title": "진단검사의학과 임상병리사(휴직대체) 모집",
     "start_dt": "2026-03-23T00:00:00+09:00",
     "end_dt": "2026-03-29T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "javascript:viewRecruit(2890);"
   },
   {
     "title": "영상의학과 방사선사 모집",
     "start_dt": "2026-03-19T00:00:00+09:00",
     "end_dt": "2026-03-26T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "javascript:viewRecruit(2888);"
   }
 ]
