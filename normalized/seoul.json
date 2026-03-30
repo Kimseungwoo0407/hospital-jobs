@@ -3,35 +3,14 @@
     "title": "2026년도 3월 대체근로자 채용 서류전형 합격자 발표 및 면접전형 일정공고",
     "start_dt": "2026-03-24T00:00:00+09:00",
     "end_dt": "2026-03-31T23:59:00+09:00",
-    "dday": "D-2",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26043"
-  },
-  {
-    "title": "서울대학교병원 블라인드 직원채용 (대체근로자) 공고 (장애인 특별우대)",
-    "start_dt": "2026-03-23T00:00:00+09:00",
-    "end_dt": "2026-03-30T23:59:00+09:00",
     "dday": "D-1",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26042"
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26043"
   },
   {
     "title": "2026년도 서울대학교병원 간호직 경력 직원 채용 2차 면접전형 합격자 발표 및 3차 신체검사 등 일정 공고",
     "start_dt": "2026-03-20T00:00:00+09:00",
     "end_dt": "2026-03-30T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26041"
-  },
-  {
-    "title": "서울대학교병원 블라인드 직원채용 (무기계약직) 공고 (장애인 특별우대)",
-    "start_dt": "2026-03-12T00:00:00+09:00",
-    "end_dt": "2026-03-26T23:59:00+09:00",
-    "dday": "D+3",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26040"
-  },
-  {
-    "title": "2026년도 3월 서울대학교병원 블라인드 장애인 직원채용 (무기계약직) 공고",
-    "start_dt": "2026-03-12T00:00:00+09:00",
-    "end_dt": "2026-03-26T23:59:00+09:00",
-    "dday": "D+3",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26039"
   }
 ]
