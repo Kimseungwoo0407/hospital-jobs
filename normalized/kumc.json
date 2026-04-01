@@ -1,65 +1,30 @@
 [
   {
-    "title": "[안암병원 26-16]의료사회사업팀 계약직 직원 모집(소아청소년 완화치료)",
-    "start_dt": "2026-03-25T00:00:00+09:00",
-    "end_dt": "2026-03-31T15:00:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/104771"
-  },
-  {
-    "title": "[구로병원] 영양팀 계약직일반업무원 모집(기간연장)",
-    "start_dt": "2026-03-11T00:00:00+09:00",
-    "end_dt": "2026-03-31T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/103140"
-  },
-  {
-    "title": "[구로병원] 약제팀 계약직일반업무원 모집(대체인력)",
-    "start_dt": "2026-03-25T00:00:00+09:00",
-    "end_dt": "2026-03-31T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/104849"
-  },
-  {
-    "title": "[구로병원]임상시험지원팀 계약직간호사 모집",
-    "start_dt": "2026-03-25T00:00:00+09:00",
-    "end_dt": "2026-03-31T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/104850"
-  },
-  {
-    "title": "[구로병원]간호간병통합서비스병동 계약직 간호조무사 모집",
-    "start_dt": "2026-03-25T00:00:00+09:00",
-    "end_dt": "2026-03-31T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/104855"
-  },
-  {
-    "title": "[구로병원]간호부 PRN 계약직일반업무원 모집",
-    "start_dt": "2026-03-25T00:00:00+09:00",
-    "end_dt": "2026-03-31T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/104859"
-  },
-  {
     "title": "[안암병원 26-14]영양팀 계약직 일반업무원 모집",
     "start_dt": "2026-03-20T00:00:00+09:00",
     "end_dt": "2026-04-02T15:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://kumc.recruiter.co.kr/career/jobs/104233"
   },
   {
     "title": "[구로병원] 응급의학과 계약직직원(생명사랑위기대응센터 사회복지사)모집",
     "start_dt": "2026-03-30T00:00:00+09:00",
     "end_dt": "2026-04-05T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://kumc.recruiter.co.kr/career/jobs/105171"
+  },
+  {
+    "title": "[구로병원] 약제팀 시간제 주말약사 모집(토요일, 일요일)",
+    "start_dt": "2026-03-31T00:00:00+09:00",
+    "end_dt": "2026-04-05T23:59:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://kumc.recruiter.co.kr/career/jobs/105409"
   },
   {
     "title": "2026년도 고려대학교안암병원 소아청소년과 임상강사 모집",
     "start_dt": "2025-09-05T00:00:00+09:00",
     "end_dt": "2026-04-30T23:59:00+09:00",
-    "dday": "D-30",
+    "dday": "D-29",
     "detail_url": "https://kumc.recruiter.co.kr/career/jobs/82901"
   }
 ]

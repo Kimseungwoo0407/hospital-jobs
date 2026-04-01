@@ -1,44 +1,51 @@
 [
   {
+    "title": "계약직 신입직원 [조제팀 야간약사] 공개채용 모집공고",
+    "start_dt": "2026-04-01T00:00:00+09:00",
+    "end_dt": "2026-04-07T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2604010004"
+  },
+  {
+    "title": "정규직 신입직원 [약제본부 약사] 공개채용 모집",
+    "start_dt": "2026-04-01T09:00:00+09:00",
+    "end_dt": "2026-04-08T16:00:00+09:00",
+    "dday": "D-7",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2604010002"
+  },
+  {
     "title": "계약직 신입직원 [경희대학교병원 간호본부 영상의학과 외래 간호사] 공개채용 모집공고",
     "start_dt": "2026-03-30T00:00:00+09:00",
     "end_dt": "2026-04-05T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.incruit.com/khmc/job/2603300015"
   },
   {
     "title": "계약직 신입직원 [한방조제팀 주말 한약사] 공개채용 모집공고",
     "start_dt": "2026-03-27T00:00:00+09:00",
     "end_dt": "2026-04-02T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://recruit.incruit.com/khmc/job/2603270011"
   },
   {
     "title": "계약직 신입직원 [호흡기알레르기내과 진료지원간호사] 공개채용 모집공고",
     "start_dt": "2026-03-26T00:00:00+09:00",
     "end_dt": "2026-04-01T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2603270002"
   },
   {
     "title": "정규직 신입직원 [의료정보관리팀 보건의료정보관리사] 공개채용 모집",
     "start_dt": "2026-03-26T11:00:00+09:00",
     "end_dt": "2026-04-02T16:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://recruit.incruit.com/khmc/job/2603260008"
   },
   {
     "title": "계약직 신입직원 [조제팀 조무기사] 공개채용 모집공고",
     "start_dt": "2026-03-25T00:00:00+09:00",
     "end_dt": "2026-04-01T23:59:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2603250012"
-  },
-  {
-    "title": "계약직 신입직원 [경희대학교병원 간호본부 외래 간호사] 공개채용 모집공고",
-    "start_dt": "2026-03-23T00:00:00+09:00",
-    "end_dt": "2026-03-31T23:59:00+09:00",
     "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2603230014"
+    "detail_url": "https://recruit.incruit.com/khmc/job/2603250012"
   }
 ]
