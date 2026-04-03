@@ -1,58 +1,44 @@
 [
   {
-    "title": "노사협력팀 사무직 모집",
-    "start_dt": "2026-03-26T16:00:00+09:00",
-    "end_dt": "2026-04-02T23:00:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5224&announceSn=20260130"
-  },
-  {
-    "title": "간호부 기능직(조무) 모집",
-    "start_dt": "2026-03-26T09:00:00+09:00",
-    "end_dt": "2026-04-02T23:00:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5223&announceSn=20260129"
-  },
-  {
     "title": "외과 사무직 모집",
     "start_dt": "2026-04-01T14:00:00+09:00",
     "end_dt": "2026-04-05T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5230&announceSn=20260136"
   },
   {
     "title": "진료협력팀 간호사 모집",
     "start_dt": "2026-04-01T12:00:00+09:00",
     "end_dt": "2026-04-06T23:00:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5228&announceSn=20260134"
   },
   {
     "title": "특수검사팀 임상병리사 모집",
     "start_dt": "2026-04-01T12:00:00+09:00",
     "end_dt": "2026-04-07T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5229&announceSn=20260135"
   },
   {
     "title": "내과 당직전담(촉탁의사) 초빙",
     "start_dt": "2026-03-30T18:00:00+09:00",
     "end_dt": "2026-04-26T18:00:00+09:00",
-    "dday": "D-24",
+    "dday": "D-23",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5227&announceSn=20260133"
   },
   {
     "title": "서울아산병원 진료교수 초빙",
     "start_dt": "2026-03-30T18:00:00+09:00",
     "end_dt": "2026-04-26T18:00:00+09:00",
-    "dday": "D-24",
+    "dday": "D-23",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5226&announceSn=20260132"
   },
   {
     "title": "서울아산병원 입원전담전문의(Hospitalist) 초빙",
     "start_dt": "2026-03-30T18:00:00+09:00",
     "end_dt": "2026-04-26T18:00:00+09:00",
-    "dday": "D-24",
+    "dday": "D-23",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5225&announceSn=20260131"
   }
 ]
