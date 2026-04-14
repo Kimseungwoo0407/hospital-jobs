@@ -1,5 +1,13 @@
 [
   {
+    "title": "서울대학교병원 블라인드 직원채용 (대체근로자) 공고 (장애인 특별우대)",
+    "period_text": "2026-04-13 ~ 2026-04-20",
+    "start_dt": "2026-04-13T00:00:00+09:00",
+    "end_dt": "2026-04-20T23:59:00+09:00",
+    "status": "접수중(인크루트)",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26053"
+  },
+  {
     "title": "2026년도 3월 2차 대체근로자 채용 면접전형 합격자 발표",
     "period_text": "2026-04-10 ~ 2026-04-17",
     "start_dt": "2026-04-10T00:00:00+09:00",
@@ -24,27 +32,11 @@
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26050"
   },
   {
-    "title": "2026년도 3월 대체근로자 채용 면접전형 합격자 발표 및 신체검사 일정공고",
-    "period_text": "2026-04-06 ~ 2026-04-13",
-    "start_dt": "2026-04-06T00:00:00+09:00",
-    "end_dt": "2026-04-13T23:59:00+09:00",
-    "status": "면접발표",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26049"
-  },
-  {
     "title": "2026년도 임상강사(Fellow) 3차 선발 공고",
     "period_text": "2026-04-06 ~ 2026-04-20",
     "start_dt": "2026-04-06T00:00:00+09:00",
     "end_dt": "2026-04-20T23:59:00+09:00",
     "status": "접수중",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26046"
-  },
-  {
-    "title": "2026년도 서울대학교병원 상반기 직원 채용 1차 서류전형 합격자 발표 및 2차 필기시험 등 일정 공고",
-    "period_text": "2026-04-03 ~ 2026-04-13",
-    "start_dt": "2026-04-03T00:00:00+09:00",
-    "end_dt": "2026-04-13T23:59:00+09:00",
-    "status": "공고",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26045"
   }
 ]
