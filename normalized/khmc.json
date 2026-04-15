@@ -1,51 +1,58 @@
 [
   {
+    "title": "계약직 신입직원 [진료협력팀 진료의뢰회송 간호사] 공개채용 모집공고",
+    "start_dt": "2026-04-15T00:00:00+09:00",
+    "end_dt": "2026-04-21T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2604150006"
+  },
+  {
     "title": "계약직 신입직원 [한방조제팀 한약사] 공개채용 모집공고_",
     "start_dt": "2026-04-10T00:00:00+09:00",
     "end_dt": "2026-04-17T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.incruit.com/khmc/job/2604100014"
   },
   {
     "title": "정규직 신입직원 [이비인후과전담 간호사] 공개채용 모집",
     "start_dt": "2026-04-10T13:00:00+09:00",
     "end_dt": "2026-04-17T16:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.incruit.com/khmc/job/2604100008"
   },
   {
     "title": "계약직 신입직원 [영상의학과 방사선사] 공개채용 모집공고",
     "start_dt": "2026-04-10T00:00:00+09:00",
     "end_dt": "2026-04-16T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://recruit.incruit.com/khmc/job/2604100005"
   },
   {
     "title": "계약직 신입직원 [간호본부 조무사] 공개채용 모집공고",
     "start_dt": "2026-04-09T00:00:00+09:00",
     "end_dt": "2026-04-20T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://recruit.incruit.com/khmc/job/2604090011"
   },
   {
     "title": "계약직 신입직원 [신경외과 진료지원간호사] 공개채용 모집공고",
     "start_dt": "2026-04-09T00:00:00+09:00",
     "end_dt": "2026-04-20T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://recruit.incruit.com/khmc/job/2604090010"
   },
   {
     "title": "계약직 신입직원 [임플란트센터 치과위생사] 공개채용 모집공고",
     "start_dt": "2026-04-08T00:00:00+09:00",
     "end_dt": "2026-04-15T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2604080020"
   },
   {
     "title": "계약직 신입직원 [조제팀 야간약사] 공개채용 모집공고",
     "start_dt": "2026-04-08T00:00:00+09:00",
     "end_dt": "2026-05-07T23:59:00+09:00",
-    "dday": "D-23",
+    "dday": "D-22",
     "detail_url": "https://recruit.incruit.com/khmc/job/2604080017"
   }
 ]
