@@ -1,44 +1,51 @@
 [
   {
-    "title": "D-5[서울병원]  2026년도 이대서울병원 전임의사(fellow) 초빙공고",
+    "title": "D-4[서울병원]  2026년도 이대서울병원 전임의사(fellow) 초빙공고",
     "period_text": "2026-04-15 09:00:00 ~ 2026-04-22 17:00:00",
     "start_dt": "2026-04-15T00:00:00+09:00",
     "end_dt": "2026-04-22T23:59:00+09:00",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=30190&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-3[서울병원] 국가검진센터 계약직 간호사 공개채용 공고",
+    "title": "D-2[서울병원] 국가검진센터 계약직 간호사 공개채용 공고",
     "period_text": "2026-04-14 09:00:00 ~ 2026-04-20 17:00:00",
     "start_dt": "2026-04-14T00:00:00+09:00",
     "end_dt": "2026-04-20T23:59:00+09:00",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=30188&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-74[서울병원] 간호부 계약직 간호사(외래) 공개채용 공고",
+    "title": "D-73[서울병원] 간호부 계약직 간호사(외래) 공개채용 공고",
     "period_text": "2026-04-13 09:00:00 ~ 2026-06-30 17:00:00",
     "start_dt": "2026-04-13T00:00:00+09:00",
     "end_dt": "2026-06-30T23:59:00+09:00",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=30182&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-2[이화의료원] 대동맥혈관병원 심장혈관외과 정규직 체외순환사(경력) 공개채용 공고",
+    "title": "D-1[이화의료원] 대동맥혈관병원 심장혈관외과 정규직 체외순환사(경력) 공개채용 공고",
     "period_text": "2026-04-08 00:00:00 ~ 2026-04-19 23:59:00",
     "start_dt": "2026-04-08T00:00:00+09:00",
     "end_dt": "2026-04-19T23:59:00+09:00",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=30144&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-3[서울병원] 호흡기내과 계약직 간호사 공개채용 공고",
+    "title": "D-2[서울병원] 호흡기내과 계약직 간호사 공개채용 공고",
     "period_text": "2026-04-08 09:00:00 ~ 2026-04-20 23:59:00",
     "start_dt": "2026-04-08T00:00:00+09:00",
     "end_dt": "2026-04-20T23:59:00+09:00",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=30140&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-4[서울병원] 약제팀 계약직 야간약사 공개채용 공고",
+    "title": "D-3[서울병원] 약제팀 계약직 야간약사 공개채용 공고",
     "period_text": "2026-03-27 09:00:00 ~ 2026-04-21 00:00:00",
     "start_dt": "2026-03-27T00:00:00+09:00",
     "end_dt": "2026-04-21T23:59:00+09:00",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=30044&pageIndex=1&searchWord=&bid_status=I"
+  },
+  {
+    "title": "D-43[이화의료원] 응급실 내과 당직의(야간) 초빙 공고",
+    "period_text": "2025-07-23 09:00:00 ~ 2026-05-31 17:00:00",
+    "start_dt": "2025-07-23T00:00:00+09:00",
+    "end_dt": "2026-05-31T23:59:00+09:00",
+    "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=28068&pageIndex=1&searchWord=&bid_status=I"
   }
 ]
