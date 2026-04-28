@@ -1,58 +1,58 @@
 [
   {
+    "title": "[일반-신촌]기능원(계약직) 세브)영상의학팀 26.04 모집",
+    "start_dt": "2026-04-27T00:00:00+09:00",
+    "end_dt": "2026-05-06T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252261"
+  },
+  {
+    "title": "[일반-강남] 비서(계약직) 이비인후과 26.04 모집",
+    "start_dt": "2026-04-27T00:00:00+09:00",
+    "end_dt": "2026-05-04T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252232"
+  },
+  {
     "title": "[일반-신촌]사무원(정규직전환조건:변호사) 법무팀 26.4 모집(공고연장)",
     "start_dt": "2026-04-14T00:00:00+09:00",
     "end_dt": "2026-04-30T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=251060"
+  },
+  {
+    "title": "[일반-신촌] 임상병리사(계약직, 주30시간 근무) 세브)진단검사의학팀 26.04 모집",
+    "start_dt": "2026-04-27T00:00:00+09:00",
+    "end_dt": "2026-05-06T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=251836"
   },
   {
     "title": "[일반-강남] 간호사(계약직) 외래간호팀 26.04-1 모집",
     "start_dt": "2026-04-24T00:00:00+09:00",
     "end_dt": "2026-04-28T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252084"
   },
   {
     "title": "[일반-신촌]전산원(계약직) 디지털헬스실)데이터서비스팀_26.04모집",
     "start_dt": "2026-04-20T00:00:00+09:00",
     "end_dt": "2026-04-29T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=251354"
   },
   {
     "title": "[일반-신촌] 간호사(계약직,주25시간 근무) 체크업)검진팀 26.04 모집",
     "start_dt": "2026-04-22T00:00:00+09:00",
     "end_dt": "2026-04-28T23:59:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=251571"
-  },
-  {
-    "title": "[일반-강남] 물리치료사(계약직) 재활의학팀 26.04-1 모집",
-    "start_dt": "2026-04-20T00:00:00+09:00",
-    "end_dt": "2026-04-27T23:59:00+09:00",
     "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=251567"
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=251571"
   },
   {
     "title": "[일반-신촌] 보건의료정보관리사(계약직) 세브)의무기록팀 26.04 모집",
     "start_dt": "2026-04-21T00:00:00+09:00",
     "end_dt": "2026-04-30T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=251544"
-  },
-  {
-    "title": "[일반-신촌] 치과위생사(계약직) 치과)보존과 26.04 모집",
-    "start_dt": "2026-04-21T00:00:00+09:00",
-    "end_dt": "2026-04-30T23:59:00+09:00",
-    "dday": "D-3",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=251526"
-  },
-  {
-    "title": "[일반-신촌] 일반기수(계약직:피부관리사) 세브)피부과 26.04 모집",
-    "start_dt": "2026-04-21T00:00:00+09:00",
-    "end_dt": "2026-04-30T23:59:00+09:00",
-    "dday": "D-3",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=251506"
   }
 ]
