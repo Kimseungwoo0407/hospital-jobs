@@ -4,7 +4,7 @@
     "period_text": "2026-04-28 08:00 ~ 2026-05-07 11:01",
     "start_dt": "2026-04-28T08:00:00+09:00",
     "end_dt": "2026-05-07T11:01:00+09:00",
-    "status_text": "D-9",
+    "status_text": "D-8",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1387"
   },
   {
@@ -12,15 +12,7 @@
     "period_text": "2026-04-28 08:00 ~ 2026-05-05 23:59",
     "start_dt": "2026-04-28T08:00:00+09:00",
     "end_dt": "2026-05-05T23:59:00+09:00",
-    "status_text": "D-7",
+    "status_text": "D-6",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1386"
-  },
-  {
-    "title": "[계약직(평가 후 정규직 전환)] 신경외과 임상병리사 채용",
-    "period_text": "2026-04-24 09:00 ~ 2026-04-28 16:00",
-    "start_dt": "2026-04-24T09:00:00+09:00",
-    "end_dt": "2026-04-28T16:00:00+09:00",
-    "status_text": "D-Day",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1384"
   }
 ]
