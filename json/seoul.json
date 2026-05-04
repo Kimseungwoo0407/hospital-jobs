@@ -1,5 +1,21 @@
 [
   {
+    "title": "연구교수 공개채용",
+    "period_text": "2026-05-04 ~ 2026-05-11",
+    "start_dt": "2026-05-04T00:00:00+09:00",
+    "end_dt": "2026-05-11T23:59:00+09:00",
+    "status": "공고",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26058"
+  },
+  {
+    "title": "진료교수요원 공개채용",
+    "period_text": "2026-05-04 ~ 2026-05-11",
+    "start_dt": "2026-05-04T00:00:00+09:00",
+    "end_dt": "2026-05-11T23:59:00+09:00",
+    "status": "공고",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26059"
+  },
+  {
     "title": "2026년도 4월 대체근로자 채용 서류전형 합격자 발표 및 면접전형 일정공고",
     "period_text": "2026-04-30 ~ 2026-05-07",
     "start_dt": "2026-04-30T00:00:00+09:00",
