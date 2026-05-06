@@ -1,23 +1,23 @@
 [
   {
+    "title": "[계약직] 재활의학팀 물리치료사 채용",
+    "start_dt": "2026-05-06T08:00:00+09:00",
+    "end_dt": "2026-05-12T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1389"
+  },
+  {
     "title": "[계약직] 간호간병통합서비스병동 간호조무사 채용",
     "start_dt": "2026-04-30T14:00:00+09:00",
     "end_dt": "2026-05-06T11:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1388"
   },
   {
     "title": "[정규직] 2026년 핵의학팀 신입 방사선사 채용",
     "start_dt": "2026-04-28T08:00:00+09:00",
     "end_dt": "2026-05-07T11:01:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1387"
-  },
-  {
-    "title": "[계약직] 전담간호팀 호흡기알레르기내과(외래) 전담간호사  채용",
-    "start_dt": "2026-04-28T08:00:00+09:00",
-    "end_dt": "2026-05-05T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1386"
   }
 ]

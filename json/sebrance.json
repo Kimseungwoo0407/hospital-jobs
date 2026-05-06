@@ -6,7 +6,7 @@
     "date_text": "2026.05.04(월) 00:00 ~ 2026.05.13(수) 23:59",
     "start_dt": "2026-05-04T00:00:00+09:00",
     "end_dt": "2026-05-13T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252786"
   },
   {
@@ -16,7 +16,7 @@
     "date_text": "2026.04.30(목) 00:00 ~ 2026.05.06(수) 23:59",
     "start_dt": "2026-04-30T00:00:00+09:00",
     "end_dt": "2026-05-06T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252765"
   },
   {
@@ -26,7 +26,7 @@
     "date_text": "2026.04.29(수) 00:00 ~ 2026.05.08(금) 23:59",
     "start_dt": "2026-04-29T00:00:00+09:00",
     "end_dt": "2026-05-08T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252363"
   },
   {
@@ -36,18 +36,8 @@
     "date_text": "2026.04.29(수) 00:00 ~ 2026.05.08(금) 23:59",
     "start_dt": "2026-04-29T00:00:00+09:00",
     "end_dt": "2026-05-08T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252560"
-  },
-  {
-    "title": "[일반-신촌] 임상병리사(계약직,주25시간 근무) 체크업)검진팀 26.04-2 모집",
-    "location": "신촌",
-    "status": "접수중",
-    "date_text": "2026.04.29(수) 00:00 ~ 2026.05.05(화) 23:59",
-    "start_dt": "2026-04-29T00:00:00+09:00",
-    "end_dt": "2026-05-05T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252558"
   },
   {
     "title": "[일반-신촌]기능원(계약직) 세브)영상의학팀 26.04 모집",
@@ -56,7 +46,7 @@
     "date_text": "2026.04.29(수) 00:00 ~ 2026.05.08(금) 23:59",
     "start_dt": "2026-04-29T00:00:00+09:00",
     "end_dt": "2026-05-08T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252542"
   },
   {
@@ -66,7 +56,7 @@
     "date_text": "2026.04.13(월) 00:00 ~ 2026.05.06(수) 23:59",
     "start_dt": "2026-04-13T00:00:00+09:00",
     "end_dt": "2026-05-06T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=250670"
   },
   {
@@ -76,7 +66,17 @@
     "date_text": "2026.04.29(수) 00:00 ~ 2026.05.08(금) 23:59",
     "start_dt": "2026-04-29T00:00:00+09:00",
     "end_dt": "2026-05-08T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252372"
+  },
+  {
+    "title": "[일반-신촌] 일반기수(계약직:피부관리사) 세브)피부과 26.04 모집(공고연장)",
+    "location": "신촌",
+    "status": "접수중",
+    "date_text": "2026.04.21(화) 00:00 ~ 2026.05.07(목) 23:59",
+    "start_dt": "2026-04-21T00:00:00+09:00",
+    "end_dt": "2026-05-07T23:59:00+09:00",
+    "dday": "D-1",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=251506"
   }
 ]
