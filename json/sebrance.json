@@ -1,23 +1,33 @@
 [
   {
+    "title": "[일반-신촌] 의료기수(계약직:놀이치료사) 연세암)완화의료센터 26.05 모집",
+    "location": "신촌",
+    "status": "접수중",
+    "date_text": "2026.05.06(수) 00:00 ~ 2026.05.15(금) 23:59",
+    "start_dt": "2026-05-06T00:00:00+09:00",
+    "end_dt": "2026-05-15T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252964"
+  },
+  {
+    "title": "[일반-신촌] 의료기수(계약직) 의대)연세의생명연구원 연구지원부 26.05 모집",
+    "location": "신촌",
+    "status": "접수중",
+    "date_text": "2026.05.06(수) 00:00 ~ 2026.05.15(금) 23:59",
+    "start_dt": "2026-05-06T00:00:00+09:00",
+    "end_dt": "2026-05-15T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252938"
+  },
+  {
     "title": "[일반-신촌] 간호사(단기계약직) 세브)진료협력팀 26.05 모집",
     "location": "신촌",
     "status": "접수중",
     "date_text": "2026.05.04(월) 00:00 ~ 2026.05.13(수) 23:59",
     "start_dt": "2026-05-04T00:00:00+09:00",
     "end_dt": "2026-05-13T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252786"
-  },
-  {
-    "title": "[일반-신촌] 방사선사(계약직;육아휴직대체) 세브)영상의학팀 26.4 모집",
-    "location": "신촌",
-    "status": "접수중",
-    "date_text": "2026.04.30(목) 00:00 ~ 2026.05.06(수) 23:59",
-    "start_dt": "2026-04-30T00:00:00+09:00",
-    "end_dt": "2026-05-06T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252765"
   },
   {
     "title": "[일반-신촌]사무원(계약직) 세브)국제팀 26.04 모집",
@@ -26,7 +36,7 @@
     "date_text": "2026.04.29(수) 00:00 ~ 2026.05.08(금) 23:59",
     "start_dt": "2026-04-29T00:00:00+09:00",
     "end_dt": "2026-05-08T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252363"
   },
   {
@@ -36,7 +46,7 @@
     "date_text": "2026.04.29(수) 00:00 ~ 2026.05.08(금) 23:59",
     "start_dt": "2026-04-29T00:00:00+09:00",
     "end_dt": "2026-05-08T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252560"
   },
   {
@@ -46,18 +56,8 @@
     "date_text": "2026.04.29(수) 00:00 ~ 2026.05.08(금) 23:59",
     "start_dt": "2026-04-29T00:00:00+09:00",
     "end_dt": "2026-05-08T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252542"
-  },
-  {
-    "title": "[일반-신촌] 의료기수(계약직:행동치료사) 어린이)소아정신과 26.04 모집(공고연장)",
-    "location": "신촌",
-    "status": "접수중",
-    "date_text": "2026.04.13(월) 00:00 ~ 2026.05.06(수) 23:59",
-    "start_dt": "2026-04-13T00:00:00+09:00",
-    "end_dt": "2026-05-06T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=250670"
   },
   {
     "title": "[일반-신촌] 치과기공사(계약직) 치과)통합치의학과 26.04 모집",
@@ -66,7 +66,7 @@
     "date_text": "2026.04.29(수) 00:00 ~ 2026.05.08(금) 23:59",
     "start_dt": "2026-04-29T00:00:00+09:00",
     "end_dt": "2026-05-08T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=252372"
   },
   {
@@ -76,7 +76,7 @@
     "date_text": "2026.04.21(화) 00:00 ~ 2026.05.07(목) 23:59",
     "start_dt": "2026-04-21T00:00:00+09:00",
     "end_dt": "2026-05-07T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=251506"
   }
 ]

@@ -3,70 +3,56 @@
     "title": "2027년 신입간호사 채용",
     "start_dt": "2026-05-04T00:00:00+09:00",
     "end_dt": "2026-05-13T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0056&cPage=1"
   },
   {
     "title": "건강의학본부 계약직 간호사 채용",
     "start_dt": "2026-05-04T00:00:00+09:00",
     "end_dt": "2026-05-11T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0058&cPage=1"
   },
   {
     "title": "영상의학검사실 계약직 간호사 채용",
     "start_dt": "2026-05-04T00:00:00+09:00",
     "end_dt": "2026-05-11T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0057&cPage=1"
   },
   {
     "title": "AI연구센터 연구전문직 경력직 채용",
     "start_dt": "2026-05-04T00:00:00+09:00",
     "end_dt": "2026-05-18T23:59:00+09:00",
-    "dday": "D-12",
+    "dday": "D-11",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026EAJ0016&cPage=1"
   },
   {
     "title": "정형외과 계약직 사무직 채용",
     "start_dt": "2026-05-04T00:00:00+09:00",
     "end_dt": "2026-05-11T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAH0032&cPage=1"
   },
   {
     "title": "핵의학과 간호사 경력직 채용",
     "start_dt": "2026-04-30T00:00:00+09:00",
     "end_dt": "2026-05-11T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0055&cPage=1"
-  },
-  {
-    "title": "간담췌외과 계약직 전담간호사(수술) 채용",
-    "start_dt": "2026-04-30T00:00:00+09:00",
-    "end_dt": "2026-05-07T23:59:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0054&cPage=1"
-  },
-  {
-    "title": "방사선종양학과 간호사 경력직 채용",
-    "start_dt": "2026-04-28T00:00:00+09:00",
-    "end_dt": "2026-05-07T23:59:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0052&cPage=1"
   },
   {
     "title": "기술사업화실 계약직 사무직 채용(기간한정)",
     "start_dt": "2026-04-22T00:00:00+09:00",
     "end_dt": "2026-05-13T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAH0029&cPage=1"
   },
   {
     "title": "기술사업화실 창업지원 담당자 경력직 채용(연장)",
     "start_dt": "2026-04-21T00:00:00+09:00",
     "end_dt": "2026-05-08T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAH0027&cPage=1"
   }
 ]
