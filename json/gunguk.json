@@ -1,10 +1,18 @@
 [
   {
+    "title": "[계약직] 임상시험센터 임상병리사 채용",
+    "period_text": "2026-05-08 08:00 ~ 2026-05-14 23:59",
+    "start_dt": "2026-05-08T08:00:00+09:00",
+    "end_dt": "2026-05-14T23:59:00+09:00",
+    "status_text": "D-6",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1390"
+  },
+  {
     "title": "[계약직] 재활의학팀 물리치료사 채용",
     "period_text": "2026-05-06 08:00 ~ 2026-05-12 23:59",
     "start_dt": "2026-05-06T08:00:00+09:00",
     "end_dt": "2026-05-12T23:59:00+09:00",
-    "status_text": "D-5",
+    "status_text": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1389"
   }
 ]
