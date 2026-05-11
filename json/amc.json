@@ -3,7 +3,7 @@
     "title": "아산생명과학연구원 특수전문학자 초빙",
     "start_dt": "2026-05-06T18:00:00+09:00",
     "end_dt": "2026-05-12T17:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "recu_idx": "5273",
     "announce_sn": "20260170",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5273&announceSn=20260170"
@@ -12,7 +12,7 @@
     "title": "영상의학팀 간호사 모집",
     "start_dt": "2026-05-06T17:00:00+09:00",
     "end_dt": "2026-05-12T23:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "recu_idx": "5276",
     "announce_sn": "20260173",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5276&announceSn=20260173"
@@ -21,7 +21,7 @@
     "title": "교육수련팀 사무직(방송/영상/음향 장비 운영 담당) 모집",
     "start_dt": "2026-05-06T10:00:00+09:00",
     "end_dt": "2026-05-12T23:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "recu_idx": "5271",
     "announce_sn": "20260168",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5271&announceSn=20260168"
@@ -30,7 +30,7 @@
     "title": "융합연구지원센터 사육기술사 모집",
     "start_dt": "2026-05-06T10:00:00+09:00",
     "end_dt": "2026-05-12T23:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "recu_idx": "5270",
     "announce_sn": "20260167",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5270&announceSn=20260167"
@@ -39,7 +39,7 @@
     "title": "간호부 기능직(조무) 모집",
     "start_dt": "2026-05-08T09:00:00+09:00",
     "end_dt": "2026-05-13T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5278",
     "announce_sn": "20260175",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5278&announceSn=20260175"
@@ -48,7 +48,7 @@
     "title": "[모집연장] 간호부 기능직(조무) 모집",
     "start_dt": "2026-04-30T14:00:00+09:00",
     "end_dt": "2026-05-13T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5265",
     "announce_sn": "20260166",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5265&announceSn=20260166"
@@ -57,7 +57,7 @@
     "title": "[모집연장/장애인특별채용] 인사팀 기능직(조무) 모집",
     "start_dt": "2026-04-29T13:00:00+09:00",
     "end_dt": "2026-05-13T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5258",
     "announce_sn": "20260159",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5258&announceSn=20260159"
@@ -66,16 +66,34 @@
     "title": "약제팀 기능직(조무) 모집",
     "start_dt": "2026-05-07T11:00:00+09:00",
     "end_dt": "2026-05-14T23:00:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "recu_idx": "5277",
     "announce_sn": "20260174",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5277&announceSn=20260174"
   },
   {
+    "title": "건진운영팀 간호사 모집",
+    "start_dt": "2026-05-11T11:00:00+09:00",
+    "end_dt": "2026-05-17T23:00:00+09:00",
+    "dday": "예정",
+    "recu_idx": "5281",
+    "announce_sn": "20260177",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5281&announceSn=20260177"
+  },
+  {
+    "title": "건강의학과 건진교수 초빙",
+    "start_dt": "2026-05-11T10:00:00+09:00",
+    "end_dt": "2026-05-20T17:00:00+09:00",
+    "dday": "D-9",
+    "recu_idx": "5279",
+    "announce_sn": "20260176",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5279&announceSn=20260176"
+  },
+  {
     "title": "2026년 하반기 의사직(Staff) 모집",
     "start_dt": "2026-05-11T10:00:00+09:00",
     "end_dt": "2026-05-20T17:00:00+09:00",
-    "dday": "예정",
+    "dday": "D-9",
     "recu_idx": "5272",
     "announce_sn": "20260169",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5272&announceSn=20260169"
@@ -84,16 +102,16 @@
     "title": "서울아산병원 진료교수 초빙",
     "start_dt": "2026-05-06T18:00:00+09:00",
     "end_dt": "2026-05-25T18:00:00+09:00",
-    "dday": "D-15",
-    "recu_idx": "5275",
+    "dday": "D-14",
+    "recu_idx": "5280",
     "announce_sn": "20260172",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5275&announceSn=20260172"
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5280&announceSn=20260172"
   },
   {
     "title": "서울아산병원 입원전담전문의(Hospitalist) 초빙",
     "start_dt": "2026-05-06T18:00:00+09:00",
     "end_dt": "2026-05-25T18:00:00+09:00",
-    "dday": "D-15",
+    "dday": "D-14",
     "recu_idx": "5274",
     "announce_sn": "20260171",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5274&announceSn=20260171"
