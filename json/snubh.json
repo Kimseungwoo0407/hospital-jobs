@@ -3,16 +3,43 @@
     "title": "경력(간호직) 직원 채용공고",
     "start_dt": "2026-05-13T09:00:00+09:00",
     "end_dt": "2026-05-22T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "recu_idx": "",
     "announce_sn": "253632",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=253632"
   },
   {
+    "title": "26년 5월 신입(업무지원직 장애인) 직원 채용 공고",
+    "start_dt": "2026-05-15T09:00:00+09:00",
+    "end_dt": "2026-05-26T23:59:00+09:00",
+    "dday": "D-11",
+    "recu_idx": "",
+    "announce_sn": "253308",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=253308"
+  },
+  {
+    "title": "26년 5월 신입(업무지원직) 직원 채용 공고",
+    "start_dt": "2026-05-15T09:00:00+09:00",
+    "end_dt": "2026-05-26T23:59:00+09:00",
+    "dday": "D-11",
+    "recu_idx": "",
+    "announce_sn": "253306",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=253306"
+  },
+  {
+    "title": "26년 5월 신입(업무지원직_미화) 직원 채용 공고",
+    "start_dt": "2026-05-15T09:00:00+09:00",
+    "end_dt": "2026-05-26T23:59:00+09:00",
+    "dday": "D-11",
+    "recu_idx": "",
+    "announce_sn": "253305",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=253305"
+  },
+  {
     "title": "[상시채용] 진료전문의(권역응급의료센터, 응급의학과, 소아청소년과) 채용공고",
     "start_dt": "2026-03-04T10:00:00+09:00",
     "end_dt": "2026-12-31T17:00:00+09:00",
-    "dday": "D-231",
+    "dday": "D-230",
     "recu_idx": "",
     "announce_sn": "246482",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246482"

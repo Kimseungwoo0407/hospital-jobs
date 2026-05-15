@@ -1,44 +1,51 @@
 [
   {
+    "title": "[이화의료원] 목동병원 간호부 정규직 전담간호사(경력) 공개채용 공고",
+    "start_dt": "2026-05-15T00:00:00+09:00",
+    "end_dt": "2026-05-21T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30431&pageIndex=1&searchWord=&bid_status=I"
+  },
+  {
     "title": "[이화의료원] 서울병원 영상의학과 정규직 방사선사(신입) 공개채용 공고",
     "start_dt": "2026-05-14T00:00:00+09:00",
     "end_dt": "2026-05-20T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30416&pageIndex=1&searchWord=&bid_status=I"
   },
   {
     "title": "[목동병원] 총무팀 계약직 기능원(환자이송원) 공개채용 공고",
     "start_dt": "2026-05-13T00:00:00+09:00",
     "end_dt": "2026-05-19T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30411&pageIndex=1&searchWord=&bid_status=I"
   },
   {
     "title": "[융합의학연구원] 융합의학연구원 '개방형실험실' 계약직 전담인력 공개채용 공고",
     "start_dt": "2026-05-13T00:00:00+09:00",
     "end_dt": "2026-05-19T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30409&pageIndex=1&searchWord=&bid_status=I"
   },
   {
     "title": "[목동병원] 약제팀 계약직 기능원 공개채용 공고",
     "start_dt": "2026-05-07T00:00:00+09:00",
     "end_dt": "2026-05-15T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30350&pageIndex=1&searchWord=&bid_status=I"
+  },
+  {
+    "title": "[융합의학연구원] 융합의학연구원 계약직 연구전담인력 공개채용 공고",
+    "start_dt": "2026-05-07T00:00:00+09:00",
+    "end_dt": "2026-05-29T23:59:00+09:00",
+    "dday": "D-14",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30348&pageIndex=1&searchWord=&bid_status=I"
   },
   {
     "title": "[목동병원]  재활의학과 계약직 작업치료사 공개채용 공고",
     "start_dt": "2026-05-07T00:00:00+09:00",
     "end_dt": "2026-05-19T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30346&pageIndex=1&searchWord=&bid_status=I"
-  },
-  {
-    "title": "[목동병원] 약제팀 계약직 야간 약사 공개채용 공고",
-    "start_dt": "2026-04-24T00:00:00+09:00",
-    "end_dt": "2026-05-15T00:00:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30256&pageIndex=1&searchWord=&bid_status=I"
   }
 ]

@@ -4,7 +4,7 @@
     "period_text": "2026-05-13 16:00 ~ 2026-05-18 11:00",
     "start_dt": "2026-05-13T16:00:00+09:00",
     "end_dt": "2026-05-18T11:00:00+09:00",
-    "status_text": "D-4",
+    "status_text": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1395"
   },
   {
@@ -12,7 +12,7 @@
     "period_text": "2026-05-13 16:00 ~ 2026-05-20 11:00",
     "start_dt": "2026-05-13T16:00:00+09:00",
     "end_dt": "2026-05-20T11:00:00+09:00",
-    "status_text": "D-6",
+    "status_text": "D-5",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1394"
   },
   {
@@ -20,7 +20,7 @@
     "period_text": "2026-05-13 17:00 ~ 2026-05-25 23:59",
     "start_dt": "2026-05-13T17:00:00+09:00",
     "end_dt": "2026-05-25T23:59:00+09:00",
-    "status_text": "D-11",
+    "status_text": "D-10",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1393"
   },
   {
@@ -28,15 +28,7 @@
     "period_text": "2026-05-12 09:00 ~ 2026-05-20 11:01",
     "start_dt": "2026-05-12T09:00:00+09:00",
     "end_dt": "2026-05-20T11:01:00+09:00",
-    "status_text": "D-6",
+    "status_text": "D-5",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1391"
-  },
-  {
-    "title": "[계약직] 임상시험센터 임상병리사 채용",
-    "period_text": "2026-05-08 08:00 ~ 2026-05-14 23:59",
-    "start_dt": "2026-05-08T08:00:00+09:00",
-    "end_dt": "2026-05-14T23:59:00+09:00",
-    "status_text": "D-Day",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1390"
   }
 ]

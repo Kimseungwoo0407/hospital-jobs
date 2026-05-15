@@ -1,19 +1,55 @@
 [
   {
+    "title": "과제지원팀 계약직 사무직 채용(기간한정)",
+    "period_text": "2026.05.15\n~\r\n\t\t\t\t\t\t\t2026.05.22",
+    "start_dt": "2026-05-15T00:00:00+09:00",
+    "end_dt": "2026-05-22T23:59:00+09:00",
+    "deadline_text": "D-7",
+    "status": "온라인접수진행중",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAH0038&cPage=1"
+  },
+  {
     "title": "진료운영실 전담간호사(수술) 경력직 채용",
     "period_text": "2026.05.14\n~\r\n\t\t\t\t\t\t\t2026.05.21",
     "start_dt": "2026-05-14T00:00:00+09:00",
     "end_dt": "2026-05-21T23:59:00+09:00",
-    "deadline_text": "D-7",
+    "deadline_text": "D-6",
     "status": "온라인접수진행중",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0063&cPage=1"
+  },
+  {
+    "title": "기술사업화실 계약직 사무직 채용(기간한정)",
+    "period_text": "2026.05.14\n~\r\n\t\t\t\t\t\t\t2026.05.21",
+    "start_dt": "2026-05-14T00:00:00+09:00",
+    "end_dt": "2026-05-21T23:59:00+09:00",
+    "deadline_text": "D-6",
+    "status": "온라인접수진행중",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAH0037&cPage=1"
+  },
+  {
+    "title": "산부인과 계약직 방사선사 채용",
+    "period_text": "2026.05.14\n~\r\n\t\t\t\t\t\t\t2026.05.21",
+    "start_dt": "2026-05-14T00:00:00+09:00",
+    "end_dt": "2026-05-21T23:59:00+09:00",
+    "deadline_text": "D-6",
+    "status": "온라인접수진행중",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAC10016&cPage=1"
+  },
+  {
+    "title": "간호본부 계약직 3교대 보조원 채용(5월 2차)",
+    "period_text": "2026.05.14\n~\r\n\t\t\t\t\t\t\t2026.05.20",
+    "start_dt": "2026-05-14T00:00:00+09:00",
+    "end_dt": "2026-05-20T23:59:00+09:00",
+    "deadline_text": "D-5",
+    "status": "온라인접수진행중",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAHF0070&cPage=1"
   },
   {
     "title": "난치암조기진단팀 연구전문직 경력직 채용",
     "period_text": "2026.05.13\n~\r\n\t\t\t\t\t\t\t2026.05.22",
     "start_dt": "2026-05-13T00:00:00+09:00",
     "end_dt": "2026-05-22T23:59:00+09:00",
-    "deadline_text": "D-8",
+    "deadline_text": "D-7",
     "status": "온라인접수진행중",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026EAJ0017&cPage=1"
   },
@@ -22,7 +58,7 @@
     "period_text": "2026.05.13\n~\r\n\t\t\t\t\t\t\t2026.05.22",
     "start_dt": "2026-05-13T00:00:00+09:00",
     "end_dt": "2026-05-22T23:59:00+09:00",
-    "deadline_text": "D-8",
+    "deadline_text": "D-7",
     "status": "온라인접수진행중",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAH0036&cPage=1"
   },
@@ -31,7 +67,7 @@
     "period_text": "2026.05.13\n~\r\n\t\t\t\t\t\t\t2026.05.27",
     "start_dt": "2026-05-13T00:00:00+09:00",
     "end_dt": "2026-05-27T23:59:00+09:00",
-    "deadline_text": "D-13",
+    "deadline_text": "D-12",
     "status": "온라인접수진행중",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAH0035&cPage=1"
   },
@@ -40,7 +76,7 @@
     "period_text": "2026.05.13\n~\r\n\t\t\t\t\t\t\t2026.05.20",
     "start_dt": "2026-05-13T00:00:00+09:00",
     "end_dt": "2026-05-20T23:59:00+09:00",
-    "deadline_text": "D-6",
+    "deadline_text": "D-5",
     "status": "온라인접수진행중",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAD60004&cPage=1"
   },
@@ -49,7 +85,7 @@
     "period_text": "2026.05.13\n~\r\n\t\t\t\t\t\t\t2026.05.20",
     "start_dt": "2026-05-13T00:00:00+09:00",
     "end_dt": "2026-05-20T23:59:00+09:00",
-    "deadline_text": "D-6",
+    "deadline_text": "D-5",
     "status": "온라인접수진행중",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0062&cPage=1"
   },
@@ -58,61 +94,52 @@
     "period_text": "2026.05.12\n~\r\n\t\t\t\t\t\t\t2026.05.21",
     "start_dt": "2026-05-12T00:00:00+09:00",
     "end_dt": "2026-05-21T23:59:00+09:00",
-    "deadline_text": "D-7",
+    "deadline_text": "D-6",
     "status": "온라인접수진행중",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAH0034&cPage=1"
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAH0034&cPage=2"
   },
   {
     "title": "위기대응·PI팀 계약직 간호사 채용",
     "period_text": "2026.05.12\n~\r\n\t\t\t\t\t\t\t2026.05.19",
     "start_dt": "2026-05-12T00:00:00+09:00",
     "end_dt": "2026-05-19T23:59:00+09:00",
-    "deadline_text": "D-5",
+    "deadline_text": "D-4",
     "status": "온라인접수진행중",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0061&cPage=1"
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0061&cPage=2"
   },
   {
     "title": "복지관운영팀 계약직 장례지도사 채용",
     "period_text": "2026.05.12\n~\r\n\t\t\t\t\t\t\t2026.05.19",
     "start_dt": "2026-05-12T00:00:00+09:00",
     "end_dt": "2026-05-19T23:59:00+09:00",
-    "deadline_text": "D-5",
+    "deadline_text": "D-4",
     "status": "온라인접수진행중",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAHF0069&cPage=1"
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAHF0069&cPage=2"
   },
   {
     "title": "간호본부 외래 내시경실 계약직 간호사 채용",
     "period_text": "2026.05.12\n~\r\n\t\t\t\t\t\t\t2026.05.19",
     "start_dt": "2026-05-12T00:00:00+09:00",
     "end_dt": "2026-05-19T23:59:00+09:00",
-    "deadline_text": "D-5",
+    "deadline_text": "D-4",
     "status": "온라인접수진행중",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0060&cPage=1"
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0060&cPage=2"
   },
   {
     "title": "약제부 계약직 야간전담 사원 채용",
     "period_text": "2026.05.11\n~\r\n\t\t\t\t\t\t\t2026.05.20",
     "start_dt": "2026-05-11T00:00:00+09:00",
     "end_dt": "2026-05-20T23:59:00+09:00",
-    "deadline_text": "D-6",
+    "deadline_text": "D-5",
     "status": "온라인접수진행중",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAHF0068&cPage=2"
-  },
-  {
-    "title": "의료정보팀 의무기록 창구 아르바이트 채용",
-    "period_text": "2026.05.08\n~\r\n\t\t\t\t\t\t\t2026.05.15",
-    "start_dt": "2026-05-08T00:00:00+09:00",
-    "end_dt": "2026-05-15T23:59:00+09:00",
-    "deadline_text": "D-1",
-    "status": "온라인접수진행중",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAHF0066&cPage=2"
   },
   {
     "title": "영상의학검사실 계약직 접수사원 채용",
     "period_text": "2026.05.07\n~\r\n\t\t\t\t\t\t\t2026.05.18",
     "start_dt": "2026-05-07T00:00:00+09:00",
     "end_dt": "2026-05-18T23:59:00+09:00",
-    "deadline_text": "D-4",
+    "deadline_text": "D-3",
     "status": "온라인접수진행중",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAHF0065&cPage=2"
   },
@@ -121,7 +148,7 @@
     "period_text": "2026.05.04\n~\r\n\t\t\t\t\t\t\t2026.05.18",
     "start_dt": "2026-05-04T00:00:00+09:00",
     "end_dt": "2026-05-18T23:59:00+09:00",
-    "deadline_text": "D-4",
+    "deadline_text": "D-3",
     "status": "온라인접수진행중",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026EAJ0016&cPage=2"
   }
