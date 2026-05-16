@@ -1,5 +1,13 @@
 [
   {
+    "title": "2026년도 4월 대체근로자 채용 면접전형 합격자 발표 및 신체검사 일정공고",
+    "period_text": "2026-05-19 ~ 2026-05-26",
+    "start_dt": "2026-05-19T00:00:00+09:00",
+    "end_dt": "2026-05-26T23:59:00+09:00",
+    "status": "접수준비중",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26066"
+  },
+  {
     "title": "2026년도 3월 무기계약직 직원 채용 최종면접 합격자 발표 및 신체검사 일정 공고",
     "period_text": "2026-05-13 ~ 2026-05-26",
     "start_dt": "2026-05-13T00:00:00+09:00",
@@ -22,13 +30,5 @@
     "end_dt": "2026-05-20T23:59:00+09:00",
     "status": "접수중",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26063"
-  },
-  {
-    "title": "서울대학교병원 친인척 채용인원 공개 (2026년 1분기)",
-    "period_text": "2026-04-30 ~ 2026-05-15",
-    "start_dt": "2026-04-30T00:00:00+09:00",
-    "end_dt": "2026-05-15T23:59:00+09:00",
-    "status": "공고",
-    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26061"
   }
 ]
