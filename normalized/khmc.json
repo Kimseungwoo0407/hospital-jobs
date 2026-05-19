@@ -1,44 +1,51 @@
 [
   {
+    "title": "계약직 신입/경력직원 [Car-T 세포치료센터 연구원] 공개채용 모집공고",
+    "start_dt": "2026-05-19T00:00:00+09:00",
+    "end_dt": "2026-05-26T23:59:00+09:00",
+    "dday": "D-7",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2605190006"
+  },
+  {
+    "title": "계약직 신입직원 [한방조제팀 한약사] 공개채용 모집공고",
+    "start_dt": "2026-05-18T00:00:00+09:00",
+    "end_dt": "2026-05-25T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2605180026"
+  },
+  {
     "title": "계약직 신입직원 [환자안전본부 QPS팀 간호사] 공개채용 모집공고",
     "start_dt": "2026-05-18T00:00:00+09:00",
     "end_dt": "2026-05-25T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://recruit.incruit.com/khmc/job/2605180006"
   },
   {
     "title": "계약직 신입직원 [영양팀 조리원] 공개채용 모집공고",
     "start_dt": "2026-05-15T00:00:00+09:00",
     "end_dt": "2026-05-24T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://recruit.incruit.com/khmc/job/2605150010"
   },
   {
     "title": "계약직 신입직원 [건강증진센터 오전근무 임상병리사] 공개채용 모집공고",
     "start_dt": "2026-05-15T00:00:00+09:00",
     "end_dt": "2026-05-24T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://recruit.incruit.com/khmc/job/2605150009"
   },
   {
     "title": "계약직 신입직원 [조제팀 조무기사] 공개채용 모집공고",
     "start_dt": "2026-05-15T00:00:00+09:00",
     "end_dt": "2026-05-21T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.incruit.com/khmc/job/2605150007"
   },
   {
     "title": "계약직 신입직원 [응급의학과 응급구조사] 공개채용 모집공고",
     "start_dt": "2026-05-14T00:00:00+09:00",
     "end_dt": "2026-05-21T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.incruit.com/khmc/job/2605140002"
-  },
-  {
-    "title": "계약직 신입직원 [영상의학과 혈관조영치료실 간호사] 공개채용 모집공고",
-    "start_dt": "2026-05-04T00:00:00+09:00",
-    "end_dt": "2026-05-18T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2605040021"
   }
 ]
