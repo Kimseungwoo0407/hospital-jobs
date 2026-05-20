@@ -3,112 +3,91 @@
     "title": "삼성서울병원 건강의학본부(영상의학팀) 진료교수 초빙",
     "start_dt": "2026-05-19T00:00:00+09:00",
     "end_dt": "2026-05-20T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026D0021&cPage=1"
   },
   {
     "title": "(주말전담) 약제부 계약직 약사 채용",
     "start_dt": "2026-05-19T00:00:00+09:00",
     "end_dt": "2026-05-27T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAD10008&cPage=1"
+  },
+  {
+    "title": "영상간호파트 계약직 상근 보조원 채용",
+    "start_dt": "2026-05-19T00:00:00+09:00",
+    "end_dt": "2026-05-26T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAHF0071&cPage=1"
   },
   {
     "title": "삼성서울병원 미래의학연구원 우수 연구리더(연구교수) 초빙",
     "start_dt": "2026-05-18T00:00:00+09:00",
     "end_dt": "2026-05-28T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026D0022&cPage=1"
   },
   {
     "title": "과제지원팀 계약직 사무직 채용(기간한정)",
     "start_dt": "2026-05-15T00:00:00+09:00",
     "end_dt": "2026-05-22T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAH0038&cPage=1"
   },
   {
     "title": "진료운영실 전담간호사(수술) 경력직 채용",
     "start_dt": "2026-05-14T00:00:00+09:00",
     "end_dt": "2026-05-21T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0063&cPage=1"
   },
   {
     "title": "기술사업화실 계약직 사무직 채용(기간한정)",
     "start_dt": "2026-05-14T00:00:00+09:00",
     "end_dt": "2026-05-21T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAH0037&cPage=1"
   },
   {
     "title": "산부인과 계약직 방사선사 채용",
     "start_dt": "2026-05-14T00:00:00+09:00",
     "end_dt": "2026-05-21T23:59:00+09:00",
-    "dday": "D-2",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAC10016&cPage=1"
-  },
-  {
-    "title": "간호본부 계약직 3교대 보조원 채용(5월 2차)",
-    "start_dt": "2026-05-14T00:00:00+09:00",
-    "end_dt": "2026-05-20T23:59:00+09:00",
     "dday": "D-1",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAHF0070&cPage=1"
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAC10016&cPage=1"
   },
   {
     "title": "난치암조기진단팀 연구전문직 경력직 채용",
     "start_dt": "2026-05-13T00:00:00+09:00",
     "end_dt": "2026-05-22T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026EAJ0017&cPage=1"
   },
   {
     "title": "정보보안팀 경력직 채용",
     "start_dt": "2026-05-13T00:00:00+09:00",
     "end_dt": "2026-05-22T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAH0036&cPage=1"
   },
   {
     "title": "기술사업화실 창업지원 담당자 경력직 채용",
     "start_dt": "2026-05-13T00:00:00+09:00",
     "end_dt": "2026-05-27T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAH0035&cPage=2"
-  },
-  {
-    "title": "의료정보팀 계약직 보건의료정보관리사 채용(기간한정)",
-    "start_dt": "2026-05-13T00:00:00+09:00",
-    "end_dt": "2026-05-20T23:59:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAD60004&cPage=2"
-  },
-  {
-    "title": "감염관리실 계약직 간호사 채용(기간한정)",
-    "start_dt": "2026-05-13T00:00:00+09:00",
-    "end_dt": "2026-05-20T23:59:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026HAB0062&cPage=2"
   },
   {
     "title": "A-CRO팀 인허가 담당자 경력직 채용",
     "start_dt": "2026-05-12T00:00:00+09:00",
     "end_dt": "2026-05-21T23:59:00+09:00",
-    "dday": "D-2",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAH0034&cPage=2"
-  },
-  {
-    "title": "약제부 계약직 야간전담 사원 채용",
-    "start_dt": "2026-05-11T00:00:00+09:00",
-    "end_dt": "2026-05-20T23:59:00+09:00",
     "dday": "D-1",
-    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAHF0068&cPage=2"
+    "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAH0034&cPage=2"
   },
   {
     "title": "영상의학검사실 계약직 접수사원 채용(연장)",
     "start_dt": "2026-05-07T00:00:00+09:00",
     "end_dt": "2026-05-21T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://www.samsunghospital.com/home/recruit/recruitInfo/recruitNoticeView.do?RECRUIT_CD=2026AAHF0065&cPage=2"
   }
 ]
