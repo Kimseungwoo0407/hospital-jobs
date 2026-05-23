@@ -1,23 +1,30 @@
 [
   {
+    "title": "2026년도 서울대학교병원 상반기 직원 채용 4차 최종면접 합격자 발표 및 5차 신체검사 일정 공고",
+    "start_dt": "2026-05-22T00:00:00+09:00",
+    "end_dt": "2026-05-29T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26068"
+  },
+  {
     "title": "서울대학교병원 블라인드 직원채용 (대체근로자) 공고 (장애인 특별우대)",
     "start_dt": "2026-05-20T00:00:00+09:00",
     "end_dt": "2026-05-27T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26067"
   },
   {
     "title": "2026년도 4월 대체근로자 채용 면접전형 합격자 발표 및 신체검사 일정공고",
     "start_dt": "2026-05-19T00:00:00+09:00",
     "end_dt": "2026-05-26T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26066"
   },
   {
     "title": "2026년도 3월 무기계약직 직원 채용 최종면접 합격자 발표 및 신체검사 일정 공고",
     "start_dt": "2026-05-13T00:00:00+09:00",
     "end_dt": "2026-05-26T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://www.snuh.org/recruView.do?recruit_id=26065"
   }
 ]

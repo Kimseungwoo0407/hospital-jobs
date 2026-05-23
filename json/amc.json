@@ -3,7 +3,7 @@
     "title": "서울아산병원 진료교수 초빙",
     "start_dt": "2026-05-06T18:00:00+09:00",
     "end_dt": "2026-05-25T18:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5280",
     "announce_sn": "20260172",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5280&announceSn=20260172"
@@ -12,7 +12,7 @@
     "title": "서울아산병원 입원전담전문의(Hospitalist) 초빙",
     "start_dt": "2026-05-06T18:00:00+09:00",
     "end_dt": "2026-05-25T18:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5274",
     "announce_sn": "20260171",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5274&announceSn=20260171"
@@ -21,7 +21,7 @@
     "title": "간호부 기능직(조무, 단기간)모집",
     "start_dt": "2026-05-15T16:00:00+09:00",
     "end_dt": "2026-05-25T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5293",
     "announce_sn": "20260189",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5293&announceSn=20260189"
@@ -30,7 +30,7 @@
     "title": "정신건강의학과 사무직 모집",
     "start_dt": "2026-05-19T15:00:00+09:00",
     "end_dt": "2026-05-25T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5299",
     "announce_sn": "20260195",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5299&announceSn=20260195"
@@ -39,7 +39,7 @@
     "title": "외래간호팀 간호사 모집",
     "start_dt": "2026-05-19T15:00:00+09:00",
     "end_dt": "2026-05-25T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5298",
     "announce_sn": "20260194",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5298&announceSn=20260194"
@@ -48,7 +48,7 @@
     "title": "영상의학팀 간호사 모집",
     "start_dt": "2026-05-19T15:00:00+09:00",
     "end_dt": "2026-05-25T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5297",
     "announce_sn": "20260193",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5297&announceSn=20260193"
@@ -57,7 +57,7 @@
     "title": "[모집연장] 시설팀 기술직(설비) 모집",
     "start_dt": "2026-04-30T11:00:00+09:00",
     "end_dt": "2026-05-26T23:00:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "recu_idx": "5260",
     "announce_sn": "20260161",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5260&announceSn=20260161"
@@ -66,16 +66,25 @@
     "title": "건진운영팀 건강운동관리사 모집",
     "start_dt": "2026-05-19T16:00:00+09:00",
     "end_dt": "2026-05-26T23:00:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "recu_idx": "5301",
     "announce_sn": "20260197",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5301&announceSn=20260197"
   },
   {
+    "title": "산부인과 사무직 모집",
+    "start_dt": "2026-05-22T12:00:00+09:00",
+    "end_dt": "2026-05-28T23:00:00+09:00",
+    "dday": "D-5",
+    "recu_idx": "5303",
+    "announce_sn": "20260199",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5303&announceSn=20260199"
+  },
+  {
     "title": "AI혁신지원실 특수전문학자 초빙",
     "start_dt": "2026-05-18T09:00:00+09:00",
     "end_dt": "2026-05-29T18:00:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "recu_idx": "5287",
     "announce_sn": "20260183",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5287&announceSn=20260183"
@@ -84,7 +93,7 @@
     "title": "고객만족팀 임상심리사 모집",
     "start_dt": "2026-05-19T16:00:00+09:00",
     "end_dt": "2026-05-31T23:00:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "recu_idx": "5300",
     "announce_sn": "20260196",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5300&announceSn=20260196"
@@ -93,7 +102,7 @@
     "title": "[모집연장/장애인특별채용] 의공팀 휠마스터 모집",
     "start_dt": "2026-05-14T10:00:00+09:00",
     "end_dt": "2026-05-31T23:00:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "recu_idx": "5288",
     "announce_sn": "20260184",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5288&announceSn=20260184"
