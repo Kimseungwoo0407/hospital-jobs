@@ -1,44 +1,37 @@
 [
   {
-    "title": "[모집연장] 시설팀 기술직(설비) 모집",
-    "start_dt": "2026-04-30T11:00:00+09:00",
-    "end_dt": "2026-05-26T23:00:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5260&announceSn=20260161"
-  },
-  {
-    "title": "건진운영팀 건강운동관리사 모집",
-    "start_dt": "2026-05-19T16:00:00+09:00",
-    "end_dt": "2026-05-26T23:00:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5301&announceSn=20260197"
-  },
-  {
     "title": "산부인과 사무직 모집",
     "start_dt": "2026-05-22T12:00:00+09:00",
     "end_dt": "2026-05-28T23:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5303&announceSn=20260199"
   },
   {
     "title": "AI혁신지원실 특수전문학자 초빙",
     "start_dt": "2026-05-18T09:00:00+09:00",
     "end_dt": "2026-05-29T18:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5287&announceSn=20260183"
+  },
+  {
+    "title": "간호부 기능직(조무) 모집",
+    "start_dt": "2026-05-26T15:00:00+09:00",
+    "end_dt": "2026-05-31T23:00:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5305&announceSn=20260200"
   },
   {
     "title": "고객만족팀 임상심리사 모집",
     "start_dt": "2026-05-19T16:00:00+09:00",
     "end_dt": "2026-05-31T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5300&announceSn=20260196"
   },
   {
     "title": "[모집연장/장애인특별채용] 의공팀 휠마스터 모집",
     "start_dt": "2026-05-14T10:00:00+09:00",
     "end_dt": "2026-05-31T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5288&announceSn=20260184"
   }
 ]
