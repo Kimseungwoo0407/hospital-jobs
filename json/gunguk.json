@@ -4,7 +4,7 @@
     "period_text": "2026-05-22 10:00 ~ 2026-06-01 11:01",
     "start_dt": "2026-05-22T10:00:00+09:00",
     "end_dt": "2026-06-01T11:01:00+09:00",
-    "status_text": "D-5",
+    "status_text": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1402"
   },
   {
@@ -12,7 +12,7 @@
     "period_text": "2026-05-22 10:00 ~ 2026-05-28 23:59",
     "start_dt": "2026-05-22T10:00:00+09:00",
     "end_dt": "2026-05-28T23:59:00+09:00",
-    "status_text": "D-1",
+    "status_text": "D-Day",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1401"
   },
   {
@@ -20,7 +20,7 @@
     "period_text": "2026-05-22 10:00 ~ 2026-05-28 23:59",
     "start_dt": "2026-05-22T10:00:00+09:00",
     "end_dt": "2026-05-28T23:59:00+09:00",
-    "status_text": "D-1",
+    "status_text": "D-Day",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1400"
   },
   {
@@ -28,7 +28,7 @@
     "period_text": "2026-05-20 08:00 ~ 2026-05-28 11:01",
     "start_dt": "2026-05-20T08:00:00+09:00",
     "end_dt": "2026-05-28T11:01:00+09:00",
-    "status_text": "D-1",
+    "status_text": "D-Day",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1399"
   }
 ]
