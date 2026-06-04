@@ -4,7 +4,7 @@
     "period_text": "2026-06-01 08:00 ~ 2026-06-07 23:59",
     "start_dt": "2026-06-01T08:00:00+09:00",
     "end_dt": "2026-06-07T23:59:00+09:00",
-    "status_text": "D-4",
+    "status_text": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1405"
   },
   {
@@ -12,7 +12,7 @@
     "period_text": "2026-05-29 08:00 ~ 2026-06-04 23:59",
     "start_dt": "2026-05-29T08:00:00+09:00",
     "end_dt": "2026-06-04T23:59:00+09:00",
-    "status_text": "D-1",
+    "status_text": "D-Day",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1404"
   }
 ]
