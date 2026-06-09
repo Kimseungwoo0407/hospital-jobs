@@ -1,16 +1,23 @@
 [
   {
+    "title": "[계약직] 헬스케어센터 간호사 채용",
+    "start_dt": "2026-06-08T09:00:00+09:00",
+    "end_dt": "2026-06-14T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1408"
+  },
+  {
     "title": "[계약직] 전담간호팀(신경과) 전담간호사 채용",
     "start_dt": "2026-06-05T09:00:00+09:00",
     "end_dt": "2026-06-11T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1407"
   },
   {
     "title": "[계약직] 전담간호팀(호흡기알레르기내과) 전담간호사 채용",
     "start_dt": "2026-06-04T11:00:00+09:00",
     "end_dt": "2026-06-10T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1406"
   }
 ]
