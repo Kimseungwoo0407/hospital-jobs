@@ -1,10 +1,18 @@
 [
   {
+    "title": "[계약직] 간호간병통합서비스병동 간호조무사 채용",
+    "period_text": "2026-06-10 13:00 ~ 2026-06-17 23:59",
+    "start_dt": "2026-06-10T13:00:00+09:00",
+    "end_dt": "2026-06-17T23:59:00+09:00",
+    "status_text": "D-6",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1410"
+  },
+  {
     "title": "[계약직] 전담간호팀(종양혈액내과) 전담간호사 채용",
     "period_text": "2026-06-09 10:00 ~ 2026-06-15 23:59",
     "start_dt": "2026-06-09T10:00:00+09:00",
     "end_dt": "2026-06-15T23:59:00+09:00",
-    "status_text": "D-5",
+    "status_text": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1409"
   },
   {
@@ -12,7 +20,7 @@
     "period_text": "2026-06-08 09:00 ~ 2026-06-14 23:59",
     "start_dt": "2026-06-08T09:00:00+09:00",
     "end_dt": "2026-06-14T23:59:00+09:00",
-    "status_text": "D-4",
+    "status_text": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1408"
   },
   {
@@ -20,15 +28,7 @@
     "period_text": "2026-06-05 09:00 ~ 2026-06-11 23:59",
     "start_dt": "2026-06-05T09:00:00+09:00",
     "end_dt": "2026-06-11T23:59:00+09:00",
-    "status_text": "D-1",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1407"
-  },
-  {
-    "title": "[계약직] 전담간호팀(호흡기알레르기내과) 전담간호사 채용",
-    "period_text": "2026-06-04 11:00 ~ 2026-06-10 23:59",
-    "start_dt": "2026-06-04T11:00:00+09:00",
-    "end_dt": "2026-06-10T23:59:00+09:00",
     "status_text": "D-Day",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1406"
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1407"
   }
 ]
