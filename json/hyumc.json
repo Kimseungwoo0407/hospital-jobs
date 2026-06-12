@@ -3,9 +3,9 @@
     "title": "권역응급의료센터 응급의료정보관리자 (임시직)",
     "start_dt": "2026-06-02T00:00+09:00",
     "end_dt": "2026-06-15T12:00+09:00",
-    "dday": "D-4",
-    "dday_to_start": "D+9",
-    "dday_to_end": "D-4",
+    "dday": "D-3",
+    "dday_to_start": "D+10",
+    "dday_to_end": "D-3",
     "phase": "open",
     "status": "접수중",
     "recu_idx": "117551",
@@ -13,150 +13,6 @@
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/117551",
     "tags": [
       "임시직",
-      "일반채용",
-      "신입"
-    ]
-  },
-  {
-    "title": "발달의학센터 경력 간호사 (정규직)",
-    "start_dt": "2026-05-29T00:00+09:00",
-    "end_dt": "2026-06-11T23:59+09:00",
-    "dday": "D-0",
-    "dday_to_start": "D+13",
-    "dday_to_end": "D-0",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "117310",
-    "announce_sn": "117310",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/117310",
-    "tags": [
-      "정규직",
-      "일반채용",
-      "경력"
-    ]
-  },
-  {
-    "title": "방사선종양학과 방사선사 (정규직)",
-    "start_dt": "2026-05-29T00:00+09:00",
-    "end_dt": "2026-06-11T23:59+09:00",
-    "dday": "D-0",
-    "dday_to_start": "D+13",
-    "dday_to_end": "D-0",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "117309",
-    "announce_sn": "117309",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/117309",
-    "tags": [
-      "정규직",
-      "일반채용",
-      "신입"
-    ]
-  },
-  {
-    "title": "의료원의료정보팀 사무원 (정규직)",
-    "start_dt": "2026-05-29T00:00+09:00",
-    "end_dt": "2026-06-11T23:59+09:00",
-    "dday": "D-0",
-    "dday_to_start": "D+13",
-    "dday_to_end": "D-0",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "117308",
-    "announce_sn": "117308",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/117308",
-    "tags": [
-      "정규직",
-      "일반채용",
-      "신입"
-    ]
-  },
-  {
-    "title": "간호국 기능원 (환자이송원) (정규직)",
-    "start_dt": "2026-05-29T00:00+09:00",
-    "end_dt": "2026-06-11T23:59+09:00",
-    "dday": "D-0",
-    "dday_to_start": "D+13",
-    "dday_to_end": "D-0",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "117307",
-    "announce_sn": "117307",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/117307",
-    "tags": [
-      "정규직",
-      "일반채용",
-      "신입"
-    ]
-  },
-  {
-    "title": "영양팀 기능원 (정규직)",
-    "start_dt": "2026-05-29T00:00+09:00",
-    "end_dt": "2026-06-11T23:59+09:00",
-    "dday": "D-0",
-    "dday_to_start": "D+13",
-    "dday_to_end": "D-0",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "117306",
-    "announce_sn": "117306",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/117306",
-    "tags": [
-      "정규직",
-      "일반채용",
-      "신입"
-    ]
-  },
-  {
-    "title": "간호국 서무원 (간호간병통합서비스병동) (정규직)",
-    "start_dt": "2026-05-29T00:00+09:00",
-    "end_dt": "2026-06-11T23:59+09:00",
-    "dday": "D-0",
-    "dday_to_start": "D+13",
-    "dday_to_end": "D-0",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "117302",
-    "announce_sn": "117302",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/117302",
-    "tags": [
-      "정규직",
-      "일반채용",
-      "신입"
-    ]
-  },
-  {
-    "title": "약제팀 서무원(야간) (정규직)",
-    "start_dt": "2026-05-29T00:00+09:00",
-    "end_dt": "2026-06-11T23:59+09:00",
-    "dday": "D-0",
-    "dday_to_start": "D+13",
-    "dday_to_end": "D-0",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "117299",
-    "announce_sn": "117299",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/117299",
-    "tags": [
-      "정규직",
-      "일반채용",
-      "신입"
-    ]
-  },
-  {
-    "title": "2026년도 상반기 상담원 (정규직)",
-    "start_dt": "2026-05-29T00:00+09:00",
-    "end_dt": "2026-06-11T23:59+09:00",
-    "dday": "D-0",
-    "dday_to_start": "D+13",
-    "dday_to_end": "D-0",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "117296",
-    "announce_sn": "117296",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/117296",
-    "tags": [
-      "정규직",
       "일반채용",
       "신입"
     ]
