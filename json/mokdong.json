@@ -1,12 +1,24 @@
 [
   {
+    "title": "[이화의료아카데미] 이화의료아카데미 계약직 연구원(AI 특화 공동훈련센터 전담인력) 공개채용 공고",
+    "start_dt": "2026-06-12T09:00:00+09:00",
+    "end_dt": "2026-06-16T17:00:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30601&pageIndex=1&searchWord=&bid_status=I",
+    "raw_lines": [
+      "D-3",
+      "[이화의료아카데미] 이화의료아카데미 계약직 연구원(AI 특화 공동훈련센터 전담인력) 공개채용 공고",
+      "2026-06-12 09:00:00 ~ 2026-06-16 17:00:00"
+    ]
+  },
+  {
     "title": "[목동병원] 산부인과 초음파실 계약직 방사선사 공개채용 공고",
     "start_dt": "2026-06-10T00:00:00+09:00",
     "end_dt": "2026-06-16T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30579&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-4",
+      "D-3",
       "[목동병원] 산부인과 초음파실 계약직 방사선사 공개채용 공고",
       "2026-06-10 00:00:00 ~ 2026-06-16 23:59:00"
     ]
@@ -15,10 +27,10 @@
     "title": "[이화의생명연구원] 이화-SCL 정밀의료연구 전담 계약직 연구코디네이터 공개채용 공고",
     "start_dt": "2026-06-05T09:00:00+09:00",
     "end_dt": "2026-06-17T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30560&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-5",
+      "D-4",
       "[이화의생명연구원] 이화-SCL 정밀의료연구 전담 계약직 연구코디네이터 공개채용 공고",
       "2026-06-05 09:00:00 ~ 2026-06-17 23:59:00"
     ]
@@ -27,10 +39,10 @@
     "title": "[이화의생명연구원] 이화의생명연구원 계약직 연구전담인력(Illustrator 및 IP 지원) 공개채용 공고",
     "start_dt": "2026-06-02T09:00:00+09:00",
     "end_dt": "2026-06-15T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30536&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-3",
+      "D-2",
       "[이화의생명연구원] 이화의생명연구원 계약직 연구전담인력(Illustrator 및 IP 지원) 공개채용 공고",
       "2026-06-02 09:00:00 ~ 2026-06-15 23:59:00"
     ]
@@ -39,10 +51,10 @@
     "title": "[융합의학연구원] 융합의학연구원 계약직 연구전담인력 공개채용 공고",
     "start_dt": "2026-06-01T00:00:00+09:00",
     "end_dt": "2026-07-31T00:00:00+09:00",
-    "dday": "D-49",
+    "dday": "D-48",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30526&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-49",
+      "D-48",
       "[융합의학연구원] 융합의학연구원 계약직 연구전담인력 공개채용 공고",
       "2026-06-01 00:00:00 ~ 2026-07-31 00:00:00"
     ]
@@ -51,10 +63,10 @@
     "title": "[목동병원] 간호부 계약직 간호사(외래) 공개채용 공고",
     "start_dt": "2026-06-01T00:00:00+09:00",
     "end_dt": "2026-07-31T00:00:00+09:00",
-    "dday": "D-49",
+    "dday": "D-48",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30524&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-49",
+      "D-48",
       "[목동병원] 간호부 계약직 간호사(외래) 공개채용 공고",
       "2026-06-01 00:00:00 ~ 2026-07-31 00:00:00"
     ]
@@ -63,10 +75,10 @@
     "title": "[융합의학연구원] 융합의학연구원 '개방형실험실' 계약직 전담인력 공개채용 공고",
     "start_dt": "2026-06-01T00:00:00+09:00",
     "end_dt": "2026-06-14T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30409&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-2",
+      "D-1",
       "[융합의학연구원] 융합의학연구원 '개방형실험실' 계약직 전담인력 공개채용 공고",
       "2026-06-01 00:00:00 ~ 2026-06-14 23:59:00"
     ]
@@ -75,10 +87,10 @@
     "title": "[목동병원] 약제팀 계약직 야간 약사 공개채용 공고",
     "start_dt": "2026-04-24T00:00:00+09:00",
     "end_dt": "2026-06-26T00:00:00+09:00",
-    "dday": "D-14",
+    "dday": "D-13",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30256&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-14",
+      "D-13",
       "[목동병원] 약제팀 계약직 야간 약사 공개채용 공고",
       "2026-04-24 00:00:00 ~ 2026-06-26 00:00:00"
     ]

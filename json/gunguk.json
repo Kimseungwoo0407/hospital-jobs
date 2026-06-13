@@ -1,10 +1,18 @@
 [
   {
+    "title": "[연구계약직] <항생제 적정사용관리 시범사업>  약제부 ASP팀 전산개발 연구보조원 채용",
+    "period_text": "2026-06-12 09:00 ~ 2026-06-21 23:59",
+    "start_dt": "2026-06-12T09:00:00+09:00",
+    "end_dt": "2026-06-21T23:59:00+09:00",
+    "status_text": "D-8",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1411"
+  },
+  {
     "title": "[계약직] 간호간병통합서비스병동 간호조무사 채용",
     "period_text": "2026-06-10 13:00 ~ 2026-06-17 23:59",
     "start_dt": "2026-06-10T13:00:00+09:00",
     "end_dt": "2026-06-17T23:59:00+09:00",
-    "status_text": "D-5",
+    "status_text": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1410"
   },
   {
@@ -12,7 +20,7 @@
     "period_text": "2026-06-09 10:00 ~ 2026-06-15 23:59",
     "start_dt": "2026-06-09T10:00:00+09:00",
     "end_dt": "2026-06-15T23:59:00+09:00",
-    "status_text": "D-3",
+    "status_text": "D-2",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1409"
   },
   {
@@ -20,7 +28,7 @@
     "period_text": "2026-06-08 09:00 ~ 2026-06-14 23:59",
     "start_dt": "2026-06-08T09:00:00+09:00",
     "end_dt": "2026-06-14T23:59:00+09:00",
-    "status_text": "D-2",
+    "status_text": "D-1",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1408"
   }
 ]

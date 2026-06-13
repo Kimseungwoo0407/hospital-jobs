@@ -3,63 +3,98 @@
     "title": "어린이병원간호팀 간호사 모집",
     "start_dt": "2026-06-08T17:00:00+09:00",
     "end_dt": "2026-06-14T23:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5319&announceSn=20260214"
+  },
+  {
+    "title": "[모집연장/장애인특별채용] 의공팀 휠마스터 모집",
+    "start_dt": "2026-05-14T10:00:00+09:00",
+    "end_dt": "2026-06-14T23:00:00+09:00",
+    "dday": "D-1",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5288&announceSn=20260184"
   },
   {
     "title": "통합돌봄지원팀 사무직 모집",
     "start_dt": "2026-06-08T16:00:00+09:00",
     "end_dt": "2026-06-15T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5317&announceSn=20260212"
   },
   {
     "title": "임상시험센터 연구코디네이터(임상병리사) 모집",
     "start_dt": "2026-06-09T16:00:00+09:00",
     "end_dt": "2026-06-16T23:00:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5320&announceSn=20260215"
   },
   {
     "title": "방사선종양팀 방사선사 모집",
     "start_dt": "2026-06-11T11:00:00+09:00",
     "end_dt": "2026-06-17T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5323&announceSn=20260218"
   },
   {
     "title": "시설팀 기술직(전기) 모집",
     "start_dt": "2026-06-11T10:00:00+09:00",
     "end_dt": "2026-06-17T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5321&announceSn=20260216"
   },
   {
     "title": "[장애인특별채용] 원무팀 사무직 모집",
     "start_dt": "2026-06-08T17:00:00+09:00",
     "end_dt": "2026-06-17T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5318&announceSn=20260213"
+  },
+  {
+    "title": "외래간호팀 간호사 모집",
+    "start_dt": "2026-06-12T17:00:00+09:00",
+    "end_dt": "2026-06-18T23:00:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5325&announceSn=20260220"
+  },
+  {
+    "title": "[모집연장] 시설팀 기술직(설비) 모집",
+    "start_dt": "2026-04-30T11:00:00+09:00",
+    "end_dt": "2026-06-18T23:00:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5260&announceSn=20260161"
+  },
+  {
+    "title": "시설팀 엔지니어 모집",
+    "start_dt": "2026-06-12T14:00:00+09:00",
+    "end_dt": "2026-06-18T23:00:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5324&announceSn=20260219"
   },
   {
     "title": "약제팀 기능직(조무) 모집",
     "start_dt": "2026-06-11T09:00:00+09:00",
     "end_dt": "2026-06-18T23:00:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5322&announceSn=20260217"
   },
   {
     "title": "서울아산병원 진료교수 초빙",
     "start_dt": "2026-06-01T18:00:00+09:00",
     "end_dt": "2026-06-28T18:00:00+09:00",
-    "dday": "D-16",
+    "dday": "D-15",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5312&announceSn=20260207"
   },
   {
     "title": "서울아산병원 입원전담전문의(Hospitalist) 초빙",
     "start_dt": "2026-06-01T18:00:00+09:00",
     "end_dt": "2026-06-28T18:00:00+09:00",
-    "dday": "D-16",
+    "dday": "D-15",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5311&announceSn=20260206"
+  },
+  {
+    "title": "2026년 임상강사 추가 모집 (하반기)",
+    "start_dt": "2026-06-01T00:00:00+09:00",
+    "end_dt": "2026-07-10T23:55:00+09:00",
+    "dday": "D-27",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5302&announceSn=20260198"
   }
 ]
