@@ -1,51 +1,51 @@
 [
   {
-    "title": "D-2[이화의료아카데미] 이화의료아카데미 계약직 연구원(AI 특화 공동훈련센터 전담인력) 공개채용 공고",
+    "title": "D-1[이화의료아카데미] 이화의료아카데미 계약직 연구원(AI 특화 공동훈련센터 전담인력) 공개채용 공고",
     "start_dt": "2026-06-12T00:00:00+09:00",
     "end_dt": "2026-06-17T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=30600&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-2[서울병원] 영상의학과 계약직 방사선사 공개채용 공고",
+    "title": "D-1[서울병원] 영상의학과 계약직 방사선사 공개채용 공고",
     "start_dt": "2026-06-12T00:00:00+09:00",
     "end_dt": "2026-06-17T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=30598&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-2[이화의생명연구원] 이화-SCL 정밀의료연구 전담 계약직 연구코디네이터 공개채용 공고",
+    "title": "D-1[이화의생명연구원] 이화-SCL 정밀의료연구 전담 계약직 연구코디네이터 공개채용 공고",
     "start_dt": "2026-06-05T00:00:00+09:00",
     "end_dt": "2026-06-17T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=30559&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-0[이화의생명연구원] 이화의생명연구원 계약직 연구전담인력(Illustrator 및 IP 지원) 공개채용 공고",
+    "title": "D-6[이화의생명연구원] 이화의생명연구원 계약직 연구전담인력(Illustrator 및 IP 지원) 공개채용 공고",
     "start_dt": "2026-06-02T00:00:00+09:00",
-    "end_dt": "2026-06-15T23:59:00+09:00",
-    "dday": "D-0",
+    "end_dt": "2026-06-22T23:59:00+09:00",
+    "dday": "D-6",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=30535&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-1[첨단의생명연구원] 첨단의생명연구원 계약직 연구전담인력(연구개발지원인력 및 연구간호사) 공개채용 공고",
+    "title": "D-0[첨단의생명연구원] 첨단의생명연구원 계약직 연구전담인력(연구개발지원인력 및 연구간호사) 공개채용 공고",
     "start_dt": "2026-05-29T00:00:00+09:00",
     "end_dt": "2026-06-16T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=30513&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-46[서울병원] 간호부 계약직 기능원 공개채용 공고",
+    "title": "D-45[서울병원] 간호부 계약직 기능원 공개채용 공고",
     "start_dt": "2026-05-21T00:00:00+09:00",
     "end_dt": "2026-07-31T23:59:00+09:00",
-    "dday": "D-46",
+    "dday": "D-45",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=30464&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-15[이화의료원] 내과 당직전담 전문의 초빙 공고",
+    "title": "D-14[이화의료원] 내과 당직전담 전문의 초빙 공고",
     "start_dt": "2026-04-29T00:00:00+09:00",
     "end_dt": "2026-06-30T23:59:00+09:00",
-    "dday": "D-15",
+    "dday": "D-14",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=30284&pageIndex=1&searchWord=&bid_status=I"
   }
 ]
