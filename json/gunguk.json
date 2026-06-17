@@ -1,10 +1,26 @@
 [
   {
+    "title": "[계약직] 외래간호팀(이비인후-두경부외과) 간호사 채용",
+    "period_text": "2026-06-17 08:00 ~ 2026-06-23 23:59",
+    "start_dt": "2026-06-17T08:00:00+09:00",
+    "end_dt": "2026-06-23T23:59:00+09:00",
+    "status_text": "D-6",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1414"
+  },
+  {
+    "title": "[계약직] 전담간호팀(산부인과) 전담간호사 채용",
+    "period_text": "2026-06-16 09:00 ~ 2026-06-22 23:59",
+    "start_dt": "2026-06-16T09:00:00+09:00",
+    "end_dt": "2026-06-22T23:59:00+09:00",
+    "status_text": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1413"
+  },
+  {
     "title": "[연구계약직]<국가 통합 바이오 빅데이터 구축 사업>국책과제 연구원 채용",
     "period_text": "2026-06-16 08:00 ~ 2026-06-22 23:59",
     "start_dt": "2026-06-16T08:00:00+09:00",
     "end_dt": "2026-06-22T23:59:00+09:00",
-    "status_text": "D-6",
+    "status_text": "D-5",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1412"
   },
   {
@@ -12,7 +28,7 @@
     "period_text": "2026-06-12 09:00 ~ 2026-06-21 23:59",
     "start_dt": "2026-06-12T09:00:00+09:00",
     "end_dt": "2026-06-21T23:59:00+09:00",
-    "status_text": "D-5",
+    "status_text": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1411"
   },
   {
@@ -20,7 +36,7 @@
     "period_text": "2026-06-10 13:00 ~ 2026-06-17 23:59",
     "start_dt": "2026-06-10T13:00:00+09:00",
     "end_dt": "2026-06-17T23:59:00+09:00",
-    "status_text": "D-1",
+    "status_text": "D-Day",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1410"
   }
 ]

@@ -1,72 +1,79 @@
 [
   {
+    "title": "계약직 신입직원[총무팀(보안서비스반) 보안요원] 공개채용 모집",
+    "start_dt": "2026-06-16T00:00:00+09:00",
+    "end_dt": "2026-06-22T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2606160004"
+  },
+  {
     "title": "계약직 신입직원 [한방조제팀 한약사] 공개채용 모집공고",
     "start_dt": "2026-06-15T00:00:00+09:00",
     "end_dt": "2026-07-14T23:59:00+09:00",
-    "dday": "D-28",
+    "dday": "D-27",
     "detail_url": "https://recruit.incruit.com/khmc/job/2606150012"
   },
   {
     "title": "계약직 신입직원 [연구인프라팀 간호사] 공개채용 모집공고",
     "start_dt": "2026-06-15T00:00:00+09:00",
     "end_dt": "2026-06-21T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.incruit.com/khmc/job/2606150009"
   },
   {
     "title": "계약직 신입직원 [의료정보관리팀 보건의료정보관리사] 공개채용 모집공고(수정)",
     "start_dt": "2026-06-15T00:00:00+09:00",
     "end_dt": "2026-06-21T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.incruit.com/khmc/job/2606150008"
   },
   {
     "title": "정규직 신입직원 [시설관리팀 기계기사] 공개채용 모집",
     "start_dt": "2026-06-15T10:00:00+09:00",
     "end_dt": "2026-06-22T16:00:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://recruit.incruit.com/khmc/job/2606150003"
   },
   {
     "title": "계약직 신입직원 [조제팀 조무기사] 공개채용 모집공고",
     "start_dt": "2026-06-12T00:00:00+09:00",
     "end_dt": "2026-06-18T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://recruit.incruit.com/khmc/job/2606120015"
   },
   {
     "title": "계약직 신입직원 [신경과 진료지원간호사] 공개채용 모집공고",
     "start_dt": "2026-06-12T00:00:00+09:00",
     "end_dt": "2026-06-17T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2606120010"
   },
   {
     "title": "계약직 신입직원 [시설관리팀 사무직] 공개채용 모집",
     "start_dt": "2026-06-12T00:00:00+09:00",
     "end_dt": "2026-06-18T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://recruit.incruit.com/khmc/job/2606120005"
   },
   {
     "title": "계약직 신입직원 [영상의학과 아르바이트] 공개채용 모집",
     "start_dt": "2026-06-04T00:00:00+09:00",
     "end_dt": "2026-07-03T23:59:00+09:00",
-    "dday": "D-17",
+    "dday": "D-16",
     "detail_url": "https://recruit.incruit.com/khmc/job/2606040002"
   },
   {
     "title": "계약직 신입직원 [간호본부 조무사] 공개채용 모집공고",
     "start_dt": "2026-06-02T00:00:00+09:00",
     "end_dt": "2026-06-17T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2606020005"
   },
   {
     "title": "(연장)정규직 신입직원 [경희대학교한방병원 한방조제팀 한약사] 공개채용 모집",
     "start_dt": "2026-05-21T13:00:00+09:00",
     "end_dt": "2026-06-17T16:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2605210010"
   }
 ]
