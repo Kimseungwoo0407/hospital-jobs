@@ -1,7 +1,7 @@
 [
   {
     "title": "진행중\n혈액내과 입원전담전문의 임상교수 신규채용",
-    "start_dt": "2026-06-17T09:00+09:00",
+    "start_dt": "2026-06-18T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -11,7 +11,7 @@
   },
   {
     "title": "진행중\n내과 중환자실 전담전문의(촉탁의) 모집",
-    "start_dt": "2026-06-17T09:00+09:00",
+    "start_dt": "2026-06-18T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -21,7 +21,7 @@
   },
   {
     "title": "진행중\n전진상의원 파견 진료전문의 모집 공고",
-    "start_dt": "2026-06-17T09:00+09:00",
+    "start_dt": "2026-06-18T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -30,44 +30,94 @@
     "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/525034?p=1&s=12&q=%7B%7D"
   },
   {
-    "title": "진행중\n의료지원직(약제부/계약직) 공개채용 서류전형 합격자 안내",
-    "start_dt": "2026-06-16T09:00+09:00",
+    "title": "진행중\n병원지원직(방사선종양학팀/계약직) 공개채용 서류전형 합격자 안내",
+    "start_dt": "2026-06-18T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
-    "recu_idx": "546248",
+    "recu_idx": "546337",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546248?p=1&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546337?p=1&s=12&q=%7B%7D"
   },
   {
-    "title": "진행중\n병원지원직(수술간호팀/계약직) 인성검사 합격자 안내",
-    "start_dt": "2026-06-16T09:00+09:00",
+    "title": "진행중\n간호직(방사선종양학팀/계약직) 공개채용 서류전형 합격자 안내",
+    "start_dt": "2026-06-18T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
-    "recu_idx": "546247",
+    "recu_idx": "546336",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546247?p=1&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546336?p=1&s=12&q=%7B%7D"
   },
   {
-    "title": "진행중\n[상시모집] 병원지원직(간호행정교육팀/계약직) 인성검사 합격자 안내",
-    "start_dt": "2026-06-16T09:00+09:00",
+    "title": "진행중\n간호직(평생건강증진팀/계약직) 공개채용 서류전형 합격자 안내",
+    "start_dt": "2026-06-17T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
-    "recu_idx": "546246",
+    "recu_idx": "546329",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546246?p=1&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546329?p=1&s=12&q=%7B%7D"
   },
   {
-    "title": "진행중\n[상시모집] 외래간호직(간호행정교육팀/계약직) 인성검사 합격자 안내",
-    "start_dt": "2026-06-16T09:00+09:00",
+    "title": "진행중\n정보관리직(정보보호팀/계약직) 공개채용 서류전형 합격자 안내",
+    "start_dt": "2026-06-17T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
-    "recu_idx": "546245",
+    "recu_idx": "546323",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546245?p=1&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546323?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n임상병리직(이비인후과/계약직) 공개채용 서류전형 합격자 안내",
+    "start_dt": "2026-06-17T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "546319",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546319?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n임상병리직(진단검사의학팀/휴직대체) 공개채용 서류전형 합격자 안내",
+    "start_dt": "2026-06-17T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "546318",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546318?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n병원지원직(수술간호팀/계약직) 공개채용 최종합격자 안내",
+    "start_dt": "2026-06-18T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "546317",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546317?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n[상시모집] 병원지원직(간호행정교육팀/계약직) 공개채용 최종합격자 안내",
+    "start_dt": "2026-06-18T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "546315",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546315?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n[상시모집] 외래간호직(간호행정교육팀/계약직) 공개채용 최종합격자 안내",
+    "start_dt": "2026-06-18T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "546314",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546314?p=1&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n치위생직(치과팀/계약직) 인성검사 합격자 안내",
@@ -77,7 +127,17 @@
     "status": "진행중",
     "recu_idx": "546240",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546240?p=1&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546240?p=2&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n응급구조사직(응급의료팀/계약직) 인성검사 합격자 안내",
+    "start_dt": "2026-06-18T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "546219",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546219?p=2&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n사무직(총무팀/계약직) 인성검사 합격자 안내",
@@ -87,7 +147,7 @@
     "status": "진행중",
     "recu_idx": "546217",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546217?p=1&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546217?p=2&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n기관기사직(시설팀/계약직) 공개채용",
@@ -97,7 +157,7 @@
     "status": "진행중",
     "recu_idx": "546116",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546116?p=1&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546116?p=2&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n방사선직(영상의학팀/계약직) 인성검사 합격자 안내",
@@ -107,27 +167,7 @@
     "status": "진행중",
     "recu_idx": "546109",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546109?p=1&s=12&q=%7B%7D"
-  },
-  {
-    "title": "진행중\n임상병리직(진단검사의학팀) 공개채용",
-    "start_dt": "2026-06-16T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "546077",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546077?p=1&s=12&q=%7B%7D"
-  },
-  {
-    "title": "진행중\n방사선직(방사선종양학팀/휴직대체) 공개채용",
-    "start_dt": "2026-06-16T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "546075",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546075?p=2&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546109?p=2&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n가정전문간호사(가정간호팀/계약직) 공개채용",
@@ -140,30 +180,30 @@
     "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546000?p=2&s=12&q=%7B%7D"
   },
   {
-    "title": "진행중\n응급구조사직(응급의료팀/계약직) 인성검사 합격자 안내",
-    "start_dt": "2026-06-18T09:00+09:00",
-    "end_dt": null,
-    "dday": "D-1",
-    "status": "진행중",
-    "recu_idx": "546219",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546219?p=2&s=12&q=%7B%7D"
-  },
-  {
     "title": "진행중\n행정지원직(인사팀/아르바이트) 공개채용",
     "start_dt": "2026-06-20T09:00+09:00",
     "end_dt": null,
-    "dday": "D-3",
+    "dday": "D-2",
     "status": "진행중",
     "recu_idx": "546227",
     "announce_sn": null,
     "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546227?p=2&s=12&q=%7B%7D"
   },
   {
+    "title": "진행중\n의료지원직(약제부/계약직) 인성검사 합격자 안내",
+    "start_dt": "2026-06-21T09:00+09:00",
+    "end_dt": null,
+    "dday": "D-3",
+    "status": "진행중",
+    "recu_idx": "546338",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546338?p=2&s=12&q=%7B%7D"
+  },
+  {
     "title": "진행중\n방사선직(평생건강증진팀/계약직) 공개채용",
     "start_dt": "2026-06-21T09:00+09:00",
     "end_dt": null,
-    "dday": "D-4",
+    "dday": "D-3",
     "status": "진행중",
     "recu_idx": "546277",
     "announce_sn": null,
@@ -173,7 +213,7 @@
     "title": "진행중\n통신기사직(시설팀/계약직) 인성검사 합격자 안내",
     "start_dt": "2026-06-21T09:00+09:00",
     "end_dt": null,
-    "dday": "D-4",
+    "dday": "D-3",
     "status": "진행중",
     "recu_idx": "546244",
     "announce_sn": null,
@@ -183,7 +223,7 @@
     "title": "진행중\n시설기사직(시설팀/계약직) 인성검사 합격자 안내",
     "start_dt": "2026-06-21T09:00+09:00",
     "end_dt": null,
-    "dday": "D-4",
+    "dday": "D-3",
     "status": "진행중",
     "recu_idx": "546243",
     "announce_sn": null,
@@ -193,7 +233,7 @@
     "title": "진행중\n배전기사직(시설팀/계약직) 인성검사 합격자 안내",
     "start_dt": "2026-06-21T09:00+09:00",
     "end_dt": null,
-    "dday": "D-4",
+    "dday": "D-3",
     "status": "진행중",
     "recu_idx": "546242",
     "announce_sn": null,
@@ -203,57 +243,67 @@
     "title": "진행중\n병원지원직(수술간호팀/계약직) 공개채용",
     "start_dt": "2026-06-21T09:00+09:00",
     "end_dt": null,
-    "dday": "D-4",
+    "dday": "D-3",
     "status": "진행중",
     "recu_idx": "546120",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546120?p=2&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546120?p=3&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n[상시모집] 병원지원직(간호행정교육팀/계약직) 공개채용",
     "start_dt": "2026-06-21T09:00+09:00",
     "end_dt": null,
-    "dday": "D-4",
+    "dday": "D-3",
     "status": "진행중",
     "recu_idx": "546119",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546119?p=2&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546119?p=3&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n[상시모집] 외래간호직(간호행정교육팀/계약직) 공개채용",
     "start_dt": "2026-06-21T09:00+09:00",
     "end_dt": null,
-    "dday": "D-4",
+    "dday": "D-3",
     "status": "진행중",
     "recu_idx": "546118",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546118?p=2&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546118?p=3&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n병원지원직(간호행정교육팀/계약직) 공개채용",
     "start_dt": "2026-06-21T09:00+09:00",
     "end_dt": null,
-    "dday": "D-4",
+    "dday": "D-3",
     "status": "진행중",
     "recu_idx": "546057",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546057?p=2&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546057?p=3&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n수술전담간호사(간호행정교육팀/계약직) 공개채용",
     "start_dt": "2026-06-21T09:00+09:00",
     "end_dt": null,
-    "dday": "D-4",
+    "dday": "D-3",
     "status": "진행중",
     "recu_idx": "546056",
     "announce_sn": null,
     "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546056?p=3&s=12&q=%7B%7D"
   },
   {
+    "title": "진행중\n사무직(IRB행정팀) 인성검사 합격자 안내",
+    "start_dt": "2026-06-23T09:00+09:00",
+    "end_dt": null,
+    "dday": "D-5",
+    "status": "진행중",
+    "recu_idx": "546313",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/546313?p=3&s=12&q=%7B%7D"
+  },
+  {
     "title": "진행중\n시설기사직(시설팀) 인성검사 합격자 안내",
     "start_dt": "2026-06-23T09:00+09:00",
     "end_dt": null,
-    "dday": "D-6",
+    "dday": "D-5",
     "status": "진행중",
     "recu_idx": "546305",
     "announce_sn": null,
@@ -261,7 +311,7 @@
   },
   {
     "title": "진행중\n채용 서류 반환에 관한 안내",
-    "start_dt": "2026-06-17T09:00+09:00",
+    "start_dt": "2026-06-18T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
