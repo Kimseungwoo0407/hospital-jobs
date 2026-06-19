@@ -1,10 +1,18 @@
 [
   {
+    "title": "[계약직] 임상연구윤리센터(IRB) 사무원 채용",
+    "period_text": "2026-06-18 11:00 ~ 2026-06-24 23:59",
+    "start_dt": "2026-06-18T11:00:00+09:00",
+    "end_dt": "2026-06-24T23:59:00+09:00",
+    "status_text": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1415"
+  },
+  {
     "title": "[계약직] 외래간호팀(이비인후-두경부외과) 간호사 채용",
     "period_text": "2026-06-17 08:00 ~ 2026-06-23 23:59",
     "start_dt": "2026-06-17T08:00:00+09:00",
     "end_dt": "2026-06-23T23:59:00+09:00",
-    "status_text": "D-5",
+    "status_text": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1414"
   },
   {
@@ -12,7 +20,7 @@
     "period_text": "2026-06-16 09:00 ~ 2026-06-22 23:59",
     "start_dt": "2026-06-16T09:00:00+09:00",
     "end_dt": "2026-06-22T23:59:00+09:00",
-    "status_text": "D-4",
+    "status_text": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1413"
   },
   {
@@ -20,7 +28,7 @@
     "period_text": "2026-06-16 08:00 ~ 2026-06-22 23:59",
     "start_dt": "2026-06-16T08:00:00+09:00",
     "end_dt": "2026-06-22T23:59:00+09:00",
-    "status_text": "D-4",
+    "status_text": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1412"
   },
   {
@@ -28,7 +36,7 @@
     "period_text": "2026-06-12 09:00 ~ 2026-06-21 23:59",
     "start_dt": "2026-06-12T09:00:00+09:00",
     "end_dt": "2026-06-21T23:59:00+09:00",
-    "status_text": "D-3",
+    "status_text": "D-2",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1411"
   }
 ]
