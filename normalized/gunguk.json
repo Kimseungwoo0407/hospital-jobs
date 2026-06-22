@@ -1,37 +1,44 @@
 [
   {
+    "title": "[계약직] 전담간호팀(유방암/갑상선암센터) 전담간호사 채용",
+    "start_dt": "2026-06-22T08:00:00+09:00",
+    "end_dt": "2026-06-28T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1418"
+  },
+  {
+    "title": "[계약직] 전담간호팀(재활의학과) 전담간호사 채용",
+    "start_dt": "2026-06-22T08:00:00+09:00",
+    "end_dt": "2026-06-28T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1417"
+  },
+  {
     "title": "[계약직] 임상연구윤리센터(IRB) 사무원 채용",
     "start_dt": "2026-06-18T11:00:00+09:00",
     "end_dt": "2026-06-24T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1415"
   },
   {
     "title": "[계약직] 외래간호팀(이비인후-두경부외과) 간호사 채용",
     "start_dt": "2026-06-17T08:00:00+09:00",
     "end_dt": "2026-06-23T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1414"
   },
   {
     "title": "[계약직] 전담간호팀(산부인과) 전담간호사 채용",
     "start_dt": "2026-06-16T09:00:00+09:00",
     "end_dt": "2026-06-22T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1413"
   },
   {
     "title": "[연구계약직]<국가 통합 바이오 빅데이터 구축 사업>국책과제 연구원 채용",
     "start_dt": "2026-06-16T08:00:00+09:00",
     "end_dt": "2026-06-24T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1412"
-  },
-  {
-    "title": "[연구계약직] <항생제 적정사용관리 시범사업>  약제부 ASP팀 전산개발 연구보조원 채용",
-    "start_dt": "2026-06-12T09:00:00+09:00",
-    "end_dt": "2026-06-21T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1411"
   }
 ]
