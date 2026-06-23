@@ -1,10 +1,18 @@
 [
   {
+    "title": "[계약직] 심장혈관내과 (심혈관 조영실) 간호사 채용",
+    "period_text": "2026-06-23 08:00 ~ 2026-06-29 23:59",
+    "start_dt": "2026-06-23T08:00:00+09:00",
+    "end_dt": "2026-06-29T23:59:00+09:00",
+    "status_text": "D-6",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1419"
+  },
+  {
     "title": "[계약직] 전담간호팀(유방암/갑상선암센터) 전담간호사 채용",
     "period_text": "2026-06-22 08:00 ~ 2026-06-28 23:59",
     "start_dt": "2026-06-22T08:00:00+09:00",
     "end_dt": "2026-06-28T23:59:00+09:00",
-    "status_text": "D-6",
+    "status_text": "D-5",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1418"
   },
   {
@@ -12,7 +20,7 @@
     "period_text": "2026-06-22 08:00 ~ 2026-06-28 23:59",
     "start_dt": "2026-06-22T08:00:00+09:00",
     "end_dt": "2026-06-28T23:59:00+09:00",
-    "status_text": "D-6",
+    "status_text": "D-5",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1417"
   },
   {
@@ -20,7 +28,7 @@
     "period_text": "2026-06-18 11:00 ~ 2026-06-24 23:59",
     "start_dt": "2026-06-18T11:00:00+09:00",
     "end_dt": "2026-06-24T23:59:00+09:00",
-    "status_text": "D-2",
+    "status_text": "D-1",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1415"
   },
   {
@@ -28,23 +36,7 @@
     "period_text": "2026-06-17 08:00 ~ 2026-06-23 23:59",
     "start_dt": "2026-06-17T08:00:00+09:00",
     "end_dt": "2026-06-23T23:59:00+09:00",
-    "status_text": "D-1",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1414"
-  },
-  {
-    "title": "[계약직] 전담간호팀(산부인과) 전담간호사 채용",
-    "period_text": "2026-06-16 09:00 ~ 2026-06-22 23:59",
-    "start_dt": "2026-06-16T09:00:00+09:00",
-    "end_dt": "2026-06-22T23:59:00+09:00",
     "status_text": "D-Day",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1413"
-  },
-  {
-    "title": "[연구계약직]<국가 통합 바이오 빅데이터 구축 사업>국책과제 연구원 채용",
-    "period_text": "2026-06-16 08:00 ~ 2026-06-24 23:59",
-    "start_dt": "2026-06-16T08:00:00+09:00",
-    "end_dt": "2026-06-24T23:59:00+09:00",
-    "status_text": "D-2",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1412"
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1414"
   }
 ]

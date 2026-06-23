@@ -1,16 +1,9 @@
 [
   {
-    "title": "신입(보건직) 직원 채용공고",
-    "start_dt": "2026-06-11T09:00:00+09:00",
-    "end_dt": "2026-06-22T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=256466"
-  },
-  {
     "title": "[상시채용] 진료전문의(권역응급의료센터, 응급의학과) 채용공고",
     "start_dt": "2026-03-04T10:00:00+09:00",
     "end_dt": "2026-12-31T17:00:00+09:00",
-    "dday": "D-192",
+    "dday": "D-191",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246482"
   }
 ]
