@@ -1,11 +1,47 @@
 [
   {
+    "title": "권역응급의료센터 응급의료정보관리자 (임시직)",
+    "start_dt": "2026-06-25T00:00+09:00",
+    "end_dt": "2026-07-08T12:00+09:00",
+    "dday": "D-12",
+    "dday_to_start": "D+1",
+    "dday_to_end": "D-12",
+    "phase": "open",
+    "status": "접수중",
+    "recu_idx": "119857",
+    "announce_sn": "119857",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/119857",
+    "tags": [
+      "임시직",
+      "일반채용",
+      "신입"
+    ]
+  },
+  {
+    "title": "간호국 간호조무사 (간호간병통합서비스병동) (임시직)",
+    "start_dt": "2026-06-25T00:00+09:00",
+    "end_dt": "2026-07-08T12:00+09:00",
+    "dday": "D-12",
+    "dday_to_start": "D+1",
+    "dday_to_end": "D-12",
+    "phase": "open",
+    "status": "접수중",
+    "recu_idx": "119854",
+    "announce_sn": "119854",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/119854",
+    "tags": [
+      "임시직",
+      "일반채용",
+      "신입"
+    ]
+  },
+  {
     "title": "이비인후과 청각사 (임시직)",
     "start_dt": "2026-06-18T00:00+09:00",
     "end_dt": "2026-07-01T23:59+09:00",
-    "dday": "D-6",
-    "dday_to_start": "D+7",
-    "dday_to_end": "D-6",
+    "dday": "D-5",
+    "dday_to_start": "D+8",
+    "dday_to_end": "D-5",
     "phase": "open",
     "status": "접수중",
     "recu_idx": "119198",
