@@ -1,16 +1,23 @@
 [
   {
+    "title": "[계약직] 전담간호팀(산부인과 수술실) 전담간호사 채용",
+    "start_dt": "2026-07-06T10:00:00+09:00",
+    "end_dt": "2026-07-13T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1424"
+  },
+  {
     "title": "[연구계약직]응급의학과 국책과제 연구원 채용",
     "start_dt": "2026-07-03T10:00:00+09:00",
     "end_dt": "2026-07-31T23:59:00+09:00",
-    "dday": "D-25",
+    "dday": "D-24",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1423"
   },
   {
     "title": "[계약직] 심장혈관내과 (심혈관 조영실) 간호사 채용",
     "start_dt": "2026-07-02T09:00:00+09:00",
     "end_dt": "2026-07-08T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1422"
   }
 ]
