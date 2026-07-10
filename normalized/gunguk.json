@@ -1,44 +1,51 @@
 [
   {
+    "title": "[계약직] 헬스케어센터 간호사 채용",
+    "start_dt": "2026-07-09T10:00:00+09:00",
+    "end_dt": "2026-07-15T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1429"
+  },
+  {
     "title": "[계약직] 외래간호팀(안과) 간호사 채용",
     "start_dt": "2026-07-09T09:00:00+09:00",
     "end_dt": "2026-07-15T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1428"
   },
   {
     "title": "[계약직] 외래간호팀(산부인과) 간호사 채용",
     "start_dt": "2026-07-08T08:00:00+09:00",
     "end_dt": "2026-07-14T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1427"
   },
   {
     "title": "[계약직] 외래간호팀(외래주사실) 간호사 채용",
     "start_dt": "2026-07-07T11:00:00+09:00",
     "end_dt": "2026-07-13T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1426"
   },
   {
     "title": "[정규직] 2026년 심장혈관내과 신입 방사선사 채용",
     "start_dt": "2026-07-07T10:00:00+09:00",
     "end_dt": "2026-07-16T11:01:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1425"
   },
   {
     "title": "[계약직] 전담간호팀(산부인과 수술실) 전담간호사 채용",
     "start_dt": "2026-07-06T10:00:00+09:00",
     "end_dt": "2026-07-12T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1424"
   },
   {
     "title": "[연구계약직]응급의학과 국책과제 연구원 채용",
     "start_dt": "2026-07-03T10:00:00+09:00",
     "end_dt": "2026-07-31T23:59:00+09:00",
-    "dday": "D-22",
+    "dday": "D-21",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1423"
   }
 ]
