@@ -3,63 +3,63 @@
     "title": "2026학년도 하반기 임상교원 초빙",
     "start_dt": "2026-07-13T00:00:00+09:00",
     "end_dt": "2026-07-19T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/121818"
   },
   {
     "title": "2026년도 하반기 전공의(레지던트 상급년차) 모집",
     "start_dt": "2026-07-13T00:00:00+09:00",
     "end_dt": "2026-07-27T17:00:00+09:00",
-    "dday": "D-13",
+    "dday": "D-12",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/121760"
   },
   {
     "title": "2027년도 신규간호사 모집 (정규직)",
     "start_dt": "2026-07-06T00:00:00+09:00",
     "end_dt": "2026-07-19T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/121004"
+  },
+  {
+    "title": "외과 전담간호사 (임시직)",
+    "start_dt": "2026-07-13T00:00:00+09:00",
+    "end_dt": "2026-07-26T23:59:00+09:00",
+    "dday": "D-11",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/121945"
   },
   {
     "title": "간호국 간호사 (임시직)",
     "start_dt": "2026-07-10T00:00:00+09:00",
     "end_dt": "2026-07-23T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/121802"
   },
   {
     "title": "영양팀 기능원 (정규직)",
     "start_dt": "2026-07-03T00:00:00+09:00",
     "end_dt": "2026-07-16T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/120980"
   },
   {
     "title": "2026년도 상반기 사무원 (정규직)",
     "start_dt": "2026-07-03T00:00:00+09:00",
     "end_dt": "2026-07-16T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/120974"
   },
   {
     "title": "약제팀 약사 (정규직)",
     "start_dt": "2026-07-03T00:00:00+09:00",
     "end_dt": "2026-07-16T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/120972"
   },
   {
     "title": "의료원의료정보팀 사무원 (정규직)",
     "start_dt": "2026-07-03T00:00:00+09:00",
     "end_dt": "2026-07-16T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/120967"
-  },
-  {
-    "title": "진단검사의학과 임상병리사 (정규직)",
-    "start_dt": "2026-07-03T00:00:00+09:00",
-    "end_dt": "2026-07-16T23:59:00+09:00",
-    "dday": "D-2",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/120964"
   }
 ]
