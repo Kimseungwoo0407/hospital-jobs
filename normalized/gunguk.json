@@ -3,21 +3,14 @@
     "title": "[계약직] 헬스케어센터 사무원 채용",
     "start_dt": "2026-07-15T09:00:00+09:00",
     "end_dt": "2026-07-21T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1432"
   },
   {
     "title": "[계약직] 헬스케어센터 방사선사 채용",
     "start_dt": "2026-07-14T09:00:00+09:00",
     "end_dt": "2026-07-20T23:59:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1431"
-  },
-  {
-    "title": "[계약직] 이비인후-두경부외과 청력기사 채용",
-    "start_dt": "2026-07-13T08:00:00+09:00",
-    "end_dt": "2026-07-19T23:59:00+09:00",
     "dday": "D-0",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1430"
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1431"
   }
 ]

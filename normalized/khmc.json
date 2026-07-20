@@ -1,44 +1,51 @@
 [
   {
+    "title": "계약직 신입직원 [시설관리팀 사무보조] 공개채용 모집",
+    "start_dt": "2026-07-20T00:00:00+09:00",
+    "end_dt": "2026-07-26T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2607200002"
+  },
+  {
     "title": "계약직 신입직원 [건강증진센터 오전근무 간호사] 공개채용 모집공고",
     "start_dt": "2026-07-14T00:00:00+09:00",
     "end_dt": "2026-07-20T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2607140019"
   },
   {
     "title": "계약직 신입직원 [건강증진센터 오전근무 임상병리사/방사선사] 공개채용 모집공고[수정]",
     "start_dt": "2026-07-14T00:00:00+09:00",
     "end_dt": "2026-07-20T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2607140018"
   },
   {
     "title": "계약직 신입직원 [경희대학교병원 간호본부 직업환경의학과 외래 간호사] 공개채용 모집공고",
     "start_dt": "2026-07-14T00:00:00+09:00",
     "end_dt": "2026-07-20T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2607140002"
   },
   {
     "title": "계약직 신입직원 [영상의학과 혈관조영치료실 간호사] 공개채용 모집공고",
     "start_dt": "2026-07-13T00:00:00+09:00",
     "end_dt": "2026-07-22T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.incruit.com/khmc/job/2607130025"
   },
   {
     "title": "계약직 신입직원 [간호본부 조무사] 공개채용 모집공고",
     "start_dt": "2026-07-13T00:00:00+09:00",
     "end_dt": "2026-07-22T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.incruit.com/khmc/job/2607130023"
   },
   {
     "title": "2026학년도 경희대학교병원 하반기 상급년차 전공의 전형 공고",
     "start_dt": "2026-07-13T09:00:00+09:00",
     "end_dt": "2026-07-27T12:00:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://recruit.incruit.com/khmc/job/2607080002"
   }
 ]
