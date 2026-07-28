@@ -1,29 +1,11 @@
 [
   {
-    "title": "2026년도 하반기 전공의(레지던트 상급년차) 모집",
-    "start_dt": "2026-07-13T00:00+09:00",
-    "end_dt": "2026-07-27T17:00+09:00",
-    "dday": "D-0",
-    "dday_to_start": "D+14",
-    "dday_to_end": "D-0",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "121760",
-    "announce_sn": "121760",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/121760",
-    "tags": [
-      "전공의",
-      "일반채용",
-      "신입"
-    ]
-  },
-  {
     "title": "암병원 종양간호팀 간호사 (임시직)",
     "start_dt": "2026-07-16T00:00+09:00",
     "end_dt": "2026-07-29T23:59+09:00",
-    "dday": "D-2",
-    "dday_to_start": "D+11",
-    "dday_to_end": "D-2",
+    "dday": "D-1",
+    "dday_to_start": "D+12",
+    "dday_to_end": "D-1",
     "phase": "open",
     "status": "접수중",
     "recu_idx": "122116",
