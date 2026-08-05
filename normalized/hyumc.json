@@ -1,16 +1,37 @@
 [
   {
+    "title": "외과 전담간호사 (임시직)",
+    "start_dt": "2026-08-04T00:00:00+09:00",
+    "end_dt": "2026-08-17T12:00:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/124026"
+  },
+  {
+    "title": "통합진료지원부 공통업무지원파트 전담간호사 (임시직)",
+    "start_dt": "2026-08-04T00:00:00+09:00",
+    "end_dt": "2026-08-17T12:00:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/124005"
+  },
+  {
+    "title": "감염내과 전담간호사 (임시직)",
+    "start_dt": "2026-08-04T00:00:00+09:00",
+    "end_dt": "2026-08-17T12:00:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/124004"
+  },
+  {
     "title": "간호국 간호사 (임시직)",
     "start_dt": "2026-07-30T00:00:00+09:00",
     "end_dt": "2026-08-05T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/123692"
   },
   {
     "title": "간호국 간호사 (내시경실) (임시직)",
     "start_dt": "2026-07-30T00:00:00+09:00",
     "end_dt": "2026-08-12T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/122289"
   }
 ]

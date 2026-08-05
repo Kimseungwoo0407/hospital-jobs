@@ -1,11 +1,65 @@
 [
   {
+    "title": "외과 전담간호사 (임시직)",
+    "start_dt": "2026-08-04T00:00+09:00",
+    "end_dt": "2026-08-17T12:00+09:00",
+    "dday": "D-12",
+    "dday_to_start": "D+1",
+    "dday_to_end": "D-12",
+    "phase": "open",
+    "status": "접수중",
+    "recu_idx": "124026",
+    "announce_sn": "124026",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/124026",
+    "tags": [
+      "임시직",
+      "일반채용",
+      "신입"
+    ]
+  },
+  {
+    "title": "통합진료지원부 공통업무지원파트 전담간호사 (임시직)",
+    "start_dt": "2026-08-04T00:00+09:00",
+    "end_dt": "2026-08-17T12:00+09:00",
+    "dday": "D-12",
+    "dday_to_start": "D+1",
+    "dday_to_end": "D-12",
+    "phase": "open",
+    "status": "접수중",
+    "recu_idx": "124005",
+    "announce_sn": "124005",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/124005",
+    "tags": [
+      "임시직",
+      "일반채용",
+      "신입"
+    ]
+  },
+  {
+    "title": "감염내과 전담간호사 (임시직)",
+    "start_dt": "2026-08-04T00:00+09:00",
+    "end_dt": "2026-08-17T12:00+09:00",
+    "dday": "D-12",
+    "dday_to_start": "D+1",
+    "dday_to_end": "D-12",
+    "phase": "open",
+    "status": "접수중",
+    "recu_idx": "124004",
+    "announce_sn": "124004",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/124004",
+    "tags": [
+      "임시직",
+      "일반채용",
+      "신입"
+    ]
+  },
+  {
     "title": "간호국 간호사 (임시직)",
     "start_dt": "2026-07-30T00:00+09:00",
     "end_dt": "2026-08-05T23:59+09:00",
-    "dday": "D-1",
-    "dday_to_start": "D+5",
-    "dday_to_end": "D-1",
+    "dday": "D-0",
+    "dday_to_start": "D+6",
+    "dday_to_end": "D-0",
     "phase": "open",
     "status": "접수중",
     "recu_idx": "123692",
@@ -21,9 +75,9 @@
     "title": "간호국 간호사 (내시경실) (임시직)",
     "start_dt": "2026-07-30T00:00+09:00",
     "end_dt": "2026-08-12T23:59+09:00",
-    "dday": "D-8",
-    "dday_to_start": "D+5",
-    "dday_to_end": "D-8",
+    "dday": "D-7",
+    "dday_to_start": "D+6",
+    "dday_to_end": "D-7",
     "phase": "open",
     "status": "접수중",
     "recu_idx": "122289",
