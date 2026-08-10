@@ -1,51 +1,72 @@
 [
   {
+    "title": "2026년도 하반기 전공의(인턴) 모집 공고",
+    "start_dt": "2026-08-10T00:00:00+09:00",
+    "end_dt": "2026-08-12T17:00:00+09:00",
+    "dday": "D-2",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/121929"
+  },
+  {
+    "title": "2026년도 하반기 레지던트 1년차 모집",
+    "start_dt": "2026-08-10T00:00:00+09:00",
+    "end_dt": "2026-08-12T17:00:00+09:00",
+    "dday": "D-2",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/123467"
+  },
+  {
+    "title": "2026학년도 하반기 임상교원 초빙",
+    "start_dt": "2026-08-10T00:00:00+09:00",
+    "end_dt": "2026-08-16T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/124539"
+  },
+  {
     "title": "간호국 간호조무사 (정신건강의학과병동) (임시직)",
     "start_dt": "2026-08-06T00:00:00+09:00",
     "end_dt": "2026-08-19T23:59:00+09:00",
-    "dday": "D-10",
+    "dday": "D-9",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/124420"
   },
   {
     "title": "물류팀 사무원 (임시직)",
     "start_dt": "2026-08-05T00:00:00+09:00",
     "end_dt": "2026-08-18T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/124283"
   },
   {
     "title": "원무팀 사무원 (임시직)",
     "start_dt": "2026-08-05T00:00:00+09:00",
     "end_dt": "2026-08-18T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/124282"
   },
   {
     "title": "간호국 간호조무사 (일반병동) (정규직)",
     "start_dt": "2026-08-05T00:00:00+09:00",
     "end_dt": "2026-08-18T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/124277"
   },
   {
     "title": "외과 전담간호사 (임시직)",
     "start_dt": "2026-08-04T00:00:00+09:00",
     "end_dt": "2026-08-17T12:00:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/124026"
   },
   {
     "title": "통합진료지원부 공통업무지원파트 전담간호사 (임시직)",
     "start_dt": "2026-08-04T00:00:00+09:00",
     "end_dt": "2026-08-17T12:00:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/124005"
   },
   {
     "title": "감염내과 전담간호사 (임시직)",
     "start_dt": "2026-08-04T00:00:00+09:00",
     "end_dt": "2026-08-17T12:00:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/124004"
   }
 ]
