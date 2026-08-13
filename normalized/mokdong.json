@@ -1,16 +1,23 @@
 [
   {
-    "title": "[목동병원] 2026년도 이대목동병원 하반기 전공의(레지던트1년차) 모집 공고",
-    "start_dt": "2026-08-04T10:00:00+09:00",
-    "end_dt": "2026-08-12T17:00:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30982&pageIndex=1&searchWord=&bid_status=I"
+    "title": "[융합의학연구원] ‘범부처첨단의료기기연구개발사업’ 계약직 전담인력 공개채용 공고",
+    "start_dt": "2026-08-12T00:00:00+09:00",
+    "end_dt": "2026-08-25T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31065&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "[융합의학연구원] 융합의학연구원 계약직 연구전담인력 공개채용 공고",
-    "start_dt": "2026-06-01T00:00:00+09:00",
-    "end_dt": "2026-08-31T00:00:00+09:00",
-    "dday": "D-19",
-    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=30526&pageIndex=1&searchWord=&bid_status=I"
+    "title": "[목동병원] 사무부 원무팀 계약직 사무원 공개채용 공고",
+    "start_dt": "2026-08-12T00:00:00+09:00",
+    "end_dt": "2026-08-18T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31064&pageIndex=1&searchWord=&bid_status=I"
+  },
+  {
+    "title": "[목동병원] 진단검사의학과 계약직 임상병리사 공개채용 공고",
+    "start_dt": "2026-08-12T00:00:00+09:00",
+    "end_dt": "2026-08-18T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31063&pageIndex=1&searchWord=&bid_status=I"
   }
 ]
