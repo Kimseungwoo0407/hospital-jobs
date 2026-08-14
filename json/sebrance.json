@@ -6,7 +6,7 @@
     "date_text": "2026.08.12(수) 00:00 ~ 2026.08.17(월) 23:59",
     "start_dt": "2026-08-12T00:00:00+09:00",
     "end_dt": "2026-08-17T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262908"
   },
   {
@@ -16,7 +16,7 @@
     "date_text": "2026.08.11(화) 00:00 ~ 2026.08.17(월) 23:59",
     "start_dt": "2026-08-11T00:00:00+09:00",
     "end_dt": "2026-08-17T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262773"
   },
   {
@@ -26,7 +26,7 @@
     "date_text": "2026.08.10(월) 00:00 ~ 2026.08.16(일) 23:59",
     "start_dt": "2026-08-10T00:00:00+09:00",
     "end_dt": "2026-08-16T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262695"
   },
   {
@@ -36,7 +36,7 @@
     "date_text": "2026.08.11(화) 00:00 ~ 2026.08.20(목) 23:59",
     "start_dt": "2026-08-11T00:00:00+09:00",
     "end_dt": "2026-08-20T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262579"
   },
   {
@@ -46,7 +46,7 @@
     "date_text": "2026.08.11(화) 00:00 ~ 2026.08.20(목) 23:59",
     "start_dt": "2026-08-11T00:00:00+09:00",
     "end_dt": "2026-08-20T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262455"
   },
   {
@@ -56,18 +56,8 @@
     "date_text": "2026.08.06(목) 00:00 ~ 2026.08.15(토) 23:59",
     "start_dt": "2026-08-06T00:00:00+09:00",
     "end_dt": "2026-08-15T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262323"
-  },
-  {
-    "title": "[일반-신촌]사무원(계약직) 보건대학원)행정팀(KOICA 학위 연수 용역 사업) 26.08모집",
-    "location": "신촌",
-    "status": "접수중",
-    "date_text": "2026.08.04(화) 00:00 ~ 2026.08.13(목) 23:59",
-    "start_dt": "2026-08-04T00:00:00+09:00",
-    "end_dt": "2026-08-13T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262289"
   },
   {
     "title": "[일반-신촌] 간호사(단기계약직) 세브)소화기병센터(내시경검사실) 26.08 모집",
@@ -76,7 +66,7 @@
     "date_text": "2026.08.07(금) 00:00 ~ 2026.08.16(일) 23:59",
     "start_dt": "2026-08-07T00:00:00+09:00",
     "end_dt": "2026-08-16T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262261"
   },
   {
@@ -86,7 +76,7 @@
     "date_text": "2026.08.05(수) 00:00 ~ 2026.08.14(금) 23:59",
     "start_dt": "2026-08-05T00:00:00+09:00",
     "end_dt": "2026-08-14T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262194"
   }
 ]

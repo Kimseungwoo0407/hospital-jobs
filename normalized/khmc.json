@@ -1,44 +1,51 @@
 [
   {
+    "title": "정규직 신입직원 [사회공헌팀 사회복지사] 공개채용 모집",
+    "start_dt": "2026-08-13T13:00:00+09:00",
+    "end_dt": "2026-08-20T16:00:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2608130008"
+  },
+  {
+    "title": "정규직 신입직원 [신장내과전담 간호사] 공개채용 모집",
+    "start_dt": "2026-08-13T10:00:00+09:00",
+    "end_dt": "2026-08-20T16:00:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2608130006"
+  },
+  {
     "title": "계약직 신입직원 [건강증진센터 간호사] 공개채용 모집공고",
     "start_dt": "2026-08-12T00:00:00+09:00",
     "end_dt": "2026-08-18T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.incruit.com/khmc/job/2608120014"
   },
   {
     "title": "정규직 신입직원 [의료협력본부 진료협력센터 진료협력팀 간호사] 공개채용 모집",
     "start_dt": "2026-08-12T09:00:00+09:00",
     "end_dt": "2026-08-26T16:00:00+09:00",
-    "dday": "D-13",
+    "dday": "D-12",
     "detail_url": "https://recruit.incruit.com/khmc/job/2608120004"
-  },
-  {
-    "title": "계약직 신입직원 [원무1팀 아르바이트] 공개채용 모집",
-    "start_dt": "2026-08-07T00:00:00+09:00",
-    "end_dt": "2026-08-13T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2608070009"
   },
   {
     "title": "계약직 신입직원 [한방예제팀 한방조무기사] 공개채용 모집공고[연장]",
     "start_dt": "2026-08-05T00:00:00+09:00",
     "end_dt": "2026-08-18T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.incruit.com/khmc/job/2608050019"
   },
   {
     "title": "2026학년도 하반기 경희대학교병원 전임의/임상교수 모집공고",
     "start_dt": "2026-08-06T00:00:00+09:00",
     "end_dt": "2026-08-14T17:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2608050015"
   },
   {
     "title": "계약직 신입직원 [간호본부 조무사] 공개채용 모집공고[연장]",
     "start_dt": "2026-07-29T00:00:00+09:00",
     "end_dt": "2026-08-14T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2607290008"
   }
 ]
