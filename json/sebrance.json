@@ -1,13 +1,13 @@
 [
   {
-    "title": "[일반-강남] 임상병리사(계약직) 심장내과 26.08 모집",
+    "title": "[일반-강남] 간호사(계약직) 헬스체크업 26.08 모집",
     "location": "강남",
     "status": "접수중",
-    "date_text": "2026.08.14(금) 00:00 ~ 2026.08.18(화) 23:59",
-    "start_dt": "2026-08-14T00:00:00+09:00",
-    "end_dt": "2026-08-18T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=263242"
+    "date_text": "2026.08.18(화) 00:00 ~ 2026.08.23(일) 23:59",
+    "start_dt": "2026-08-18T00:00:00+09:00",
+    "end_dt": "2026-08-23T23:59:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=263509"
   },
   {
     "title": "[일반-신촌] 치과위생사(계약직) 치과)진료혁신팀 26.08 모집",
@@ -16,7 +16,7 @@
     "date_text": "2026.08.11(화) 00:00 ~ 2026.08.20(목) 23:59",
     "start_dt": "2026-08-11T00:00:00+09:00",
     "end_dt": "2026-08-20T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262579"
   },
   {
@@ -26,7 +26,7 @@
     "date_text": "2026.08.11(화) 00:00 ~ 2026.08.20(목) 23:59",
     "start_dt": "2026-08-11T00:00:00+09:00",
     "end_dt": "2026-08-20T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262455"
   }
 ]
