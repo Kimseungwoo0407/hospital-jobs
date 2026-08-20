@@ -1,23 +1,58 @@
 [
   {
+    "title": "[일반-강남] 임상병리사(계약직) 진단검사의학팀 26.08-1 모집",
+    "start_dt": "2026-08-19T00:00:00+09:00",
+    "end_dt": "2026-08-25T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=263614"
+  },
+  {
+    "title": "[일반-강남] 임상심리사(계약직;초단시간) 소아청소년과 26.08 모집",
+    "start_dt": "2026-08-19T00:00:00+09:00",
+    "end_dt": "2026-08-25T00:00:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=263564"
+  },
+  {
+    "title": "[일반-신촌]방사선사(계약직) 세브)영상의학팀 26.08 모집",
+    "start_dt": "2026-08-19T00:00:00+09:00",
+    "end_dt": "2026-08-23T23:59:00+09:00",
+    "dday": "D-3",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=263551"
+  },
+  {
+    "title": "[일반-강남] 기능원(계약직) 영상의학팀 26.08 모집",
+    "start_dt": "2026-08-19T00:00:00+09:00",
+    "end_dt": "2026-08-25T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=263542"
+  },
+  {
     "title": "[일반-강남] 간호사(계약직) 헬스체크업 26.08 모집",
     "start_dt": "2026-08-18T00:00:00+09:00",
     "end_dt": "2026-08-23T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=263509"
+  },
+  {
+    "title": "[일반-신촌] 사무원(계약직) 세브)교육수련팀 25.08 모집",
+    "start_dt": "2026-08-19T00:00:00+09:00",
+    "end_dt": "2026-08-30T23:59:00+09:00",
+    "dday": "D-10",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=263404"
   },
   {
     "title": "[일반-신촌] 치과위생사(계약직) 치과)진료혁신팀 26.08 모집",
     "start_dt": "2026-08-11T00:00:00+09:00",
     "end_dt": "2026-08-20T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262579"
   },
   {
     "title": "[일반-신촌] 임상병리사(계약직) 세브)병리팀 26.08 모집",
     "start_dt": "2026-08-11T00:00:00+09:00",
     "end_dt": "2026-08-20T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262455"
   }
 ]

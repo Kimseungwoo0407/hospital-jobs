@@ -1,37 +1,44 @@
 [
   {
+    "title": "계약직 신입직원 [이비인후과전담 간호사] 공개채용 모집",
+    "start_dt": "2026-08-19T00:00:00+09:00",
+    "end_dt": "2026-08-25T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2608190002"
+  },
+  {
     "title": "계약직 신입직원 [진단검사의학과 간호사] 공개채용 모집",
     "start_dt": "2026-08-18T00:00:00+09:00",
     "end_dt": "2026-08-25T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://recruit.incruit.com/khmc/job/2608180013"
   },
   {
     "title": "계약직 신입직원 [종양혈액내과전담 간호사] 공개채용 모집",
     "start_dt": "2026-08-14T00:00:00+09:00",
     "end_dt": "2026-08-20T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2608140013"
   },
   {
     "title": "정규직 신입직원 [사회공헌팀 사회복지사] 공개채용 모집",
     "start_dt": "2026-08-13T13:00:00+09:00",
     "end_dt": "2026-08-20T16:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2608130008"
   },
   {
     "title": "정규직 신입직원 [신장내과전담 간호사] 공개채용 모집",
     "start_dt": "2026-08-13T10:00:00+09:00",
     "end_dt": "2026-08-20T16:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2608130006"
   },
   {
     "title": "정규직 신입직원 [의료협력본부 진료협력센터 진료협력팀 간호사] 공개채용 모집",
     "start_dt": "2026-08-12T09:00:00+09:00",
     "end_dt": "2026-08-26T16:00:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://recruit.incruit.com/khmc/job/2608120004"
   }
 ]
