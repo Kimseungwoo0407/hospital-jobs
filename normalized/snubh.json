@@ -1,30 +1,65 @@
 [
   {
-    "title": "26년 8월 신입(업무지원직) 직원 채용 공고",
-    "start_dt": "2026-08-14T09:00:00+09:00",
-    "end_dt": "2026-08-24T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262847"
+    "title": "26년 8월 단시간일반직(선임급연구원) 채용공고",
+    "start_dt": "2026-08-24T18:00:00+09:00",
+    "end_dt": "2026-09-02T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264110"
   },
   {
-    "title": "26년 8월 신입(업무지원직_미화) 직원 채용 공고",
-    "start_dt": "2026-08-14T09:00:00+09:00",
-    "end_dt": "2026-08-24T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262846"
+    "title": "26년 8월 단시간업무지원직(사무보조) 채용공고",
+    "start_dt": "2026-08-24T18:00:00+09:00",
+    "end_dt": "2026-09-02T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264109"
   },
   {
-    "title": "26년 8월 신입(업무지원직 장애인) 직원 채용 공고",
-    "start_dt": "2026-08-14T09:00:00+09:00",
-    "end_dt": "2026-08-24T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=262841"
+    "title": "26년 8월 단시간일반직(교육수련팀, 감염관리팀) 채용공고",
+    "start_dt": "2026-08-24T18:00:00+09:00",
+    "end_dt": "2026-09-02T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264104"
+  },
+  {
+    "title": "26년 8월 단시간일반직(고위험산모신생아통합치료센터, 진료협력센터, 연구행정팀) 채용공고",
+    "start_dt": "2026-08-24T18:00:00+09:00",
+    "end_dt": "2026-09-02T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264103"
+  },
+  {
+    "title": "26년 8월 계약전문연구요원 채용공고",
+    "start_dt": "2026-08-24T18:00:00+09:00",
+    "end_dt": "2026-09-02T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264100"
+  },
+  {
+    "title": "26년 8월 직원(계약사무직_디지털헬스케어연구사업부) 채용공고",
+    "start_dt": "2026-08-24T18:00:00+09:00",
+    "end_dt": "2026-09-02T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264094"
+  },
+  {
+    "title": "26년 8월 직원(계약보건직_신입) 채용공고",
+    "start_dt": "2026-08-24T18:00:00+09:00",
+    "end_dt": "2026-09-02T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264084"
+  },
+  {
+    "title": "26년 8월 직원(계약간호직, 계약보건직_경력) 채용공고",
+    "start_dt": "2026-08-24T18:00:00+09:00",
+    "end_dt": "2026-09-02T23:59:00+09:00",
+    "dday": "D-8",
+    "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264067"
   },
   {
     "title": "[상시채용] 진료전문의(권역응급의료센터, 응급의학과) 채용공고",
     "start_dt": "2026-03-04T10:00:00+09:00",
     "end_dt": "2026-12-31T17:00:00+09:00",
-    "dday": "D-129",
+    "dday": "D-128",
     "detail_url": "https://snubh.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=246482"
   }
 ]
