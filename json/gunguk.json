@@ -1,10 +1,18 @@
 [
   {
+    "title": "[정규직] 2027년도 신입 간호사 채용",
+    "period_text": "2026-09-01 17:00 ~ 2026-09-14 11:01",
+    "start_dt": "2026-09-01T17:00:00+09:00",
+    "end_dt": "2026-09-14T11:01:00+09:00",
+    "status_text": "D-13",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1454"
+  },
+  {
     "title": "[계약직] 진단검사의학팀 임상병리사 채용",
     "period_text": "2026-08-28 11:00 ~ 2026-09-02 11:00",
     "start_dt": "2026-08-28T11:00:00+09:00",
     "end_dt": "2026-09-02T11:00:00+09:00",
-    "status_text": "D-2",
+    "status_text": "D-1",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1452"
   }
 ]

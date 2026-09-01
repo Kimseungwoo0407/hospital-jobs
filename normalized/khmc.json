@@ -1,16 +1,30 @@
 [
   {
+    "title": "계약직 신입직원 [종양혈액내과전담 간호사] 공개채용 모집",
+    "start_dt": "2026-08-31T00:00:00+09:00",
+    "end_dt": "2026-09-06T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2608310019"
+  },
+  {
+    "title": "계약직 신입직원 [CAR-T 치료 및 조혈모세포 이식 코디네이터] 공개채용 모집공고",
+    "start_dt": "2026-08-31T00:00:00+09:00",
+    "end_dt": "2026-09-06T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2608310004"
+  },
+  {
     "title": "계약직 신입직원 [이비인후과전담 간호사] 공개채용 모집",
     "start_dt": "2026-08-27T00:00:00+09:00",
     "end_dt": "2026-09-02T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://recruit.incruit.com/khmc/job/2608270011"
   },
   {
     "title": "계약직 신입직원 [경희대학교병원 간호본부 외래 간호사] 공개채용 모집공고",
     "start_dt": "2026-08-26T00:00:00+09:00",
     "end_dt": "2026-09-01T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2608260006"
   }
 ]
