@@ -1,44 +1,58 @@
 [
   {
+    "title": "계약직 신입직원 [영양팀 조리원] 공개채용 모집공고",
+    "start_dt": "2026-09-03T00:00:00+09:00",
+    "end_dt": "2026-09-10T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2609030020"
+  },
+  {
+    "title": "정규직 신입교직원 [인력관리본부 인사팀 사무직] 공개채용 모집",
+    "start_dt": "2026-09-03T09:00:00+09:00",
+    "end_dt": "2026-09-10T16:00:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2609030001"
+  },
+  {
     "title": "계약직 신입직원 [내과(아간)전담 간호사] 공개채용 모집",
     "start_dt": "2026-09-02T00:00:00+09:00",
     "end_dt": "2026-09-08T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.incruit.com/khmc/job/2609020027"
   },
   {
     "title": "계약직 신입직원 [비뇨의학과전담 간호사] 공개채용 모집",
     "start_dt": "2026-09-02T00:00:00+09:00",
     "end_dt": "2026-09-08T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.incruit.com/khmc/job/2609020003"
   },
   {
     "title": "계약직 신입직원 [간호본부 조무사] 공개채용 모집공고",
     "start_dt": "2026-09-01T00:00:00+09:00",
     "end_dt": "2026-09-13T23:59:00+09:00",
-    "dday": "D-10",
+    "dday": "D-9",
     "detail_url": "https://recruit.incruit.com/khmc/job/2609010025"
   },
   {
     "title": "정규직 신입직원 [뇌신경센터전담 간호사] 공개채용 모집",
     "start_dt": "2026-09-01T13:00:00+09:00",
     "end_dt": "2026-09-08T16:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.incruit.com/khmc/job/2609010022"
   },
   {
     "title": "계약직 신입직원 [종양혈액내과전담 간호사] 공개채용 모집",
     "start_dt": "2026-08-31T00:00:00+09:00",
     "end_dt": "2026-09-06T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.incruit.com/khmc/job/2608310019"
   },
   {
     "title": "계약직 신입직원 [CAR-T 치료 및 조혈모세포 이식 코디네이터] 공개채용 모집공고",
     "start_dt": "2026-08-31T00:00:00+09:00",
     "end_dt": "2026-09-06T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://recruit.incruit.com/khmc/job/2608310004"
   }
 ]
