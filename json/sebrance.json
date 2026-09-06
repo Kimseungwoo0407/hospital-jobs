@@ -6,7 +6,7 @@
     "date_text": "2026.09.03(목) 00:00 ~ 2026.09.12(토) 23:59",
     "start_dt": "2026-09-03T00:00:00+09:00",
     "end_dt": "2026-09-12T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=265308"
   },
   {
@@ -16,7 +16,7 @@
     "date_text": "2026.09.02(수) 00:00 ~ 2026.09.08(화) 23:59",
     "start_dt": "2026-09-02T00:00:00+09:00",
     "end_dt": "2026-09-08T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=265273"
   },
   {
@@ -26,7 +26,7 @@
     "date_text": "2026.09.01(화) 00:00 ~ 2026.09.06(일) 11:59",
     "start_dt": "2026-09-01T00:00:00+09:00",
     "end_dt": "2026-09-06T11:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=265242"
   },
   {
@@ -36,7 +36,7 @@
     "date_text": "2026.09.01(화) 00:00 ~ 2026.09.07(월) 23:59",
     "start_dt": "2026-09-01T00:00:00+09:00",
     "end_dt": "2026-09-07T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=265163"
   },
   {
@@ -46,7 +46,7 @@
     "date_text": "2026.09.04(금) 00:00 ~ 2026.09.14(월) 23:59",
     "start_dt": "2026-09-04T00:00:00+09:00",
     "end_dt": "2026-09-14T23:59:00+09:00",
-    "dday": "D-9",
+    "dday": "D-8",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=265161"
   },
   {
@@ -56,7 +56,7 @@
     "date_text": "2026.09.01(화) 00:00 ~ 2026.09.07(월) 23:59",
     "start_dt": "2026-09-01T00:00:00+09:00",
     "end_dt": "2026-09-07T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=265122"
   },
   {
@@ -66,7 +66,7 @@
     "date_text": "2026.09.01(화) 00:00 ~ 2026.09.10(목) 23:59",
     "start_dt": "2026-09-01T00:00:00+09:00",
     "end_dt": "2026-09-10T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264926"
   },
   {
@@ -76,7 +76,7 @@
     "date_text": "2026.09.01(화) 00:00 ~ 2026.09.10(목) 23:59",
     "start_dt": "2026-09-01T00:00:00+09:00",
     "end_dt": "2026-09-10T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264897"
   },
   {
@@ -86,7 +86,7 @@
     "date_text": "2026.08.31(월) 00:00 ~ 2026.09.06(일) 23:59",
     "start_dt": "2026-08-31T00:00:00+09:00",
     "end_dt": "2026-09-06T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264604"
   },
   {
@@ -96,7 +96,7 @@
     "date_text": "2026.08.28(금) 00:00 ~ 2026.09.07(월) 23:59",
     "start_dt": "2026-08-28T00:00:00+09:00",
     "end_dt": "2026-09-07T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264596"
   },
   {
@@ -106,18 +106,8 @@
     "date_text": "2026.08.28(금) 00:00 ~ 2026.09.06(일) 23:59",
     "start_dt": "2026-08-28T00:00:00+09:00",
     "end_dt": "2026-09-06T23:59:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264575"
-  },
-  {
-    "title": "[일반-신촌] 방사선사(계약직:탄력적근로시간제) 세브)영상의학팀 26.08 모집",
-    "location": "신촌",
-    "status": "접수중",
-    "date_text": "2026.08.27(목) 00:00 ~ 2026.09.05(토) 23:59",
-    "start_dt": "2026-08-27T00:00:00+09:00",
-    "end_dt": "2026-09-05T23:59:00+09:00",
     "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264573"
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264575"
   },
   {
     "title": "[일반-신촌] 사무원(계약직) 세브)감염내과 26.08 모집",
@@ -126,7 +116,7 @@
     "date_text": "2026.08.27(목) 00:00 ~ 2026.09.07(월) 23:59",
     "start_dt": "2026-08-27T00:00:00+09:00",
     "end_dt": "2026-09-07T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264536"
   },
   {
@@ -136,28 +126,8 @@
     "date_text": "2026.08.28(금) 00:00 ~ 2026.09.07(월) 23:59",
     "start_dt": "2026-08-28T00:00:00+09:00",
     "end_dt": "2026-09-07T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264394"
-  },
-  {
-    "title": "[일반-신촌] 임상병리사(계약직) 심혈관)심장내과 26.08 모집",
-    "location": "신촌",
-    "status": "접수중",
-    "date_text": "2026.08.27(목) 00:00 ~ 2026.09.05(토) 23:59",
-    "start_dt": "2026-08-27T00:00:00+09:00",
-    "end_dt": "2026-09-05T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264339"
-  },
-  {
-    "title": "[일반-신촌] 방사선사(계약직) 심혈관)심장내과 부정맥시술실 26.08 모집",
-    "location": "신촌",
-    "status": "접수중",
-    "date_text": "2026.08.27(목) 00:00 ~ 2026.09.05(토) 23:59",
-    "start_dt": "2026-08-27T00:00:00+09:00",
-    "end_dt": "2026-09-05T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264333"
   },
   {
     "title": "[일반-신촌] 기능원(계약직) 세브)교육수련팀 26.08 모집",
@@ -166,7 +136,7 @@
     "date_text": "2026.08.25(화) 00:00 ~ 2026.09.06(일) 23:59",
     "start_dt": "2026-08-25T00:00:00+09:00",
     "end_dt": "2026-09-06T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264140"
   },
   {
@@ -176,7 +146,7 @@
     "date_text": "2026.08.25(화) 00:00 ~ 2026.09.10(목) 23:59",
     "start_dt": "2026-08-25T00:00:00+09:00",
     "end_dt": "2026-09-10T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=264036"
   }
 ]
