@@ -1,37 +1,37 @@
 [
   {
+    "title": "[계약직] 재활의학팀 물리치료사 채용",
+    "start_dt": "2026-09-11T08:00:00+09:00",
+    "end_dt": "2026-09-17T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1462"
+  },
+  {
     "title": "[계약직] 의무기록팀 보건의료정보관리사(의무기록사) 채용",
     "start_dt": "2026-09-09T08:00:00+09:00",
     "end_dt": "2026-09-15T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1461"
   },
   {
     "title": "[계약직] 사회사업팀 사회복지사 채용",
     "start_dt": "2026-09-08T08:00:00+09:00",
     "end_dt": "2026-09-14T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1460"
   },
   {
     "title": "[계약직] 부대사업팀 계약직 사무원 채용",
     "start_dt": "2026-09-08T08:00:00+09:00",
     "end_dt": "2026-09-14T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1459"
   },
   {
     "title": "[계약직] 영상의학팀 전담간호사 채용",
     "start_dt": "2026-09-07T08:00:00+09:00",
     "end_dt": "2026-09-13T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1458"
-  },
-  {
-    "title": "[계약직] 간호간병통합서비스병동 간호조무사 채용",
-    "start_dt": "2026-09-04T11:00:00+09:00",
-    "end_dt": "2026-09-10T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1457"
   }
 ]
