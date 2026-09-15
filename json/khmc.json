@@ -46,37 +46,5 @@
     "end_dt": "2026-09-15T16:00:00+09:00",
     "status": "모집중",
     "detail_url": "https://recruit.incruit.com/khmc/job/2609080011"
-  },
-  {
-    "title": "계약직 신입직원 [건강증진센터 간호사] 공개채용 모집공고",
-    "period_text": "2026.09.08 00:00~2026.09.14 23:59",
-    "start_dt": "2026-09-08T00:00:00+09:00",
-    "end_dt": "2026-09-14T23:59:00+09:00",
-    "status": "모집중",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2609080002"
-  },
-  {
-    "title": "계약직 신입직원 [종양혈액내과전담 간호사] 공개채용 모집",
-    "period_text": "2026.09.08 00:00~2026.09.14 23:59",
-    "start_dt": "2026-09-08T00:00:00+09:00",
-    "end_dt": "2026-09-14T23:59:00+09:00",
-    "status": "모집중",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2609080001"
-  },
-  {
-    "title": "정규직 신입직원 [종양혈액내과전담 간호사] 공개채용 모집",
-    "period_text": "2026.09.07 11:00~2026.09.14 16:00",
-    "start_dt": "2026-09-07T11:00:00+09:00",
-    "end_dt": "2026-09-14T16:00:00+09:00",
-    "status": "모집중",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2609070007"
-  },
-  {
-    "title": "정규직 신입직원 [고위험산모센터전담 간호사] 공개채용 모집",
-    "period_text": "2026.09.07 09:00~2026.09.14 16:00",
-    "start_dt": "2026-09-07T09:00:00+09:00",
-    "end_dt": "2026-09-14T16:00:00+09:00",
-    "status": "모집중",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2609070001"
   }
 ]
