@@ -1,30 +1,37 @@
 [
   {
-    "title": "D-5[이화의료원] 서울병원 보험심사팀 정규직 사무원(경력) 공개채용 공고",
+    "title": "D-74[서울병원] 간호부 계약직 기능원 공개채용 공고(9월 게재)",
+    "start_dt": "2026-09-16T00:00:00+09:00",
+    "end_dt": "2026-11-30T23:59:00+09:00",
+    "dday": "D-74",
+    "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=31319&pageIndex=1&searchWord=&bid_status=I"
+  },
+  {
+    "title": "D-74[서울병원] 간호부 계약직 간호사(외래) 공개채용 공고(9월 게재)",
+    "start_dt": "2026-09-16T00:00:00+09:00",
+    "end_dt": "2026-11-30T23:59:00+09:00",
+    "dday": "D-74",
+    "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=31317&pageIndex=1&searchWord=&bid_status=I"
+  },
+  {
+    "title": "D-4[이화의료원] 서울병원 보험심사팀 정규직 사무원(경력) 공개채용 공고",
     "start_dt": "2026-09-15T00:00:00+09:00",
     "end_dt": "2026-09-21T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=31294&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-5[서울병원] 영상의학과 계약직 기능원 공개채용 공고",
+    "title": "D-4[서울병원] 영상의학과 계약직 기능원 공개채용 공고",
     "start_dt": "2026-09-15T00:00:00+09:00",
     "end_dt": "2026-09-21T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=31287&pageIndex=1&searchWord=&bid_status=I"
   },
   {
-    "title": "D-5[서울병원] 약제팀 계약직 야간약사 공개채용 공고",
+    "title": "D-4[서울병원] 약제팀 계약직 야간약사 공개채용 공고",
     "start_dt": "2026-07-15T00:00:00+09:00",
     "end_dt": "2026-09-21T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=31109&pageIndex=1&searchWord=&bid_status=I"
-  },
-  {
-    "title": "D-45[서울병원] 간호부 계약직 간호사(외래) 공개채용 공고(6월 게재)",
-    "start_dt": "2026-06-19T00:00:00+09:00",
-    "end_dt": "2026-10-31T23:59:00+09:00",
-    "dday": "D-45",
-    "detail_url": "https://seoul.eumc.ac.kr/view.do?bbs_no=30643&pageIndex=1&searchWord=&bid_status=I"
   }
 ]
