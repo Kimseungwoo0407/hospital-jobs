@@ -1,36 +1,36 @@
 [
   {
-    "title": "[목동병원] 영상의학팀 계약직 방사선사 공개채용 공고",
-    "start_dt": "2026-09-22T00:00:00+09:00",
-    "end_dt": "2026-09-28T23:59:00+09:00",
-    "dday": "D-6",
-    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31350&pageIndex=1&searchWord=&bid_status=I",
+    "title": "[이화의료원] 이화의생명연구원 계약직 사무원 공개채용 공고",
+    "start_dt": "2026-09-22T09:00:00+09:00",
+    "end_dt": "2026-09-28T17:00:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31360&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-6",
-      "[목동병원] 영상의학팀 계약직 방사선사 공개채용 공고",
-      "2026-09-22 00:00:00 ~ 2026-09-28 23:59:00"
+      "D-5",
+      "[이화의료원] 이화의생명연구원 계약직 사무원 공개채용 공고",
+      "2026-09-22 09:00:00 ~ 2026-09-28 17:00:00"
     ]
   },
   {
-    "title": "[융합의학연구원] ‘개방형실험실 운영사업단’ 계약직 전담인력 공개채용 공고",
-    "start_dt": "2026-09-09T00:00:00+09:00",
-    "end_dt": "2026-09-22T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31260&pageIndex=1&searchWord=&bid_status=I",
+    "title": "[목동병원] 영상의학팀 계약직 방사선사 공개채용 공고",
+    "start_dt": "2026-09-22T00:00:00+09:00",
+    "end_dt": "2026-09-28T23:59:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31350&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-0",
-      "[융합의학연구원] ‘개방형실험실 운영사업단’ 계약직 전담인력 공개채용 공고",
-      "2026-09-09 00:00:00 ~ 2026-09-22 23:59:00"
+      "D-5",
+      "[목동병원] 영상의학팀 계약직 방사선사 공개채용 공고",
+      "2026-09-22 00:00:00 ~ 2026-09-28 23:59:00"
     ]
   },
   {
     "title": "[목동병원] 간호부 계약직 간호사(외래) 공개채용 공고(9월 게재)",
     "start_dt": "2026-09-01T00:00:00+09:00",
     "end_dt": "2026-12-31T00:00:00+09:00",
-    "dday": "D-100",
+    "dday": "D-99",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31220&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-100",
+      "D-99",
       "[목동병원] 간호부 계약직 간호사(외래) 공개채용 공고(9월 게재)",
       "2026-09-01 00:00:00 ~ 2026-12-31 00:00:00"
     ]
