@@ -8,14 +8,6 @@
     "detail_url": "https://recruit.incruit.com/khmc/job/2609220009"
   },
   {
-    "title": "정규직 신입직원 [약제본부 약사] 공개채용 모집",
-    "period_text": "2026.09.21 15:00~2026.09.27 16:00",
-    "start_dt": "2026-09-21T15:00:00+09:00",
-    "end_dt": "2026-09-27T16:00:00+09:00",
-    "status": "모집중",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2609210009"
-  },
-  {
     "title": "계약직 신입직원 [간호본부 조무사] 공개채용 모집공고",
     "period_text": "2026.09.21 00:00~2026.10.04 23:59",
     "start_dt": "2026-09-21T00:00:00+09:00",
@@ -38,37 +30,5 @@
     "end_dt": "2026-09-29T23:59:00+09:00",
     "status": "모집중",
     "detail_url": "https://recruit.incruit.com/khmc/job/2609180011"
-  },
-  {
-    "title": "계약직 신입직원 [사회공헌팀 의료사회복지사] 공개채용 모집공고",
-    "period_text": "2026.09.18 00:00~2026.09.27 23:59",
-    "start_dt": "2026-09-18T00:00:00+09:00",
-    "end_dt": "2026-09-27T23:59:00+09:00",
-    "status": "모집중",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2609180010"
-  },
-  {
-    "title": "계약직 신입직원 [비뇨의학과전담 간호사] 공개채용 모집",
-    "period_text": "2026.09.18 00:00~2026.09.27 23:59",
-    "start_dt": "2026-09-18T00:00:00+09:00",
-    "end_dt": "2026-09-27T23:59:00+09:00",
-    "status": "모집중",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2609180004"
-  },
-  {
-    "title": "계약직 신입직원 [조제팀 야간 약무보조] 공개채용 모집공고",
-    "period_text": "2026.09.18 00:00~2026.09.27 23:59",
-    "start_dt": "2026-09-18T00:00:00+09:00",
-    "end_dt": "2026-09-27T23:59:00+09:00",
-    "status": "모집중",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2609180003"
-  },
-  {
-    "title": "계약직 신입직원 [경희대학교병원 간호본부 외래 간호사] 공개채용 모집공고[연장]",
-    "period_text": "2026.09.09 00:00~2026.09.27 23:59",
-    "start_dt": "2026-09-09T00:00:00+09:00",
-    "end_dt": "2026-09-27T23:59:00+09:00",
-    "status": "모집중",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2609090013"
   }
 ]

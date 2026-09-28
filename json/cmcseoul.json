@@ -1,7 +1,7 @@
 [
   {
     "title": "진행중\n혈액내과 입원전담전문의 임상교수 신규채용",
-    "start_dt": "2026-09-27T09:00+09:00",
+    "start_dt": "2026-09-28T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -11,7 +11,7 @@
   },
   {
     "title": "진행중\n내과 응급실 전담 전문의(촉탁의) 모집",
-    "start_dt": "2026-09-27T09:00+09:00",
+    "start_dt": "2026-09-28T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -21,13 +21,33 @@
   },
   {
     "title": "진행중\n전진상의원 파견 진료전문의 모집 공고",
-    "start_dt": "2026-09-27T09:00+09:00",
+    "start_dt": "2026-09-28T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
     "recu_idx": "525034",
     "announce_sn": null,
     "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/525034?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n임상병리직(진단검사의학팀) 공개채용 최종합격자 안내",
+    "start_dt": "2026-09-28T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "549552",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549552?p=1&s=12&q=%7B%7D"
+  },
+  {
+    "title": "진행중\n방사선직(심뇌혈관병원운영팀) 공개채용 최종합격자 안내",
+    "start_dt": "2026-09-28T09:00+09:00",
+    "end_dt": null,
+    "dday": null,
+    "status": "진행중",
+    "recu_idx": "549551",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549551?p=1&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n시간제 약사(약제부/계약직) 인성검사 합격자 안내",
@@ -107,7 +127,7 @@
     "status": "진행중",
     "recu_idx": "549508",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549508?p=1&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549508?p=2&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n방사선직(영상의학팀/계약직) 공개채용 최종합격자 안내",
@@ -117,7 +137,7 @@
     "status": "진행중",
     "recu_idx": "549507",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549507?p=1&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549507?p=2&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n사무직(고객행복팀/계약직) 공개채용 최종합격자 안내",
@@ -200,16 +220,6 @@
     "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549465?p=2&s=12&q=%7B%7D"
   },
   {
-    "title": "진행중\n행정지원직(수련교육팀/아르바이트) 공개채용",
-    "start_dt": "2026-09-26T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "549357",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549357?p=2&s=12&q=%7B%7D"
-  },
-  {
     "title": "진행중\n보건의료정보관리직(외래원무팀/계약직) 인성검사 합격자 안내",
     "start_dt": "2026-09-27T09:00+09:00",
     "end_dt": null,
@@ -220,40 +230,20 @@
     "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549355?p=2&s=12&q=%7B%7D"
   },
   {
-    "title": "진행중\n임상병리직(진단검사의학팀) 공개채용 최종합격자 안내",
-    "start_dt": "2026-09-28T09:00+09:00",
-    "end_dt": null,
-    "dday": "D-1",
-    "status": "진행중",
-    "recu_idx": "549552",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549552?p=2&s=12&q=%7B%7D"
-  },
-  {
-    "title": "진행중\n방사선직(심뇌혈관병원운영팀) 공개채용 최종합격자 안내",
-    "start_dt": "2026-09-28T09:00+09:00",
-    "end_dt": null,
-    "dday": "D-1",
-    "status": "진행중",
-    "recu_idx": "549551",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549551?p=2&s=12&q=%7B%7D"
-  },
-  {
     "title": "진행중\n2026년도 수술실 간호사(정규직) 공개채용",
     "start_dt": "2026-09-29T09:00+09:00",
     "end_dt": null,
-    "dday": "D-2",
+    "dday": "D-1",
     "status": "진행중",
     "recu_idx": "549269",
     "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549269?p=3&s=12&q=%7B%7D"
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549269?p=2&s=12&q=%7B%7D"
   },
   {
     "title": "진행중\n사무직(사회사업팀 어린이학교/계약직) 공개채용",
     "start_dt": "2026-10-01T09:00+09:00",
     "end_dt": null,
-    "dday": "D-4",
+    "dday": "D-3",
     "status": "진행중",
     "recu_idx": "549516",
     "announce_sn": null,
@@ -263,7 +253,7 @@
     "title": "진행중\n사무직_러시아권 코디네이터(국제진료팀/계약직) 공개채용",
     "start_dt": "2026-10-11T09:00+09:00",
     "end_dt": null,
-    "dday": "D-14",
+    "dday": "D-13",
     "status": "진행중",
     "recu_idx": "549547",
     "announce_sn": null,
@@ -271,7 +261,7 @@
   },
   {
     "title": "진행중\n채용 서류 반환에 관한 안내",
-    "start_dt": "2026-09-27T09:00+09:00",
+    "start_dt": "2026-09-28T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
