@@ -1,51 +1,37 @@
 [
   {
-    "title": "외래간호팀 간호사 모집",
-    "start_dt": "2026-09-22T15:00:00+09:00",
-    "end_dt": "2026-09-28T23:00:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5479&announceSn=20260366"
-  },
-  {
-    "title": "영상의학팀 방사선사 모집",
-    "start_dt": "2026-09-18T09:00:00+09:00",
-    "end_dt": "2026-09-28T23:00:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5476&announceSn=20260363"
-  },
-  {
-    "title": "영상의학팀 방사선사 모집",
-    "start_dt": "2026-09-18T09:00:00+09:00",
-    "end_dt": "2026-09-28T23:00:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5475&announceSn=20260362"
-  },
-  {
     "title": "시설팀 기술직(전기) 모집",
     "start_dt": "2026-09-18T17:00:00+09:00",
     "end_dt": "2026-09-29T23:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5477&announceSn=20260364"
+  },
+  {
+    "title": "보안관리팀 기능직(보안원) 모집",
+    "start_dt": "2026-09-29T09:00:00+09:00",
+    "end_dt": "2026-10-05T23:00:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5482&announceSn=20260369"
   },
   {
     "title": "[모집연장] 약제팀 주말전담약사 모집",
     "start_dt": "2026-08-21T13:00:00+09:00",
     "end_dt": "2026-10-05T23:00:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5428&announceSn=20260316"
   },
   {
     "title": "임상시험센터 연구코디네이터 모집",
     "start_dt": "2026-09-28T09:00:00+09:00",
     "end_dt": "2026-10-05T23:00:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5481&announceSn=20260368"
   },
   {
     "title": "심장병원 간호사 모집",
     "start_dt": "2026-09-28T09:00:00+09:00",
     "end_dt": "2026-10-05T23:00:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5480&announceSn=20260367"
   }
 ]
