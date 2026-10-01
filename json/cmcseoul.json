@@ -1,7 +1,7 @@
 [
   {
     "title": "진행중\n혈액내과 입원전담전문의 임상교수 신규채용",
-    "start_dt": "2026-09-30T09:00+09:00",
+    "start_dt": "2026-10-01T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -11,7 +11,7 @@
   },
   {
     "title": "진행중\n내과 응급실 전담 전문의(촉탁의) 모집",
-    "start_dt": "2026-09-30T09:00+09:00",
+    "start_dt": "2026-10-01T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -21,7 +21,7 @@
   },
   {
     "title": "진행중\n전진상의원 파견 진료전문의 모집 공고",
-    "start_dt": "2026-09-30T09:00+09:00",
+    "start_dt": "2026-10-01T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
@@ -30,50 +30,50 @@
     "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/525034?p=1&s=12&q=%7B%7D"
   },
   {
-    "title": "진행중\n시간제 약사(약제부/계약직) 공개채용 최종합격자 안내",
-    "start_dt": "2026-09-29T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "549619",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549619?p=1&s=12&q=%7B%7D"
-  },
-  {
-    "title": "진행중\n2026년도 수술실 간호사(정규직) 공개채용",
-    "start_dt": "2026-09-29T09:00+09:00",
-    "end_dt": null,
-    "dday": null,
-    "status": "진행중",
-    "recu_idx": "549269",
-    "announce_sn": null,
-    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549269?p=1&s=12&q=%7B%7D"
-  },
-  {
     "title": "진행중\n사무직(사회사업팀 어린이학교/계약직) 공개채용",
     "start_dt": "2026-10-01T09:00+09:00",
     "end_dt": null,
-    "dday": "D-1",
+    "dday": null,
     "status": "진행중",
     "recu_idx": "549516",
     "announce_sn": null,
     "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549516?p=1&s=12&q=%7B%7D"
   },
   {
+    "title": "진행중\n2027년도 신규간호사 공개채용",
+    "start_dt": "2026-10-06T09:00+09:00",
+    "end_dt": null,
+    "dday": "D-5",
+    "status": "진행중",
+    "recu_idx": "549705",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549705?p=1&s=12&q=%7B%7D"
+  },
+  {
     "title": "진행중\n사무직_러시아권 코디네이터(국제진료팀/계약직) 공개채용",
     "start_dt": "2026-10-11T09:00+09:00",
     "end_dt": null,
-    "dday": "D-11",
+    "dday": "D-10",
     "status": "진행중",
     "recu_idx": "549547",
     "announce_sn": null,
     "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549547?p=1&s=12&q=%7B%7D"
   },
   {
+    "title": "진행중\n간호직(치과팀/휴직대체) 공개채용",
+    "start_dt": "2026-10-14T09:00+09:00",
+    "end_dt": null,
+    "dday": "D-13",
+    "status": "진행중",
+    "recu_idx": "549713",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549713?p=1&s=12&q=%7B%7D"
+  },
+  {
     "title": "진행중\n병원지원직(수술간호팀/계약직) 공개채용",
     "start_dt": "2026-10-14T09:00+09:00",
     "end_dt": null,
-    "dday": "D-14",
+    "dday": "D-13",
     "status": "진행중",
     "recu_idx": "549656",
     "announce_sn": null,
@@ -83,7 +83,7 @@
     "title": "진행중\n[상시모집] 병원지원직(간호행정교육팀/계약직) 공개채용",
     "start_dt": "2026-10-14T09:00+09:00",
     "end_dt": null,
-    "dday": "D-14",
+    "dday": "D-13",
     "status": "진행중",
     "recu_idx": "549655",
     "announce_sn": null,
@@ -93,15 +93,25 @@
     "title": "진행중\n[상시모집] 외래간호직(간호행정교육팀/계약직) 공개채용",
     "start_dt": "2026-10-14T09:00+09:00",
     "end_dt": null,
-    "dday": "D-14",
+    "dday": "D-13",
     "status": "진행중",
     "recu_idx": "549654",
     "announce_sn": null,
     "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549654?p=1&s=12&q=%7B%7D"
   },
   {
+    "title": "진행중\n간호사(감염관리팀/아르바이트) 공개채용",
+    "start_dt": "2026-10-15T09:00+09:00",
+    "end_dt": null,
+    "dday": "D-14",
+    "status": "진행중",
+    "recu_idx": "549711",
+    "announce_sn": null,
+    "detail_url": "https://www.cmcseoul.or.kr/page/board/recruit/549711?p=1&s=12&q=%7B%7D"
+  },
+  {
     "title": "진행중\n채용 서류 반환에 관한 안내",
-    "start_dt": "2026-09-30T09:00+09:00",
+    "start_dt": "2026-10-01T09:00+09:00",
     "end_dt": null,
     "dday": null,
     "status": "진행중",
