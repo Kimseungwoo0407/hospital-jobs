@@ -1,36 +1,12 @@
 [
   {
-    "title": "[융합의학연구원] ‘개방형실험실 운영사업단’ 계약직 전담인력 공개채용 공고",
-    "start_dt": "2026-10-02T00:00:00+09:00",
-    "end_dt": "2026-10-06T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31445&pageIndex=1&searchWord=&bid_status=I",
-    "raw_lines": [
-      "D-0",
-      "[융합의학연구원] ‘개방형실험실 운영사업단’ 계약직 전담인력 공개채용 공고",
-      "2026-10-02 00:00:00 ~ 2026-10-06 23:59:00"
-    ]
-  },
-  {
-    "title": "[이화의료원] 의료원 행정부서 정규직 사무원 공개채용 공고",
-    "start_dt": "2026-09-30T00:00:00+09:00",
-    "end_dt": "2026-10-06T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31414&pageIndex=1&searchWord=&bid_status=I",
-    "raw_lines": [
-      "D-0",
-      "[이화의료원] 의료원 행정부서 정규직 사무원 공개채용 공고",
-      "2026-09-30 00:00:00 ~ 2026-10-06 23:59:00"
-    ]
-  },
-  {
     "title": "[목동병원] 약제팀 계약직 약사 공개채용 공고",
     "start_dt": "2026-09-23T00:00:00+09:00",
     "end_dt": "2026-10-22T00:00:00+09:00",
-    "dday": "D-16",
+    "dday": "D-15",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31378&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-16",
+      "D-15",
       "[목동병원] 약제팀 계약직 약사 공개채용 공고",
       "2026-09-23 00:00:00 ~ 2026-10-22 00:00:00"
     ]
@@ -39,10 +15,10 @@
     "title": "[목동병원] 간호부 계약직 간호사(외래) 공개채용 공고(9월 게재)",
     "start_dt": "2026-09-01T00:00:00+09:00",
     "end_dt": "2026-12-31T00:00:00+09:00",
-    "dday": "D-86",
+    "dday": "D-85",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31220&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-86",
+      "D-85",
       "[목동병원] 간호부 계약직 간호사(외래) 공개채용 공고(9월 게재)",
       "2026-09-01 00:00:00 ~ 2026-12-31 00:00:00"
     ]

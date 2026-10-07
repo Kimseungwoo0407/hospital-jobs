@@ -1,27 +1,36 @@
 [
   {
-    "title": "영상의학팀 방사선사 모집",
-    "start_dt": "2026-10-01T14:00:00+09:00",
-    "end_dt": "2026-10-06T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5491",
-    "announce_sn": "20260378",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5491&announceSn=20260378"
-  },
-  {
     "title": "건진운영팀 기능직(조무) 모집",
     "start_dt": "2026-09-30T10:00:00+09:00",
     "end_dt": "2026-10-07T23:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "recu_idx": "5486",
     "announce_sn": "20260373",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5486&announceSn=20260373"
   },
   {
+    "title": "[모집연장] 약제팀 주말전담약사 모집",
+    "start_dt": "2026-08-21T13:00:00+09:00",
+    "end_dt": "2026-10-11T23:00:00+09:00",
+    "dday": "D-4",
+    "recu_idx": "5428",
+    "announce_sn": "20260316",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5428&announceSn=20260316"
+  },
+  {
+    "title": "[모집연장] 응급의학과 사무직 모집",
+    "start_dt": "2026-09-30T13:00:00+09:00",
+    "end_dt": "2026-10-11T23:00:00+09:00",
+    "dday": "D-4",
+    "recu_idx": "5487",
+    "announce_sn": "20260374",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5487&announceSn=20260374"
+  },
+  {
     "title": "2027년 신입 사무직 공채",
     "start_dt": "2026-10-02T10:00:00+09:00",
     "end_dt": "2026-10-11T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "recu_idx": "5492",
     "announce_sn": "20260379",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5492&announceSn=20260379"
@@ -30,7 +39,7 @@
     "title": "간호부 기능직(조무) 모집(감염전담)",
     "start_dt": "2026-10-01T10:00:00+09:00",
     "end_dt": "2026-10-11T23:00:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "recu_idx": "5490",
     "announce_sn": "20260377",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5490&announceSn=20260377"
