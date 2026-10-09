@@ -1,72 +1,72 @@
 [
   {
+    "title": "간호국 서무원 (정규직)",
+    "start_dt": "2026-10-08T00:00:00+09:00",
+    "end_dt": "2026-10-21T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130801"
+  },
+  {
+    "title": "간호국 간호조무사 (정신건강의학과 병동) (정규직)",
+    "start_dt": "2026-10-08T00:00:00+09:00",
+    "end_dt": "2026-10-21T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130790"
+  },
+  {
+    "title": "간호국 간호조무사 (간호간병통합서비스 병동) (정규직)",
+    "start_dt": "2026-10-08T00:00:00+09:00",
+    "end_dt": "2026-10-21T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130789"
+  },
+  {
+    "title": "2026년 하반기 사무원 (정규직)",
+    "start_dt": "2026-10-08T00:00:00+09:00",
+    "end_dt": "2026-10-21T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130782"
+  },
+  {
+    "title": "안과 임상병리사 (정규직)",
+    "start_dt": "2026-10-08T00:00:00+09:00",
+    "end_dt": "2026-10-21T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130781"
+  },
+  {
+    "title": "이비인후과 임상병리사 (수면다원검사기사) (정규직)",
+    "start_dt": "2026-10-08T00:00:00+09:00",
+    "end_dt": "2026-10-21T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130777"
+  },
+  {
     "title": "간호국 서무원 (외래) (임시직)",
     "start_dt": "2026-10-06T00:00:00+09:00",
     "end_dt": "2026-10-19T12:00:00+09:00",
-    "dday": "D-11",
+    "dday": "D-10",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130452"
   },
   {
     "title": "총무팀 부속실 비서 (임시직)",
     "start_dt": "2026-10-06T00:00:00+09:00",
     "end_dt": "2026-10-19T12:00:00+09:00",
-    "dday": "D-11",
+    "dday": "D-10",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130451"
   },
   {
     "title": "간호국 기능원 (환자이송원) (임시직)",
     "start_dt": "2026-10-06T00:00:00+09:00",
     "end_dt": "2026-10-19T12:00:00+09:00",
-    "dday": "D-11",
+    "dday": "D-10",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130450"
   },
   {
     "title": "응급의학과 응급구조사 (임시직)",
     "start_dt": "2026-10-06T00:00:00+09:00",
     "end_dt": "2026-10-19T12:00:00+09:00",
-    "dday": "D-11",
+    "dday": "D-10",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130448"
-  },
-  {
-    "title": "간호국 간호사 (임시직)",
-    "start_dt": "2026-10-02T00:00:00+09:00",
-    "end_dt": "2026-10-15T12:00:00+09:00",
-    "dday": "D-7",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130280"
-  },
-  {
-    "title": "영양팀 기능원 (정규직)",
-    "start_dt": "2026-10-02T00:00:00+09:00",
-    "end_dt": "2026-10-15T12:00:00+09:00",
-    "dday": "D-7",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130260"
-  },
-  {
-    "title": "진단검사의학과 수혈관리실 전담간호사 (임시직)",
-    "start_dt": "2026-10-02T00:00:00+09:00",
-    "end_dt": "2026-10-15T12:00:00+09:00",
-    "dday": "D-7",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130257"
-  },
-  {
-    "title": "간호국 간호조무사 (간호간병통합서비스병동) (임시직)",
-    "start_dt": "2026-08-18T00:00:00+09:00",
-    "end_dt": "2026-10-14T23:59:00+09:00",
-    "dday": "D-6",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130184"
-  },
-  {
-    "title": "의학연구원 임상시험센터 연구간호사 (임시직)",
-    "start_dt": "2026-09-29T00:00:00+09:00",
-    "end_dt": "2026-10-12T23:59:00+09:00",
-    "dday": "D-4",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/129768"
-  },
-  {
-    "title": "통합진료지원부 공통업무지원파트 전담간호사 (임시직)",
-    "start_dt": "2026-09-28T00:00:00+09:00",
-    "end_dt": "2026-10-11T23:59:00+09:00",
-    "dday": "D-3",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/129677"
   }
 ]

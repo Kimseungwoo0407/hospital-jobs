@@ -3,7 +3,7 @@
     "title": "2027년 신입 사무직 공채",
     "start_dt": "2026-10-02T10:00:00+09:00",
     "end_dt": "2026-10-11T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5492",
     "announce_sn": "20260379",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5492&announceSn=20260379"
@@ -12,7 +12,7 @@
     "title": "외래간호팀 간호사 모집",
     "start_dt": "2026-10-07T15:00:00+09:00",
     "end_dt": "2026-10-11T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5494",
     "announce_sn": "20260383",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5494&announceSn=20260383"
@@ -21,7 +21,7 @@
     "title": "[모집연장] 약제팀 주말전담약사 모집",
     "start_dt": "2026-08-21T13:00:00+09:00",
     "end_dt": "2026-10-11T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5428",
     "announce_sn": "20260316",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5428&announceSn=20260316"
@@ -30,7 +30,7 @@
     "title": "[모집연장] 응급의학과 사무직 모집",
     "start_dt": "2026-09-30T13:00:00+09:00",
     "end_dt": "2026-10-11T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5487",
     "announce_sn": "20260374",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5487&announceSn=20260374"
@@ -39,10 +39,19 @@
     "title": "간호부 기능직(조무) 모집(감염전담)",
     "start_dt": "2026-10-01T10:00:00+09:00",
     "end_dt": "2026-10-11T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5490",
     "announce_sn": "20260377",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5490&announceSn=20260377"
+  },
+  {
+    "title": "보안관리팀 기능직(보안원) 모집",
+    "start_dt": "2026-10-08T14:00:00+09:00",
+    "end_dt": "2026-10-15T23:00:00+09:00",
+    "dday": "D-6",
+    "recu_idx": "5500",
+    "announce_sn": "20260385",
+    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5500&announceSn=20260385"
   },
   {
     "title": "2027년 신입 약무직 공채",
@@ -66,7 +75,7 @@
     "title": "서울아산병원 진료교수 초빙",
     "start_dt": "2026-10-07T18:00:00+09:00",
     "end_dt": "2026-11-08T18:00:00+09:00",
-    "dday": "D-31",
+    "dday": "D-30",
     "recu_idx": "5496",
     "announce_sn": "20260382",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5496&announceSn=20260382"
@@ -75,7 +84,7 @@
     "title": "서울아산병원 입원전담전문의(Hospitalist) 초빙",
     "start_dt": "2026-10-07T18:00:00+09:00",
     "end_dt": "2026-11-08T18:00:00+09:00",
-    "dday": "D-31",
+    "dday": "D-30",
     "recu_idx": "5495",
     "announce_sn": "20260381",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5495&announceSn=20260381"

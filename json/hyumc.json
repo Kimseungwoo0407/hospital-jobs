@@ -1,11 +1,119 @@
 [
   {
+    "title": "간호국 서무원 (정규직)",
+    "start_dt": "2026-10-08T00:00+09:00",
+    "end_dt": "2026-10-21T23:59+09:00",
+    "dday": "D-12",
+    "dday_to_start": "D+1",
+    "dday_to_end": "D-12",
+    "phase": "open",
+    "status": "접수중",
+    "recu_idx": "130801",
+    "announce_sn": "130801",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130801",
+    "tags": [
+      "정규직",
+      "일반채용",
+      "신입"
+    ]
+  },
+  {
+    "title": "간호국 간호조무사 (정신건강의학과 병동) (정규직)",
+    "start_dt": "2026-10-08T00:00+09:00",
+    "end_dt": "2026-10-21T23:59+09:00",
+    "dday": "D-12",
+    "dday_to_start": "D+1",
+    "dday_to_end": "D-12",
+    "phase": "open",
+    "status": "접수중",
+    "recu_idx": "130790",
+    "announce_sn": "130790",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130790",
+    "tags": [
+      "정규직",
+      "일반채용",
+      "신입"
+    ]
+  },
+  {
+    "title": "간호국 간호조무사 (간호간병통합서비스 병동) (정규직)",
+    "start_dt": "2026-10-08T00:00+09:00",
+    "end_dt": "2026-10-21T23:59+09:00",
+    "dday": "D-12",
+    "dday_to_start": "D+1",
+    "dday_to_end": "D-12",
+    "phase": "open",
+    "status": "접수중",
+    "recu_idx": "130789",
+    "announce_sn": "130789",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130789",
+    "tags": [
+      "정규직",
+      "일반채용",
+      "신입"
+    ]
+  },
+  {
+    "title": "2026년 하반기 사무원 (정규직)",
+    "start_dt": "2026-10-08T00:00+09:00",
+    "end_dt": "2026-10-21T23:59+09:00",
+    "dday": "D-12",
+    "dday_to_start": "D+1",
+    "dday_to_end": "D-12",
+    "phase": "open",
+    "status": "접수중",
+    "recu_idx": "130782",
+    "announce_sn": "130782",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130782",
+    "tags": [
+      "정규직",
+      "일반채용",
+      "신입"
+    ]
+  },
+  {
+    "title": "안과 임상병리사 (정규직)",
+    "start_dt": "2026-10-08T00:00+09:00",
+    "end_dt": "2026-10-21T23:59+09:00",
+    "dday": "D-12",
+    "dday_to_start": "D+1",
+    "dday_to_end": "D-12",
+    "phase": "open",
+    "status": "접수중",
+    "recu_idx": "130781",
+    "announce_sn": "130781",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130781",
+    "tags": [
+      "정규직",
+      "일반채용",
+      "신입"
+    ]
+  },
+  {
+    "title": "이비인후과 임상병리사 (수면다원검사기사) (정규직)",
+    "start_dt": "2026-10-08T00:00+09:00",
+    "end_dt": "2026-10-21T23:59+09:00",
+    "dday": "D-12",
+    "dday_to_start": "D+1",
+    "dday_to_end": "D-12",
+    "phase": "open",
+    "status": "접수중",
+    "recu_idx": "130777",
+    "announce_sn": "130777",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130777",
+    "tags": [
+      "정규직",
+      "일반채용",
+      "신입"
+    ]
+  },
+  {
     "title": "간호국 서무원 (외래) (임시직)",
     "start_dt": "2026-10-06T00:00+09:00",
     "end_dt": "2026-10-19T12:00+09:00",
-    "dday": "D-11",
-    "dday_to_start": "D+2",
-    "dday_to_end": "D-11",
+    "dday": "D-10",
+    "dday_to_start": "D+3",
+    "dday_to_end": "D-10",
     "phase": "open",
     "status": "접수중",
     "recu_idx": "130452",
@@ -21,9 +129,9 @@
     "title": "총무팀 부속실 비서 (임시직)",
     "start_dt": "2026-10-06T00:00+09:00",
     "end_dt": "2026-10-19T12:00+09:00",
-    "dday": "D-11",
-    "dday_to_start": "D+2",
-    "dday_to_end": "D-11",
+    "dday": "D-10",
+    "dday_to_start": "D+3",
+    "dday_to_end": "D-10",
     "phase": "open",
     "status": "접수중",
     "recu_idx": "130451",
@@ -39,9 +147,9 @@
     "title": "간호국 기능원 (환자이송원) (임시직)",
     "start_dt": "2026-10-06T00:00+09:00",
     "end_dt": "2026-10-19T12:00+09:00",
-    "dday": "D-11",
-    "dday_to_start": "D+2",
-    "dday_to_end": "D-11",
+    "dday": "D-10",
+    "dday_to_start": "D+3",
+    "dday_to_end": "D-10",
     "phase": "open",
     "status": "접수중",
     "recu_idx": "130450",
@@ -57,122 +165,14 @@
     "title": "응급의학과 응급구조사 (임시직)",
     "start_dt": "2026-10-06T00:00+09:00",
     "end_dt": "2026-10-19T12:00+09:00",
-    "dday": "D-11",
-    "dday_to_start": "D+2",
-    "dday_to_end": "D-11",
+    "dday": "D-10",
+    "dday_to_start": "D+3",
+    "dday_to_end": "D-10",
     "phase": "open",
     "status": "접수중",
     "recu_idx": "130448",
     "announce_sn": "130448",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130448",
-    "tags": [
-      "임시직",
-      "일반채용",
-      "신입"
-    ]
-  },
-  {
-    "title": "간호국 간호사 (임시직)",
-    "start_dt": "2026-10-02T00:00+09:00",
-    "end_dt": "2026-10-15T12:00+09:00",
-    "dday": "D-7",
-    "dday_to_start": "D+6",
-    "dday_to_end": "D-7",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "130280",
-    "announce_sn": "130280",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130280",
-    "tags": [
-      "임시직",
-      "일반채용",
-      "신입"
-    ]
-  },
-  {
-    "title": "영양팀 기능원 (정규직)",
-    "start_dt": "2026-10-02T00:00+09:00",
-    "end_dt": "2026-10-15T12:00+09:00",
-    "dday": "D-7",
-    "dday_to_start": "D+6",
-    "dday_to_end": "D-7",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "130260",
-    "announce_sn": "130260",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130260",
-    "tags": [
-      "정규직",
-      "일반채용",
-      "신입"
-    ]
-  },
-  {
-    "title": "진단검사의학과 수혈관리실 전담간호사 (임시직)",
-    "start_dt": "2026-10-02T00:00+09:00",
-    "end_dt": "2026-10-15T12:00+09:00",
-    "dday": "D-7",
-    "dday_to_start": "D+6",
-    "dday_to_end": "D-7",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "130257",
-    "announce_sn": "130257",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130257",
-    "tags": [
-      "임시직",
-      "일반채용",
-      "신입"
-    ]
-  },
-  {
-    "title": "간호국 간호조무사 (간호간병통합서비스병동) (임시직)",
-    "start_dt": "2026-08-18T00:00+09:00",
-    "end_dt": "2026-10-14T23:59+09:00",
-    "dday": "D-6",
-    "dday_to_start": "D+51",
-    "dday_to_end": "D-6",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "130184",
-    "announce_sn": "130184",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/130184",
-    "tags": [
-      "임시직",
-      "일반채용",
-      "신입"
-    ]
-  },
-  {
-    "title": "의학연구원 임상시험센터 연구간호사 (임시직)",
-    "start_dt": "2026-09-29T00:00+09:00",
-    "end_dt": "2026-10-12T23:59+09:00",
-    "dday": "D-4",
-    "dday_to_start": "D+9",
-    "dday_to_end": "D-4",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "129768",
-    "announce_sn": "129768",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/129768",
-    "tags": [
-      "임시직",
-      "일반채용",
-      "신입"
-    ]
-  },
-  {
-    "title": "통합진료지원부 공통업무지원파트 전담간호사 (임시직)",
-    "start_dt": "2026-09-28T00:00+09:00",
-    "end_dt": "2026-10-11T23:59+09:00",
-    "dday": "D-3",
-    "dday_to_start": "D+10",
-    "dday_to_end": "D-3",
-    "phase": "open",
-    "status": "접수중",
-    "recu_idx": "129677",
-    "announce_sn": "129677",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/129677",
     "tags": [
       "임시직",
       "일반채용",
