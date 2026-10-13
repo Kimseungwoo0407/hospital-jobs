@@ -1,18 +1,26 @@
 [
   {
+    "title": "[계약직] 외래간호팀(정형외과) 간호사 채용",
+    "period_text": "2026-10-12 11:00 ~ 2026-10-18 23:59",
+    "start_dt": "2026-10-12T11:00:00+09:00",
+    "end_dt": "2026-10-18T23:59:00+09:00",
+    "status_text": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1478"
+  },
+  {
+    "title": "[계약직] 외래간호팀(심장혈관센터) 간호사 채용",
+    "period_text": "2026-10-12 09:00 ~ 2026-10-18 23:59",
+    "start_dt": "2026-10-12T09:00:00+09:00",
+    "end_dt": "2026-10-18T23:59:00+09:00",
+    "status_text": "D-5",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1477"
+  },
+  {
     "title": "[계약직] 간호간병통합서비스병동 간호조무사 채용",
     "period_text": "2026-10-08 09:00 ~ 2026-10-13 23:59",
     "start_dt": "2026-10-08T09:00:00+09:00",
     "end_dt": "2026-10-13T23:59:00+09:00",
-    "status_text": "D-1",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1476"
-  },
-  {
-    "title": "[계약직] 응급의학과 응급구조사 채용",
-    "period_text": "2026-10-06 10:00 ~ 2026-10-12 23:59",
-    "start_dt": "2026-10-06T10:00:00+09:00",
-    "end_dt": "2026-10-12T23:59:00+09:00",
     "status_text": "D-Day",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1475"
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1476"
   }
 ]
