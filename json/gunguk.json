@@ -1,10 +1,18 @@
 [
   {
+    "title": "[정규직] 영상의학팀 방사선사 채용",
+    "period_text": "2026-11-02 16:00 ~ 2026-11-11 11:01",
+    "start_dt": "2026-11-02T16:00:00+09:00",
+    "end_dt": "2026-11-11T11:01:00+09:00",
+    "status_text": "D-11",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1493"
+  },
+  {
     "title": "[계약직] 재활의학팀 언어재활사 채용",
     "period_text": "2026-10-29 08:00 ~ 2026-11-04 23:59",
     "start_dt": "2026-10-29T08:00:00+09:00",
     "end_dt": "2026-11-04T23:59:00+09:00",
-    "status_text": "D-5",
+    "status_text": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1492"
   },
   {
@@ -12,7 +20,7 @@
     "period_text": "2026-10-29 08:00 ~ 2026-11-04 23:59",
     "start_dt": "2026-10-29T08:00:00+09:00",
     "end_dt": "2026-11-04T23:59:00+09:00",
-    "status_text": "D-5",
+    "status_text": "D-4",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1491"
   },
   {
@@ -20,7 +28,7 @@
     "period_text": "2026-10-28 08:00 ~ 2026-11-03 23:59",
     "start_dt": "2026-10-28T08:00:00+09:00",
     "end_dt": "2026-11-03T23:59:00+09:00",
-    "status_text": "D-4",
+    "status_text": "D-3",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1490"
   },
   {
@@ -28,7 +36,7 @@
     "period_text": "2026-10-27 08:00 ~ 2026-11-02 23:59",
     "start_dt": "2026-10-27T08:00:00+09:00",
     "end_dt": "2026-11-02T23:59:00+09:00",
-    "status_text": "D-3",
+    "status_text": "D-2",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1489"
   }
 ]
