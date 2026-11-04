@@ -1,30 +1,30 @@
 [
   {
+    "title": "[계약직] 전담간호팀(성형외과) 전담간호사 채용",
+    "start_dt": "2026-11-03T10:00:00+09:00",
+    "end_dt": "2026-11-10T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1494"
+  },
+  {
     "title": "[정규직] 영상의학팀 방사선사 채용",
     "start_dt": "2026-11-02T16:00:00+09:00",
     "end_dt": "2026-11-11T11:01:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1493"
   },
   {
     "title": "[계약직] 재활의학팀 언어재활사 채용",
     "start_dt": "2026-10-29T08:00:00+09:00",
     "end_dt": "2026-11-04T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1492"
   },
   {
     "title": "[계약직] 영상의학팀 방사선사 채용",
     "start_dt": "2026-10-29T08:00:00+09:00",
     "end_dt": "2026-11-04T23:59:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1491"
-  },
-  {
-    "title": "[계약직] 영양팀 조리사 채용",
-    "start_dt": "2026-10-28T08:00:00+09:00",
-    "end_dt": "2026-11-03T23:59:00+09:00",
     "dday": "D-0",
-    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1490"
+    "detail_url": "https://www.kuh.ac.kr/m/recruit/apply/noticeView.do?anc_seq=1491"
   }
 ]

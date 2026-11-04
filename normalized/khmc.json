@@ -1,44 +1,58 @@
 [
   {
+    "title": "계약직 신입직원 [경희대학교한방병원 한방간호팀 외래 간호사] 공개채용 모집공고",
+    "start_dt": "2026-11-04T00:00:00+09:00",
+    "end_dt": "2026-11-10T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2611040010"
+  },
+  {
+    "title": "계약직 신입직원 [경희대학교병원 간호본부 외래 간호사] 공개채용 모집공고",
+    "start_dt": "2026-11-04T00:00:00+09:00",
+    "end_dt": "2026-11-08T23:59:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2611040003"
+  },
+  {
+    "title": "정규직 신입직원 [고위험산모센터전담 간호사] 공개채용 모집",
+    "start_dt": "2026-11-03T15:00:00+09:00",
+    "end_dt": "2026-11-09T16:00:00+09:00",
+    "dday": "D-5",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2611030011"
+  },
+  {
     "title": "계약직 신입직원 [건강증진센터 오전근무 방사선사] 공개채용 모집공고",
     "start_dt": "2026-11-03T00:00:00+09:00",
     "end_dt": "2026-11-09T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://recruit.incruit.com/khmc/job/2611030003"
   },
   {
     "title": "계약직 신입직원 [한방예제팀 한방조무기사] 공개채용 모집공고",
     "start_dt": "2026-11-02T00:00:00+09:00",
     "end_dt": "2026-11-08T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://recruit.incruit.com/khmc/job/2611020004"
   },
   {
     "title": "2027년도 경희대학교병원 수련 임상심리사 모집 공고",
     "start_dt": "2026-10-29T00:00:00+09:00",
     "end_dt": "2026-11-05T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://recruit.incruit.com/khmc/job/2610290009"
   },
   {
-    "title": "계약직 신입직원 [한방조제팀 주말 한약사] 공개채용 모집공고",
-    "start_dt": "2026-10-28T00:00:00+09:00",
-    "end_dt": "2026-11-03T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2610280019"
-  },
-  {
-    "title": "정규직 신입직원 [피부과전담 간호사] 공개채용 모집",
-    "start_dt": "2026-10-28T14:00:00+09:00",
-    "end_dt": "2026-11-03T16:00:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://recruit.incruit.com/khmc/job/2610280016"
+    "title": "계약직 신입직원 [응급의학과 전담 간호사] 공개채용 모집[연장]",
+    "start_dt": "2026-10-27T00:00:00+09:00",
+    "end_dt": "2026-11-08T23:59:00+09:00",
+    "dday": "D-4",
+    "detail_url": "https://recruit.incruit.com/khmc/job/2610270016"
   },
   {
     "title": "계약직 신입직원 [간호본부 조무사] 공개채용 모집공고",
     "start_dt": "2026-10-26T00:00:00+09:00",
     "end_dt": "2026-11-04T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://recruit.incruit.com/khmc/job/2610260014"
   }
 ]
