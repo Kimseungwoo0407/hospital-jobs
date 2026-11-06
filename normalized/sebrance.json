@@ -1,79 +1,86 @@
 [
   {
+    "title": "[일반-신촌] 간호사(계약직) 연세의료원 외래간호팀 26.11 모집",
+    "start_dt": "2026-11-06T00:00:00+09:00",
+    "end_dt": "2026-11-15T23:59:00+09:00",
+    "dday": "D-9",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=271610"
+  },
+  {
+    "title": "[일반-신촌]기능원(계약직) 세브)영상의학팀 26.11 모집",
+    "start_dt": "2026-11-06T00:00:00+09:00",
+    "end_dt": "2026-11-15T23:59:00+09:00",
+    "dday": "D-9",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=271436"
+  },
+  {
+    "title": "2027년도 재활병원 일반직(계약직) 26.11 모집",
+    "start_dt": "2026-11-06T00:00:00+09:00",
+    "end_dt": "2026-11-16T23:59:00+09:00",
+    "dday": "D-10",
+    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=271226"
+  },
+  {
     "title": "[일반-신촌] 임상병리사(계약직) 안과)간호팀 26.11 모집",
     "start_dt": "2026-11-04T00:00:00+09:00",
     "end_dt": "2026-11-13T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=271198"
   },
   {
     "title": "[일반-신촌] 사무원(계약직) 세브)임상연구관리실 사무팀 26.11 모집",
     "start_dt": "2026-11-03T00:00:00+09:00",
     "end_dt": "2026-11-13T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=271193"
   },
   {
     "title": "[일반-신촌] (소아)물리치료사(계약직) 재활)재활1팀 26.11 모집",
     "start_dt": "2026-11-03T00:00:00+09:00",
     "end_dt": "2026-11-12T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=271007"
   },
   {
     "title": "[일반-신촌] 작업치료사(계약직) 재활)재활2팀 26.11 모집",
     "start_dt": "2026-11-03T00:00:00+09:00",
     "end_dt": "2026-11-12T23:59:00+09:00",
-    "dday": "D-7",
+    "dday": "D-6",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=270998"
   },
   {
     "title": "[일반-신촌] 사무원(계약직) 세브)응급진료센터 26.10 모집",
     "start_dt": "2026-10-30T00:00:00+09:00",
     "end_dt": "2026-11-09T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=270960"
   },
   {
     "title": "[일반-신촌] 방사선사(계약직) 세브)영상의학팀 26.10 모집",
     "start_dt": "2026-10-29T00:00:00+09:00",
     "end_dt": "2026-11-07T23:59:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=270475"
   },
   {
     "title": "[일반-신촌] 사무원(계약직) 의대)행정팀 강남파트 26.10 모집",
     "start_dt": "2026-10-30T00:00:00+09:00",
     "end_dt": "2026-11-09T23:59:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=270373"
-  },
-  {
-    "title": "[일반-신촌] 사무원(계약직) 의대)연구팀 26.10 모집",
-    "start_dt": "2026-10-26T00:00:00+09:00",
-    "end_dt": "2026-11-05T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=270369"
   },
   {
     "title": "[일반-신촌] 사무원(계약직) 세브)환자경험팀 26.10 모집",
     "start_dt": "2026-10-29T00:00:00+09:00",
     "end_dt": "2026-11-08T23:59:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=270368"
-  },
-  {
-    "title": "[일반-신촌] 사무원(계약직) 세브)임상연구보호센터 26.10 모집 (육아휴직 대체)",
-    "start_dt": "2026-10-26T00:00:00+09:00",
-    "end_dt": "2026-11-05T23:59:00+09:00",
-    "dday": "D-0",
-    "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=270357"
   },
   {
     "title": "[상시 채용-신촌] 기능원(계약직:간호조무사) 간호간병통합서비스병동 2026년 상시 모집안내",
     "start_dt": "2026-10-08T00:00:00+09:00",
     "end_dt": "2027-02-28T23:59:00+09:00",
-    "dday": "D-115",
+    "dday": "D-114",
     "detail_url": "https://yuhs.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeSn=268798"
   }
 ]
