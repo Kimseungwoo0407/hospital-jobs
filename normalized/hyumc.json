@@ -1,44 +1,72 @@
 [
   {
+    "title": "첨단재생의료센터 사무원 (임시직)",
+    "start_dt": "2026-11-13T00:00:00+09:00",
+    "end_dt": "2026-11-26T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/134486"
+  },
+  {
+    "title": "응급의학과 응급구조사 (임시직)",
+    "start_dt": "2026-11-13T00:00:00+09:00",
+    "end_dt": "2026-11-26T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/134483"
+  },
+  {
+    "title": "영상의학과 방사선사 (임시직)",
+    "start_dt": "2026-11-13T00:00:00+09:00",
+    "end_dt": "2026-11-26T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/134479"
+  },
+  {
+    "title": "영상의학과 간호사 (임시직)",
+    "start_dt": "2026-11-13T00:00:00+09:00",
+    "end_dt": "2026-11-26T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/134477"
+  },
+  {
+    "title": "신경외과 전담간호사 (임시직)",
+    "start_dt": "2026-11-13T00:00:00+09:00",
+    "end_dt": "2026-11-26T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/134473"
+  },
+  {
+    "title": "감염내과 전담간호사 (임시직)",
+    "start_dt": "2026-11-13T00:00:00+09:00",
+    "end_dt": "2026-11-26T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/134470"
+  },
+  {
+    "title": "간호국 간호사 (임시직)",
+    "start_dt": "2026-11-13T00:00:00+09:00",
+    "end_dt": "2026-11-26T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/134466"
+  },
+  {
     "title": "간호국 서무원 (간호간병통합서비스병동) (정규직)",
     "start_dt": "2026-11-12T00:00:00+09:00",
     "end_dt": "2026-11-25T23:59:00+09:00",
-    "dday": "D-12",
+    "dday": "D-11",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/134350"
   },
   {
     "title": "간호국 간호조무사 (간호간병통합서비스병동) (정규직)",
     "start_dt": "2026-11-12T00:00:00+09:00",
     "end_dt": "2026-11-25T23:59:00+09:00",
-    "dday": "D-12",
+    "dday": "D-11",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/134346"
   },
   {
     "title": "약제팀 약사 (정규직)",
     "start_dt": "2026-11-12T00:00:00+09:00",
     "end_dt": "2026-11-25T23:59:00+09:00",
-    "dday": "D-12",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/134343"
-  },
-  {
-    "title": "방사선종양학과 의학물리사 (정규직)",
-    "start_dt": "2026-11-12T00:00:00+09:00",
-    "end_dt": "2026-11-25T23:59:00+09:00",
-    "dday": "D-12",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/134339"
-  },
-  {
-    "title": "보험심사팀 간호사 (임시직)",
-    "start_dt": "2026-11-11T00:00:00+09:00",
-    "end_dt": "2026-11-24T23:59:00+09:00",
     "dday": "D-11",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/134098"
-  },
-  {
-    "title": "진단검사의학과 수혈관리실 전담간호사 (임시직)",
-    "start_dt": "2026-11-09T00:00:00+09:00",
-    "end_dt": "2026-11-22T23:59:00+09:00",
-    "dday": "D-9",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/133896"
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/134343"
   }
 ]
