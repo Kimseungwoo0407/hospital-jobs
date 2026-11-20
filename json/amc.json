@@ -1,18 +1,9 @@
 [
   {
-    "title": "[모집연장] 시설팀 엔지니어 모집",
-    "start_dt": "2026-10-23T12:00:00+09:00",
-    "end_dt": "2026-11-19T23:00:00+09:00",
-    "dday": "D-0",
-    "recu_idx": "5520",
-    "announce_sn": "20260404",
-    "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5520&announceSn=20260404"
-  },
-  {
     "title": "2027년 치과 레지던트 1년차 모집",
     "start_dt": "2026-11-12T09:00:00+09:00",
     "end_dt": "2026-11-20T17:00:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "recu_idx": "5550",
     "announce_sn": "20260433",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5550&announceSn=20260433"
@@ -21,7 +12,7 @@
     "title": "외래간호팀 간호사 모집",
     "start_dt": "2026-11-18T12:00:00+09:00",
     "end_dt": "2026-11-22T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5556",
     "announce_sn": "20260439",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5556&announceSn=20260439"
@@ -30,7 +21,7 @@
     "title": "응급의학과 응급구조사 모집",
     "start_dt": "2026-11-17T14:00:00+09:00",
     "end_dt": "2026-11-22T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5554",
     "announce_sn": "20260437",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5554&announceSn=20260437"
@@ -39,7 +30,7 @@
     "title": "진단검사의학팀 임상병리사 모집",
     "start_dt": "2026-11-16T16:00:00+09:00",
     "end_dt": "2026-11-22T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5553",
     "announce_sn": "20260436",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5553&announceSn=20260436"
@@ -48,7 +39,7 @@
     "title": "국제교류팀 간호사 모집",
     "start_dt": "2026-11-16T16:00:00+09:00",
     "end_dt": "2026-11-22T23:00:00+09:00",
-    "dday": "D-3",
+    "dday": "D-2",
     "recu_idx": "5552",
     "announce_sn": "20260435",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5552&announceSn=20260435"
@@ -57,7 +48,7 @@
     "title": "암병원간호2팀(외래) 간호사 모집",
     "start_dt": "2026-11-18T17:00:00+09:00",
     "end_dt": "2026-11-23T23:00:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "recu_idx": "5558",
     "announce_sn": "20260441",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5558&announceSn=20260441"
@@ -66,7 +57,7 @@
     "title": "재활의학팀 작업치료사 모집",
     "start_dt": "2026-11-18T14:00:00+09:00",
     "end_dt": "2026-11-23T23:00:00+09:00",
-    "dday": "D-4",
+    "dday": "D-3",
     "recu_idx": "5557",
     "announce_sn": "20260440",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5557&announceSn=20260440"
@@ -75,7 +66,7 @@
     "title": "통합돌봄지원팀 간호사 모집",
     "start_dt": "2026-11-16T15:00:00+09:00",
     "end_dt": "2026-11-29T23:00:00+09:00",
-    "dday": "D-10",
+    "dday": "D-9",
     "recu_idx": "5551",
     "announce_sn": "20260434",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5551&announceSn=20260434"
@@ -84,7 +75,7 @@
     "title": "2027년도 동계 서브인턴 프로그램 모집",
     "start_dt": "2026-11-18T09:00:00+09:00",
     "end_dt": "2026-11-29T23:59:00+09:00",
-    "dday": "D-10",
+    "dday": "D-9",
     "recu_idx": "5333",
     "announce_sn": "20260438",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5333&announceSn=20260438"
@@ -93,7 +84,7 @@
     "title": "서울아산병원 입원전담전문의(Hospitalist) 초빙",
     "start_dt": "2026-11-10T18:00:00+09:00",
     "end_dt": "2026-12-06T18:00:00+09:00",
-    "dday": "D-17",
+    "dday": "D-16",
     "recu_idx": "5548",
     "announce_sn": "20260431",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5548&announceSn=20260431"
@@ -102,7 +93,7 @@
     "title": "서울아산병원 진료교수 초빙",
     "start_dt": "2026-11-10T18:00:00+09:00",
     "end_dt": "2026-12-06T18:00:00+09:00",
-    "dday": "D-17",
+    "dday": "D-16",
     "recu_idx": "5547",
     "announce_sn": "20260430",
     "detail_url": "https://recruit.amc.seoul.kr/recruit/career/view.do?recuIdx=5547&announceSn=20260430"
