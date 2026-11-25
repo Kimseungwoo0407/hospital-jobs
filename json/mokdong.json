@@ -1,12 +1,48 @@
 [
   {
+    "title": "[목동병원] 2027년도 이대목동병원 전공의(레지던트1년차) 모집 공고",
+    "start_dt": "2026-11-25T10:00:00+09:00",
+    "end_dt": "2026-12-18T17:00:00+09:00",
+    "dday": "D-23",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31825&pageIndex=1&searchWord=&bid_status=I",
+    "raw_lines": [
+      "D-23",
+      "[목동병원] 2027년도 이대목동병원 전공의(레지던트1년차) 모집 공고",
+      "2026-11-25 10:00:00 ~ 2026-12-18 17:00:00"
+    ]
+  },
+  {
+    "title": "[목동병원] 융합의학연구원 계약직 연구원(연구간호사) 공개채용 공고",
+    "start_dt": "2026-11-25T00:00:00+09:00",
+    "end_dt": "2026-12-01T23:59:00+09:00",
+    "dday": "D-6",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31823&pageIndex=1&searchWord=&bid_status=I",
+    "raw_lines": [
+      "D-6",
+      "[목동병원] 융합의학연구원 계약직 연구원(연구간호사) 공개채용 공고",
+      "2026-11-25 00:00:00 ~ 2026-12-01 23:59:00"
+    ]
+  },
+  {
+    "title": "[목동병원] 2027년도 이화의료원(목동·서울) 인턴 모집 공고",
+    "start_dt": "2026-11-25T10:00:00+09:00",
+    "end_dt": "2027-02-10T17:00:00+09:00",
+    "dday": "D-77",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31819&pageIndex=1&searchWord=&bid_status=I",
+    "raw_lines": [
+      "D-77",
+      "[목동병원] 2027년도 이화의료원(목동·서울) 인턴 모집 공고",
+      "2026-11-25 10:00:00 ~ 2027-02-10 17:00:00"
+    ]
+  },
+  {
     "title": "[목동병원] 사무부 원무팀 계약직 사무원 공개채용 공고",
     "start_dt": "2026-11-24T00:00:00+09:00",
     "end_dt": "2026-11-30T23:59:00+09:00",
-    "dday": "D-6",
+    "dday": "D-5",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31815&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-6",
+      "D-5",
       "[목동병원] 사무부 원무팀 계약직 사무원 공개채용 공고",
       "2026-11-24 00:00:00 ~ 2026-11-30 23:59:00"
     ]
@@ -15,10 +51,10 @@
     "title": "[목동병원] 간호부 계약직 간호사(외래주사실) 공개채용 공고",
     "start_dt": "2026-11-24T00:00:00+09:00",
     "end_dt": "2026-12-31T23:59:00+09:00",
-    "dday": "D-37",
+    "dday": "D-36",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31813&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-37",
+      "D-36",
       "[목동병원] 간호부 계약직 간호사(외래주사실) 공개채용 공고",
       "2026-11-24 00:00:00 ~ 2026-12-31 23:59:00"
     ]
@@ -27,10 +63,10 @@
     "title": "[목동병원] 간호부 계약직 간호사(외래) 공개채용 공고(11월 게재)",
     "start_dt": "2026-11-24T00:00:00+09:00",
     "end_dt": "2026-12-31T23:59:00+09:00",
-    "dday": "D-37",
+    "dday": "D-36",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31812&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-37",
+      "D-36",
       "[목동병원] 간호부 계약직 간호사(외래) 공개채용 공고(11월 게재)",
       "2026-11-24 00:00:00 ~ 2026-12-31 23:59:00"
     ]
@@ -39,10 +75,10 @@
     "title": "[목동병원] 간호부 계약직 기능원(중앙공급실) 공개채용 공고",
     "start_dt": "2026-11-19T00:00:00+09:00",
     "end_dt": "2026-11-25T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31776&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-1",
+      "D-0",
       "[목동병원] 간호부 계약직 기능원(중앙공급실) 공개채용 공고",
       "2026-11-19 00:00:00 ~ 2026-11-25 23:59:00"
     ]
@@ -51,10 +87,10 @@
     "title": "[목동병원] 영양팀 계약직 영양사 및 조리사 공개채용 공고",
     "start_dt": "2026-11-19T00:00:00+09:00",
     "end_dt": "2026-11-25T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31774&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-1",
+      "D-0",
       "[목동병원] 영양팀 계약직 영양사 및 조리사 공개채용 공고",
       "2026-11-19 00:00:00 ~ 2026-11-25 23:59:00"
     ]
@@ -63,10 +99,10 @@
     "title": "[이화의료원] 2027년 상반기 이화여자대학교 의료원 비전임교원 초빙 공고",
     "start_dt": "2026-11-12T00:00:00+09:00",
     "end_dt": "2026-11-26T17:00:00+09:00",
-    "dday": "D-2",
+    "dday": "D-1",
     "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31716&pageIndex=1&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-2",
+      "D-1",
       "[이화의료원] 2027년 상반기 이화여자대학교 의료원 비전임교원 초빙 공고",
       "2026-11-12 00:00:00 ~ 2026-11-26 17:00:00"
     ]
@@ -75,10 +111,10 @@
     "title": "[목동병원] 약제팀 약사 공개채용 공고(야간)",
     "start_dt": "2026-11-11T00:00:00+09:00",
     "end_dt": "2026-12-10T00:00:00+09:00",
-    "dday": "D-16",
-    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31704&pageIndex=1&searchWord=&bid_status=I",
+    "dday": "D-15",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31704&pageIndex=2&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-16",
+      "D-15",
       "[목동병원] 약제팀 약사 공개채용 공고(야간)",
       "2026-11-11 00:00:00 ~ 2026-12-10 00:00:00"
     ]
@@ -87,10 +123,10 @@
     "title": "[목동병원] 호흡기내과 계약직 간호사 공개채용 공고(결핵전담 사업 수행)",
     "start_dt": "2026-11-11T00:00:00+09:00",
     "end_dt": "2026-12-10T00:00:00+09:00",
-    "dday": "D-16",
-    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31700&pageIndex=1&searchWord=&bid_status=I",
+    "dday": "D-15",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31700&pageIndex=2&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-16",
+      "D-15",
       "[목동병원] 호흡기내과 계약직 간호사 공개채용 공고(결핵전담 사업 수행)",
       "2026-11-11 00:00:00 ~ 2026-12-10 00:00:00"
     ]
@@ -99,10 +135,10 @@
     "title": "[목동병원] 간호부 계약직 간호사(외래) 공개채용 공고(9월 게재)",
     "start_dt": "2026-09-01T00:00:00+09:00",
     "end_dt": "2026-12-31T00:00:00+09:00",
-    "dday": "D-37",
-    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31220&pageIndex=1&searchWord=&bid_status=I",
+    "dday": "D-36",
+    "detail_url": "https://mokdong.eumc.ac.kr/view.do?bbs_no=31220&pageIndex=2&searchWord=&bid_status=I",
     "raw_lines": [
-      "D-37",
+      "D-36",
       "[목동병원] 간호부 계약직 간호사(외래) 공개채용 공고(9월 게재)",
       "2026-09-01 00:00:00 ~ 2026-12-31 00:00:00"
     ]
