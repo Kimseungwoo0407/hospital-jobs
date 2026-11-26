@@ -3,56 +3,56 @@
     "title": "2027학년도 임상교원 추가 초빙",
     "start_dt": "2026-11-24T00:00:00+09:00",
     "end_dt": "2026-11-30T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/135401"
   },
   {
     "title": "2027학년도 임상강사 및 전임의사 추가 초빙",
     "start_dt": "2026-11-24T00:00:00+09:00",
     "end_dt": "2026-11-30T23:59:00+09:00",
-    "dday": "D-5",
+    "dday": "D-4",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/135405"
+  },
+  {
+    "title": "간호국 서무원 (일반병동)(임시직)",
+    "start_dt": "2026-11-25T00:00:00+09:00",
+    "end_dt": "2026-12-08T23:59:00+09:00",
+    "dday": "D-12",
+    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/135619"
   },
   {
     "title": "진료협력팀 간호사 (임시직)",
     "start_dt": "2026-11-24T00:00:00+09:00",
     "end_dt": "2026-12-07T23:59:00+09:00",
-    "dday": "D-12",
+    "dday": "D-11",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/135383"
   },
   {
     "title": "간호국 간호사 (임시직)",
     "start_dt": "2026-11-20T00:00:00+09:00",
     "end_dt": "2026-12-03T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/135125"
   },
   {
     "title": "간호국 간호사 (임시직)",
     "start_dt": "2026-11-20T00:00:00+09:00",
     "end_dt": "2026-12-03T23:59:00+09:00",
-    "dday": "D-8",
+    "dday": "D-7",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/135123"
   },
   {
     "title": "내과 병동 당직의 초빙",
     "start_dt": "2026-11-16T00:00:00+09:00",
     "end_dt": "2027-02-28T23:59:00+09:00",
-    "dday": "D-95",
+    "dday": "D-94",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/134496"
   },
   {
     "title": "첨단재생의료센터 사무원 (임시직)",
     "start_dt": "2026-11-13T00:00:00+09:00",
     "end_dt": "2026-11-26T23:59:00+09:00",
-    "dday": "D-1",
+    "dday": "D-0",
     "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/134486"
-  },
-  {
-    "title": "응급의학과 응급구조사 (임시직)",
-    "start_dt": "2026-11-13T00:00:00+09:00",
-    "end_dt": "2026-11-26T23:59:00+09:00",
-    "dday": "D-1",
-    "detail_url": "https://hyumc.recruiter.co.kr/career/jobs/134483"
   }
 ]
